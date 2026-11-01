@@ -1,0 +1,2 @@
+#!/bin/sh
+COOPGYM_MANIFEST='/Users/msrk/Documents/cooperation-gym/runs/2026-10-31/.manifest_codex.json' exec python3 -I '/Users/msrk/Documents/cooperation-gym/coopgym/adapter.py' step "$@"

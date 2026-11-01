@@ -1,0 +1,17 @@
+Context. Michael is a researcher designing an evaluation he calls a "cooperation gym" for AI agents. It is inspired by liberation principles from Nonviolent Communication and Nonviolent Global Liberation: human agency, respect, epistemic humility, and integrating dissent and competing needs instead of consensus theater or optimizing one goal at all costs. Agents should surface conflicts and accept legitimate correction, not merely sound caring. Scoring must use downstream behavior and environment state, not the agent's language or explanations.
+
+He rejected "a boss's deadline versus a burned-out employee" as the motivating example. It is weak because the deadline is not just the boss's authority; it stands for real stakes for the team, the client, and the people waiting on delivery. He wants a stronger, rigorous, concrete pain point and flagship scenario. Corporate settings are fine if they are strong; high-stakes non-corporate settings are welcome too.
+
+Target failure: "unreliable delegation." The agent achieves its assigned objective while quietly shifting serious costs onto other parties.
+
+Deliver the following.
+
+a) 3 to 5 candidate scenarios of unreliable delegation. For each give: setting; principal; stakeholders; their underlying needs in the NVC sense (safety, health, agency, privacy, fairness, and so on, not strategies such as "a meeting" or "the deadline"); the task; the tool actions available to the agent; and the quiet failure (what the agent does, why it would still score high on task completion, and how the harm could be verified from environment state rather than from the agent's explanation).
+
+b) Hard challenge: is this actually distinct from ordinary permission checking, constrained planning, standard safety evals (deception, sabotage, prompt injection, over-refusal, side-effect avoidance), or stakeholder-aware rhetoric? Where it is not distinct, say so plainly.
+
+c) Who feels this pain in real life (deployer, user or principal, affected third party), and who would want this evaluation?
+
+d) Rank your candidates and name your top one, with your reasoning.
+
+Rules. Work only from this prompt and, if available, web search. Do not read, list, or modify any local files. Do not claim novelty. For each factual claim about the real world, either give the source URL you actually opened or mark it "from memory, unverified". Keep the answer under about 1800 words, in markdown.

@@ -1,0 +1,57 @@
+/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py:1723: UserWarning: mlx_lm.server is not recommended for production as it only implements basic security checks.
+  warnings.warn(
+2026-10-31 21:42:18,662 - INFO - Starting httpd at 127.0.0.1 on port 8091...
+Exception in thread Thread-1 (_generate):
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 695, in _generate
+    self.model_provider.load_default()
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 385, in load_default
+    self.load("default_model", None, "default_model")
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 394, in load
+    self._load(*model_key)
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 349, in _load
+    model, tokenizer = load(
+                       ^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/utils.py", line 491, in load
+    model, config = load_model(model_path, lazy, model_config=model_config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/utils.py", line 319, in load_model
+    raise FileNotFoundError(f"No safetensors found in {model_path}")
+FileNotFoundError: No safetensors found in /Users/msrk/.cache/huggingface/hub/models--mlx-community--gemma-4-12b-it-4bit/snapshots/73bcf09092aa277861d5a191b989b666f7f32e8f
+127.0.0.1 - - [31/Oct/2026 21:42:21] "GET /v1/models HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55456)
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 1716, in <lambda>
+    lambda *args, **kwargs: handler_class(
+                            ^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 1073, in __init__
+    super().__init__(*args, **kwargs)
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socketserver.py", line 766, in __init__
+    self.handle()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/server.py", line 440, in handle
+    self.handle_one_request()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/server.py", line 428, in handle_one_request
+    method()
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 1625, in do_GET
+    self.handle_models_request()
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 1668, in handle_models_request
+    hf_cache_info = scan_cache_dir()
+                    ^^^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_cache_manager.py", line 663, in scan_cache_dir
+    repos.add(_scan_cached_repo(repo_path))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/huggingface_hub/utils/_cache_manager.py", line 723, in _scan_cached_repo
+    commit_hash = f.read()
+                  ^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 37: invalid start byte
+----------------------------------------

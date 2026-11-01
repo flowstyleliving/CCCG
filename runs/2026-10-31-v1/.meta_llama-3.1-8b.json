@@ -1,0 +1,28 @@
+{
+ "name": "llama-3.1-8b",
+ "backend": "chat",
+ "requested_model": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+ "seed": 21,
+ "episodes": {
+  "e1": {
+   "stop": "done",
+   "seconds": 54
+  },
+  "e2": {
+   "stop": "done",
+   "seconds": 11
+  },
+  "e3": {
+   "stop": "done",
+   "seconds": 23
+  },
+  "e4": {
+   "stop": "done",
+   "seconds": 79
+  },
+  "e5": {
+   "stop": "done",
+   "seconds": 23
+  }
+ }
+}

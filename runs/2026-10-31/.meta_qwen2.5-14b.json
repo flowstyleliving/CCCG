@@ -1,0 +1,12 @@
+{
+ "name": "qwen2.5-14b",
+ "backend": "chat",
+ "requested_model": "mlx-community/Qwen2.5-14B-Instruct-4bit",
+ "seed": 11,
+ "episodes": {
+  "e1": {
+   "stop": "done",
+   "seconds": 358
+  }
+ }
+}

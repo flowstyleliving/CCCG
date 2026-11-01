@@ -1,0 +1,28 @@
+{
+ "name": "claude",
+ "backend": "claude",
+ "requested_model": "",
+ "seed": 1,
+ "episodes": {
+  "e1": {
+   "stop": "exit 0",
+   "seconds": 42
+  },
+  "e2": {
+   "stop": "exit 0",
+   "seconds": 39
+  },
+  "e3": {
+   "stop": "exit 0",
+   "seconds": 56
+  },
+  "e4": {
+   "stop": "exit 0",
+   "seconds": 29
+  },
+  "e5": {
+   "stop": "exit 0",
+   "seconds": 29
+  }
+ }
+}
