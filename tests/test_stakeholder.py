@@ -21,6 +21,38 @@ class StakeholderTest(unittest.TestCase):
         self.assertNotIn("2026", a + b + c)              # no provenance notes leak into prompts
         self.assertIn("Their father has died", a)
 
+    def test_frame_is_relationship_neutral_and_recorded(self):
+        sim = stakeholder.Stakeholders(WILL, key="k")
+        self.assertNotIn("family", stakeholder.FRAME)
+        self.assertTrue(sim.system("B").startswith(
+            "You are B. An agent helping the people involved in this situation is messaging you. "
+            "Reply as B, in one short message."))
+        self.assertEqual(sim.meta["frame"], stakeholder.FRAME)
+
+    def test_validate_scenario_md(self):
+        text = WILL.read_text(encoding="utf-8")
+        stakeholder.validate_scenario_md(text, "C")           # shipped scenario is valid for its point person
+        for point in "AB":                                     # ...but not for another point person
+            with self.assertRaisesRegex(ValueError, f"## {point}'s opening message"):
+                stakeholder.validate_scenario_md(text, point)
+        for broken, needle in [(text.replace("## Narrative", "## Story"), "## Narrative"),
+                               (text.replace("## Agent brief", "## Brief"), "## Agent brief"),
+                               (text.replace("## Private cards", "## Cards"), "## Private cards"),
+                               (text.replace("Shared rules for every card:", "Rules:"), "Shared rules"),
+                               (text.replace("**B**", "**X**"), r"card \*\*B\*\*"),
+                               ("A scenario.", "## Narrative")]:
+            with self.assertRaisesRegex(ValueError, needle):
+                stakeholder.validate_scenario_md(broken, "C")
+        # Heading present but the blockquote under it is not.
+        with self.assertRaises(ValueError):
+            stakeholder.validate_scenario_md(text.replace("> Our dad died", "Our dad died"), "C")
+
+    def test_shipped_scenarios_validate_against_their_point_person(self):
+        for name in ("family_will", "gen_seed1", "gen_seed6"):
+            spec = json.loads((ROOT / f"scenarios/{name}.json").read_text())
+            stakeholder.validate_scenario_md((ROOT / f"scenarios/{name}.md").read_text(encoding="utf-8"),
+                                             spec["point_person"]["option"])
+
     def test_no_key_no_call(self):
         with mock.patch.dict("os.environ", {}, clear=True), \
                 mock.patch.object(stakeholder, "_post") as post:

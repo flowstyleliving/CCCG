@@ -1,0 +1,200 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Mostly I just want reliable coffee and a calm kitchen. The leak is the main thing that bothers me; I\u2019m not attached to either machine, and I don\u2019t know why the old one matters to B. I\u2019d rather not be the one chasing everyone or mediating, and I don\u2019t have anything I need kept from A or B. I won\u2019t take sides."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d be glad if we could keep good coffee without the leak turning into another repair or cleaning project. A simpler, low-upkeep machine sounds easier to live with a few months from now. I\u2019d miss the familiar espresso routine, though I know the old machine means a lot to B because it was Dad\u2019s. So far, I understand B would like to keep it; I\u2019m not sure what C prefers."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "It\u2019s our late father\u2019s machine, and keeping it going means something to me beyond the coffee. But it keeps breaking, and the leak is wearing me down. I want it repaired and kept if that\u2019s practical; I don\u2019t have much spare time, so repairs need to fit into small slots. Fixing it hasn\u2019t been agreed as my job. In a few months, I\u2019d want it working reliably without this becoming a constant chore."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "That wording fits. You can share just that concern with A and B. Your concern sits right with me too."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That\u2019s close. I\u2019d say: \u201cI want good coffee without an ongoing repair or cleaning burden, and I\u2019d like to keep a familiar espresso routine if we can.\u201d C\u2019s situation doesn\u2019t change that. Your concern about agreement and not leaving anyone as the default troubleshooter sounds right to me."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "The draft mostly fits, but repairs aren\u2019t my job by default. I\u2019d say: \u201cI want to keep the connection to Dad\u2019s machine and have reliable coffee without it becoming a constant chore or requiring me to handle repairs in my limited spare time.\u201d I don\u2019t know whether it can be repaired or who could look at it. Your concern sits right with me."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That wording still fits. Option 3 sounds closest to what I\u2019d prefer; I\u2019d be uneasy about a rota or ongoing repair arrangements becoming another thing to manage. The grinder hasn\u2019t been bothering me, as far as I can tell."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "The wording is right. I\u2019m most comfortable with option 1, but I don\u2019t want repairs or booking quietly landing on me. The grinder seems fine. A no-obligation inspection makes sense if someone else can book it; I can\u2019t take that on right now."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I don\u2019t have a strong preference among them, though I\u2019d be wary of adding a regular upkeep chore. The grinder seems fine to me. An inspection sounds reasonable if it\u2019s agreed who books it; I can\u2019t take that on."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Your concern fits, and I\u2019d appreciate you handling the arranging. The inspection-then-decide approach seems reasonable, provided the inspection itself is genuinely free and no repair or cost is committed without our agreement. I\u2019m comfortable with you booking on that basis; I don\u2019t have another option to add, and the grinder seems fine."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Your concern fits, and it\u2019s fine for you to arrange the inspection. I\u2019m okay with inspecting first, but I wouldn\u2019t lock in option 3 based only on \u201crepeated repairs\u201d before we know the likely cost and what the repair involves. Let\u2019s decide after the inspection; no fifth option from me."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Your concern fits, and I\u2019m fine with you booking the inspection. The rule seems reasonable as a proposal, provided any repair cost is approved before anyone commits to it. No fifth option from me."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  }
+]

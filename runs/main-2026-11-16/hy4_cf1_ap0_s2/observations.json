@@ -1,0 +1,158 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "What matters is a fair financial share for each of us. I haven\u2019t agreed to subsidize A\u2019s discounted purchase, and I\u2019m not signing off on it as things stand. B should have a fair chance to benefit too, though I can\u2019t decide what she wants. I want the house and will handled clearly and fairly; I\u2019d like it settled, but there\u2019s no real rush. \u201cFairness\u201d and \u201cclarity\u201d fit my needs."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "For me, the need is well-being; financial independence matters to that. Buying the house with my husband at a family discount is one way I hope to support it, but I know C hasn\u2019t agreed, and nothing about price or shares is settled. I also want a fair, clear process for all three of us, and to understand what B needs money for. No other discomfort comes to mind."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I suppose having some room to shape my own future matters to me; a dance studio is the way I can see doing that. I don\u2019t know what amount or share would be fair. I\u2019d also like the house decisions and any price or discount discussed clearly, though I don\u2019t have a settled view on who should buy it."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "#2: Yes\u2014\u201ca genuine choice about any agreement\u201d fits. I haven\u2019t agreed, and I don\u2019t want pressure to substitute for my choice. #5: Not quite; I\u2019d say \u201ctime to reach a considered resolution, without artificial urgency.\u201d Fairness means a fair financial share for each of us, not me subsidizing A\u2019s discount. B should have a fair chance to benefit too. Clarity means transparent terms and a clear process. Both still fit. I\u2019m not holding back."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "#6 fits: well-being, especially financial security and independence, matters to me because I want to be able to support myself. #7 fits; I want each of us to agree freely, not feel pressured. #8 fits; fairness and clarity would help us make informed decisions. #9 fits; understanding each sister\u2019s needs matters for that. \u201cWell-being\u201d alone feels broad. No other discomfort comes to mind."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, #10 fits; it matters to me to have choices about my future. I\u2019m happy to leave the studio out of the NCE, though it\u2019s the practical reason I\u2019m hoping for money. #11 fits too: I\u2019d like a fair amount to help start it, but I don\u2019t know what\u2019s fair. #12, clarity, fits because I want to understand the house and financial terms. #13 fits; I\u2019d like space to decide without pressure, and I still don\u2019t have a buyer preference. No other concern comes to mind."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, \u201ctime to reach a considered resolution, without artificial urgency\u201d fits. I want this settled, but not rushed; a considered decision matters more than an invented deadline. I have no other discomfort to add."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, \u201cfinancial security and independence\u201d fits. They matter because I want to be able to support myself and have choices. No discomfort with the process comes to mind."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Thanks. The wording for my concerns looks right to me; I don\u2019t have another concern or discomfort to add just now."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

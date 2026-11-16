@@ -1,0 +1,199 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I\u2019m not sure what the will says. I\u2019d like to buy the house with my husband at a family discount, but only if C agrees. No price, valuation, terms, or timing are settled; I\u2019m not ready to sign anything and would like time to get advice."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019m not sure what the will says about the house. I\u2019d need some money from it to start a dance studio; timing matters, though I don\u2019t have a firm amount or date in mind. I could consider A buying it at a fair, independently assessed value, with terms agreed by all of us, but I know C hasn\u2019t agreed. I\u2019d like time to get advice before signing anything."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I don\u2019t know what the will says, and no price or terms are settled. I need a fair financial share and won\u2019t subsidize a discounted purchase. I could consider a sale to A at an independent valuation with terms all three agree to. I\u2019m not in a rush, but I want it resolved fairly. I\u2019d like time to get advice; please pause signing anything."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "No. I still want a family discount, but only with C\u2019s agreement. I don\u2019t have a copy of the will yet, and I want advice before signing anything."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, in principle, to an independent valuation with no family discount and agreed terms. I can\u2019t give a firm amount or date yet; the timeline needs to account for my studio plans. I\u2019d like advice and a copy of the will before signing."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Not yet. I support an independent valuation, but I can\u2019t confirm it meets my fair-share concern until I\u2019ve seen the will and agreed the terms. I need time to get advice; no signing until then."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, I can work within this process, but I\u2019m not agreeing to no discount. I\u2019d still seek one if C agrees after advice. I don\u2019t know who can request the will."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, I can work with that process. I still can\u2019t give a firm amount or date. I\u2019m not sure who can request the will, so perhaps the estate handler or lawyer can clarify."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Yes to the process. I can\u2019t set fair-share terms until I\u2019ve seen the will and had advice. I don\u2019t know who can request the copy\u2014please check with the estate handler or a lawyer. No signing until we all agree."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019ll ask the estate handler or lawyer for the will and advice. I\u2019m still not agreeing to no discount; any discount would need C\u2019s agreement after advice."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I still can\u2019t give a firm amount or date; I need to work out what the studio would require. I\u2019d appreciate the timeline taking that into account."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I do appreciate the machine\u2019s history, but the leak and the upkeep are becoming a bit much. I\u2019d be happier with something simpler and low-maintenance going forward."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "The leak is a pain, and it keeps breaking. I still want us to repair it and keep it, but any repair talk needs to fit into short chunks of time."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "Mostly, I\u2019d like the coffee to work again and for the kitchen to stay calm. I\u2019m not in a position to choose between them or manage the repair."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, that\u2019s about right. I\u2019d just add that the current leak makes the upkeep feel more pressing."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, that\u2019s it. I\u2019d put it plainly: repair the old machine and keep it working, in short chunks of time."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, that fits. I\u2019d just say I want the coffee working again without being the one to coordinate the fix."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I can see the appeal if B handles the repair, but I\u2019m a little wary of an open-ended trial and another lengthy discussion. Could we keep a simple, low-upkeep replacement as a clear option if the leak or upkeep continues?"
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Not as written. I can help in short chunks, but I\u2019m not taking on all the coordination, and C uses it every day\u2014keep them involved. I\u2019m fine revisiting if it still leaks or takes too much upkeep, but we\u2019d need to agree on the review period."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "That sounds reasonable in principle, as long as A and B agree. I can take part in a later discussion, but I can\u2019t take on coordinating it; I\u2019m not sure what repair or trial period makes sense."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019m not sure of an exact period, but I\u2019d want it brief and fixed. I also can\u2019t take on any of the repair coordination, even split up."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Two weeks after the repair could work as a review point, not a deadline. But C uses the machine every day, so I don\u2019t think they should be shut out of the repair itself."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Mostly, yes. I\u2019m comfortable joining the later review, but I don\u2019t want a role in coordinating the repair, even as part of a shared effort. The review period is for A and B to agree."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  }
+]

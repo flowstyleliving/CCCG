@@ -1,0 +1,218 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "NCE-1 seems fair. I\u2019m not sure how bad the leak is, and all three of us still use the machine daily. I don\u2019t have the energy to coordinate a fix myself."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "A simpler machine would mean less upkeep and fewer things to go wrong. I\u2019d hope we could keep a decent cup of coffee and the grinder, if practical. The leak matters, though I\u2019m not sure it\u2019s an emergency; I wouldn\u2019t be able to take on repairs or a cleaning rota. We should also recognize that the old machine means a lot to B."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "It\u2019s Dad\u2019s machine, and keeping it going matters to me. But it keeps breaking, and I\u2019m tired of dealing with that. The leak needs attention, but it\u2019s not an emergency; I only have small windows of time for a repair or discussion. Don\u2019t list me as agreeing to replace it."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Checking the leak first seems sensible. I can\u2019t make the call; please ask A and B who can take it on rather than listing me as the owner."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Thanks\u2014the leak\u2019s urgency is still unclear to me; I wouldn\u2019t call it an emergency without knowing more. I can\u2019t take on researching prices, though I\u2019d be glad if someone else brought rough figures."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "NCE-3 is too strong: A can\u2019t take on repairs, but that doesn\u2019t mean A has ruled them out altogether. And yes\u2014if someone else arranged and paid for it, keeping Dad\u2019s machine going would still be worth it to me. It still needs to stop breaking so often."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "NCE-4 is fair. I can consider sharing the cost once we know the price, but I can\u2019t agree to an unspecified amount. I\u2019m not able to arrange the service."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I\u2019d be open to one paid inspection, if someone else arranges it and the cost is agreed beforehand. I can\u2019t take on the calls or follow-up."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "A one-off inspection sounds reasonable if someone else books it and it fits a small time slot. I\u2019m not agreeing to a shared cost or regular service yet\u2014we don\u2019t know the price or what\u2019s needed, and I can\u2019t take on a rota."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I don\u2019t know who handles facilities or whether the landlord covers it. I can\u2019t take on chasing this."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019m afraid I don\u2019t know whether the landlord or office facilities covers it. It does seem someone outside the three of us may need to make the booking; I can\u2019t send the request myself."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I disagree with NCE-6: I haven\u2019t said I can\u2019t arrange a booking, just that I have little time. I don\u2019t know whether the landlord or office facilities covers the equipment."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "B",
+        "in_reply_to": 25,
+        "text": "I can\u2019t promise a window this week. Don\u2019t list me as the sender unless I confirm I\u2019ve got time."
+      },
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "Please propose it to A and B first. I can\u2019t take on asking the manager."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  }
+]

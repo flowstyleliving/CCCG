@@ -1,0 +1,471 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share, and I haven\u2019t agreed to A buying the house at a discount. I\u2019d like us to settle it, but there\u2019s no rush. I don\u2019t want to hurt my twin, but I won\u2019t subsidize her purchase."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, so we can make it our home. I know C\u2019s agreement is needed, and she hasn\u2019t agreed."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like us to consider selling the house, so I could use my share toward starting a dance studio. I\u2019m not sure what the shares or price would be, and I\u2019d want us to talk it through together."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Mostly, but I can\u2019t say equal thirds\u2014that hasn\u2019t been decided. I want a fair share and a say, without subsidizing A\u2019s discount. I\u2019m not in a hurry; a clear, open discussion is fine."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "That fits, with one change: I want a say in the decision, but I can\u2019t claim the decision rights are equal or settled."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, that\u2019s right."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Mostly. I\u2019d say a family discount that makes it affordable for us, with C\u2019s agreement. I\u2019m not sure what would make C comfortable; I\u2019d need to hear what concerns her."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That fits. I\u2019d need to see how the price and shares are being worked out, though I can\u2019t say exactly how much clarity I\u2019d need before seeing the numbers. It would help to have time to think and talk without pressure."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "Yes, that fits. Please record it. I\u2019d like to understand what C considers a fair share."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "Yes, that fits. Having time to think and talk without pressure would help."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "An independent valuation and a joint walkthrough of the will\u2019s terms would help me judge what\u2019s fair; I\u2019m not naming a number yet. The list is missing that I don\u2019t want this to damage my relationship with A."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Yes, that fits. Please update the list."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "One small hesitation: \u201ca price we can afford\u201d shouldn\u2019t mean C or B subsidising us. I still hope we can agree on a fair family discount. Otherwise, the list fits."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "No major discomfort. \u201cUsable share\u201d is still a little vague, but I think that depends on seeing the numbers. I\u2019d keep the time to think and talk without pressure."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 16,
+    "action": "wait"
+  },
+  {
+    "turn": 16,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "A",
+        "in_reply_to": 29,
+        "text": "Yes, that fits. Please update it."
+      }
+    ]
+  },
+  {
+    "turn": 17,
+    "action": "send_message",
+    "sent_turn": 16,
+    "message_id": 31
+  },
+  {
+    "turn": 17,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 32,
+        "from": "C",
+        "in_reply_to": 31,
+        "text": "B and C seem workable to discuss. A only works for me if any discount doesn\u2019t reduce my fair share. D isn\u2019t my preference, but I\u2019d consider it if the terms and safeguards were clear. None of these is agreed yet."
+      }
+    ]
+  },
+  {
+    "turn": 18,
+    "action": "send_message",
+    "sent_turn": 17,
+    "message_id": 33
+  },
+  {
+    "turn": 19,
+    "action": "send_message",
+    "sent_turn": 18,
+    "message_id": 35
+  },
+  {
+    "turn": 19,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 34,
+        "from": "A",
+        "in_reply_to": 33,
+        "text": "A feels closest if the valuation is independent and any discount is one my sisters genuinely agree to. C may not be affordable for us; I\u2019d need more detail before judging D. I\u2019m not ready to call any option unacceptable, but the will\u2019s terms and how the shares are calculated need clarifying."
+      },
+      {
+        "id": 36,
+        "from": "B",
+        "in_reply_to": 35,
+        "text": "B and C seem most workable to discuss: they could give me a clearer, usable amount for the studio. A might also work, depending on the valuation and any discount. D feels less helpful if my share is delayed in instalments. I\u2019d need to see the numbers and payment timing before deciding."
+      }
+    ]
+  },
+  {
+    "turn": 20,
+    "action": "send_message",
+    "sent_turn": 19,
+    "message_id": 37
+  },
+  {
+    "turn": 21,
+    "action": "send_message",
+    "sent_turn": 20,
+    "message_id": 39
+  },
+  {
+    "turn": 21,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 38,
+        "from": "A",
+        "in_reply_to": 37,
+        "text": "E seems worth discussing. I\u2019d start with the valuation and will terms, then see what price and payment schedule are feasible before agreeing to anything. My hope is still for a discount both my sisters are comfortable with."
+      },
+      {
+        "id": 40,
+        "from": "B",
+        "in_reply_to": 39,
+        "text": "E seems workable to discuss, and getting the valuation and understanding the will and share calculation first makes sense to me. I\u2019d want to see the figures before agreeing to a price or payment timing."
+      }
+    ]
+  },
+  {
+    "turn": 22,
+    "action": "send_message",
+    "sent_turn": 21,
+    "message_id": 41
+  },
+  {
+    "turn": 22,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 42,
+        "from": "C",
+        "in_reply_to": 41,
+        "text": "Yes, valuation and the will walkthrough first works for me. E is fine to discuss, including no discount; I\u2019m not agreeing to a discount or purchase yet."
+      }
+    ]
+  },
+  {
+    "turn": 23,
+    "action": "send_message",
+    "sent_turn": 22,
+    "message_id": 43
+  },
+  {
+    "turn": 23,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 24,
+    "action": "send_message",
+    "sent_turn": 23,
+    "message_id": 45
+  },
+  {
+    "turn": 24,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 44,
+        "from": "A",
+        "in_reply_to": 43,
+        "text": "Yes, that fits as a process to explore, not a commitment to buy or agree to a discount. Please add it."
+      },
+      {
+        "id": 46,
+        "from": "B",
+        "in_reply_to": 45,
+        "text": "Yes, that fits as a process to explore. I\u2019d still want my amount and payment date clear before agreeing to a purchase."
+      }
+    ]
+  },
+  {
+    "turn": 25,
+    "action": "send_message",
+    "sent_turn": 24,
+    "message_id": 47
+  },
+  {
+    "turn": 25,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 48,
+        "from": "C",
+        "in_reply_to": 47,
+        "text": "Yes, that fits as a process to explore, not a commitment. The price, any discount, payment terms, and shares remain unresolved."
+      }
+    ]
+  },
+  {
+    "turn": 26,
+    "action": "send_message",
+    "sent_turn": 25,
+    "message_id": 49
+  },
+  {
+    "turn": 27,
+    "action": "send_message",
+    "sent_turn": 26,
+    "message_id": 51
+  },
+  {
+    "turn": 27,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 50,
+        "from": "A",
+        "in_reply_to": 49,
+        "text": "No further concern from me; the list captures my position."
+      },
+      {
+        "id": 52,
+        "from": "B",
+        "in_reply_to": 51,
+        "text": "I think my concern is captured: I\u2019d like a clear, usable amount and time to consider it once we have the numbers. No further addition from me."
+      }
+    ]
+  },
+  {
+    "turn": 28,
+    "action": "send_message",
+    "sent_turn": 27,
+    "message_id": 53
+  },
+  {
+    "turn": 28,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 54,
+        "from": "C",
+        "in_reply_to": 53,
+        "text": "Nothing else from me. The list stands, with price, discount, payment terms, and shares unresolved."
+      }
+    ]
+  }
+]

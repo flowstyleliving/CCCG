@@ -1,0 +1,206 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "I don\u2019t have exact dates or a duration yet. I need the trailer sometime in the next few weeks for my home project, and I\u2019m not willing to wait until A is done with it."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I don\u2019t need it myself, and I can\u2019t think of any particular dates that would be inconvenient. I\u2019d rather it not stay on my pad much longer, though I rent and would need my landlord\u2019s okay for any change to what\u2019s kept there."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I don\u2019t have exact dates yet. I want to use it for weekend trips over the next few weeks, but I can\u2019t give you a firm window or duration yet."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Alternating weekends could work, but I\u2019m not agreeing to wait until A is done. I can\u2019t name a weekend yet; I need a turn sometime in the next few weeks."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "wait"
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Alternating weekends could work, but I can\u2019t name the first one yet. I don\u2019t want to commit to set weekends before my trip dates are settled."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 11
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 13
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, as a starting point. I need a turn in the next few weeks, though\u2014I don\u2019t want first-come booking to leave me waiting indefinitely."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Yes, that works. I\u2019ll ask B when I have dates, and if we want the same weekend, we can alternate priority."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 15
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, I can keep the list and confirm bookings with both of them. I\u2019d still be glad to have the trailer off my pad when it\u2019s not needed."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 17
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I accept the two-turn fairness rule, but I still need a turn in the next few weeks. Without that, the plan doesn\u2019t settle my concern."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 19
+  }
+]

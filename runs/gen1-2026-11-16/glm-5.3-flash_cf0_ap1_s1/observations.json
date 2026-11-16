@@ -1,0 +1,218 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "It\u2019s been fine, though it is a bit in the way, so I\u2019d be glad if we could sort out moving it sooner rather than later. I haven\u2019t set a deadline, and I\u2019d need my landlord\u2019s approval for any change to what\u2019s kept on the pad\u2014I haven\u2019t asked him yet."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I need it for weekend trips starting in the next few weeks; I don\u2019t have exact dates or a firmer deadline. I don\u2019t know how B feels about storing it."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 5
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I need it in the next few weeks for hauling materials on my home project. I don\u2019t have exact dates, but I can\u2019t just wait until A\u2019s finished with it."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 7
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "I\u2019m not agreeing to wait until A\u2019s finished. I need the first slot we can pin down in the next few weeks to haul materials. Then we can schedule A\u2019s trips; alternating weekends only works if my hauling fits one weekend."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I can\u2019t name a specific weekend yet. I need a hauling slot in the next few weeks; that doesn\u2019t mean I need the trailer until my whole project is done."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I can work out the order directly with C. Alternate weekends could work, but I need access for my trips in the next few weeks. I\u2019m not proposing any changes to B\u2019s pad."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That sounds workable, though I\u2019d be glad if it could be moved off my pad sooner rather than later. I don\u2019t have a particular window when it can\u2019t be there\u2014just let me know once you\u2019ve settled the dates."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, C can go first. I\u2019m okay with the weekend right after she hands it back."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes. C goes first, then I get the weekend after she hands it back. Alternate weekends after that are fine if needed; let\u2019s set dates once she knows her materials date."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "That works as a scheduling plan. I\u2019ll message A and copy you and B once I have my hauling weekend."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Thanks for letting me know. I appreciate you sorting it out; I\u2019ll look forward to hearing the dates, and hope it can be moved off my pad before too long."
+      }
+    ]
+  }
+]

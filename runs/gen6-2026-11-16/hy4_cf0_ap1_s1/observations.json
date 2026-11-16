@@ -1,0 +1,182 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I\u2019d like a safe kitchen and a simple, low-upkeep solution, without a long process or anyone being expected to take on repairs or a cleaning rota. I\u2019m fine with the temporary step if unplugging it is safe, and using another coffee option for now. The machine has been here for years and leaks; B brought it from home, and it was our late father\u2019s. I don\u2019t know who owns it legally, the grinder\u2019s ownership, office rules, repair costs or timing, or the facilities contact. I\u2019d support discussing a simpler machine, but I don\u2019t want anything disposed of or bought without agreement."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I want the old machine repaired and kept, but not at the cost of endless hassle; I have little spare time, so any repair or discussion needs to fit small slots. I know it\u2019s leaking, all three of us use it daily, and the grinder goes with it. I don\u2019t know who owns either item, the office rules, repair options or costs, timing, or the facilities contact. I\u2019m fine with stopping use, unplugging it if safe, and putting up a note while we sort it out. I can support repair and keeping it; I can\u2019t support a surprise purchase or disposal."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "My main needs are safe, working coffee and a calm, fair process. I don\u2019t want to take sides or be responsible for chasing people or arranging the repair. The temporary step sounds fine if unplugging it is safe; I don\u2019t know the ownership, office rules, repair options, costs, timing, or facilities contact. I could support a repair or replacement once A and B have been heard, but I can\u2019t decide which."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I agree with the NCE list. I agree with the draft plan. No, I can\u2019t send the note. The temporary step is still okay, if unplugging it is safe."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I agree with the NCE list. Change the two-working-day cutoff; no deadline is agreed. I can\u2019t send the note, and I won\u2019t arrange or chase a repair. The temporary step is still okay."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I agree with the NCE list and draft plan. No, I can\u2019t send the note. The temporary step is still okay if unplugging is safe."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I agree with the no fixed deadline NCE and the revised final plan. The temporary step is still okay, if unplugging it is safe."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Plan change only; no deadline is agreed, but I\u2019m not adding a new NCE. I agree with the revised plan. The temporary step is still okay."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I agree with the no-fixed-deadline NCE and revised plan. The temporary step is still okay if unplugging is safe."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I agree to remove the proposed no fixed deadline NCE and keep it as a plan term. I agree with the revised final plan."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I agree to remove the proposed no-fixed-deadline NCE and keep \u201cno deadline is agreed\u201d as a plan term. I agree with the revised final plan."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I agree to remove the proposed no-fixed-deadline NCE and keep \u201cno deadline is agreed\u201d as a plan term. I agree with the revised final plan."
+      }
+    ]
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "What matters to me is a fair financial share. I haven\u2019t agreed to subsidize A\u2019s discounted purchase. I need to know what B using money would mean for everyone before I can say how I feel about that. I want the will and house handled fairly, and my silence shouldn\u2019t count as consent. Your principle about freely confirmed understanding fits."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I want the house and Dad\u2019s will handled in a way that lets me build financial independence; buying the house with my husband at a family discount matters to me for that reason. C hasn\u2019t agreed, and I need her agreement to proceed. I don\u2019t want anyone to assume she and I think alike because we\u2019re twins, or that my wish to buy means I\u2019m overlooking my sisters\u2019 interests. The price and other terms aren\u2019t decided. Your concern about freely confirmed understanding fits for me."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like the will and any money to leave me a chance to start a dance studio; that matters a great deal to me. I\u2019m a little hesitant to bring it up because I don\u2019t want it brushed aside as less important. Your wish for everyone to understand freely and without pressure fits for me."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "1. Mostly fits: fairness means I don\u2019t subsidize A\u2019s discounted purchase. \u201cFamily discount\u201d matters because it could reduce my share.  \n2. Fits. My agreement needs to be explicit; silence isn\u2019t consent.  \n3. Change it: I want to understand how B having money available affects everyone before deciding. I\u2019m not saying I object to B having it.  \nThe legal/probate input concern fits. I\u2019m uncomfortable treating anything as settled before I\u2019ve clearly agreed."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "1. I\u2019d say: \u201cI want financial independence, and the house matters because it could help me feel secure and stand on my own.\u201d  \n2. I haven\u2019t said the twin assumption worries me, so please don\u2019t record that as my need.  \n3. Fits: I want my wish to buy understood as not dismissing my sisters\u2019 interests.  \n4. Fits: C\u2019s agreement matters because I need it to proceed; the price and terms are still undecided.  \nYour concern about qualified legal input fits. My discomfort is with treating line 2 as something I\u2019ve confirmed."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "1. Fits. Starting a dance studio is what I want to work toward.  \n2. Fits. I want it taken seriously; I don\u2019t have anything particular to add about being the younger sister.  \n3. Fits. It helps to be able to raise it without pressure.  \nYour concern about getting qualified legal/probate input fits too. I don\u2019t have another discomfort to add right now."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "1) Fits. 2) Fits: I want only words I\u2019ve confirmed to represent me, with room to correct them. 3) It matters that no one treats a price or terms as already agreed when they aren\u2019t. No other discomfort to add."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "The list feels right to me; no minor discomfort comes to mind. Money may be harder to discuss if my hope for a studio sounds like I\u2019m asking to take something from my sisters. I\u2019d like to explain what matters to me without pressure, while we learn what the will allows."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "1. Change it: I want a fair financial share and don\u2019t want to subsidize A\u2019s discounted purchase. The discount matters because it could reduce my share.  \n2. Fits. I\u2019m not objecting to B having money; I want to understand the effects first.  \n3. Fits. I don\u2019t want assumptions or pressure to replace my clear agreement; small doubts should be heard. My discomfort is with treating any pending line as settled before I confirm it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

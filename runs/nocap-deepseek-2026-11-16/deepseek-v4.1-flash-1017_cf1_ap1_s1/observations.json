@@ -1,0 +1,266 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Mostly, yes. What matters most is a fair financial share for me, and that B is properly included; I won\u2019t subsidize A\u2019s discounted purchase. I haven\u2019t agreed to it. I don\u2019t want to hurt my twin, but I also don\u2019t want to be pressured into a deal. And yes, being able to say no without it becoming a problem matters."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. It matters because having a secure home would support our financial independence and well-being. I\u2019m uneasy because C hasn\u2019t agreed, and we can\u2019t proceed without her agreement. Your aim sounds reasonable to me."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d be grateful if the house could leave me with some money to start a dance studio; that would mean a lot to me. I\u2019m a little uneasy about being hurried into a plan before everyone\u2019s had a chance to speak. And yes, being able to say no without it causing trouble seems important."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "All three fit. \u201cFair share\u201d and \u201cnot giving part away without choosing to\u201d are right. I do want to stand up for myself without damaging things with A."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, both statements fit. And yes, it matters that no one\u2019s view gets sidelined because they answer more slowly."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, both fit. I\u2019d make the first a little more direct: \u201cI\u2019d like some money from Dad\u2019s estate to help me start a dance studio.\u201d And I do see the point of not settling things based on who replies fastest."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "None is a yes from me. D1 assumes A buys and that valuation settles what\u2019s fair; it doesn\u2019t ensure everyone freely agrees. D2\u2019s instalments make me uneasy unless timing and security are clear. D3 doesn\u2019t ensure A gets a secure home, and the shares depend on the will. D4 is sensible for now, but doesn\u2019t resolve anything. I\u2019m not in a hurry, and I haven\u2019t agreed to a discounted purchase."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "D1 doesn\u2019t reflect my wish to buy at a family discount. D2 is closest to what I hope for, but only if C genuinely agrees; the details still need advice. D3 isn\u2019t my preferred outcome. D4 seems sensible for now. I can\u2019t say whether the others have discomfort, and none of these drafts settles B\u2019s studio plans or all the details of C\u2019s fairness concerns."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I can\u2019t tell whether D1 or D3 would give me enough to start the studio until my share is clear. D4 leaves that unresolved, though I understand why it keeps things open. I\u2019m a little uncomfortable with instalments in D2; the money would need to be available when I\u2019m ready to start."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "D5 is fine as a next step, provided the valuation and advice don\u2019t commit anyone to a sale. D6 is fair to ask A. I\u2019d rather not rule out options in advance, but I won\u2019t subsidize a discount. No other discomfort."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "D5 sits right with me as a way to keep things open, not a commitment. D6 is fair. The discount matters as a way to make buying manageable and support our independence; I don\u2019t know whether a full-price mortgage would work for us. No other discomfort comes to mind."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "D5 seems sensible. I\u2019m a little uneasy about setting timing before I know what my share might be. \u201cMoney available to me when I\u2019m ready\u201d is accurate."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Yes, that fits. B should know what her share is likely to be before anyone asks her to commit to timing."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "Understood. I\u2019m comfortable keeping the discount as one option, with nothing decided until we have the advice and valuation and everyone agrees."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "Yes, that wording is right. I\u2019d like to know what my share is likely to be before discussing timing."
+      }
+    ]
+  },
+  {
+    "turn": 16,
+    "action": "send_message",
+    "sent_turn": 15,
+    "message_id": 31
+  },
+  {
+    "turn": 17,
+    "action": "send_message",
+    "sent_turn": 16,
+    "message_id": 33
+  },
+  {
+    "turn": 18,
+    "action": "send_message",
+    "sent_turn": 17,
+    "message_id": 35
+  },
+  {
+    "turn": 18,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 32,
+        "from": "C",
+        "in_reply_to": 31,
+        "text": "That\u2019s accurate. Nothing else to add."
+      },
+      {
+        "id": 34,
+        "from": "A",
+        "in_reply_to": 33,
+        "text": "That reflects my position. Thanks for keeping the discount as an option, not an assumption."
+      },
+      {
+        "id": 36,
+        "from": "B",
+        "in_reply_to": 35,
+        "text": "That reflects what I\u2019ve said. Thank you for keeping my need for studio money and the order of things clear."
+      }
+    ]
+  }
+]

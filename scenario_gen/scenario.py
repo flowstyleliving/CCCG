@@ -15,6 +15,7 @@ import subprocess
 import tempfile
 import urllib.request
 
+from msraf.stakeholder import validate_scenario_md
 from scenario_gen.generate import generate
 
 MODEL = "gpt-6-astra"
@@ -63,6 +64,7 @@ def make_scenario(seed, out_dir):
     text, backend = via_api(prompt, key) if key else via_codex(prompt)
     if not text.strip():
         raise RuntimeError("scenario model returned an empty scenario; nothing saved")
+    validate_scenario_md(text, spec["point_person"]["option"])  # raises ValueError; nothing saved
     run = Path(out_dir) / f"seed-{spec['seed']}"
     run.mkdir(parents=True, exist_ok=False)  # never overwrite a saved scenario
     (run / "spec.json").write_text(json.dumps(spec, indent=2) + "\n", encoding="utf-8")

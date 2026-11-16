@@ -1,0 +1,223 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need the trailer for my home project within the next few weeks. I don\u2019t have exact dates or a firm duration yet; it\u2019s for this project, not a recurring need. A fair arrangement gives each of us a scheduled turn soon\u2014I\u2019m not willing to wait until A is completely done. Yes, I\u2019ll talk with A about dates. I\u2019m fine with writing down the agreement and sharing it; costs and the pad arrangement still need discussion."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thanks for asking. The trailer is taking up space, and I\u2019d prefer it not stay on my pad much longer, though I don\u2019t have an exact date in mind and don\u2019t need turns using it. I rent, and my landlord would need to approve a change to what\u2019s kept on the pad; I haven\u2019t asked him yet, so I can\u2019t promise a schedule. I agree the pad shouldn\u2019t become an unpaid burden for me."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "I\u2019d prefer it gone from my pad for good, though a short stay might be fine if my landlord approves. I haven\u2019t asked him yet, and I\u2019m not sure how quickly he\u2019d answer. Asking once we have a clearer plan would probably be easier. Sharing any moving cost seems fair to discuss, but we haven\u2019t decided that."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I need it for weekend trips starting in the next few weeks. I don\u2019t have exact dates or trip lengths yet. I expect to use it on more than one weekend, but I haven\u2019t set a repeating schedule. The dates can move somewhat, but I need this settled within a few weeks. Fair means a clear schedule that gives each of us access without having to get permission each time. Writing it down and settling costs beforehand makes sense; I don\u2019t know the price or shares yet."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, I\u2019ll put my dates in writing first once I check my project schedule. I\u2019ll talk with A at work to pin down dates. Let\u2019s set a reasonable deadline within the next few weeks so this doesn\u2019t stall. I don\u2019t agree to an automatic three-way split of all costs; we haven\u2019t decided that."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I need it for weekend trips. I don\u2019t have exact dates or trip lengths yet; I expect to use it on multiple weekends, but don\u2019t have a fixed repeating schedule. I have some flexibility, but need a plan within the next few weeks. I\u2019m open to two shorter turns if we agree on dates that still let me use it soon. Fair means a clear schedule and reliable access without needing permission each time. The list sounds reasonable; costs and shares still need to be worked out."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "March 13 works. The list looks right. Add how overlapping date requests will be resolved before anything is booked."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "I\u2019m open to C going first if my weekend trips still fit in the same few weeks. Talking with C at work is fine for pinning down dates. A written deadline for naming dates makes sense, but I won\u2019t agree yet to splitting every cost three ways\u2014we need to decide costs and shares together. The calendar should stay tentative until B has the landlord\u2019s answer."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "A short note might help, as long as I can review it before it\u2019s sent. The list sounds right to me; I don\u2019t think anything is missing."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I can name my dates by March 13. The overlap rule isn\u2019t fair as written: being first to submit shouldn\u2019t decide who gets the days, especially when C is already going first. If dates conflict, we should talk and choose an arrangement that preserves one turn each before either gets a second."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "The order works\u2014I need my turn early, not after A\u2019s weekends. I don\u2019t agree that whoever writes first automatically gets overlapping days; resolve conflicts together, or use a neutral tie-breaker. Nothing should be treated as booked until we agree and B\u2019s landlord answers."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 23
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 25
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need it for a project at my house, and it needs to happen in the next few weeks. I\u2019m not willing to just wait until A is done with it."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like it not to take up space on my pad much longer, though it\u2019s fine for now. I did agree to keep it here, so I feel a bit bad asking\u2014but I rent, and I\u2019d need my landlord\u2019s permission to change what\u2019s kept there. I haven\u2019t asked him yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I want to be able to use it for my weekend trips in the next few weeks. I don\u2019t have a strong view on where it\u2019s stored."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 7
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Not quite. It\u2019s not just the project timeline\u2014I need to be able to use the trailer myself, rather than have my plans depend on when A is finished."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Yes. I need the freedom to make my own plans with the trailer, and I need to use it in the next few weeks."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 11
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "Not quite\u2014I do want to be sure I\u2019m allowed to keep it there, but mostly I\u2019d like the trailer out of the way. I just feel a little awkward asking, since I agreed to the arrangement."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, that\u2019s closer. I\u2019d like the pad back, and I should check with my landlord before agreeing to keep it there longer. I still feel a little responsible since I agreed to it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Mostly. I want the freedom to take it on my trips without having to negotiate every single time."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 17
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 19
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Option 2 sounds best for not having to coordinate through B, if we can arrange it soon and agree on the cost. Option 1 could work short-term only if I can use the trailer for my project in the next few weeks. Also, my project is hers, not his."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Option 2 sounds best for getting the pad back, though we\u2019d need to work out the cost, and I should check with my landlord before changing what\u2019s kept there. Option 3 doesn\u2019t really work for me if the trailer stays here. Option 1 might be okay as a short transition, but I\u2019d rather it not sit on my pad for weeks."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 15,
+    "action": "wait"
+  }
+]

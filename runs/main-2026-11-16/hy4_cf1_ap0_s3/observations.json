@@ -1,0 +1,170 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "What matters to me is a fair financial outcome; I haven\u2019t agreed to subsidize A\u2019s discounted purchase. B\u2019s needs should be heard too, but my share shouldn\u2019t be assumed available for her use. Possible NCE: \u201cI need a fair arrangement that doesn\u2019t assume my share is available to subsidize someone else.\u201d That fits. I\u2019m not deciding anyone else\u2019s rights, and there\u2019s no real rush from my side. No discomfort with this process, as long as my lack of consent is clear."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "What matters to me is a stable home and financial independence; I hope to buy the house with my husband at a family discount. That\u2019s what I want, not an agreed outcome\u2014I know C hasn\u2019t agreed. I don\u2019t know the price, shares, timing, or legal rules. I\u2019m comfortable starting this way."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d be grateful if money for me could be considered; it would help me get a dance studio started. That wording fits. I don\u2019t have a firm view on a sale, buyout, or discount yet, and I\u2019m not sure about the legal or financial details. No particular discomfort with starting this way.\n\nCurrent needs list (v2 \u2014 latest)\n1. [C | raised t0 | unresolved] \u201cFamily discount\u201d/sign-off: NCE not confirmed.\n2. [C | raised t0 | unresolved] B could use money: NCE not confirmed.\n3. [B | raised t1 | unresolved] Money to help start a dance studio: NCE confirmed."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "1) Fairness matters because I want a fair financial share and haven\u2019t agreed to subsidize A\u2019s purchase. The candidate fits, but I\u2019d add that my share shouldn\u2019t be assumed available.  \n2) Yes, that fits: B\u2019s needs should be heard, but that doesn\u2019t mean my share is available.  \n3) Yes, that fits. I\u2019m not deciding anyone else\u2019s rights is a separate boundary, not a need. No discomfort with the wording or process."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "A stable home and financial independence matter because I want security of my own, especially with the house unresolved. Both first candidate wordings fit. I also want my hopes heard without pressuring C; that wording fits. No discomfort with the process."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "1. Yes, that fits. Money could help me start the studio and become more independent.\n2. Yes, that fits; I\u2019d like clear information before forming a view.\n3. Yes, that fits. I\u2019d like to speak for myself rather than have assumptions made for me. No particular discomfort with the wording or process."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "#1 fits. #3 is a boundary: I don\u2019t want to claim authority over A or B. Keep it as a resolved boundary, no NCE. #2 matters because B should be heard without assuming my share is available. #4 matters because I want to decide about my share clearly and without pressure. No added discomfort."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "#6 and #9 still fit. Clear information matters because this is a consequential decision; I want my hopes heard without pressuring anyone. I can\u2019t speak to C\u2019s or B\u2019s wording. No discomfort with the process."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, #7, #8, and #10 still fit. I don\u2019t have more to add about why, or a concern about A or C\u2019s wording. No particular discomfort with this; that isn\u2019t agreement to any outcome."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "A works as a next process step for me. I can\u2019t confirm that it meets everyone else\u2019s needs for them. This isn\u2019t consent to a discount, sale, or use of my share. No discomfort with the draft."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

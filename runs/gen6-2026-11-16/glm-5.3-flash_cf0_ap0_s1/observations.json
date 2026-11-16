@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "My main concern is just getting coffee working again without this turning into a bigger disagreement. The machine is leaking; I don\u2019t know whether anyone has looked into repairs, and I can\u2019t take on coordinating that. I\u2019d want any replacement to work with the grinder."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thanks for coordinating. The leak and upkeep are my main concerns, and I\u2019m afraid I can\u2019t take on repairs or a cleaning rota. I\u2019d favor a simpler, low-maintenance machine, while recognizing the old one means a lot to B."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I want it repaired and kept\u2014it was my late father\u2019s, and it means a lot to me. But it keeps breaking, and I don\u2019t have much time for repairs or long discussions. I know A wants something simpler; I\u2019m not sure what C wants."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "No. I want it kept in the office, not turned into something I have to manage at home. I want it repaired, but it can\u2019t become another ongoing job for me. Any discussion needs to fit into a short slot."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I understand why B wants to keep it, but even simple shared upkeep would be hard for me to take on. I\u2019d still prefer a low-maintenance machine."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "In principle, yes\u2014if the upkeep is genuinely shared and doesn\u2019t turn into a regular job for me. The details of the split still need deciding. A short discussion works."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That would ease my main concern, provided the leak is fixed and the service really requires no ongoing effort from us. I\u2019d still prefer a simpler machine, but I could live with this arrangement."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That sounds better, as long as the cost and schedule are agreed first. I\u2019m open to a short discussion, but I haven\u2019t agreed to an arrangement yet."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Yes, I\u2019m willing to join one short discussion to agree the cost and schedule, as long as someone else sets it up."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "No, I can\u2019t take on arranging it or making the call. I can join a short discussion if it fits my schedule."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019m sorry, but I can\u2019t take on arranging the discussion or making the booking call. I can join the short discussion."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I\u2019m sorry, I can\u2019t take on contacting repairers. I can join the discussion once someone has quotes."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 15,
+    "action": "wait"
+  }
+]

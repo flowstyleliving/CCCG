@@ -1,0 +1,228 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need the trailer for my home project in the next few weeks. I\u2019m worried the decision will just leave me waiting until A is done. I can coordinate, but I can\u2019t decide for A or B. \u201cNot backing down\u201d isn\u2019t quite right\u2014I\u2019m saying I need us to settle this soon."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I don\u2019t need the trailer myself, and I\u2019d be relieved to have it out of the way\u2014though I do feel I agreed to this arrangement. I rent, so any change to what\u2019s kept on the pad would need my landlord\u2019s approval, and I haven\u2019t asked him yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I need the trailer for weekend trips in the next few weeks. I don\u2019t want C\u2019s refusal to budge to decide for all of us; I want a say too."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I need it for weekend trips starting in the next few weeks. I\u2019m worried C\u2019s urgency will mean C decides the schedule for everyone. I want a real say in when I can use it."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "That split could work, but I can\u2019t name exact days yet. I need the trailer for hauling sometime in the next few weeks, so let\u2019s set my project days alongside A\u2019s weekends soon."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I haven\u2019t set the weekends yet. The split could work, but I\u2019m not agreeing to fixed dates until we compare schedules and agree how the handoffs work."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I can\u2019t narrow it to a particular week yet; I need it sometime in the next few weeks. Please don\u2019t schedule my use only after A\u2019s trips."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I haven\u2019t checked my calendar, so I can\u2019t name the weekends yet. Don\u2019t mark anything fixed; I\u2019ll send the dates once I\u2019ve checked."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Comparing preferences works; the handoff rules still need all three of us to agree. My first choice is the earliest available weekday in the next few weeks\u2014not only after A\u2019s trips. I can\u2019t give exact dates yet."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Those handoff rules sound fine to me. I can\u2019t confirm the trailer can stay on my pad between uses: I haven\u2019t checked with my landlord, and I\u2019d rather it not stay there."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "The process works, including the handoff rules. I haven\u2019t checked my calendar, so I can\u2019t name my top two weekends yet."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "I haven\u2019t confirmed a place to store it, so I can\u2019t promise I can. I need the dates firmed within the next few weeks\u2014ideally soon."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 27
+  }
+]

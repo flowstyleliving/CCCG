@@ -1,0 +1,197 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t know what the will says, or any value, debts, costs, or deadline. I haven\u2019t agreed to A\u2019s discounted purchase. I want a fair financial share; we could compare a buyout at an independently established value with an open-market sale. I\u2019m not in a hurry, and nothing is settled."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I confirm I\u2019d like to buy the house with my husband at a family discount, but I understand C hasn\u2019t agreed. I don\u2019t know what the will says, who the executor is, who must sign, or whether B is named; I have no confirmed value, costs, or deadline to share. We\u2019d need clear, checkable terms and a price we can manage. If a discount isn\u2019t possible, we could consider a buyout based on an independent valuation, though I can\u2019t commit to that without knowing the figures. I don\u2019t disagree with the check you added."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019m afraid I don\u2019t know what the will says, who the executor is, who must sign, or whether I\u2019m named; I don\u2019t have the wording or any figures or deadline. A sale or buyout would need to leave me some money to start a dance studio\u2014that\u2019s what I\u2019d need, and I don\u2019t have another plan in mind. I\u2019m not ready to choose an option without the facts, and I don\u2019t think anything is settled."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Fair means I get a fair financial share under the will\u2014not that I subsidize A\u2019s discounted purchase. I don\u2019t know who has the will or any costs or deadline; I can help ask for the exact wording and checkable figures. I don\u2019t know that twins, age, or birth order matter. B\u2019s needs matter too, and I\u2019m not agreeing to any plan yet."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "The list overstates what I\u2019ve said: NCEs 10\u201313 are your concerns, not mine. Please label them as yours. The fact-finding steps seem reasonable, but I don\u2019t know who has the will or any figures or deadline. I still want a fair share and have not agreed to A\u2019s discounted purchase."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I don\u2019t disagree with your NCEs 10\u201313. They\u2019re your concerns, not mine. I still don\u2019t know who has the will or any figures."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I disagree with NCE 11 as a blanket restriction; I don\u2019t disagree with NCEs 10, 12, or 13."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I don\u2019t disagree with your NCEs 10 through 13."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I don\u2019t disagree with NCE 18 or 19. The fact-finding draft seems reasonable; I still haven\u2019t agreed to a discounted purchase, and I don\u2019t know the will wording or figures."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I don\u2019t disagree with NCE 19 or NCE 20."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  }
+]

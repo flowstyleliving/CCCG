@@ -1,0 +1,199 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need it to haul for my home project in the next few weeks. If I can\u2019t use it then, my project gets held up. \u201cI want to be able to use the trailer for my project without waiting for A to finish.\u201d That fits."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d rather have the trailer out of my way, though I feel a bit bad asking since I agreed to keep it here. I also need to check with my landlord before changing what\u2019s kept on the pad."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "I can\u2019t confirm either for B\u2014she should say whether they fit. I don\u2019t know what her landlord requires."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I want the freedom to take the trailer on weekend trips in the next few weeks; if it\u2019s delayed, I may miss those trips. That\u2019s accurate for me."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "The first two fit. The third is close, but I\u2019d put it as: \u201cI feel torn about asking for the trailer to be moved, since I agreed to keep it here.\u201d"
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "No. I need it for hauling on my home project, not weekend trips: \u201cI want to use the trailer for my project in the next few weeks without waiting for A to finish.\u201d"
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "Fine, but I need a concrete plan soon. I\u2019m not waiting for A to finish before I use it."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Nothing beyond the trips. I\u2019m not saying we need to fight over who goes first; we just need to work out a schedule soon."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "wait"
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "(a) could work if I get the trailer for my project soon, without waiting for A to finish. Alternating weeks could hold me up. I can\u2019t agree to a schedule until we pin down the handoff and dates."
+      },
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "Item 5 is accurate. No other concerns to add; I want us to settle a schedule soon so I can take weekend trips."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 23
+  }
+]

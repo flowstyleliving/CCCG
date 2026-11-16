@@ -1,0 +1,170 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t have the will terms or an appraisal. I want a fair financial share and won\u2019t subsidize A\u2019s discounted purchase. I\u2019d like this settled, but I\u2019m not in a hurry. I can\u2019t speak for B about whether she needs money."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "I don\u2019t have the will or appraisal. A fair outcome means I get a fair financial share; I haven\u2019t agreed to subsidize A\u2019s discounted purchase. I\u2019d like it settled, but there\u2019s no rush."
+      },
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "My husband and I would like to buy the house, with him as a co-owner. I think a family discount makes sense for a family sale, but I know C disagrees and I need her agreement. We haven\u2019t settled on a price or timeline, and I don\u2019t have the will terms or an appraisal."
+      },
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "I\u2019d like some money to help start a dance studio, though I don\u2019t know what amount might be available or fair. I don\u2019t have the will terms or an appraisal, and I don\u2019t have a particular deadline."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Changes: yes to getting the will and an independent appraisal. I do not agree to a discounted sale or to A\u2019s husband becoming co-owner. I need the facts before deciding anything, and there\u2019s no rush."
+      },
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Yes to getting the will terms and an independent appraisal first. I\u2019m not agreeing to a price or sale route yet. I want my husband as co-owner, and I don\u2019t have a check-in date to suggest."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "The steps seem reasonable as a starting point. I can\u2019t name a studio amount or deadline until we know what funds may be available, and I\u2019m not sure whether A\u2019s husband being a co-owner raises a concern for me."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I don\u2019t know who has the will or who the executor is. Yes to getting the will terms and an independent appraisal first. I need those facts before deciding; I still don\u2019t agree to a discount or A\u2019s husband as co-owner. No rush."
+      },
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I don\u2019t know who has the will or who the executor is. I agree we should request the will terms and get an independent appraisal first, but I can\u2019t name a requester or date yet. I still want my husband as co-owner and am not considering buying without him. I think a family discount could be fair, but no price is set. I don\u2019t have a check-in date; being twins or younger doesn\u2019t establish what the will says."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "I don\u2019t know who has the will or who the executor is, but I\u2019m willing to ask for the will terms. I could help request an independent appraisal, though I don\u2019t have a date to propose yet. The plan seems fine as a starting point; I can\u2019t name a studio amount or deadline before we know what funds may be available."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

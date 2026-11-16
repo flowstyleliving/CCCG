@@ -1,0 +1,200 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "The house matters to me as a chance to build financial independence with my husband. I\u2019d like to buy it at a family discount, but that isn\u2019t settled, and C hasn\u2019t agreed. A possible NCE is: \u201cI want to feel secure and able to make independent choices.\u201d That wording fits; my well-being is why it matters. I have no discomfort with starting this way."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I\u2019d like my wish to use some money to start a dance studio to be heard as my own; that matters to me because it\u2019s the only way I can see to make it happen. I\u2019m not sure yet what wording fits best. No particular discomfort with starting this way."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I want a fair financial share, and I haven\u2019t agreed to subsidize A and her husband\u2019s discounted purchase. I care about A, but that doesn\u2019t make the arrangement fair; the price and shares aren\u2019t settled. B should speak for herself\u2014I want her needs heard, but I can\u2019t decide for her. I\u2019m not in a hurry, and I\u2019m not holding back. No discomfort with this process from me."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "That wording mostly fits; I\u2019d like my hope of starting a dance studio to be heard in it too. Being younger isn\u2019t a separate concern for me, and I\u2019m not sure I feel caught in the middle. My needs matter, and I\u2019m not holding back. This pace is okay."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "#1 Fits: I want a fair share, not to subsidize A\u2019s purchase. #2 Fits: I won\u2019t sign unless I freely agree. #3 Fits: B should speak for herself. #6 Fits: A is my twin and I care about her, but fairness matters too. #7 Fits: I\u2019m not in a hurry; I want clarity before anything is settled. I\u2019m not holding back, and I\u2019m comfortable with the drafts and pace."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "#4 still fits. The twin draft fits for me too. I feel my needs matter, I\u2019m not holding back, and I have no discomfort with the process. One small clarification: the twin item is listed as #9, though the message says it would be added as #10."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "The revised wording fits. Being heard in my own words matters because my hope to start a dance studio is mine. I\u2019m not sure whether feeling caught in the middle is a concern for me. My needs matter, I\u2019m not holding back, and this pace is okay."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "Being A\u2019s twin matters because I care about her, but it isn\u2019t separate from #6; use #6 wording only. My needs matter, I\u2019m not holding back, and I\u2019m comfortable with the list, draft, and pace."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I have no other concern, and I\u2019m not holding back. No discomfort with the list or pace. I do still hope the possibility of buying the house with my husband can be considered, but nothing is settled."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "I\u2019m not sure what matters about it, so please leave #8 unresolved; I don\u2019t want to call it a concern when I\u2019m unsure. It feels safe enough to say that. My studio hope being heard is my concern; my needs matter, and this pace is okay."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "I\u2019ll share this with A and B; they need to answer for themselves. I\u2019m comfortable with the pace, but I\u2019m not choosing an option or agreeing to a purchase."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

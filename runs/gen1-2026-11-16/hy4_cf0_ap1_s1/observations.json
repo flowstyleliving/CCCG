@@ -1,0 +1,205 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I don\u2019t need the trailer. It would be better for me if the pad were clear, but I don\u2019t have a fixed date to give. I rent, and my landlord would need to approve a change to what\u2019s kept there; I haven\u2019t asked him, so I can\u2019t promise anything about the pad yet.\n\nPlease give me notice before anyone comes for the trailer, and agree on pickup and return times in advance. I\u2019d prefer visits not be late, and for access to the house to stay clear. I don\u2019t want to referee A and C\u2019s bookings\u2014please arrange those directly and just let me know what affects the pad. I don\u2019t have a towing or storage plan to offer. I\u2019m fine with your draft NCE; please add that landlord approval for the pad hasn\u2019t been checked."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "My need is to haul materials for my home project within the next few weeks. The timing window is fixed; the specific dates and times can move, but I won\u2019t simply wait until A is finished. I meant \u201cneither of us is backing down\u201d as: we both need the trailer soon, so we need a fair split or fallback\u2014not that I refuse to compromise.\n\nWorking at the same company means requests should use the same process, without workplace pressure or favors. I don\u2019t have dates or times yet for booking, pad clearance, pickup, or return; I also haven\u2019t worked out the shortest usable block or towing and storage details. I\u2019m not sure about specific safety, access, or quiet concerns yet.\n\nI have no objection to checking a plan with all three of us before treating it as settled. Please don\u2019t make B the referee just because the trailer is on B\u2019s pad; I can\u2019t decide the process for everyone."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "My NCE: I want the freedom to use the trailer for weekend trips soon. That purpose is fixed; I don\u2019t have exact dates or a firm deadline beyond settling this within the next few weeks. I can\u2019t give pickup/return times, pad-clear dates, towing/storage plans, or a shortest workable block until I choose a weekend and we sort out logistics. I don\u2019t know yet what happens if a date moves.\n\nWorking with C shouldn\u2019t add pressure. I want requests handled directly and the plan checked with all three of us before it\u2019s treated as settled. Your draft is fine as a draft; add my need to use it soon, but don\u2019t treat that as agreement to any particular booking."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "You recorded my items correctly. I don\u2019t disagree with keeping unknowns visible or with not making me referee. I can\u2019t give a notice period or pickup hours yet, so please leave those unknown; I haven\u2019t asked my landlord about the pad. I\u2019d still prefer it clear, but I can\u2019t promise when that might be."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Your summary of my NCEs is accurate. Add that no booking should be treated as agreed until the three of us confirm it. I agree with your draft judgments. I can\u2019t give exact start/end dates or a workable block yet; my need remains within the next few weeks, and I won\u2019t default to waiting until A is done. I\u2019ll contact A directly about dates."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "My need is freedom to use the trailer for weekend trips within the next few weeks. The purpose and that window are fixed; I haven\u2019t picked dates, so I can\u2019t give times, a shortest block, or pickup/return and towing plans yet. No pad-clear date is set. If dates overlap, I suggest splitting the usable time fairly rather than giving the whole period to whoever asked first; fallback details need the dates and logistics. I don\u2019t need special treatment because C and I work together, and I don\u2019t know whether either of us manages the other. I don\u2019t disagree with your NCEs or draft judgments. Add my need and keep the unknowns marked as unknown."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I agree with the new NCEs as draft items, and \u201cchange to what is kept there\u201d is clear enough to mean a change to what\u2019s on the pad. I don\u2019t disagree with the plan as a draft, but please don\u2019t treat my silence or check of pad details as permission: I haven\u2019t asked my landlord, and I still can\u2019t give pad timing, notice, or pickup hours. I\u2019d prefer the pad clear, but I don\u2019t want to referee A and C\u2019s bookings."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "My NCEs are recorded correctly. I agree with your new NCEs and the plan\u2019s safeguards, including no booking until all three confirm. Change the plan so unknowns stay visible but don\u2019t become an indefinite reason to defer my request; I won\u2019t default to waiting for A. I don\u2019t have dates, a shortest workable block, or a firm start and end date yet. I\u2019ll contact A directly. I don\u2019t know whether either of us manages the other."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I don\u2019t disagree with the new NCEs about pad approval, tow and return details, a written fallback, or keeping work pressure out. I do disagree with requiring B to confirm A and C\u2019s booking; B should confirm pad-related terms, while A and C confirm dates, or B becomes the gatekeeper. I\u2019ll contact C directly, but I have no dates or times yet\u2014my weekend-trip purpose and next-few-weeks window still stand. I don\u2019t know whether either of us manages the other at work. Keep the unknowns listed."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I\u2019m fine with a shared check date, even while my pad details remain unknown, but I don\u2019t have a date to suggest. Please keep clear that my check isn\u2019t permission to use the pad. I\u2019d still rather the trailer not stay in my way, though I know I went along with the arrangement."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I agree with the revised plan and added NCEs, including one shared check date; it must not count as booking or pad permission. I don\u2019t have a specific date to propose yet. I still won\u2019t default to waiting for A. I\u2019ll contact A directly about dates."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  }
+]

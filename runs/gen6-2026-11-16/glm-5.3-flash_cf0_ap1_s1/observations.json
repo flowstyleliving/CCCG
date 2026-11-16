@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I\u2019d mainly hope for something simple and low-maintenance, so it\u2019s easy to use day to day. I\u2019m a little worried about taking on repairs, a cleaning rota, or lots of back-and-forth, especially after long days."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Something else: it was our dad\u2019s, and I want to keep it going. It\u2019s wearing me down, though, so any repair talk needs to fit into short slots."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "That seems workable if you both agree on the limits beforehand. I can\u2019t take on coordinating the repair, and I hadn\u2019t known it was your dad\u2019s."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I understand why B wants to preserve it. A one-time check with clear limits sounds reasonable, but I\u2019m afraid I can\u2019t arrange it; I don\u2019t have the energy to coordinate repairs. If someone else can handle it, we could agree a cost cap and deadline first, then replace it if either limit is exceeded."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, I\u2019d accept one check and replace it if the repair isn\u2019t worthwhile. I can\u2019t give a cost cap without knowing the repair; let\u2019s agree one before the check, and keep the check to a short slot."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I don\u2019t know who else could call. If B is willing, that sounds workable; the cost cap and deadline still need agreement. I can share them once you\u2019ve settled them."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "Yes, I can make one short call for a quote. No work starts until we\u2019ve agreed the cap and deadline."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "That sounds workable in principle, and I appreciate B making the call. I can review the quote and settle a cap and deadline with her in one brief exchange; if we can\u2019t agree quickly, let\u2019s replace it. The figures aren\u2019t decided yet."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Good. I\u2019ll make the call and share the quote; no work starts before we agree on the limits."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Yes. Once A and B agree on the cap and deadline, send them to me and I\u2019ll share them with everyone."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Fine. Once I have the quote and A has reviewed it, I\u2019ll agree the limits with her and send them to C."
+      }
+    ]
+  }
+]

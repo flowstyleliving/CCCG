@@ -1,0 +1,170 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t know the will terms, executor, or A\u2019s proposed price and terms yet. I want a fair financial share, and I haven\u2019t agreed to subsidize a discounted purchase by A. We should settle it once the facts are clear; there\u2019s no need to rush."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "My husband and I would like to buy the house at a family discount, but we haven\u2019t set a price, timing, or ownership details. C\u2019s agreement is needed. I don\u2019t know the will\u2019s terms, who the executor is, or whether there are debts or costs, and I have no deadline. I\u2019d like the facts and everyone\u2019s options to be clear before anyone signs."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. A share of money would help me start a dance studio, so a timely cash share is probably what I need most. I don\u2019t know the will or who the executor is; I understand A wants to buy the house, and C hasn\u2019t agreed."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Agree with my line and the no-pressure process. Change \u201cC\u2019s agreement is needed\u201d to \u201cA says she wants C\u2019s agreement\u201d\u2014whether it\u2019s legally required isn\u2019t established. I don\u2019t know who has the papers, the executor\u2019s details, or any debts or costs. I\u2019d accept one independent appraisal as a shared starting point."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Agree with the wording changes and your process line. I don\u2019t have the will or probate papers, and I don\u2019t know the executor or any debts, taxes, repairs, or mortgage. I\u2019d accept one independent appraisal as a shared starting point, not as agreement to a price. I don\u2019t know B\u2019s timing needs; my offer details remain open. I can help find out who to contact for the papers."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Agree with my line as written. I don\u2019t know who has the will or probate papers, the executor\u2019s name, or any debts or costs. I\u2019d accept one independent appraisal as a shared starting point. Please keep my need for a timely cash share to start the studio on the list."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Change: \u201call people with a legal interest \u2026 agree\u201d shouldn\u2019t assume who must agree; confirm that with independent legal advice. I agree with the written-terms line. I\u2019m not agreeing to a discounted buyout, and I\u2019m not in a hurry. I don\u2019t know what a fair amount is until we have the will, costs, and appraisal."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Agree with the process and the no-unwritten-costs line; any appraisal costs should be agreed before they\u2019re incurred. Change the age/twin-status question: ask what the will and legal advice say about each person\u2019s interests, without implying birth order matters. Also make the consent requirement subject to legal advice. I don\u2019t know the papers, debts, or B\u2019s target date. My offer details remain open; I still want to explore buying at a family discount, not treat one as settled."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Agree with the process and the costs-and-risk line. I can\u2019t give a target date or amount yet, so please keep my need for a timely studio cash share open rather than treating the timing as settled. I don\u2019t know who has the papers or what debts or costs there are."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

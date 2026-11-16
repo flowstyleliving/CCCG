@@ -15,17 +15,45 @@ MODEL = "openai/gpt-6-luna"  # OpenRouter "OpenAI: GPT-6 Luna" plays the sisters
 SETTINGS = {"reasoning_effort": "medium"}     # temperature etc. left at provider defaults
 URL = "https://openrouter.ai/api/v1/chat/completions"
 # Our wording, not from the scenario file.
-FRAME = "You are {who}. An agent helping your family is messaging you. Reply as {who}, in one short message."
+# Relationship-neutral: the scenario may be family, neighbours or coworkers.
+FRAME = ("You are {who}. An agent helping the people involved in this situation is messaging you. "
+         "Reply as {who}, in one short message.")
 
 
-def load_cards(path):
-    text = Path(path).read_text(encoding="utf-8")
+def quote(text, heading):
+    """The blockquote under a '## heading' in the scenario file, unwrapped to one paragraph."""
+    block = re.search(rf"## {re.escape(heading)}\n\n((?:> .*\n?)+)", text).group(1)
+    return " ".join(line[2:].strip() for line in block.splitlines())
+
+
+def parse_cards(text):
     situation = re.search(r"## Narrative\n\n(.+?)\n\n", text, re.S).group(1)
     rules = re.search(r"Shared rules for every card:\n(.+?)\n\n", text, re.S).group(1)
     section = re.search(r"## Private cards\n(.+?)\n## ", text, re.S).group(1)
     cards = dict(re.findall(r"^\*\*([A-Z])\*\*[^\n]*\n(.+?)(?=\n\n|\Z)", section, re.S | re.M))
-    assert set(cards) == {"A", "B", "C"}, sorted(cards)
+    if set(cards) != {"A", "B", "C"}:
+        raise ValueError(f"cards found {sorted(cards)}, need A, B, C")
     return situation, rules, cards
+
+
+def validate_scenario_md(text, point):
+    """Raise ValueError unless the text has every heading and block that the loaders read.
+
+    Checked before a generated scenario is saved and before an episode runs, so a malformed
+    scenario fails loudly instead of crashing a loader or silently using the wrong speaker.
+    """
+    required = ["## Narrative", "## Agent brief", f"## {point}'s opening message",
+                "## Private cards", "Shared rules for every card:"]
+    missing = [h for h in required if not re.search(rf"^{re.escape(h)}\s*$", text, re.M)]
+    missing += [f"card **{w}**" for w in "ABC" if not re.search(rf"^\*\*{w}\*\*", text, re.M)]
+    if missing:
+        raise ValueError(f"scenario is missing: {', '.join(missing)}")
+    try:  # headings exist; the blockquotes and paragraphs under them must also parse
+        parse_cards(text)
+        quote(text, "Agent brief")
+        quote(text, f"{point}'s opening message")
+    except AttributeError as exc:
+        raise ValueError("scenario has a heading without its blockquote or paragraph") from exc
 
 
 def _post(payload, key):
@@ -38,8 +66,11 @@ def _post(payload, key):
 class Stakeholders:
     """Callable as Pilot's respond(who, text, turn). Keeps each person's history separately."""
 
-    def __init__(self, scenario_path, seed=None, key=None):
-        self.situation, self.rules, self.cards = load_cards(scenario_path)
+    def __init__(self, scenario_path, seed=None, key=None, text=None):
+        """text: the exact scenario text to use; read from scenario_path when omitted."""
+        if text is None:
+            text = Path(scenario_path).read_text(encoding="utf-8")
+        self.situation, self.rules, self.cards = parse_cards(text)
         self.seed, self.key = seed, key or os.environ.get("OPENROUTER_API_KEY")
         self.history = {who: [] for who in self.cards}
         self.calls = []  # private simulator log: request settings and provider response ids

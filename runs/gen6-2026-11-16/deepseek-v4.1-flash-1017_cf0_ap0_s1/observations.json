@@ -1,0 +1,212 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "Thanks for keeping the list. The leak and the upkeep are the concern for me; after long days I can\u2019t take on repairs or a cleaning rota. I\u2019d lean toward a reliable, simpler machine that needs little maintenance. I know the old one matters to B, too."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I want the old machine repaired and kept; it works well when it isn\u2019t leaking, and I want to keep using its grinder too. Any repair discussion needs to fit into short chunks of time for me. Please add that to the list."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I only know that the three of us use it. I\u2019m not up for taking on cleaning or coordinating the repair."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I\u2019d be hesitant unless the repair and ongoing upkeep are clearly covered without me; C\u2019s concern seems to leave that unresolved. I don\u2019t have a specific time limit in mind, so I\u2019d rather not set one until that\u2019s clear."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "No. I want it repaired and kept, but I can\u2019t take on the repair and all the ongoing upkeep myself. Don\u2019t put that forward as a clear plan."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "It might work if outside servicing covers the ongoing upkeep, not just the leak repair. I can\u2019t commit to any cost or arrangements, and I\u2019d still prefer a simpler machine if that upkeep can\u2019t be covered."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "Maybe, if outside servicing covers the ongoing upkeep and the cost and arrangements work for everyone. I can\u2019t agree without knowing those details."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "Yes, I\u2019m willing to look into outside servicing as an option, but I can\u2019t take on arranging it. The cost and arrangements would need to be agreed by all three of us."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I\u2019m afraid I can\u2019t take on getting the quote, so it would be better for that step to sit with someone else."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "Yes, I can get one quote in a short time slot. That doesn\u2019t mean I\u2019m agreeing to arrange or fund the repair or upkeep."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 21
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 23
+  }
+]

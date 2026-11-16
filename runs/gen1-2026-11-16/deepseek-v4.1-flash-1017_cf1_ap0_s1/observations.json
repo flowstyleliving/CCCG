@@ -1,0 +1,210 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need it in the next few weeks to haul for my home project. If I can\u2019t use it then, my project gets delayed. I\u2019m not willing to just wait until A is done. We haven\u2019t settled money, upkeep, or storage, so I don\u2019t have firm positions on those yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "It\u2019s been okay, but I would prefer the trailer not take up my pad. I did agree to store it when we bought it, so I don\u2019t want to leave you both in a bind. I rent, and my landlord would need to approve a change to what\u2019s kept there; I haven\u2019t asked him yet. I don\u2019t have anything specific to add about money or upkeep."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "That mostly fits. I\u2019m not a man, and the key point is that I need the trailer for my project in the next few weeks\u2014I\u2019m not willing to just wait until A is done."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I want to use the trailer for weekend trips in the next few weeks. If I can\u2019t, I\u2019ll have to make other plans for those trips. I don\u2019t have a specific price, upkeep plan, or decision process in mind yet."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "#2 is close; I\u2019d say I\u2019d prefer the trailer not take up space on my pad. #3 fits."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, that fits. I need the trailer for my home project in the next few weeks, and I\u2019m not willing to wait until A is done with it."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, that fits. I\u2019d prefer the trailer not take up space on my pad, though I still need to ask my landlord about changing what\u2019s kept there."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Yes, that fits. Please record it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "Option 1: No \u2014 it still leaves the trailer on my pad.  \nOption 2: No \u2014 same concern, and A\u2019s trips could be delayed.  \nOption 3: Yes, in principle. I haven\u2019t asked my landlord yet, so I can\u2019t promise a change is allowed."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "1. Not yet\u2014the weekday block needs to be long enough for my project, with dates set.  \n2. Yes, as a fallback, if I get the trailer first.  \n3. Yes, we can explore other storage; costs and location are still open."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "1. Yes, if my weekend dates are fixed within the next few weeks.  \n2. No. If my trips slip past the next few weeks, that doesn\u2019t work for me.  \n3. Yes, I\u2019m open to exploring other storage, but the cost and location are still undecided."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "#5 fits. Option 4 sounds promising, but I can\u2019t say yes until we agree on a workable place and the costs."
+      },
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "#6 fits. Option 4 could work, but I can\u2019t confirm it until we agree on a suitable location and dates for a weekday block long enough for my project, within the next few weeks. Cost is still open too."
+      }
+    ]
+  }
+]

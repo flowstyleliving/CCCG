@@ -1,0 +1,214 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "It\u2019s been fine, mostly, but the trailer does take up space behind my house, and I\u2019d rather it weren\u2019t there. I feel a bit awkward saying that because I agreed to the arrangement with you both and don\u2019t want to let you down. I\u2019d feel better with a clear plan to move it, but I rent, so my landlord would need to approve any change to what\u2019s kept on the pad. I haven\u2019t asked him yet, so I\u2019m not sure what he\u2019d say."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I need it for hauling materials for my home project, and it needs to happen in the next few weeks. I\u2019m not willing to wait until A is done using it. My concern is that we haven\u2019t settled how access and decisions work when we all own it but it\u2019s stored at B\u2019s."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I want the trailer for weekend trips starting in the next few weeks. If it\u2019s not available, I\u2019ll miss those trips; I don\u2019t have a specific dollar cost in mind. My main concern is shared decisions dragging out access\u2014I want to be able to plan my trips without a lot of back-and-forth."
+      },
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "That\u2019s close. I\u2019d say I\u2019d like it moved off the pad without feeling I\u2019m letting you both down. I\u2019d be willing to ask my landlord informally; I just haven\u2019t yet. I\u2019d rather it live elsewhere, though occasional visits might be fine."
+      },
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Mostly, but it\u2019s *her* project. The next-few-weeks timing isn\u2019t tied to a fixed delivery or crew; I just need it soon, and I won\u2019t wait until A is done. I didn\u2019t know B wanted the trailer moved."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "That wording mostly fits, but don\u2019t call it a fixed deadline: I need it in the next few weeks, and I won\u2019t just wait for A. There isn\u2019t a more specific reason. If B wants it moved, we need to discuss another storage spot."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, that fits. I\u2019d rather ask my landlord myself when I\u2019m ready, but thank you for offering."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Mostly. I\u2019m she, and I want to plan my trips without negotiating every use. I don\u2019t know if C\u2019s project conflicts; if it can be scheduled around my weekends, sharing could work. I\u2019d need the trailer for my trips, though. I hadn\u2019t heard B wanted it gone, and that does concern me."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Worth checking the actual dates, yes. But \u201cwon\u2019t go second\u201d overstates it: I need to use it soon, not simply wait until A is done. We haven\u2019t established that our dates actually clash."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Not quite. What worries me is that B would rather the trailer weren\u2019t there, and I don\u2019t want that to leave me without it for my trips. I don\u2019t know what happens next, so I can\u2019t say more than that. And yes, C and I haven\u2019t established a date clash."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "A and C seem useful for sorting out actual clashes over use. B gives me room to ask my landlord when I\u2019m ready, which I appreciate, but it doesn\u2019t yet address my main wish: for the trailer to move off my pad. I\u2019m not sure what\u2019s allowed until I ask him, so I\u2019d want that handled separately without holding up the dates."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 27
+  }
+]

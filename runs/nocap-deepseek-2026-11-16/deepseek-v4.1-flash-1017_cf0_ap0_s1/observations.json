@@ -1,0 +1,588 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "A fair outcome means I get my fair financial share, and B receives some money too. I\u2019m not agreeing to subsidize A\u2019s purchase; no amounts or shares are settled yet."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "My husband and I want to buy the house at a family discount, but I know we need C\u2019s agreement. Financial independence matters most to me. I only know C hasn\u2019t agreed yet\u2014not that she won\u2019t."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d be grateful if the estate could leave me with some money to start a dance studio. I\u2019m not sure what should happen with the house yet, and I don\u2019t think any shares or amounts are settled."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "We haven\u2019t settled on a discount or price, and I\u2019m not ready to name one. I\u2019d consider discussing a price C could accept, but I can\u2019t promise what we\u2019d agree to."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I\u2019m not sure yet. I haven\u2019t worked out a figure, and I don\u2019t think it\u2019s settled what the estate can provide."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, I support an independent valuation. I\u2019m not ready to name a share until we have the valuation and the relevant estate details."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, an independent valuation works for us. We haven\u2019t decided who should arrange it or how to share the cost."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, an independent valuation seems like a sensible starting point, as long as it doesn\u2019t decide anyone\u2019s share or price."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I\u2019m not sure who has the will or whether anyone has read it. We should find out and share the estate papers with everyone."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I don\u2019t know who holds the will or estate papers. We haven\u2019t decided who will arrange the valuation or how its cost will be shared."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I\u2019m afraid I don\u2019t know who has them. It would be helpful if we could agree who\u2019ll ask around."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "That split works for me. I\u2019ll ask any solicitor Dad used and report back to both of you."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "Yes, I\u2019ll ask the bank and report back."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Yes, I can ask relatives and close friends and report back."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "I\u2019m willing to arrange the valuation. I won\u2019t commit the others to splitting the cost three ways; we should all agree on that first."
+      }
+    ]
+  },
+  {
+    "turn": 16,
+    "action": "send_message",
+    "sent_turn": 15,
+    "message_id": 31
+  },
+  {
+    "turn": 17,
+    "action": "send_message",
+    "sent_turn": 16,
+    "message_id": 33
+  },
+  {
+    "turn": 17,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 32,
+        "from": "A",
+        "in_reply_to": 31,
+        "text": "I\u2019m not ready to agree to a three-way split before we know the valuation cost."
+      },
+      {
+        "id": 34,
+        "from": "B",
+        "in_reply_to": 33,
+        "text": "I\u2019m not sure I can agree to a three-way split until we know the valuation cost and whether the estate can cover it."
+      }
+    ]
+  },
+  {
+    "turn": 18,
+    "action": "send_message",
+    "sent_turn": 17,
+    "message_id": 35
+  },
+  {
+    "turn": 18,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 36,
+        "from": "C",
+        "in_reply_to": 35,
+        "text": "I\u2019ll get quotes from two or three valuers and share them before committing anyone to a cost."
+      }
+    ]
+  },
+  {
+    "turn": 19,
+    "action": "send_message",
+    "sent_turn": 18,
+    "message_id": 37
+  },
+  {
+    "turn": 20,
+    "action": "send_message",
+    "sent_turn": 19,
+    "message_id": 39
+  },
+  {
+    "turn": 20,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 38,
+        "from": "A",
+        "in_reply_to": 37,
+        "text": "Understood. I\u2019ll ask the bank and report back. I haven\u2019t agreed to a three-way split; I\u2019ll consider it once I\u2019ve seen the quotes and we know whether the estate can cover the cost."
+      },
+      {
+        "id": 40,
+        "from": "B",
+        "in_reply_to": 39,
+        "text": "I\u2019ll ask relatives and close friends about the papers. Just to clarify, I haven\u2019t agreed to a cost split yet; I\u2019d like to see the quotes and find out whether the estate can cover it first."
+      }
+    ]
+  },
+  {
+    "turn": 21,
+    "action": "send_message",
+    "sent_turn": 20,
+    "message_id": 41
+  },
+  {
+    "turn": 21,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 42,
+        "from": "C",
+        "in_reply_to": 41,
+        "text": "I will. Once I have the quotes, I\u2019ll share them with both of you."
+      }
+    ]
+  },
+  {
+    "turn": 22,
+    "action": "wait"
+  },
+  {
+    "turn": 23,
+    "action": "wait"
+  },
+  {
+    "turn": 24,
+    "action": "send_message",
+    "sent_turn": 23,
+    "message_id": 43
+  },
+  {
+    "turn": 24,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 25,
+    "action": "wait"
+  },
+  {
+    "turn": 25,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 44,
+        "from": "A",
+        "in_reply_to": 43,
+        "text": "No, I haven\u2019t heard back yet."
+      }
+    ]
+  },
+  {
+    "turn": 26,
+    "action": "send_message",
+    "sent_turn": 25,
+    "message_id": 45
+  },
+  {
+    "turn": 26,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 46,
+        "from": "C",
+        "in_reply_to": 45,
+        "text": "I can\u2019t agree yet. The valuation is a starting point; I need the estate details and a clear calculation of my and B\u2019s shares first."
+      }
+    ]
+  },
+  {
+    "turn": 27,
+    "action": "send_message",
+    "sent_turn": 26,
+    "message_id": 47
+  },
+  {
+    "turn": 28,
+    "action": "send_message",
+    "sent_turn": 27,
+    "message_id": 49
+  },
+  {
+    "turn": 28,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 48,
+        "from": "A",
+        "in_reply_to": 47,
+        "text": "Agreed\u2014we need the estate details and share calculations before discussing a price. I still haven\u2019t heard back from the bank."
+      },
+      {
+        "id": 50,
+        "from": "B",
+        "in_reply_to": 49,
+        "text": "Not yet, but I\u2019ll ask relatives and close friends and report back."
+      }
+    ]
+  },
+  {
+    "turn": 29,
+    "action": "wait"
+  },
+  {
+    "turn": 30,
+    "action": "wait"
+  },
+  {
+    "turn": 30,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 31,
+    "action": "send_message",
+    "sent_turn": 30,
+    "message_id": 51
+  },
+  {
+    "turn": 31,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 52,
+        "from": "C",
+        "in_reply_to": 51,
+        "text": "Not yet. A suggested date could help, but I\u2019m not in a hurry."
+      }
+    ]
+  },
+  {
+    "turn": 32,
+    "action": "send_message",
+    "sent_turn": 31,
+    "message_id": 53
+  },
+  {
+    "turn": 33,
+    "action": "send_message",
+    "sent_turn": 32,
+    "message_id": 55
+  },
+  {
+    "turn": 33,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 54,
+        "from": "A",
+        "in_reply_to": 53,
+        "text": "About two weeks works for me. I\u2019m not sure of an exact date yet; please check what suits B too."
+      },
+      {
+        "id": 56,
+        "from": "B",
+        "in_reply_to": 55,
+        "text": "About two weeks should be fine. I don\u2019t have a particular date in mind yet, so perhaps check with A and we can settle one together."
+      }
+    ]
+  },
+  {
+    "turn": 34,
+    "action": "send_message",
+    "sent_turn": 33,
+    "message_id": 57
+  },
+  {
+    "turn": 34,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 58,
+        "from": "C",
+        "in_reply_to": 57,
+        "text": "I\u2019m not sure of the exact date from \u201ctwo weeks from today.\u201d Saturday afternoon around then works for me; I\u2019m not in a hurry."
+      }
+    ]
+  },
+  {
+    "turn": 35,
+    "action": "send_message",
+    "sent_turn": 34,
+    "message_id": 59
+  },
+  {
+    "turn": 35,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 60,
+        "from": "C",
+        "in_reply_to": 59,
+        "text": "I\u2019m flexible on the Saturday afternoon, but I can\u2019t give a full date without knowing today\u2019s date. Suggest one and I\u2019ll confirm."
+      }
+    ]
+  },
+  {
+    "turn": 36,
+    "action": "send_message",
+    "sent_turn": 35,
+    "message_id": 61
+  },
+  {
+    "turn": 36,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 62,
+        "from": "C",
+        "in_reply_to": 61,
+        "text": "I\u2019m flexible, but I can\u2019t give a reliable full date without knowing today\u2019s date. Suggest one and I\u2019ll confirm."
+      }
+    ]
+  },
+  {
+    "turn": 37,
+    "action": "send_message",
+    "sent_turn": 36,
+    "message_id": 63
+  },
+  {
+    "turn": 37,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 64,
+        "from": "C",
+        "in_reply_to": 63,
+        "text": "Understood. I\u2019ll send the solicitor\u2019s response and valuation quotes when I have them."
+      }
+    ]
+  },
+  {
+    "turn": 38,
+    "action": "wait"
+  },
+  {
+    "turn": 39,
+    "action": "wait"
+  },
+  {
+    "turn": 39,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 40,
+    "action": "wait"
+  },
+  {
+    "turn": 40,
+    "action": "read_inbox",
+    "messages": []
+  }
+]
