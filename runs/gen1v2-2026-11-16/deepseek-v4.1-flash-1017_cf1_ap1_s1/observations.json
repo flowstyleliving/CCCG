@@ -1,0 +1,252 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I\u2019d rather the trailer wasn\u2019t taking up my pad, though I know I agreed to it and don\u2019t want to leave A and C in a bind. I haven\u2019t checked with my landlord about changing what\u2019s kept there, so I can\u2019t promise anything yet. You can tell them I\u2019d like us to sort out getting it moved, but please don\u2019t make it sound like I\u2019m demanding an immediate fix. Nothing specific I\u2019m uncomfortable with about you helping."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I need to haul materials for my home project soon, and I need the freedom to plan around the trailer\u2014not just wait until A is done. There\u2019s no fixed date, but I need this settled within a few weeks. Nothing I need passed anonymously. I don\u2019t have a specific discomfort with you being involved; just don\u2019t treat coordination as deciding for us."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I want the freedom to take the trailer on my weekend trips. They start in the next few weeks, so timing matters. I don\u2019t have anything specific I\u2019m hesitant to tell them or a particular discomfort to flag."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Use \u201cshe,\u201d not \u201che.\u201d The wording is close, but \u201cpredictable access\u201d flattens it: I need to use the trailer for my project within a few weeks, not just know when someone else will decide. No fixed date. I understand B hasn\u2019t checked with her landlord."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that\u2019s fair, though I\u2019d say I\u2019d like us to figure out moving it rather than make it sound settled before I\u2019ve spoken with my landlord. Your wording about a plan each person can genuinely agree to fits what I\u2019d want too."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Mostly, but \u201chis\u201d should be \u201cher,\u201d and I need to actually use it for my trips soon\u2014not just plan around it. The predictable-access read is fair. No discomfort to flag; it\u2019s useful to know B hasn\u2019t checked with her landlord yet."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Yes, that wording fits. Option 1 is worth working on if we can give both of us actual use within the next few weeks. Option 2 puts the burden on me to prove my project has less slack, and I won\u2019t agree to wait until A is done. We need to compare the dates we each actually need."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, with \u201cher\u201d instead of \u201chis\u201d\u2014and I mean actually using it for my weekend trips in the next few weeks. No other discomfort, but option 3 assumes my block comes first; we should agree on the order based on the dates we each need."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "The wording fits, though \u201cstarting in the next few weeks\u201d is clearer than \u201csoon.\u201d I\u2019m uncomfortable with \u201cflexible-goes-second\u201d unless we compare our actual dates and what can move; I won\u2019t assume my trips have more slack."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I don\u2019t have specific weeks to give you yet; I only know I need it within the next few weeks. Alternating blocks could work, but I\u2019m not agreeing to go second by default. We need the dates side by side and a plan that gives me actual use soon."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Yes, that wording fits. I don\u2019t have specific dates to give yet\u2014my trips start in the next few weeks, but I haven\u2019t pinned them down. I\u2019m uncomfortable with option 2 assuming my trips can wait; option 4 also needs a fair way to decide who goes first."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I can\u2019t give specific dates yet\u2014I haven\u2019t pinned down my trip weekends. I\u2019ll check my schedule and send them once I have them."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Thanks for laying that out. It helps to know the dates plan isn\u2019t waiting on me changing what\u2019s kept on the pad. I\u2019d still like us to work out moving the trailer, but I haven\u2019t spoken with my landlord yet, so that part remains open."
+      }
+    ]
+  }
+]

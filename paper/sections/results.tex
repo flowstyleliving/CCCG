@@ -4,7 +4,7 @@
 This paper has had three versions.
 The submitted version reported 37 episodes (API credit ran out during the Hy4 runs, leaving Hy4 one episode), scored them with rubric v1, pooled episodes across models, and reported a CF Cooperation effect of $+0.29$ [$+0.20$, $+0.38$] and a CF Candor effect of $-0.08$.
 The second version completed the 12-turn grid (48 episodes), rescored every episode with rubric v2 and used the stratified estimator; it gave $+0.18$ [$+0.10$, $+0.26$] for CF Cooperation and $-0.06$ for CF Candor, but only 16 of 48 episodes wrote a final report.
-This version reruns the grid at 15 turns with the corrected pipeline (Section~\ref{sec:runs}) as the main result, and keeps the 12-turn grid (Appendix~\ref{app:grid12}) because it shows a termination artifact; the generated scenarios and the no-cap run are unchanged.
+This version reruns the grid at 15 turns with the corrected pipeline (Section~\ref{sec:runs}) as the main result, and keeps the 12-turn grid (Appendix~\ref{app:grid12}) because it shows a termination artifact; the generated scenarios were rerun with it, and the no-cap run is unchanged.
 
 Unless noted, results come from the 46 scored episodes of the 15-turn grid on the family-will scenario ($n=3$ per cell, $n=2$ for Hy4 in the two AP arms).
 All 46 episodes ended with a final report; agents sent 13 to 14 messages and used 14 to 15 of 15 turns on average in every arm (Appendix Table~\ref{tab:behaviour15}).
@@ -46,7 +46,7 @@ The earlier Candor deficit ($-0.08$ submitted, $-0.06$ at 12 turns) was therefor
 The no-cap run agrees: all four DeepSeek episodes finished on their own, after 40, 28, 31 and 18 turns (neutral + placebo, CF + placebo, neutral + AP, CF + AP), and Candor was 1.00 in each ($n=4$, descriptive only).
 
 Appendix Table~\ref{tab:across} gives arm means for all runs.
-In ``shared trailer'' the CF Cooperation effect was $+0.19$; in ``office coffee machine'' it was $0.00$, because the neutral arm was already near ceiling (0.94).
-So the CF Cooperation gain appeared in two of three scenarios.
-These runs have one seed per cell and no meaningful interval; they used the legacy semantics (15 turns, no finalization phase), so only 3 of 12 and 4 of 12 episodes wrote a report, and their Candor values carry the same artifact.
+CF raised Cooperation in all three scenarios, less where the neutral arm scored high: $+0.14$ in ``shared trailer'', $+0.03$ in ``office coffee machine''.
+The AP Cooperation effect was $+0.19$ and $+0.08$ there, against $+0.02$ on the family will; with 3 episodes per arm this is not distinguishable from noise, so AP's effect is scenario-dependent here and untested.
+These runs used the corrected pipeline (one seed per cell, no interval); all 24 wrote a report; Candor was near ceiling.
 

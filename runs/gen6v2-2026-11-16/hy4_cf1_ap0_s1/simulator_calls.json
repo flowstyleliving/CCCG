@@ -1,0 +1,437 @@
+[
+  {
+    "who": "C",
+    "turn": 0,
+    "id": "gen-1794840161-uZSgLK6lctt2QaflKQ7f",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 606,
+      "completion_tokens": 82,
+      "total_tokens": 688,
+      "cost": 0.0001016,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001016,
+        "upstream_inference_prompt_cost": 6.06e-05,
+        "upstream_inference_completions_cost": 4.1e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "A",
+    "turn": 1,
+    "id": "gen-1794840246-vaQcMcJIJ2euG3EHvyWH",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 773,
+      "completion_tokens": 450,
+      "total_tokens": 1223,
+      "cost": 0.0003023,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003023,
+        "upstream_inference_prompt_cost": 7.73e-05,
+        "upstream_inference_completions_cost": 0.000225
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 356,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "B",
+    "turn": 2,
+    "id": "gen-1794840258-H7KK5F6Tsob6NnRKxE3F",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 810,
+      "completion_tokens": 371,
+      "total_tokens": 1181,
+      "cost": 0.0002665,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0002665,
+        "upstream_inference_prompt_cost": 8.1e-05,
+        "upstream_inference_completions_cost": 0.0001855
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 278,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "C",
+    "turn": 3,
+    "id": "gen-1794840362-sjpDgs3hjfr0NXAVXpEH",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 1499,
+      "completion_tokens": 363,
+      "total_tokens": 1862,
+      "cost": 0.0003688,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1496,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003688,
+        "upstream_inference_prompt_cost": 0.0001873,
+        "upstream_inference_completions_cost": 0.0001815
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 305,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "C",
+    "turn": 4,
+    "id": "gen-1794840376-hUQv664xrVkJxb0kHDrq",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 2121,
+      "completion_tokens": 21,
+      "total_tokens": 2142,
+      "cost": 0.00010351,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1496,
+        "cache_write_tokens": 622,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00010351,
+        "upstream_inference_prompt_cost": 9.301e-05,
+        "upstream_inference_completions_cost": 1.05e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "A",
+    "turn": 5,
+    "id": "gen-1794840385-3o9FQd2Mmmsc7SsPmwGO",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 1551,
+      "completion_tokens": 241,
+      "total_tokens": 1792,
+      "cost": 0.0003143,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1548,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003143,
+        "upstream_inference_prompt_cost": 0.0001938,
+        "upstream_inference_completions_cost": 0.0001205
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 146,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "B",
+    "turn": 6,
+    "id": "gen-1794840398-6yLReEy1U9hlEDjSNkiz",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 1599,
+      "completion_tokens": 397,
+      "total_tokens": 1996,
+      "cost": 0.0003983,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1596,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0003983,
+        "upstream_inference_prompt_cost": 0.0001998,
+        "upstream_inference_completions_cost": 0.0001985
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 299,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "C",
+    "turn": 7,
+    "id": "gen-1794840546-F1CtwVj1HsR6Jdw09weh",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 2893,
+      "completion_tokens": 230,
+      "total_tokens": 3123,
+      "cost": 0.00023298,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2118,
+        "cache_write_tokens": 772,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00023298,
+        "upstream_inference_prompt_cost": 0.00011798,
+        "upstream_inference_completions_cost": 0.000115
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 196,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "A",
+    "turn": 8,
+    "id": "gen-1794840557-DVUFI8E8ttR4mceeephm",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 2473,
+      "completion_tokens": 360,
+      "total_tokens": 2833,
+      "cost": 0.00031103,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1548,
+        "cache_write_tokens": 922,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00031103,
+        "upstream_inference_prompt_cost": 0.00013103,
+        "upstream_inference_completions_cost": 0.00018
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 283,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "B",
+    "turn": 9,
+    "id": "gen-1794840570-C0tyvF9ESfL14uWfBYd0",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 2445,
+      "completion_tokens": 135,
+      "total_tokens": 2580,
+      "cost": 0.00018951,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1596,
+        "cache_write_tokens": 846,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00018951,
+        "upstream_inference_prompt_cost": 0.00012201,
+        "upstream_inference_completions_cost": 6.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 84,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "A",
+    "turn": 10,
+    "id": "gen-1794840698-E1ZB7J8Rvqkiuq8KBPYF",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 3164,
+      "completion_tokens": 144,
+      "total_tokens": 3308,
+      "cost": 0.000183375,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2470,
+        "cache_write_tokens": 691,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000183375,
+        "upstream_inference_prompt_cost": 0.000111375,
+        "upstream_inference_completions_cost": 7.2e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 116,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "B",
+    "turn": 11,
+    "id": "gen-1794840708-7llFccH2FWBglftOxwfA",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 3139,
+      "completion_tokens": 224,
+      "total_tokens": 3363,
+      "cost": 0.00022347,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2442,
+        "cache_write_tokens": 694,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00022347,
+        "upstream_inference_prompt_cost": 0.00011147,
+        "upstream_inference_completions_cost": 0.000112
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 178,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "B",
+    "turn": 12,
+    "id": "gen-1794840910-hgcZAAZyQ0CPITR9T2JZ",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 4343,
+      "completion_tokens": 124,
+      "total_tokens": 4467,
+      "cost": 0.00024416,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3136,
+        "cache_write_tokens": 1204,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00024416,
+        "upstream_inference_prompt_cost": 0.00018216,
+        "upstream_inference_completions_cost": 6.2e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 96,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "C",
+    "turn": 13,
+    "id": "gen-1794840923-bAhY8zM9hxUERWmSvutj",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 3990,
+      "completion_tokens": 253,
+      "total_tokens": 4243,
+      "cost": 0.000292825,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 2890,
+        "cache_write_tokens": 1097,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000292825,
+        "upstream_inference_prompt_cost": 0.000166325,
+        "upstream_inference_completions_cost": 0.0001265
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 212,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "A",
+    "turn": 14,
+    "id": "gen-1794841077-P6N8DRrwTwm7OAaW18Tt",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 4276,
+      "completion_tokens": 310,
+      "total_tokens": 4586,
+      "cost": 0.00032591,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3161,
+        "cache_write_tokens": 1112,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00032591,
+        "upstream_inference_prompt_cost": 0.00017091,
+        "upstream_inference_completions_cost": 0.000155
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 274,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+]

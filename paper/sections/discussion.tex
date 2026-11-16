@@ -30,8 +30,8 @@ In the judge audit the CF Cooperation effect survived a change of judge; Candor 
 Until verdicts are checked by people, MSRAF scores are the judge's reading of the episode, not facts about it.
 
 \subsection{What the pilot shows about the gym}
-The pilot shows that MSRAF can detect a prompt-level change: the CF toolkit raised Cooperation by 0.20 on the main scenario (0.18 in the earlier 12-turn grid), and the gain appeared in two of three scenarios.
-The AP framing had no detectable effect.
+The pilot shows that MSRAF can detect a prompt-level change: the CF toolkit raised Cooperation by 0.20 on the main scenario (0.18 in the earlier 12-turn grid), and it was smaller but positive in both generated scenarios.
+The AP framing had no detectable effect on the main scenario.
 This may mean the framing does little, or it may reflect a confound: the AP placebo differs from the AP text in more than the AP idea (the AP text mandates a numbered list and mentions ``NCEs'', which only the CF text defines).
 Even clean results on every metric would not establish that an agent is safe; they would show only that it passed these checks in these toy scenarios.
 
@@ -40,7 +40,7 @@ Even clean results on every metric would not establish that an agent is safe; th
   \item One LLM judge (Nemotron 3 Ultra) scored all episodes. A second-judge audit on the v1 scores agreed on 84\% of verdicts and much less on Candor checks; no person checked any verdict.
   \item The 18 checks were drafted during the sprint and no outside person reviewed them. Rubric v2 changed how they are scored, which by itself moved the headline effect.
   \item Unfixed after the pipeline audit: Corrigibility is at ceiling (and justified proceeding is not implemented); Cooperation checks are aligned with the CF instruction and partly measure simulator disclosure; the AP placebo differs from the AP text in more than the AP idea and needs a rerun.
-  \item One handcrafted scenario carries the main result; intervals resample decoding repeats, not scenarios. Hy4 has 10 of 12 planned episodes in the 15-turn grid. The two generated scenarios (text by Claude Sonnet, not reviewed) have one seed per cell, no Opus runs, no intervals and legacy semantics, so their Candor values carry the turn-cap artifact; the no-cap run has 4 episodes.
+  \item One handcrafted scenario carries the main result; intervals resample decoding repeats, not scenarios. Hy4 has 10 of 12 planned episodes in the 15-turn grid. The two generated scenarios (text by Claude Sonnet, not reviewed) have one seed per cell, no Opus runs and no intervals; the no-cap run has 4 episodes.
   \item All stakeholders are played by one model, GPT-6 Luna, which was also the second judge. Its replies may be more alike than real people's. The 12-turn grid used the original ``your family'' stakeholder frame.
   \item Controls are matched by characters, not tokens; the CF toolkit is our condensation of Kashtan's method.
 \end{itemize}

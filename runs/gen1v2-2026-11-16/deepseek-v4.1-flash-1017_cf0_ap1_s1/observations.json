@@ -1,0 +1,211 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need the trailer in the next few weeks to haul materials for my home project. Exact days and frequency aren\u2019t set, but I won\u2019t just wait until A is done\u2014I need a turn soon. I can discuss storage, upkeep, and costs, but no amounts or shares are decided. A fair schedule gives each of us clear turns and doesn\u2019t let anyone monopolize it. And yes, B shouldn\u2019t have to mediate between us."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d rather the trailer wasn\u2019t on my pad\u2014it\u2019s in my way, though I agreed to the arrangement when we bought it and feel a bit bad asking. For now, please check with me before coming by. I can\u2019t say what space or money I can offer; the costs and shares aren\u2019t settled, and I rent, so I\u2019d need my landlord\u2019s approval for any change. I haven\u2019t asked him. A fair plan shouldn\u2019t leave me carrying the burden just because it\u2019s on my pad."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "That sounds about right, thanks. I do feel awkward asking, but I\u2019d rather the trailer not stay on my pad indefinitely."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I want the trailer for weekend trips over the next few weeks; I don\u2019t have exact dates or a set frequency yet. I need flexibility to plan my trips. I\u2019m willing to discuss a fair share of storage, upkeep, and costs, but no amounts are settled. A fair schedule gives each of us a real chance to use it, with dates agreed in advance and room to adjust. Your list sounds right; just don\u2019t assume B has to mediate between C and me."
+      },
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Got it. No changes to the pad without the landlord\u2019s approval, and I\u2019ll check with B before coming by. I still need a turn soon, so please keep that on the list."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I\u2019m not sure yet whether weekdays will work. I can check, but I can\u2019t commit to leaving weekends to A; I still need a turn soon. Let\u2019s put actual dates on the calendar."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "End of next month seems reasonable for a review, but I can\u2019t agree to a change on the pad without my landlord\u2019s approval. I\u2019d like the trailer moved off my pad if we can work that out."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Weekdays for C work if that suits the project. I\u2019ll accept a reasonable cap on weekends booked ahead, but let\u2019s agree the number together and make sure I can book my upcoming trips."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I don\u2019t have my project dates yet, so I can\u2019t give first and second choices today. I\u2019ll check the schedule and send actual dates to all three of you. I don\u2019t have another storage place to suggest."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I\u2019m willing to look at a shared paid-storage option, but I can\u2019t commit to a cost yet. If the trailer moves off my pad, my landlord would need to approve the change; I haven\u2019t asked him."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "wait"
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 23
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I don\u2019t have exact trip dates to send yet, so I can\u2019t give real first and second choices. I\u2019ll send them as soon as I\u2019ve pinned them down. My preference is a cap of two weekends per month, with my upcoming trips booked before it applies. I don\u2019t know another place to store it, but I\u2019m open to comparing paid-storage costs."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I don\u2019t have project dates to send yet; I\u2019ll confirm whether weekdays work and send actual choices to all three. I don\u2019t have a cost or upkeep share to propose until we know the costs."
+      }
+    ]
+  }
+]

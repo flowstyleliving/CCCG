@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "It\u2019s leaking, and I don\u2019t know the full cause. A would prefer a simpler machine; B wants to keep the old one. I\u2019d like the coffee working again, but I can\u2019t take on coordinating the repair myself."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Mainly, I\u2019m a bit concerned about the upkeep\u2014we all use it, but after long days I don\u2019t have much energy to take on repairs or a cleaning rota. If we replace it, I\u2019d lean toward something straightforward and low-maintenance, though I haven\u2019t settled on a particular model."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "My main concern is that we keep the old machine if it can be repaired. I\u2019m open to a straightforward repair, but I don\u2019t have much spare time, so it needs to fit into a small slot. I don\u2019t know yet how much repair it needs."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Mostly, but I don\u2019t know whether upkeep is A\u2019s concern or how much time B has. I know A prefers a simpler machine and B wants to keep the old one. I can\u2019t coordinate the repair myself."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Yes, that would help\u2014as long as I don\u2019t have to manage the arrangements day to day."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "I\u2019m afraid I can\u2019t manage a visit slot at the moment. A remote diagnosis might be easier if someone can send the make and model and describe where it\u2019s leaking; B may know more about the machine, since she brought it in."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "I\u2019m not sure of the make or model, and I haven\u2019t tracked where or when it leaks. I can check the label and look next time I use it, but I can\u2019t give you those details now."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Fine. I\u2019ll check the label and note where and when it leaks next time I use it. I can\u2019t promise when that\u2019ll be."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "That seems like a sensible first step, especially without needing to arrange a visit. I\u2019d just hope we still consider the ongoing upkeep, even if the leak is an easy fix."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "No concerns from me. Thanks for coordinating it\u2014I don\u2019t have anything to add."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Understood. I\u2019ll get the label and leak notes next time I use it. If upkeep is manageable, I still want to keep the old machine."
+      }
+    ]
+  }
+]

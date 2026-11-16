@@ -1,0 +1,260 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Those NCEs seem reasonable to me. I\u2019d add clear access to the pad and keeping the trailer out of the way, while avoiding damage and unnecessary noise. I\u2019m not sure about storing it here longer term, and I\u2019d rather not be asked to choose between you. I haven\u2019t asked my landlord, so I can\u2019t agree to a change in the pad arrangement yet. I have no hard dates to offer in the next few weeks; daytime pickup with advance notice seems preferable, but we\u2019d need to agree on a date and return plan."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I can\u2019t give exact dates or times yet, but I need the trailer within the next few weeks to haul materials for my home project. The timing can shift somewhat; it can\u2019t just wait until A is finished. A and I work together, but that doesn\u2019t affect my use or timing.\n\nMy NCEs are getting a fair share of use, timely access, safe use, clear pickup and return times, and flexibility if plans change. B\u2019s list sounds reasonable; I can give advance notice, use daytime pickup, avoid damage and noise, keep the trailer out of the way, and return it as agreed. For an overlap, let\u2019s agree on separate use blocks soon rather than ask B to choose sides."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I don\u2019t disagree with your NCEs. Mine are freedom to use the trailer, timely access for my trips, and clear, fair arrangements for pickup, return, and care.\n\nI don\u2019t have exact dates or times to give yet. I want it for weekend trips in the next few weeks; there\u2019s no firmer deadline, and I may be able to shift which weekend. I\u2019d need it for a weekend, but haven\u2019t set pickup or return times. C being my coworker doesn\u2019t affect my use or timing.\n\nIf dates overlap, a fair fallback could be alternating weekends or choosing dates by mutual agreement. I don\u2019t know whether B\u2019s pad affects pickup or return; I\u2019d want the trailer returned safely and in good condition."
+      },
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "That list is right. I can\u2019t yet name the earliest pickup date or block length; I need to confirm when the materials and project are ready. I\u2019ll give advance notice as soon as I have that schedule. One block each before anyone gets a second fits my NCEs."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "I don\u2019t disagree with your added NCEs. One block each before a second seems fair. I\u2019m less sure about the overlap rule; I\u2019d rather the two users work it out without putting me in the middle, and I can\u2019t choose between you. Two days\u2019 notice and daytime pickup and return should work, subject to access and landlord approval. I haven\u2019t asked my landlord yet, so I can\u2019t give a report-back date. I\u2019d need it returned in good condition and parked out of the way. The landlord\u2019s rules and whether the pad is accessible are the main things that could limit dates."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I agree with one block each before anyone gets a second. I don\u2019t accept item four as written: \u201cmore date-bound\u201d shouldn\u2019t be decided until we compare the actual constraints. My project needs to happen within the next few weeks, even though I can\u2019t set dates until the materials are ready.\n\nI can\u2019t name open dates, block length, or a confirmation date yet. Two days\u2019 notice seems workable once I have the materials schedule, but I can\u2019t promise it before then. I know of no other limits on my use; pad access and landlord approval still need checking. I agree with your added NCEs."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I don\u2019t disagree with your added NCEs. One block each before anyone gets a second seems fair. I can accept the overlap rule if the next open block for the flexible user is agreed promptly, not left open-ended.\n\nI haven\u2019t chosen specific weekends yet; I\u2019m looking for a weekend in the next few weeks and can shift it. Two days\u2019 notice is enough. I can give firm pickup and return times once we choose a weekend. I don\u2019t know of any limits from the pad, landlord, trailer condition, keys, or paperwork, but I can\u2019t confirm those details."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "The revised overlap wording seems fair, especially that I\u2019m not asked to choose. I can ask my landlord and let you both know when I get an answer, though I can\u2019t promise when that will be. Before pickup, please record firm times, who\u2019s collecting it, and confirm pad access. At return, note its condition, any damage, and that it\u2019s parked out of the way; please also return the keys. A and C could check the trailer, keys, and paperwork together before any firm booking, and I can check whether the pad is accessible once we know the landlord\u2019s answer."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I accept the revised overlap wording, including agreeing the next block promptly, and the booking-record details. I can do a joint check with A before any firm booking; I can\u2019t give a date yet, and I\u2019ll update the group once I have the materials schedule.\n\nIf the materials and landlord answer don\u2019t arrive in time, I\u2019ll need to find another way to haul for my project rather than wait indefinitely for the trailer."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I accept the revised overlap wording. I don\u2019t have firm weekends yet; I can shift weekends, and I\u2019ll name firm dates once C has the materials schedule and we\u2019ve checked access. Two days\u2019 notice, daytime pickup and return, a shared booking record, and returning the trailer in good condition and out of the way all work for me. I know of no other limits, but I can\u2019t confirm the pad, landlord rules, keys, or paperwork."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I agree with your added NCEs and the final overlap wording. Yes, A and I can set the next block in that same conversation. I\u2019ll agree to a review date and decide on another hauling option if access or the landlord answer is delayed; I can\u2019t name that date yet. I can\u2019t schedule the joint check until I know when the materials schedule is available."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I accept the final overlap wording and B\u2019s booking details. C\u2019s fallback works for me. I\u2019ll do the joint trailer, keys, and paperwork check with C before the first firm booking.\n\n\u201cAgreed promptly\u201d should mean setting the next block in that same conversation; if we can\u2019t agree, pause only the disputed block and keep non-overlapping blocks. I have no specific weekends to offer yet, but I\u2019ll share candidates once C has the materials schedule and we know pad access. If the landlord answer or pad check delays my weekend, I\u2019ll look for another date rather than make a firm booking without confirmed access."
+      },
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "I don\u2019t disagree with the draft or list, except \u201cdaytime use\u201d: I agreed to daytime pickup and return, not necessarily daytime use. I can\u2019t name a calendar date for review until I know the materials schedule; I agree it must be set and not left open-ended."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "The corrected NCE list looks right to me, and I agree with most of the draft. I can\u2019t agree that I\u2019m kept out of the middle while item five asks me to compare A and C\u2019s needs; if you can\u2019t agree, please pause just the disputed block or use another neutral process. I\u2019m willing to ask my landlord and report the answer, but the trailer staying on the pad is only the current situation, not an arrangement I can promise will continue. Include insurance and registration papers in A and C\u2019s check if applicable; I can\u2019t determine the legal requirements."
+      }
+    ]
+  }
+]

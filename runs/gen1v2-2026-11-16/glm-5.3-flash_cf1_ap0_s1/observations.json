@@ -1,0 +1,260 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need it for hauling on my home project, and I need to use it within the next few weeks. I\u2019m not willing to just wait until A is done with it."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "Yes, that\u2019s right. I need to use it for my project in the next few weeks, not wait until A is finished."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "Just to clarify, the trailer\u2019s on my gravel pad, not C\u2019s. I\u2019d like the space back, though I did agree to the arrangement and feel a bit awkward pushing for a change. I rent, so I\u2019d need my landlord\u2019s okay, and I haven\u2019t asked yet."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Mostly, yes. I\u2019d like the space back, but I feel I owe them since I agreed to the arrangement. I haven\u2019t checked with my landlord, so I don\u2019t know what\u2019s allowed."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "I want to use it for weekend trips starting in the next few weeks, so I need access around then. That\u2019s what matters to me."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Mostly. I\u2019d say I\u2019d like the trailer moved off my pad, but I need to ask my landlord before making a change. And I do feel a bit of obligation since I agreed to the arrangement."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That mostly fits. I\u2019d like it off my pad, but I don\u2019t know what changes my landlord would approve or when I can make them. I still feel some obligation since I agreed to the arrangement."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "A good solution gives me actual use of the trailer within the next few weeks. I can\u2019t agree to simply wait until A is done with it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, that fits. I\u2019m not sure how many weekends I\u2019ll need it for yet."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Option 3 works best for me: I need the trailer for my project, including weekends if needed. We\u2019d still need to agree on the exact dates. I can\u2019t promise Option 1\u2019s weekday-only access will be enough."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "That wording fits. I\u2019m still not sure how many weekends I\u2019ll need it for. No particular discomfort so far."
+      },
+      {
+        "id": 26,
+        "from": "B",
+        "in_reply_to": 25,
+        "text": "Option 3\u2019s schedule sounds okay to me, but I\u2019m still a little uncomfortable with the trailer staying on my pad. I haven\u2019t checked with my landlord yet, so I can\u2019t say what changes are okay."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "Option 1 seems closest: I want weekend access starting soon. I\u2019d be uncomfortable with Option 3 taking the first two weekends away from me. Option 2 could work if the new spot is easy for me to reach."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "The hybrid could work if I get one of the first two weekends as well as weekdays, with dates agreed upfront. I won\u2019t rely on fitting my project around A\u2019s availability."
+      }
+    ]
+  }
+]

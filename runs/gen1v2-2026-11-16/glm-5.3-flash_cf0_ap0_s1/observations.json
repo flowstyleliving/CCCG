@@ -1,0 +1,228 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "It\u2019s been on the gravel pad behind my place. A little notice for pickup would be helpful; I\u2019d prefer it not come back here afterward, though I rent and haven\u2019t checked with my landlord about changing the arrangement."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I need it for hauling on my home project within the next few weeks; I don\u2019t have exact dates yet. I\u2019m open to storing it elsewhere if that works, but I can\u2019t just wait until A is done using it."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I want to take the trailer on weekend trips in the next few weeks, but I don\u2019t have specific dates to prioritize. I\u2019m open to giving notice before pickup and sharing hauling duties; I want enough flexibility to plan my trips. I don\u2019t know B\u2019s situation."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Forty-eight hours\u2019 notice and an agreed handoff work. I can\u2019t agree to alternating open-ended turns; we need to reserve specific date ranges so I can use it within the next few weeks. I\u2019ll check whether my place could work for storage, but can\u2019t offer it as a backup yet."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Mostly. The shared booking list and 48 hours\u2019 notice work, but I\u2019d rather keep bookings first come, first served than alternate turns\u2014I need flexibility for weekend trips. I can\u2019t commit to storing it at my place as a backup."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "That sounds helpful, and 48 hours\u2019 notice should be fine. I\u2019d prefer it not return to my pad after use; I still need to check with my landlord about changing the arrangement, so it would help if you look into storage elsewhere."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Yes. I can book specific date ranges first come, first served, with 48 hours\u2019 notice to B and an agreed handoff spot. I can\u2019t offer storage at my place."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I don\u2019t have exact date ranges yet, so I can\u2019t claim any today. My project still needs the trailer within the next few weeks; I can\u2019t just wait until A has booked his weekends."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Weekdays can work for my project, as long as I can book the dates I need within the next few weeks and A\u2019s weekend bookings don\u2019t push it later. I\u2019m fine with 48 hours\u2019 notice and an agreed handoff."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I don\u2019t have specific weekend dates to post yet. My trips are in the next few weeks, and I need to keep the dates flexible."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, that sounds fine for now. I\u2019d be glad if it didn\u2019t return to my pad, and I\u2019ll check with my landlord about the change. 48 hours\u2019 notice works for me."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "The booking split, notice, and handoff work. Storage isn\u2019t settled until I check whether my place works, and I still can\u2019t post exact dates yet. I\u2019ll send weekday ranges once I pin them down; I need a slot within the next few weeks."
+      }
+    ]
+  }
+]

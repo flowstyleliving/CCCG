@@ -1,0 +1,232 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I need it for hauling on my home project, and I\u2019m not willing to just wait until A is done. I don\u2019t know what\u2019s driving A\u2019s timing beyond knowing they want it soon too. I can help coordinate, but I can\u2019t decide for either of you."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "It\u2019s been fine, but I\u2019d be relieved to have the trailer out of the way\u2014it does take up space on my pad. I also feel a bit responsible since I agreed to the arrangement, and don\u2019t want to take sides. I rent, so my landlord would need to approve any change; I haven\u2019t asked him yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019ve got weekend trips coming up soon, and I want the freedom to take the trailer when I need it. I\u2019d like us to settle the plan within a few weeks."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 7
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Not quite. I need the freedom to use it for my project when I need it, not to wait until A\u2019s finished."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Mostly. \u201cWhenever\u201d is too broad: I need to use it for my project in the next few weeks, and I won\u2019t just wait for A. I can\u2019t speak for B or confirm the landlord issue."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, that\u2019s fair. I want to use it for my trips without having to negotiate every time."
+      },
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "That\u2019s right."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That mostly fits. I\u2019d add that I\u2019d be relieved to have it off my pad, though I feel I agreed to the arrangement. I haven\u2019t asked my landlord, so I\u2019m not sure what he\u2019d approve."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Option 2 could put me waiting on A again if our plans clash, so it doesn\u2019t work as written. Off-pad storage could work, but we\u2019d still need a clear way for me to use it within the next few weeks."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Option 1 sounds better to me; I\u2019d be glad to have the pad clear. I should check with my landlord before changing the storage arrangement, so yes, I\u2019ll ask him."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "wait"
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 15,
+    "action": "wait"
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Better than a fixed schedule, but a booking calendar is still coordination, and I don\u2019t know the storage cost or how access would work. I\u2019d need those details before agreeing."
+      }
+    ]
+  }
+]

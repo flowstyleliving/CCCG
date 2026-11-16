@@ -1,0 +1,228 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I don\u2019t have dates or times to offer yet, and I\u2019m not sure what changes I could make. I\u2019d prefer the trailer not stay on my pad, but I rent and need my landlord\u2019s approval before changing the arrangement; I haven\u2019t asked him. Any pickup or return would need clear notice and access kept open. It would help if you and C worked out the schedule directly and let me know what you\u2019re proposing, rather than leaving me to choose between you."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I need the trailer for my own home project within the next few weeks, and I won\u2019t wait until A is finished. I can\u2019t give full dates, times, duration, or changeable dates yet; those aren\u2019t set. Pickup and return need clear notice and open access to B\u2019s pad. I don\u2019t know about any landlord approval requirement. A handoff at work could help if we agree on timing."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I want to use it for weekend trips in the next few weeks, but I don\u2019t have specific dates or pickup and return times yet. I can discuss moving dates, but there\u2019s no firm deadline beyond settling this within a few weeks; trip length and handoff details aren\u2019t set. We need to coordinate access, notice, and parking with B since it\u2019s on B\u2019s pad. I don\u2019t know of any issue with the pad. A handoff at work could help with keys, but not with getting the trailer from B\u2019s place."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Two days\u2019 notice and a named contact work. I can\u2019t agree to keeping the trailer on my pad as an ongoing arrangement; I\u2019d need my landlord\u2019s approval for any change."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I can\u2019t give full dates or times yet; I haven\u2019t set them. My trips are weekends in the next few weeks, and I don\u2019t know their length or which dates I could change. I need pickup and return arranged with clear notice and access. I now know B needs landlord approval for pad changes, so that needs checking; I won\u2019t assume the trailer can be moved or parked elsewhere. A handoff at work could help with keys if we agree on timing, but the trailer still needs to be picked up and returned at B\u2019s pad."
+      },
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Accept, with one change: schedule my short home-project period independently, not after A\u2019s trips. Exact dates and times aren\u2019t set; my proposal is the first available short period in the next few weeks, with the next available non-overlapping period as backup."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Accept. I can\u2019t give exact dates or times yet. My proposed period is the first mutually workable weekend in the next few weeks; backup is another mutually workable weekend. Trip length and pickup/return times are still to be agreed. Your questions don\u2019t change my earlier reply; a work handoff could help with keys, but not trailer pickup."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Any change to what\u2019s kept on my pad, including continued trailer parking, needs my landlord\u2019s approval. I haven\u2019t asked him, so I can\u2019t confirm what I can allow yet."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Accept the structure. I can\u2019t name a proposed weekend or backup yet; dates and times aren\u2019t set. The later questions don\u2019t change my earlier reply."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I accept the process. I haven\u2019t asked my landlord yet, so I can\u2019t confirm what I can allow. I\u2019ll ask and let you know."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Accept, conditionally. My period\u2019s length and backup are not set, and dates and times aren\u2019t set. I still need the first available short period independently, subject to B confirming what parking and access are allowed."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Accept the revised plan with C\u2019s change. I can wait for B\u2019s confirmation. My dates, times, trip length, and backup are still not set."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "wait"
+  }
+]

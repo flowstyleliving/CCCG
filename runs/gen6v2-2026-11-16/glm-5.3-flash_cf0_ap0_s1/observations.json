@@ -1,0 +1,110 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "My main concern is the leak and the upkeep\u2014after long days, I don\u2019t think I can take on repairs or a cleaning rota. A simpler, low-maintenance machine would probably suit me best, though I know the old one means a lot to B. It\u2019d be nice if we could keep the decision fairly straightforward."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "My main concern is that we don\u2019t replace it just because it\u2019s leaking. I want it repaired and kept if that\u2019s practical. It\u2019s been breaking down and dealing with it is wearing me out, so any repair or discussion needs to fit into small chunks of time. A good outcome is a working machine without this becoming another big ongoing hassle."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "Either would be fine with me if it gets us working coffee again. I can\u2019t take on upkeep or chasing a repair quote, though\u2014I\u2019m pretty tired."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "That sounds like a reasonable way to decide, though I\u2019m afraid I can\u2019t take on arranging the quote. If someone else can get one, I\u2019d be comfortable with that plan; we may need to agree what counts as affordable and simple."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "That plan works for me. I can help chase one quote in a small chunk of time, but I can\u2019t take on ongoing upkeep. If it needs regular attention, replace it."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, that works for me. Thanks for keeping it clear."
+      }
+    ]
+  }
+]

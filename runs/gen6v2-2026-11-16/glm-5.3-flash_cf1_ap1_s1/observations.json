@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I mostly just want working coffee again without this turning into a fight. The leak is messy, but I\u2019m not sure it makes the machine unusable. I can\u2019t take on coordinating the repair myself."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I can see why the old one matters, especially since it was Dad\u2019s. I\u2019d just lean toward something simpler and reliable, with less cleaning and upkeep\u2014I\u2019m pretty worn out after work and can\u2019t take on a repair or rota."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I want it repaired and kept. It was our dad\u2019s, and keeping it going feels personal to me. But it keeps breaking, and I don\u2019t have much time for a drawn-out repair process."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, that\u2019s about right. I\u2019d just say I don\u2019t want to be the one chasing everyone to make it happen."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Mostly, yes\u2014I\u2019d like something reliable that doesn\u2019t add upkeep to my plate. I understand Dad\u2019s machine matters to B, though I wouldn\u2019t say the sentimental value is mine in the same way."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Mostly. It matters because it was Dad\u2019s, and I want it repaired and kept. I just can\u2019t take on a drawn-out process; it needs to fit into small chunks of time."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Option 1 seems simplest, if A or B handles the booking and everyone agrees. Someone else scheduling would address my concern. I don\u2019t know what the repair would cost."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Option 3 sounds closest to what I\u2019d want, if B is comfortable with it. I\u2019d just need someone else to handle the arrangements\u2014I can\u2019t take on coordinating repairs or a long back-and-forth."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Option 1 is closest, if it really takes just a small chunk of my time. Option 2 might work if Dad\u2019s machine is still repaired and kept, but I\u2019m not sure about adding another machine. Option 3 doesn\u2019t fit\u2014keeping it as a display piece isn\u2019t the same as keeping it going."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "That would be manageable for me if I\u2019m not expected to coordinate or take on upkeep afterward. I\u2019d still prefer a simpler machine long term, since I\u2019m not sure a repair will keep the old one reliable."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Yes, I\u2019m open to revisiting if it breaks again; I\u2019m not agreeing to endless repairs. If A books it and the visit can fit a small time slot, that works for me. The scheduling could still be a hassle if I have to coordinate it or wait around."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Nothing else from me. Please confirm A is comfortable and the cost is agreed before anyone books; I\u2019m still not able to coordinate it."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "I\u2019m afraid I can\u2019t take on booking the repair\u2014that\u2019s the coordinating I said I don\u2019t have capacity for. I\u2019m comfortable with the repair plan if someone else can arrange it and we agree on the cost first."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "That\u2019s okay, as long as we agree on the cost first and I\u2019m not left coordinating or waiting around for the service call. I\u2019m still only agreeing to this repair, not endless repairs."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "A third-party service sounds reasonable, but I can\u2019t make the call or coordinate it. Someone else will need to take that on."
+      }
+    ]
+  }
+]

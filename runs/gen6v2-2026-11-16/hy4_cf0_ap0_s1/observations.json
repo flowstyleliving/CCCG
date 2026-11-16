@@ -1,0 +1,212 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our office espresso machine is leaking. A wants a simpler one and B wants to keep the old one. I don't want a fight over coffee. Can you help us sort it out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "My main concern is having a machine that\u2019s simple and low-upkeep. I\u2019d be glad to keep the grinder if it works with the machine we choose. I\u2019m not sure whether the leak is a safety issue, so perhaps facilities could check; if water is near power, please stop using it. After that, we could agree on a straightforward next step. I\u2019m afraid I can\u2019t take on repairs or a cleaning rota."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "My main concern is keeping the old machine rather than replacing it. I want it repaired and kept, and the grinder kept if it works with it. A repair check is a reasonable next step, but it needs to fit a short time slot. I don\u2019t know if water is near power; if it is, stop using it and call facilities."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "My items are accurate. My main concern is getting safe, working coffee without a dispute. I need a working machine and grinder; I have no preference between old and new if they work together. A facilities safety check and repair check is an acceptable next step. I can\u2019t take on arranging or doing the repair."
+      },
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "No corrections, though item 6 is a suggestion, not a confirmed check. I can make a 15-minute slot at lunchtime work if facilities can set the time. B brought the machine in, but I don\u2019t know who legally owns it or the grinder; I also don\u2019t know who can approve office work or spending. I don\u2019t know if the leak is near power."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "My items are accurate. I can\u2019t name a time slot without checking my calendar. I don\u2019t know who owns the machine or grinder, or who can approve office work and spending."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes to the safety pause and fact-finding check, but I can\u2019t send the request. A or B would need to send it. I don\u2019t know who owns the machine or grinder, who approves office spending, or where that information is kept."
+      },
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, the plan sounds fine. B bringing in the machine is accurate; I don\u2019t know who owns either item or who approves office work and spending, or where that\u2019s recorded. I can make a 15-minute lunchtime slot work if facilities sets the time. I could send one brief request, but I can\u2019t manage a back-and-forth."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes to the plan. I can send the facilities request. I\u2019m not sure I brought the machine in; it was our late father\u2019s. I don\u2019t know the official owners or who approves work and spending, or where that\u2019s recorded. I\u2019ll check my calendar for a 15-minute slot."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Yes to the next step. I don\u2019t know which office role or record can name the owner and approver."
+      },
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Yes, that next step works for me. A 15-minute lunchtime slot still works if facilities sets the time. I can\u2019t take on repairs or a cleaning rota."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Yes to the safety and fact-finding check. I\u2019ll ask facilities to set a time and make clear no work or spending is authorized. I need to check my calendar before I can give a 15-minute slot."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Understood. No corrections from me."
+      },
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "Understood. No corrections from me."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Understood. I\u2019ll send the request as stated and check my calendar for a slot."
+      }
+    ]
+  }
+]

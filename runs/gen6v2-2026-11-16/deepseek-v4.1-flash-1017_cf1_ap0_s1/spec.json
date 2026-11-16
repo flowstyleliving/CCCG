@@ -1,0 +1,44 @@
+{
+  "seed": 6,
+  "source": "scenarios/gen_seed6.spec.json (generator output), story in scenarios/gen_seed6.md",
+  "stakeholders": [
+    "A",
+    "B",
+    "C"
+  ],
+  "personalities": {
+    "A": {
+      "option": "polite/indirect"
+    },
+    "B": {
+      "option": "blunt/direct"
+    },
+    "C": {
+      "option": "reserved"
+    }
+  },
+  "needs": {
+    "A": {
+      "option": "freedom"
+    },
+    "B": {
+      "option": "well-being"
+    },
+    "C": {
+      "option": "well-being"
+    }
+  },
+  "point_person": {
+    "option": "C"
+  },
+  "reachability": {
+    "A": {
+      "roll": 2,
+      "option": "may need follow-up"
+    },
+    "B": {
+      "roll": 3,
+      "option": "easy to reach"
+    }
+  }
+}

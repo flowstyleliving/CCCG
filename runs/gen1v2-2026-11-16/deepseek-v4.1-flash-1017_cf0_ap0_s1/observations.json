@@ -1,0 +1,209 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "A and I both want the trailer in the next few weeks, and neither of us is backing down. B's pad is where it lives, so she is stuck in the middle. Can you help the three of us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I\u2019d like a plan for getting the trailer off my pad, though I did agree to keep it here, so I feel a bit awkward pressing that. I rent, and my landlord would need to approve any change to what\u2019s kept on the pad; I haven\u2019t asked him yet. It would help to work out who\u2019ll check on that and where the trailer can go."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I need it for hauling on my home project, and I need it within the next few weeks. I\u2019m not willing to wait until A is done. A workable plan needs to give me a definite turn soon, but I can\u2019t decide A\u2019s or B\u2019s part."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I want to use the trailer for weekend trips in the next few weeks. A shared plan works if we can agree on dates and I can use it without having to renegotiate each time. I don\u2019t know C\u2019s dates yet, so let\u2019s compare schedules."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Thanks, that captures my concerns. I can ask my landlord about changing what\u2019s kept on the pad, though I can\u2019t promise what he\u2019ll approve or how quickly. It would help if A and C also looked into another place for the trailer."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I need a weekend with the trailer in the next few weeks. I can work with a shared plan if we pick specific, separate dates now so each of us has a definite turn. I\u2019m not agreeing to wait until C is done."
+      },
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I don\u2019t have exact dates yet. I need a definite turn within the next few weeks for my project; I\u2019m not waiting until A is finished."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I\u2019ll ask him and let you know what he says. I\u2019m not sure how quickly he\u2019ll get back to me."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "I haven\u2019t pinned down exact weekends yet. I\u2019ll check my calendar and send options; please share C\u2019s dates too so we can choose definite turns."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I can\u2019t narrow it beyond the next few weeks. I need a specific, separate turn in that window\u2014not just after A is done. We can pick dates once her weekends are in."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I haven\u2019t checked my calendar, so I can\u2019t give you exact weekends yet. I\u2019ll send a first and second choice once I do."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Okay. Please send me A\u2019s two options when they arrive, and I\u2019ll choose a separate turn within the next few weeks."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "wait"
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I haven\u2019t checked my calendar, so I can\u2019t give you two firm weekends yet. I\u2019ll check and send my first and second choices."
+      }
+    ]
+  }
+]

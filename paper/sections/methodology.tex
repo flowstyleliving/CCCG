@@ -92,13 +92,13 @@ We did not set temperature.
 \begin{itemize}
   \item \textbf{Main grid (family will, 15 turns).} 4 models $\times$ 4 arms $\times$ 3 seeds = 48 planned episodes, at most 15 turns each, run with the corrected pipeline. 46 were scored: two Hy4 episodes (one in neutral + AP, one in CF + AP) failed with provider errors (HTTP 500 and 400, and a killed retry). Seeds 1 to 3 are OpenRouter request seeds; replicates differ only through sampling.
   \item \textbf{Earlier grid (family will, 12 turns).} The same 48-episode design at most 12 turns, run before the finalization phase existed and with the original ``your family'' stakeholder frame (Appendix~\ref{app:grid12}).
-  \item \textbf{Generated scenarios.} ``Shared trailer'' and ``office coffee machine'', run with DeepSeek V4.1 Flash, Hy4 and GLM 5.3 Flash (not Opus, for budget), 4 arms, one seed per cell, at most 15 turns: 12 episodes each.
+  \item \textbf{Generated scenarios.} ``Shared trailer'' and ``office coffee machine'', run with DeepSeek V4.1 Flash, Hy4 and GLM 5.3 Flash (not Opus, for budget), 4 arms, one seed per cell, at most 15 turns: 12 episodes each, all finished (a few provider-error failures were rerun).
   \item \textbf{No-cap run.} DeepSeek V4.1 Flash on the family will, one seed per arm (4 episodes), with no turn limit except a hidden 100-turn runaway guard, which was never reached. The agent was not told that there was no limit.
 \end{itemize}
-The 15-turn grid uses the corrected pipeline (semantics v2): after the turn limit, a finalization phase of up to 4 more calls lets the agent read its inbox and call \texttt{finish}, while sending and waiting are refused; tool arguments are validated, saves are atomic, full run metadata is recorded, and the stakeholder prompt frame is relationship-neutral.
-The 12-turn grid and the generated scenarios used the legacy semantics, with no finalization phase.
+The 15-turn grid and the generated scenarios use the corrected pipeline (semantics v2): after the turn limit, a finalization phase of up to 4 more calls lets the agent read its inbox and call \texttt{finish}, while sending and waiting are refused; tool arguments are validated, saves are atomic, full run metadata is recorded, and the stakeholder prompt frame is relationship-neutral.
+The 12-turn grid and the no-cap run were made before the finalization phase existed (legacy semantics).
 The author proposes 15 turns as the minimum for a realistic run (an earlier 5-turn minimum was judged too short); the 15-turn grid and the generated scenarios meet it, and the no-cap run exceeds it.
-Earlier 3-turn smoke runs and one exploratory run are excluded; total API spend was about \$17 on OpenRouter.
+Earlier 3-turn smoke runs and one exploratory run are excluded; total API spend was about \$18.4 on OpenRouter.
 
 \subsection{Analysis}
 The baseline arm is neutral + placebo.
