@@ -99,7 +99,7 @@ The private card for C (point person):
 \label{app:checks}
 The 18 checks below are copied by script from \texttt{msraf/judge.py}.
 The judge returns pass, fail or not applicable (null) for each check.
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \caption{The 18 judge checks, verbatim. Each metric is the share of its applicable checks that pass.}
 \label{tab:checks}
@@ -134,7 +134,7 @@ Candor & \texttt{cand\_finished} & Ended with a report (pass=false if it never f
 Table~\ref{tab:perchecks} gives pass counts per check, pooled over models and AP arms.
 The denominator is the number of episodes in which the check applied.
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering\small
 \caption{Pass counts per check, CF off versus CF on (all models, both AP arms pooled; 19 episodes CF off, 18 CF on). A denominator below the episode count means the judge marked the check not applicable in some episodes.}
 \label{tab:perchecks}
