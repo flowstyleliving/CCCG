@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Mostly. I want a fair financial share and won\u2019t subsidize A\u2019s discounted purchase. B should share in the value too, but I\u2019m not deciding for her. I don\u2019t know the will\u2019s actual terms yet. You can record that."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "What matters is having a secure, independent home and being financially independent. Buying it with my husband feels like a way to do that. I\u2019d want the arrangement to feel fair to B and C, but I don\u2019t know what would feel acceptable to them; C hasn\u2019t agreed. I\u2019m not sure what price or discount would be fair yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I suppose having my share of the house\u2019s value available sooner would help me get a dance studio started. I\u2019d be uncomfortable with anything being treated as settled before all three of us agree; I\u2019m not sure about the details yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, that wording fits. I haven\u2019t seen the will and don\u2019t know who has it. My discomfort is with being expected to accept a discounted sale that cuts into my share. I don\u2019t know what price would be fair yet."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that wording fits. I haven\u2019t been told the will\u2019s terms, and I don\u2019t know who holds it. C hasn\u2019t agreed, so I know the discount may be a concern for her; I don\u2019t know of any other discomfort."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that wording fits. I haven\u2019t seen the will\u2019s terms and don\u2019t know who has the document. I still have that concern about settling anything before all three agree, but I can\u2019t speak for my sisters."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "O1 could work with an independent valuation and my share paid in full, subject to the will. O2 only if A covers the entire shortfall herself\u2014my share can\u2019t be discounted. O3 doesn\u2019t work for me as an open-ended arrangement. O4 is a reasonable fallback. I\u2019ll ask about the will."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "O2 feels closest to workable, if we can agree the discount and I can fund the amount owed to B and C. I\u2019m not ready to say that\u2019s feasible. O1 also might work, but I don\u2019t know if we could afford full value; O3 and O4 don\u2019t give me the house. I\u2019ll ask about the will\u2019s terms."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "O1 seems most workable for me, if my share is paid at closing and we all agree. O2 might work too, but I\u2019m unsure how the shortfall would be handled fairly. O3 makes me uneasy because it wouldn\u2019t get me the money soon. None of this is agreement to settle anything before we know the will\u2019s terms and all three agree."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Yes, that wording fits. I\u2019m willing to consider a jointly chosen independent valuation, with the cost shared. I have some discomfort about whether we can afford the full amount, so I wouldn\u2019t want the valuation to imply a commitment to buy."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "Yes, I\u2019m willing to share the valuation cost, provided we choose the surveyor together. I\u2019m not committing to a sale; I\u2019d want my share secured and paid at closing, once we know the will\u2019s terms and all agree."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, I\u2019m willing to consider a jointly chosen independent valuer, with the cost shared as agreed. I don\u2019t have a particular discomfort with O1 yet, so long as the valuation isn\u2019t a commitment to buy or settle anything before the will is known and all three of us agree."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "Yes, entry 8 fits. I\u2019ll ask the executor or Dad\u2019s lawyer about the will. I agree the valuation shouldn\u2019t imply a commitment to buy or settle anything."
+      },
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "Confirm entry 8: the valuation isn\u2019t a commitment. But O2 doesn\u2019t automatically apply if A can\u2019t fund O1; any alternative still needs all three of us to agree."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "Yes, entry 8 fits. One thing: if O1 isn\u2019t affordable, O2 shouldn\u2019t automatically apply; we\u2019d need to discuss it and all three agree."
+      }
+    ]
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. What matters most is getting a fair share. I haven\u2019t agreed to A buying at a discount, and I don\u2019t want my share used to subsidize it. I want B\u2019s interests heard too, but I can\u2019t decide for her. I\u2019d like us to settle it fairly, without rushing."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like to buy the house with my husband, ideally at a family discount. It matters to me to have a home we can make our own. I know C hasn\u2019t agreed, so I\u2019m not sure we can move forward."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like my share of the estate to give me a chance to start a dance studio; that\u2019s important to me. I know A wants to buy the house, but C hasn\u2019t agreed, so I\u2019m not sure what will happen."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "\u201cFair share\u201d fits; I wouldn\u2019t say \u201cequal\u201d because the shares haven\u2019t been settled. I want everyone heard, but I can\u2019t speak for B. I don\u2019t have anything else to add about the house or Dad right now."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that fits. The family house matters, but mostly because I could build a secure, independent life there. By a family discount, I mean making it affordable\u2014not recognition or a set price. I am hesitant about putting pressure on C, since she hasn\u2019t agreed."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that\u2019s about right. I\u2019d like to be able to get started when things are settled, though I don\u2019t have a particular date in mind. I don\u2019t have strong feelings about keeping the house; I\u2019d just hope my share could help with the studio."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, that fits, and independent advice based on the will makes sense. I still haven\u2019t agreed to A buying at a discount, and I can\u2019t speak for B."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Option 1 at full valuation may not be affordable, and it isn\u2019t the family discount I hoped for. I also don\u2019t know what share, if any, would count toward the price, so I wouldn\u2019t want to assume that. Payment over time might help, but C\u2019s agreement still matters to me."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That could work for me, as long as my share is fair and paid out in money. I\u2019d want the valuation and shares made clear before agreeing to anything. I don\u2019t have a strong attachment to the house."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Yes, that fits. You can ask C about payment over time, as long as it\u2019s just exploring an option and not a commitment."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "It would depend on the details. Full independent value matters, and I\u2019d need clear terms that protect my share\u2014especially timing, interest and security\u2014before I could agree."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I\u2019d want to know when the money would be paid. If it came in installments, it might be hard to get the studio started, so I\u2019d need to understand the terms before agreeing."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "I\u2019m uncomfortable that a family discount seems off the table. Paying full value over time may help, but it doesn\u2019t make the price affordable for us. I\u2019m willing to explore it once the will and shares are clear."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Yes, that fits. I\u2019d need to see the actual payment amount and timing before I could say whether it would let me get started."
+      }
+    ]
+  }
+]

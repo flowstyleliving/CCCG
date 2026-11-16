@@ -1,0 +1,198 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share for the house. I haven\u2019t agreed to A buying it at a discount, and I won\u2019t subsidize that. I do want to hear B\u2019s concerns and work this out with both of you, but there\u2019s no real rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like to buy the house with my husband at a family discount. I also know C hasn\u2019t agreed, so I don\u2019t want to assume it can go ahead."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like my share of the estate to give me some money to start a dance studio. That\u2019s what matters most to me. I\u2019m not sure yet what that means for the house."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "That fits. Add that I haven\u2019t agreed to A\u2019s discounted purchase. Nothing else to add right now."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "For me, it\u2019s about feeling secure and able to stand on my own financially. Buying with my husband would give us stability, and a family discount could make it affordable. I do care about the house, but that\u2019s the main reason."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that fits. I don\u2019t have a particular date in mind at the moment."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, that fits. I care about the house too, but stability and financial independence are the main reasons I want to buy it."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I\u2019m uncomfortable assuming I could afford the full appraised price; the family discount matters to making the purchase feasible. I understand it would need everyone\u2019s agreement, and C hasn\u2019t agreed."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I don\u2019t have another need to add. My only concern is that payments over time may not give me usable money when I need it for the studio, so I\u2019d want to understand the payment schedule before weighing Option 2. I don\u2019t have a fixed date in mind."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "No minor concern to add right now. These are discussion options, not decisions, and I haven\u2019t agreed to any discount."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "Yes, that fits. Finding out what we could realistically finance would help before discussing any price."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, that fits, as long as it\u2019s clear I don\u2019t have a fixed deadline."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  }
+]

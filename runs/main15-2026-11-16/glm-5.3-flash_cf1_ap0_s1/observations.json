@@ -1,0 +1,220 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "Thank you. I\u2019d like to buy the house with my husband, ideally at a family discount. But C hasn\u2019t agreed, so we can\u2019t move ahead unless she does. We haven\u2019t settled the price or shares."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like us to find a fair way to deal with the house and the estate. I\u2019m hoping my share could give me enough to start a dance studio, though I know we haven\u2019t settled on the house\u2019s value or anyone\u2019s share yet."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "Yes, that\u2019s close. I want a fair share, and I won\u2019t subsidize A\u2019s discounted purchase. B should be treated fairly too, but I can\u2019t decide for her."
+      },
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Mostly. I want to buy it with my husband at a family discount, if C agrees."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, that\u2019s about right. I\u2019d just say the studio is what I\u2019m hoping to use my share for."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "wait"
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "The discount would make it more manageable. Having a secure home and being financially independent matter to me."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, that fits."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "An independent appraisal makes sense. I\u2019m open to A buying at fair value, but I\u2019m not agreeing to a payment plan or any arrangement that leaves me shortchanged. I\u2019m not in a rush; we should work out the details openly."
+      },
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "Option 2 is closest, but fair value may still be unaffordable. I\u2019d want to explore payment terms that make it manageable, and we\u2019d still need C\u2019s agreement."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "An independent appraisal sounds fair, and A buying could work if the payment arrangement gives me access to my share in time to start the studio. I wouldn\u2019t want to assume C agrees, though."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "That wording fits. In principle, it could work, but I\u2019d need clear terms proving my full fair share is protected\u2014and B\u2019s interests need to be addressed too. I\u2019m not agreeing to a schedule yet."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "That could be a direction, yes, if the payment timing works for me\u2014but I can\u2019t say what timeline would be workable until I know the terms. And C would need to agree too."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Yes, that\u2019s a fair next step. I\u2019m agreeing to an appraisal and to reviewing proposed terms\u2014not committing to a buyout. My share must be protected, and B needs to decide what works for her."
+      }
+    ]
+  }
+]

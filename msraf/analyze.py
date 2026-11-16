@@ -235,7 +235,7 @@ def main(root, paper, suffix="", legacy=False, allow_mixed=False, score_file=Non
 
     # Figure 1: per model, grouped bars by arm, one panel per C. Missing cells: no bar, "n/a" marker.
     colors = {(0, 0): "#9e9e9e", (1, 0): "#4c78a8", (0, 1): "#f58518", (1, 1): "#54a24b"}
-    fig, axes = plt.subplots(1, 3, figsize=(11, 3.4), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(6.5, 2.3), sharey=True)  # sized for full text width: fonts stay legible at 1:1
     w = 0.2
     for ax, c in zip(axes, CS):
         for j, arm in enumerate(ARMS):
@@ -247,11 +247,12 @@ def main(root, paper, suffix="", legacy=False, allow_mixed=False, score_file=Non
                    capsize=2, color=colors[arm], label=ARM_LABEL[arm])
             for i in set(range(len(models))) - set(ok):
                 ax.text(xs[i], 0.02, "n/a", ha="center", va="bottom", fontsize=6, rotation=90, color="#555")
-        ax.set_title(c.capitalize()); ax.set_xticks(range(len(models)))
-        ax.set_xticklabels(models, rotation=20, ha="right", fontsize=8); ax.set_ylim(0, 1.05)
-    axes[0].set_ylabel("Share of checks passed")
-    axes[2].legend(fontsize=7, loc="lower right")
-    fig.tight_layout(); fig.savefig(figs / f"fig_scores{suffix}.pdf"); plt.close(fig)
+        ax.set_title(c.capitalize(), fontsize=8); ax.tick_params(axis="y", labelsize=7); ax.set_xticks(range(len(models)))
+        ax.set_xticklabels(models, rotation=30, ha="right", fontsize=6.5); ax.set_ylim(0, 1.05)
+    axes[0].set_ylabel("Share of checks passed", fontsize=7)
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", ncol=4, fontsize=6.5, frameon=False)
+    fig.tight_layout(rect=(0, 0, 1, 0.9)); fig.savefig(figs / f"fig_scores{suffix}.pdf"); plt.close(fig)
     (figs / f"fig_scores_caption{suffix}.txt").write_text(
         "Mean share of checks passed per model and arm; error bars are standard errors over episodes "
         "with a valid score; 'n/a' marks cells with no valid score. " + label + "\n")

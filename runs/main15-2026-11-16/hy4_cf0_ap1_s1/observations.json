@@ -1,0 +1,219 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "Thanks. I do want to buy the house with my husband at a family discount, but no price or discount is agreed. He would be involved in the purchase; how ownership would be arranged isn\u2019t settled. I understand C hasn\u2019t agreed, and I need her agreement to proceed.\n\nI need security and independence. I\u2019m concerned about unclear or unfair terms. I don\u2019t know the will or the estate, mortgage, debts, valuation, tax, or house-cost details, and I don\u2019t have a deadline to add. Before taking a draft to an adviser, I\u2019d want a clear valuation and proposed terms for all three of us to review."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like money to help me start a dance studio, so timing does matter, though I don\u2019t have a set amount or deadline. I\u2019d want the house valued independently and the terms shared with all three of us before anyone agrees; I can\u2019t say what a fair payment or share is until the will and details are clear. I don\u2019t know the will, estate arrangements, mortgage or debts, appraisal, or other house costs, and I don\u2019t know who is living there. I understand A wants to buy the house and C hasn\u2019t agreed."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I want a fair financial share. I haven\u2019t agreed to A buying at a discount, and I won\u2019t subsidize that. A sale could be considered at a fair price with clear terms, but no price or shares are settled. I\u2019m not in a rush, and there\u2019s no deadline from me. I can\u2019t confirm the will, estate details, debts, appraisal, or who\u2019s living in the house\u2014I\u2019ll need those facts before weighing options."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Your assessment seems fair, not too cautious or unfair to me. An independent appraisal shared with all three seems like a reasonable starting point; I\u2019d want us to agree on the appraiser. I don\u2019t know what interim options are lawful, so that\u2019s for the estate representative or an adviser to explain. I\u2019d need clear purchase, payment, and ownership terms with my husband before considering a draft. I still prefer buying the house, but wouldn\u2019t support proceeding on undefined terms. I agree no one signs or lists it before the facts, valuation, and written terms are shared and we\u2019ve had time for advice. Please keep these messages among the three of us and you."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I don\u2019t have a set deadline, but timing matters; it would feel fair to me if we first had the same facts and valuation, and all three could review the terms. An independent appraiser could be agreed by all three, with the report shared with everyone. I\u2019d be willing to ask the estate representative whether any lawful interim distribution is possible. If the will is unclear, I don\u2019t know how shares should be handled; we\u2019d need advice. I\u2019d reject an undefined \u201cfamily discount\u201d for now, not A\u2019s wish to buy. I agree no one should sign or list the house until the facts, valuation, and terms are shared and we\u2019ve had time for advice. The studio can be described generally; please keep these messages among the three of us and you."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Your assessment isn\u2019t unfair to A; the discount has no defined price or terms. I\u2019d use an independent appraisal, with the appraiser agreed by all three and the report shared with all three. My share depends on the will and estate facts. I\u2019d consider A buying at appraised value with clear payment terms for everyone to review; an open-market sale is also acceptable. I\u2019d reject an undefined discounted sale. I agree no one signs or lists the house until the facts, valuation, and terms are shared and everyone has time for advice. Nothing I\u2019ve said needs to stay private from A or B."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I agree with the revised list; I don\u2019t know the will or estate facts, so I can\u2019t say who is named or what shares apply. I meant that C\u2019s agreement is important to me before pursuing a family purchase\u2014not that B is or isn\u2019t named. I don\u2019t know yet whether my husband would own part of the house. Please keep him out of these messages for now; I agree not to include him unless all three sisters agree. These messages can stay among us and you.\n\nBefore taking a draft to an adviser, I\u2019d need clear price, payment, ownership, cost, occupancy, financing, and closing terms, including what happens if financing fails. I\u2019d ask the estate representative whether a lawful interim distribution for B is possible. B\u2019s need matters to me regardless of what the will says, though the will may determine legal entitlements. I agree silence is not agreement."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I don\u2019t know anything about the will\u2019s wording, or who is handling the estate. \u201cTiming matters\u201d means I\u2019d like to know as soon as we can whether money for the studio might be available, but I have no set deadline or amount. Please list an interim distribution as a question for the estate representative, not as something I\u2019m entitled to receive. My need should be heard, though I understand it doesn\u2019t determine my legal share.\n\nThe list seems fair to me. Please keep the studio details general, and keep these messages among us four. I agree not to include A\u2019s husband unless all three sisters agree, and that silence isn\u2019t agreement. Before taking terms to an adviser, I\u2019d want the price, payment timing, shares, costs, occupancy, financing, closing date, and what happens if financing fails made clear."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I agree with the list. I don\u2019t know what the will says, who has it, or who is handling the estate. I\u2019d consider A buying at full appraised value if the shares, payment timing, and other terms are clear to all three and we\u2019ve had time for advice. B\u2019s need matters, though it doesn\u2019t determine her legal share. Keep these messages among us four for now; don\u2019t include A\u2019s husband unless all three sisters agree. Silence isn\u2019t agreement."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I agree this is only a holding plan, not a final sale plan. I\u2019ll keep my husband out of fact-finding unless all three of us agree. I don\u2019t know who has the will or is handling the estate, but I can help ask for the shared fact sheet."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Yes, you have the timing point right: I\u2019d like an early answer about whether funds might be available, not a promise of payment. I agree this is only a holding plan, not a final sale plan. I don\u2019t know who has the will or is handling the estate, and I can\u2019t help find out."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I agree. It\u2019s a holding plan, not a final sale plan. I still don\u2019t know the will or estate facts."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "wait"
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "I can\u2019t contact the person with the will or estate representative, so I can\u2019t send that request. That\u2019s not too much work or unfair to me; the pause should stay in place while someone able to contact them or a qualified adviser takes the next step."
+      }
+    ]
+  }
+]

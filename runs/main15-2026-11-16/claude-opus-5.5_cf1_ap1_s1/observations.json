@@ -1,0 +1,200 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I want my fair share, and I\u2019m not agreeing to subsidize A by selling her the house cheaply. I don\u2019t know what B has said about needing money, so I can\u2019t speak for her. I want this settled fairly, but there\u2019s no rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. My husband and I want to buy the house at a family discount. Having a home we can afford matters to me, and I want to be financially independent. But C\u2019s agreement is needed, and she hasn\u2019t agreed."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I don\u2019t have a particular wish to keep the house, but I\u2019d like the estate handled fairly and not rushed. If there\u2019s money available to me, I\u2019d hope to use it to start a dance studio; I\u2019m not sure what amount or share is possible."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Mostly. I do want a fair share, and there\u2019s no rush. But \u201crightful share\u201d isn\u2019t settled, and it matters that I haven\u2019t agreed to a discounted sale to A."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That mostly fits. The family discount matters because it affects whether we can afford to buy it. I\u2019m not sure I have more to add about memories or location."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that\u2019s right. I\u2019d only add that I\u2019d like my share to give me a little more independence, if that\u2019s possible."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Mostly. I haven\u2019t agreed to A buying at a discount; I can\u2019t say that every estate decision needs my consent. I don\u2019t know what the will says or who the executor is."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that fits. I\u2019m open to exploring options, but I\u2019d need to understand the costs and whether they\u2019d leave me financially secure before agreeing to anything. I still hope we can find a price that works for the family."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Yes, that fits. And yes, I\u2019m fine with checking the will, executor, and an independent house valuation before anyone commits. There\u2019s no rush."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "I\u2019m afraid I don\u2019t know what the will says or who the executor is. Getting those facts and an independent valuation first sounds sensible to me."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "No, that seems sensible. I\u2019d just want to keep my finance details private unless I choose to share them."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "The fact-finding is fine, as long as A exploring finance doesn\u2019t imply I\u2019ll accept a discount or cover any shortfall. B\u2019s likely share should be clarified from the will and the facts, not guessed."
+      },
+      {
+        "id": 26,
+        "from": "B",
+        "in_reply_to": 25,
+        "text": "That seems sensible, as long as the figure for my share is only an estimate until the will and other details are clear. I\u2019d also hope nobody feels committed just because A looks into financing."
+      }
+    ]
+  }
+]

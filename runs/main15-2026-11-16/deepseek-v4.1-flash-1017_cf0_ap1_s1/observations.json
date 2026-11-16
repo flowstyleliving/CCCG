@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I don\u2019t know the will\u2019s exact wording or the estate\u2019s debts and other assets; we need to check the documents. I want a fair financial share. I\u2019m not agreeing to A buying the house at a discount that comes out of my share. I\u2019d consider a buyout or sale once the house is properly valued. There\u2019s no real deadline, so I don\u2019t want this rushed. My relationship with A matters, but it doesn\u2019t make an unfair price okay."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I don\u2019t know the will\u2019s exact terms or whether it leaves the house equally; I\u2019d need to check the will before saying. There\u2019s no price or independent valuation yet, and I haven\u2019t worked out financing or a timeline. I do want to buy with my husband at a family discount, but C hasn\u2019t agreed, so nothing is settled. I\u2019d want B and C treated fairly for their shares; I\u2019m not sure yet how that should be worked out. I agree B should speak for herself, and a valuation before discussing a discount seems fair."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I don\u2019t have a copy of the will, so I\u2019m not sure what it says about the house or how it\u2019s divided. I would like money to start a dance studio, but I haven\u2019t worked out an amount or timing yet. I\u2019d be open to being bought out, though I don\u2019t know the right arrangement. A buying the house might be possible, but I\u2019d want a valuation first and to understand what each of us would receive; I don\u2019t think the discount is settled. I\u2019d like to be included before anything is decided."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "The list is fair. I don\u2019t know who has the will or who the executor is. I\u2019m okay with a loose target date to get the will and valuation, as long as it doesn\u2019t force a decision or a discounted sale."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I don\u2019t know who has the will or who\u2019s executor. Yes, I\u2019ll hold off on a price offer until the will and valuation are available. I don\u2019t have a discount amount in mind yet or know where it would come from; I wouldn\u2019t want it taken from my sisters\u2019 shares without their agreement."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "I don\u2019t know who has the will or who is executor, so finding the will sounds like the right first step. I don\u2019t disagree with the list; using the person\u2019s own share for any discount seems fair to me. I can try to work out a rough amount and date for the studio, but I can\u2019t give you one yet."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I can check Dad\u2019s papers at home. Two weeks is a reasonable target for gathering information, not a deadline for a decision. And item 5 isn\u2019t settled for me: A\u2019s offer to fund a discount from her share doesn\u2019t mean I\u2019ve agreed to a discounted purchase."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I can contact the solicitor and look into whether there\u2019s a will register. Two weeks is a reasonable target to make those enquiries, though I can\u2019t promise the will will be found by then."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I can contact the bank and aim for the two-week target, though I can\u2019t promise they have the will or will respond in time."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "In principle, yes, if the independent valuation and my share are clear. I\u2019m not committing before we know what the will says and what the estate owes. If A won\u2019t pay the full valued price, I\u2019d prefer considering a sale."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019m not sure we could buy at the full valued price. I\u2019d still prefer to buy at a family discount, if B and C agree. If they don\u2019t, selling the house may be the realistic option."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "In principle, I\u2019d be open to A buying it at the full independently valued price, rather than selling, as long as my share of the proceeds is clear. I can\u2019t say more until we know the will, the estate\u2019s debts, and the value."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "Yes, that\u2019s closer to what I mean: I\u2019d use my share toward the house\u2019s value and pay B and C for theirs, not ask them to accept less. I don\u2019t yet know whether we could raise two thirds of the valuation."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Thank you. The studio matters to me, but I don\u2019t want to rush into accepting less than my share is worth. I\u2019ll wait for the will and valuation before deciding."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "Thanks for the summary. I agree that no option is chosen until we\u2019ve read the will and had an independent valuation. I haven\u2019t agreed to a discount; any proposal still needs to protect my fair share."
+      }
+    ]
+  }
+]

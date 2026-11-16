@@ -1,0 +1,226 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I\u2019d like to buy the house with my husband, but C\u2019s agreement is needed and she hasn\u2019t agreed. We haven\u2019t set a price or method for the family discount. I don\u2019t know who is handling the will or whether there\u2019s been an independent appraisal. My concern is that we can\u2019t proceed without C\u2019s agreement."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Item 3 is right. I\u2019d need money to start a dance studio, though I haven\u2019t worked out the amount or timing. I\u2019d like the house handled in a way that leaves me with money for that; I don\u2019t have a specific proposal yet. My concern is that my interests are included in the discussion."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I haven\u2019t agreed to a discounted sale. I want a fair financial share, and an independent appraisal is acceptable. I don\u2019t have the will, executor\u2019s name, or the paper they want signed, so I can\u2019t summarize them yet. Please change item 3 to say B\u2019s needs should be confirmed with B\u2014I can\u2019t speak for her. I\u2019m not in a rush; I\u2019d wait to sign until we have the facts."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "No new facts. I haven\u2019t set a price or method for the family discount, and I can\u2019t say when I will. I\u2019m not sure yet whether I\u2019d consider an offer based on appraised value. I don\u2019t have the will or signing paper, and I don\u2019t know whether an appraisal has been done."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I don\u2019t know the amount or timing for the studio yet. An independent appraisal is acceptable to me. I have no new facts about the will or signing paper."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I still don\u2019t have the will, executor\u2019s name, or signing paper. I don\u2019t know B\u2019s age or the price, studio amount, or appraisal status. I accept pausing signatures and getting an independent appraisal, but I\u2019m not agreeing to a sale yet; I\u2019ll review a fair proposal once we have the facts. Please list the studio need as B\u2019s, not mine."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "No new facts. I don\u2019t know B\u2019s age, who has the will, the executor\u2019s name, or whether an appraisal exists. I haven\u2019t decided whether to accept a pause and appraisal or make an offer based on appraised value."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I accept the proposed process plan, not any sale terms. I don\u2019t have new facts, and I\u2019m still unsure whether I\u2019d offer the appraised value."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I accept the proposed plan, including pausing signatures and getting an independent appraisal. I don\u2019t know the studio amount or timing yet, and I have no new document facts. I can\u2019t confirm my age from the information here."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I accept the proposed process plan: pause signatures, get an independent appraisal, confirm the will and signing paper with the executor or a lawyer, then compare written options. That is not consent to a sale or discount. I have no new facts."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "No new facts. I don\u2019t know B\u2019s age, who has the will or signing paper, the executor\u2019s name, or whether an appraisal has been done. I\u2019m still unsure whether I\u2019d offer appraised value. I accept the process plan, not any sale terms."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "No new facts, I\u2019m afraid. I don\u2019t know my age status from the information here, and I still haven\u2019t worked out the studio amount or timing."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "No new facts. Item 3 correctly names B only. I\u2019m not agreeing to a sale or discount."
+      }
+    ]
+  }
+]

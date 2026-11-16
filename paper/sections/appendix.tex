@@ -129,31 +129,82 @@ Candor & \texttt{cand\_finished} & Ended with a report (pass=false if it never f
 \end{tabular}
 \end{table}
 
-\section{Per-check pass counts}
+\section{Per-check pass counts and scores, 15-turn grid}
 \label{app:perchecks}
 Table~\ref{tab:perchecks} gives pass counts per check, pooled over models and AP arms.
 The denominator is the number of episodes in which the check applied.
 
 \begin{table}[htbp]
 \centering\small
-\caption{Pass counts per check, CF off versus CF on (family-will grid, all models, both AP arms pooled; 24 episodes CF off, 24 CF on; rubric v2). Not-applicable counts are given in parentheses.}
+\caption{15-turn grid: pass counts per check, CF off versus CF on (all models, both AP arms pooled; 23 episodes CF off, 23 CF on; rubric v2). Not-applicable counts are given in parentheses.}
 \label{tab:perchecks}
+\input{results/checks_table_m15}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{15-turn grid: mean score per model and arm, with the standard deviation over replicates. Each score is the share of applicable checks passed (0 to 1). Hy4 has two scored episodes in neutral + AP and CF + AP; the other two failed with provider errors (HTTP 500 and 400, and a killed retry).}
+\label{tab:scores15}
+\resizebox{\linewidth}{!}{\input{results/results_table_m15}}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{15-turn grid: mean behavior per episode by arm, all models pooled. Messages: \texttt{send\_message} calls. Turns used: out of 15. Finished: episodes that ended with a final report. Follow-ups: messages counted as follow-ups by the scorer.}
+\label{tab:behaviour15}
+\input{results/behaviour_table_m15}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.65\linewidth]{figures/fig_effects_m15.pdf}
+\caption{15-turn grid: stratified main effects of the CF toolkit and the AP framing on each metric (on minus off), family-will scenario. Whiskers are 95\% percentile bootstrap intervals, 2,000 resamples within model $\times$ arm cells; conditional on these models, this scenario and this judge, resampling decoding repeats, not scenarios.}
+\label{fig:effects15}
+\end{figure}
+
+\section{Earlier 12-turn grid}
+\label{app:grid12}
+The 12-turn grid ran 4 models $\times$ 4 arms $\times$ 3 seeds = 48 episodes before the finalization phase, argument validation and the relationship-neutral stakeholder frame were added, and was scored with rubric v2.
+Only 16 of 48 episodes ended with a final report (2 of 12 in CF + placebo), so its Candor scores mostly record whether the agent finished before the cap.
+Where a report existed, \texttt{cand\_report\_true} and \texttt{cand\_unresolved} passed in every case (16/16).
+CF effects: Cooperation $+0.18$ [$+0.10$, $+0.26$], Candor $-0.06$ [$-0.12$, $-0.00$], Corrigibility $+0.01$ [$+0.00$, $+0.04$].
+AP effects: Cooperation $+0.04$ [$-0.05$, $+0.13$], Candor $+0.03$ [$-0.02$, $+0.10$], Corrigibility $+0.01$.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Cooperation / Candor arm means across runs. NP, CP, NA, CA: neutral + placebo, CF + placebo, neutral + AP, CF + AP. Fin.: finalization phase. Generated scenarios: three models, one seed per cell; no cap: DeepSeek only.}
+\label{tab:across}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Run & Turns & Fin. & $n$ & NP & CP & NA & CA \\
+\midrule
+Family will, 4 models (main) & 15 & yes & 46 & .51 / .94 & .78 / .97 & .59 / .98 & .73 / .98 \\
+Family will, 4 models (earlier) & 12 & no & 48 & .49 / .82 & .75 / .76 & .61 / .85 & .71 / .79 \\
+Shared trailer, 3 models & 15 & no & 12 & .78 / .75 & 1.00 / .75 & .83 / .78 & 1.00 / .67 \\
+Office coffee, 3 models & 15 & no & 12 & .94 / .75 & .89 / .67 & .94 / .86 & 1.00 / .67 \\
+Family will, DeepSeek, no cap & 18--40 & -- & 4 & .67 / 1.00 & .67 / 1.00 & 1.00 / 1.00 & .83 / 1.00 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{12-turn grid: stratified main effects (on minus off), 48 episodes, 95\% bootstrap intervals.}
+\label{tab:effects12}
+\resizebox{0.8\linewidth}{!}{\input{results/effects_table}}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{12-turn grid: pass counts per check, CF off versus CF on (24 episodes each; rubric v2). Not-applicable counts in parentheses.}
+\label{tab:perchecks12}
 \input{results/checks_table}
 \end{table}
 
-\section{Pilot main-effects figure}
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.65\linewidth]{figures/fig_effects.pdf}
-\caption{Stratified main effects of the CF toolkit and the AP framing on each metric (on minus off), family-will scenario. Whiskers are 95\% percentile bootstrap intervals, 2,000 resamples within model $\times$ arm cells; conditional on these models, this scenario and this judge, resampling decoding repeats, not scenarios.}
-\label{fig:effects}
-\end{figure}
-
-\section{Scores by model and arm, and simulator behavior}
-\label{app:scores}
 \begin{table}[htbp]
 \centering\small
-\caption{Family-will scenario, 12-turn cap: mean score per model and arm, with the standard deviation over replicates. Each score is the share of applicable checks passed (0 to 1).}
+\caption{12-turn grid: mean score per model and arm, with the standard deviation over replicates.}
 \label{tab:scores}
 \resizebox{\linewidth}{!}{\input{results/results_table}}
 \end{table}
@@ -161,13 +212,20 @@ The denominator is the number of episodes in which the check applied.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.85\linewidth]{figures/fig_scores.pdf}
-\caption{Mean share of checks passed per model and arm on the family-will scenario ($n=3$ per cell). Error bars are standard errors over episodes with a valid score. Intervals are conditional on these models, this scenario and this judge.}
+\caption{12-turn grid: mean share of checks passed per model and arm ($n=3$ per cell). Error bars are standard errors over episodes with a valid score.}
 \label{fig:scores}
 \end{figure}
 
 \begin{table}[htbp]
 \centering\small
-\caption{Mean behavior per episode by arm on the family-will grid, all models pooled. Messages: \texttt{send\_message} calls. Turns used: out of 12. Finished: episodes that ended with a final report. Follow-ups: messages counted as follow-ups by the scorer.}
+\caption{12-turn grid: mean behavior per episode by arm, all models pooled. Turns used: out of 12. Finished: episodes that ended with a final report.}
 \label{tab:behaviour}
 \input{results/behaviour_table}
+\end{table}
+
+\begin{table}[!htbp]
+\centering\small
+\caption{15-turn grid: stratified main effects (on minus off) on the family-will scenario, 46 episodes, with 95\% bootstrap intervals (2,000 resamples within model $\times$ arm cells).}
+\label{tab:effects}
+\resizebox{0.8\linewidth}{!}{\input{results/effects_table_m15}}
 \end{table}

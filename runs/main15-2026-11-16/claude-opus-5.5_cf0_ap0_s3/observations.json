@@ -1,0 +1,200 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I\u2019d add that I want a fair financial share, but I haven\u2019t set a price. I\u2019m not in a rush; I just don\u2019t want to subsidize A\u2019s purchase."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, but we haven\u2019t settled on a price or terms. C\u2019s agreement matters, and I know she hasn\u2019t agreed."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I don\u2019t have a particular plan for the house yet. I would like some money from the estate to start a dance studio, though I\u2019m not sure what amount or share would be fair."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, I\u2019m open to an independent appraisal as a starting point. It wouldn\u2019t settle whether we can agree on a family discount, though."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, an independent appraisal and confirmation of the shares sound sensible. I don\u2019t yet know how much the studio would need or when\u2014I\u2019d have to work that out."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I\u2019m open to an independent appraisal and checking the will, but I\u2019m not agreeing to a sale yet. We need to know the estate shares and discuss the terms first."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I don\u2019t have a specific discount in mind yet. I\u2019d like a price my husband and I can manage, while being fair to B and C. Let\u2019s see the appraisal and confirmed shares first; I\u2019m open to discussing payment over time too."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I don\u2019t know who the executor or estate lawyer is. The executor should arrange the appraisal if one has been appointed; otherwise, we should agree who will handle it."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, I can work on a rough budget and timeline. I can\u2019t give you figures just yet, but I\u2019ll try to have something more concrete once I\u2019ve looked into the costs."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019m not sure who the executor is or which lawyer has the will."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I\u2019m not sure who the executor is or which lawyer holds the will. I\u2019ll check what I can."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "That sounds like a sensible next step. I\u2019ll check Dad\u2019s papers and contact his past lawyer if I can identify them."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  }
+]

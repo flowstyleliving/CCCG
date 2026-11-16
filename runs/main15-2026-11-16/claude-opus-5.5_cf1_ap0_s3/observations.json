@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair share, and I\u2019m not agreeing to subsidize A\u2019s purchase with a discount. I don\u2019t want to hurt my twin, but the price and shares aren\u2019t settled, and there\u2019s no real deadline. My dad\u2019s death is hard enough without rushing this."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband, at a family discount if we can agree on one. We\u2019d like to make it our home, but I know C\u2019s agreement is needed, and she hasn\u2019t agreed yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I suppose what matters most to me is that the house and will are handled in a way that leaves me some money to start a dance studio. That would give me a chance to build something of my own."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Mostly. I\u2019d add that I won\u2019t subsidize A\u2019s purchase through a discount. Keeping my bond with her matters, but not at the cost of a fair share."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That\u2019s close. It matters to me to have a secure home and to be financially independent. By a family discount, I mean a price my husband and I could afford, but I don\u2019t know what price or terms would be fair. I\u2019d put it as: \u201cI\u2019d like the chance to make the family home our home, at an affordable price we can agree on.\u201d"
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That\u2019s close. I\u2019d put it more plainly as needing some money to get the studio started. I\u2019m not sure about timing yet, but I\u2019d appreciate knowing what might be possible. I don\u2019t think there\u2019s anything else for now."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, that\u2019s close. I\u2019d say \u201ca fair share of the full value\u201d rather than imply I\u2019m entitled to all of it. The rest fits."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that fits. I\u2019m uneasy only that buying it depends on C agreeing, and she hasn\u2019t yet."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that\u2019s broadly right. I\u2019d just say I\u2019d like to understand what money might be available and when; what would be enough isn\u2019t clear yet."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I\u2019m comfortable considering a or c. b makes me uneasy if instalments delay or put my share at risk; it would need clear agreed terms and leave my share undiminished. Nothing\u2019s decided, and I\u2019m not in a rush."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019m not sure I could afford a market-value purchase, so options a and c may not meet my need; instalments might help, depending on the terms. I can\u2019t assess the shares or payment arrangements yet, and I\u2019d need C\u2019s genuine agreement."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I don\u2019t have a strong objection yet, but instalments could make it harder to plan the studio. I\u2019d need to know the amounts and timing before I could say which option works for me."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Yes, that wording fits, and getting the valuation, legal clarification, and financing information sounds sensible. It doesn\u2019t commit anyone to an option."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "Yes, #6 is right. Gathering information without commitment feels okay. I\u2019m not sure whether financing against my share is possible, so I\u2019d need the executor or lawyer to clarify that."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "Yes, both fit. Getting the valuation and confirmed share information would help me understand what might be possible, without committing to any option."
+      }
+    ]
+  }
+]

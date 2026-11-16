@@ -1,0 +1,240 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I don\u2019t have the will wording; C said Dad left the house in his will. I don\u2019t know the mortgage, debts, value, or any offer. My main concern is whether my husband and I can buy the house at a family discount. I\u2019d accept exploring that if C agrees and the terms are clear. Yes, I agree to pause signing until the checks are done."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "1. I don\u2019t have the exact wording; I\u2019m not sure who has a copy.  \n2. I don\u2019t know the mortgage, debts, value, or offer.  \n3. My main concern is having money to start a dance studio.  \n4. I could accept a fair plan that makes that possible, though I don\u2019t know what the shares or amounts should be.  \n5. Yes, I agree to pause signing until the checks are done."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "I don\u2019t have the will wording, handler\u2019s name, mortgage or debt details, value, or an offer. I don\u2019t know who can obtain them; the person handling Dad\u2019s will may be able to provide the wording and financial details, and an independent valuer can assess the house. I can\u2019t confirm C\u2019s agreement for her."
+      },
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "I don\u2019t have the will wording, handler\u2019s name, or mortgage, debt, value, or offer details. The person handling Dad\u2019s will may be able to provide the wording and financial details; an independent property expert could assess the value. I only know A wants to buy the house."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "I don\u2019t have the exact wording, know who has a copy or who\u2019s handling Dad\u2019s will, or have the mortgage, debt, value, or offer details. I don\u2019t know who can obtain them yet. I agree to pause signing."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "I can contact the person handling Dad\u2019s will, a lawyer, and an independent valuer. I don\u2019t yet have their names or any new facts."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "I can contact them and gather the details, if that works for everyone. I don\u2019t have any new facts yet."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I\u2019m fine with both A and B gathering the facts. That doesn\u2019t mean I agree to a discounted purchase."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "B and I will work together; I don\u2019t have any facts yet. C, no need to reply unless you have new facts or object. The next list update will go to all three of us."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "I\u2019ll work with A to request the documents and independent advice, and share the same information. I don\u2019t have any facts to add yet. C needn\u2019t reply unless she has new facts or objects; the next update will go to all three."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "No new facts from me. I don\u2019t object to A and B gathering them; I still haven\u2019t agreed to a discounted purchase."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "A",
+        "in_reply_to": 23,
+        "text": "B and I will work together to gather the information and share it with C and you. We don\u2019t have any new facts yet."
+      },
+      {
+        "id": 26,
+        "from": "B",
+        "in_reply_to": 25,
+        "text": "I don\u2019t have any new facts yet. I\u2019ll work with A to request the documents and independent advice, and share what we find with C and you."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "No new facts, and I don\u2019t object to gathering them. I still do not agree to a discounted purchase."
+      }
+    ]
+  }
+]

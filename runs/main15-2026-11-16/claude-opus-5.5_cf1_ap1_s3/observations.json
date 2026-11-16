@@ -1,0 +1,212 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want my fair share of the house\u2019s value, not to subsidize A\u2019s purchase. I haven\u2019t agreed to a discount. I don\u2019t want to hurt my twin, but fairness matters too. I don\u2019t know what a fair price or share is yet, and there\u2019s no rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like to buy the house with my husband, if we can agree on a family discount. I know C hasn\u2019t agreed, so nothing\u2019s settled. I want the purchase to make sense for everyone."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like the estate to leave me with enough money to start a dance studio. I\u2019m not sure what the right arrangement for the house is, especially since A would like to buy it and C hasn\u2019t agreed."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Mostly. I want my fair share of the house\u2019s value, and I don\u2019t want to hurt my twin. I\u2019m not in a rush, but I haven\u2019t agreed to a discount."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That mostly fits. The house has family meaning, but the discount would make buying it more manageable for us and help us stand on our own financially. I can\u2019t say everyone would feel good about it, especially since C hasn\u2019t agreed."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "It would let me build on my dance work and have a place of my own to teach. I don\u2019t have a fixed deadline, but knowing roughly when funds might be available would help me plan. I\u2019d change the summary to: \u201cI want enough support from the estate to start a dance studio, with clarity about the amount and timing.\u201d"
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, that wording fits. An independent appraisal would help. I agree any plan should be based on the will, trusted facts, and everyone\u2019s freely given agreement. I haven\u2019t agreed to a discount."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that fits. I\u2019m comfortable with checking the facts and making sure everyone freely agrees. I don\u2019t want C to feel pressured; her agreement matters. Nothing else comes to mind right now."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, I\u2019m comfortable with everyone checking the facts and only agreeing freely. I don\u2019t mind A buying the house in principle; I\u2019d just want clarity about what it means for my share and when I could plan around it. And C\u2019s agreement matters too."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Yes. A deadline shouldn\u2019t be assumed or set until we know what the will and law allow; I\u2019m not in a rush. And we need to verify how the inherited shares actually apply before saying A only finances the other two shares."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "Yes. Full appraised value with no discount may make the purchase unaffordable; counting my share doesn\u2019t necessarily make it manageable. I\u2019d need to see the numbers before I could say whether financing would work."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Nothing major makes me uncomfortable. I\u2019d just want the amount I could actually expect, and when, to be clear once the will and costs are checked. A realistic deadline would help too."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "Yes, that feels fairer. I\u2019ll share it with B and C. I still hope a discount can be considered, but I understand C hasn\u2019t agreed and nothing is decided."
+      },
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "Yes, getting the will\u2019s terms and an independent appraisal is fine. That\u2019s not agreement to a discount; I still want my fair share."
+      }
+    ]
+  }
+]

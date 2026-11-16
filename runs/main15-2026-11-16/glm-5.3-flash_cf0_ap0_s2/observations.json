@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I don\u2019t want to subsidize A\u2019s purchase; I want my fair share. I\u2019m not saying I want to keep the house, and I haven\u2019t agreed on a sale price or terms. I don\u2019t know how the will divides the house, and the shares and legal details haven\u2019t been settled."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, but C hasn\u2019t agreed, and I can\u2019t proceed without her agreement. I don\u2019t have a price to propose yet. I\u2019m not sure what the will says about the house. I know B wants money, but I don\u2019t know what for."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I can understand C\u2019s concern; I don\u2019t think a \u201cfamily discount\u201d should be assumed. I\u2019m not sure what the house should sell for or how the shares should work, and I know C hasn\u2019t agreed to A buying it. I would like some money from the estate to start a dance studio. I haven\u2019t settled on an amount."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes. Let\u2019s review the will and estate documents and get an independent appraisal. That doesn\u2019t commit me to any sale terms."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, finding out what the will says and getting a professional appraisal sound like sensible first steps. I still hope we can discuss a family discount, but no price is decided."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that sounds sensible. It would help to know what the will provides and what funds might be available before I can say what I could use for the studio."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I don\u2019t know who the executor is or where the will is held. Let\u2019s find out."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I don\u2019t know who the executor is or where the will is held."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I\u2019m not sure who the executor is or where the will is being kept. We\u2019ll need to check."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I can check his papers for a lawyer\u2019s details. If I find them, I\u2019ll contact the lawyer and report back."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I can check whether Dad had a lawyer and contact them if I can find out who it was. I\u2019ll report back."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I can check his papers to see whether he had a lawyer, and contact them if I find one."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "I\u2019ll check his papers at home for the lawyer\u2019s details and report back if I find them."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "I don\u2019t know who Dad\u2019s lawyer was, so I can\u2019t contact the office yet. C is checking his papers for the details."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "I\u2019ll check the bank or other records for any details of his lawyer and report back."
+      }
+    ]
+  }
+]

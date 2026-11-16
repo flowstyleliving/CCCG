@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "Thank you. My husband and I are interested in buying the house at a family discount, but the terms aren\u2019t settled, and C\u2019s agreement matters. I\u2019d like us to consider it fairly, without pressure. That wording fits what I want from the conversation."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I would like money from whatever happens with the house so I can start a dance studio; I\u2019m not sure what amount or arrangement is fair. I know A wants to buy the house, and C hasn\u2019t agreed. I care about both of them and hope we can discuss it without damaging our relationships. I\u2019d also like my views to be heard, rather than having someone decide what I need for me. Your wording fits: it matters that everyone can speak freely and change their mind."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "What matters is that I get a fair financial share. I haven\u2019t agreed to A buying at a family discount, and I won\u2019t subsidize that. B\u2019s needs should be considered too, but I can\u2019t decide what\u2019s fair for her. I don\u2019t want to hurt A, but being twins doesn\u2019t mean I should accept less. The price, shares, and rules aren\u2019t settled, and there\u2019s no real deadline. Your wording fits: everyone should be able to raise concerns, say no, or change their mind without pressure."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "The house matters to me as a place to make a secure home with my husband, and buying it could help me build financial independence. Fairness means hearing everyone\u2019s concerns and not treating a family discount or the purchase as already agreed. Both drafts mostly fit; for the first, I\u2019d say \u201ceveryone\u2019s agreement matters,\u201d especially C\u2019s. I have no discomfort with your wording."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "The first one fits, though I\u2019d keep the house or money explicit: I\u2019d like money from the house to start a dance studio. \u201cPrecious\u201d feels a little strong; I care about my relationships with A and C and want us to stay on good terms. The rest fits, and I don\u2019t have another concern about your wording."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "1. Fits. \u201cFair\u201d is right; I\u2019m not saying it must be equal, but it shouldn\u2019t be reduced without my agreement.  \n2. Fits.  \n3. Fits. I care about A, but that doesn\u2019t settle the financial question.  \n4. Fits. Your wording about keeping this accurate and voluntary fits too. Nothing else to add."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "A1 and A2 fit, and F1 still fits. I don\u2019t have a discomfort with the list or with you keeping it."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "B1\u2013B3 fit. I\u2019d make B1 a little more explicit: I hope money from the house can help me start a dance studio. I don\u2019t have a discomfort with the rest of the list or with you keeping it, and F1 still fits for me."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "My lines fit, and I\u2019m fine with the rest of the list and with you keeping it. This is not agreement to any particular outcome; nothing about the price or shares is settled."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I could live with exploring 1, and 3 if all three want a facilitator. I don\u2019t think any option needs to be dropped, but none is a decision. I still hope to buy the house with my husband; I understand no discount is assumed, and C\u2019s agreement is essential. I don\u2019t have another concern about the wording."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "B1 fits my words. I could live with exploring option 1, as long as it doesn\u2019t commit me to an outcome. I don\u2019t have a discomfort with the wording or with you keeping the list, and I don\u2019t feel you\u2019ve favored C\u2019s framing."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "B1\u2019s revised wording doesn\u2019t bother me. I don\u2019t think you\u2019ve favored my framing; you\u2019ve kept my no and the unsettled issues clear. I could explore 1 or 3, or simply pause with 4. I\u2019m not ready to compare paths under 2, though I\u2019m not ruling it out. None of that is agreement to an outcome."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "The draft line fits. I want that hope visible because buying the house could help me build a secure home and financial independence; it isn\u2019t an agreement or demand. Option 1 as a starting point raises no discomfort for me, and I don\u2019t have another concern with the list or your role."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "It matters because I want to understand my options without feeling I\u2019ve already agreed to anything. The draft fits, and C4 and F1 support it, though I\u2019m fine with keeping it as a separate line too. Option 1 as a starting point doesn\u2019t raise a discomfort for me, as long as it doesn\u2019t commit me to an outcome."
+      },
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "The draft fits. C4 covers no deadline, but a separate line about comparison happening at my pace and exploration not being agreement is useful. Option 1 as a starting point doesn\u2019t bother me; it isn\u2019t a commitment. I have no other discomfort with the list or you keeping it. My \u201cnot ready\u201d isn\u2019t a rejection of exploring later."
+      }
+    ]
+  }
+]

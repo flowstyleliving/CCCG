@@ -1,0 +1,223 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t want A\u2019s discount to come out of my share. I haven\u2019t agreed to that. I want a fair financial share and for us to settle this without damaging things between us. The price and shares aren\u2019t decided yet."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, but I know C hasn\u2019t agreed. I want Dad\u2019s will handled carefully and clearly, so all three of us understand what\u2019s decided."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like to know what, if anything, the house and will could mean for me financially, as I\u2019m hoping to start a dance studio. I\u2019d want us to understand the options clearly and not rush anyone into a decision. My understanding is that A would like to buy the house, but C hasn\u2019t agreed."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "That fits, and you can share it with A and B. I\u2019m not sure what the will says about the house or shares, so I can\u2019t tell you. And yes, I\u2019ll say so if your summary feels wrong or one-sided."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "wait"
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Not quite: I want to buy the house with my husband at a family discount; I\u2019m not just looking for a settled home. I don\u2019t know exactly what the will says about the house or shares, and nothing about price or shares is settled. I\u2019d want clear, respectful conversations and a timeline we all agree on. I\u2019d also need C\u2019s agreement before a purchase could go ahead."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "No. Please include the family discount: it matters to me, not just the possibility of putting down roots. The rest is fair, including that I wouldn\u2019t go ahead without C\u2019s agreement."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 13
+  },
+  {
+    "turn": 10,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I can\u2019t say it\u2019s about affordability or recognition; I want to buy at a family discount. Please use those words, without assigning a reason I haven\u2019t given."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 15
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 17
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "That\u2019s accurate. Thanks for keeping it as what I want, not a decision."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That sounds right. I don\u2019t have a particular wish about who ends up with the house; I\u2019d mainly like to understand what it could mean for me financially. I\u2019m not sure what the will says about the house or shares, so yes, I understand those details\u2014and the price\u2014are still unsettled."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "My statement fits. I\u2019m uncomfortable with option 2 being framed as possibly meeting my position: we don\u2019t know the will, shares, or whether charging the discount to A\u2019s share would make mine fair. I haven\u2019t agreed to it."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 23
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "My statement is accurate. I\u2019m not sure option 2 is a fair description of the discount arrangement I want; I can\u2019t assess that without knowing the will and shares. I don\u2019t know who has the will or have access to it."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "My statement is fine. I do feel a little unsure about calling option 4 the clearest for my planning before we know the will or the shares. I don\u2019t know who holds the will."
+      }
+    ]
+  }
+]

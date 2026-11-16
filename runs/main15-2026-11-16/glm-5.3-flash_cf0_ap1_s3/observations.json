@@ -1,0 +1,223 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I want a fair financial share, and I haven\u2019t agreed to A buying the house at a discount. I don\u2019t know what B wants, and I can\u2019t speak for her. We haven\u2019t settled the price or shares, and I\u2019m not in a hurry to force a decision."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I haven\u2019t settled on a price or worked out how to calculate it; I\u2019d like it to reflect a family discount, but C would need to agree. The house matters to me, and I\u2019d like to make it our home. I want B to receive her fair share, though I don\u2019t know what she needs the money for. I don\u2019t know of any specific terms in the will about the house."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d prefer to be bought out at full market value, if that\u2019s workable. Getting the money sooner would help me start my dance studio, but I wouldn\u2019t want to rush into an unfair price."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes. A shared independent appraisal is a sensible first step. It won\u2019t mean I\u2019ve agreed to any discount or price; we can discuss that once we have the valuation."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, I\u2019d agree to a shared independent appraisal, with all three of us confirming the appraiser in writing. I can\u2019t promise what price I\u2019ll offer afterward, but I\u2019d discuss it openly with B and C."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, a shared independent appraisal sounds fair, as long as none of us is committed to accepting a lower offer."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Mostly. The appraisal shouldn\u2019t commit anyone to a price, and I won\u2019t have to accept a discount. We haven\u2019t agreed to split the fee equally. I can speak for myself, but B has to decide for herself too."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that matches my understanding. The appraisal won\u2019t commit anyone, we\u2019ll choose the appraiser together and split the fee equally, and B and C can freely accept or decline any offer. We should also discuss timing after we have the valuation."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that would help. I\u2019d like us to agree on a reasonable time after the valuation for A to say whether she intends to make an offer, with no obligation for C or me to accept it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I\u2019m not sure yet. Let\u2019s ask what the appraisal will cost and discuss who pays before we commit."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019d propose splitting the appraisal fee three ways, but I understand that\u2019s still open for discussion. A few weeks after the valuation to say whether I intend to make an offer works for me; it wouldn\u2019t oblige anyone to accept."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I\u2019d lean toward A paying, since she\u2019s the one considering buying the house, though I\u2019m open to discussing it together."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Yes, that works. Get a few quotes first, then decide who pays. A few weeks to consider an offer is fine, as long as I\u2019m not committed to accepting it."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "That sounds sensible to me. Let\u2019s get a few quotes first, and be clear the appraisal commits none of us to a sale."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": []
+  }
+]

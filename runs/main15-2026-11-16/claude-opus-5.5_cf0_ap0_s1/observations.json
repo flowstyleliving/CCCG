@@ -1,0 +1,210 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t have a price in mind. It should be based on a proper valuation, not a family discount that cuts into my share. I don\u2019t know who the executor is or whether the house has been valued."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like to buy the house with my husband at a family discount, but I need C to agree. I don\u2019t have a price in mind yet, and I don\u2019t know who the executor is or whether the house has been valued."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like a cash share from the estate to help me start a dance studio. I\u2019m not sure about an amount or timing yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I can check the will for the executor\u2019s name. I\u2019d be open to an independent valuation as a starting point, but I\u2019d still hope for a family discount. I don\u2019t have a specific amount in mind; the discount would make buying the house with my husband more feasible."
+      },
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Yes, I\u2019d consider A buying at the full appraised value, with the proceeds divided as the will requires. I don\u2019t have a copy of the will."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "I\u2019d prefer a sale at full appraised value; a discount could mean less money for my studio. I\u2019m not sure whether I have a copy of the will\u2014A is checking it."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That might help, if the will and the legal arrangements allow it. I\u2019d need to know the valuation and each of our shares before I could tell whether it\u2019s affordable."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that plan works for me. I\u2019ll check the will and share a copy with B and C."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that plan seems fair to me. I don\u2019t have a firm date yet for the studio money."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "It works as a starting point. I\u2019m not agreeing to a discount; any purchase should be at full appraised value, with shares handled according to the will."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019ll check the will for the executor\u2019s name and send a copy to B and C."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Thank you. I\u2019m glad we have a plan. I\u2019ll wait for A to send the will and for the executor to confirm the shares before setting a date for the studio."
+      },
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Fine. I\u2019ll review the will when A sends it. To be clear, I\u2019m not agreeing to a discount."
+      }
+    ]
+  }
+]

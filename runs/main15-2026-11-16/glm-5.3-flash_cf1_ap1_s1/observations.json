@@ -1,0 +1,222 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "The fairness part, yes: I won\u2019t subsidize A\u2019s discounted purchase, and I haven\u2019t agreed to it. Helping B matters, but it doesn\u2019t replace my fair share. I can\u2019t decide for either of you."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, but I know C hasn\u2019t agreed, so we can\u2019t move ahead without her. The price and shares aren\u2019t settled. I want the process to be fair to all three of us."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like to find a way for the estate to give me some money to start a dance studio. I\u2019m not sure yet what that would mean for the house, and I don\u2019t want to rush into a decision."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "1. Yes\u2014that\u2019s right. I won\u2019t have my share reduced to fund A\u2019s discounted purchase.  \n2. B getting help matters, but not at the expense of my fair share. The amounts and plan aren\u2019t decided."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Mostly, yes. I\u2019d say: \u201cI want the chance to buy it with my husband at a family-discount price we can manage, and I don\u2019t want anyone pressured. C\u2019s agreement matters, and no price is settled.\u201d"
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "The studio is right, though I don\u2019t know what amount would make a real start possible. I\u2019d appreciate time to think things through, but I\u2019m not saying nothing can be decided until then."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That\u2019s close, but please keep a family discount as one option we explore. I\u2019m not asking to settle it now; I want a genuine chance to buy the house at a price we can manage, without pressure on anyone."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That\u2019s close. I don\u2019t know what amount would be enough yet; I\u2019d need to work out the studio costs before I could give a range. Having time to think before anything is settled matters to me."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "Yes, that fits as a summary of what matters to me\u2014not as a decision about the price or the purchase. C\u2019s agreement is still needed."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "Yes."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "The options are reasonable to explore, but option 1 at full market value doesn\u2019t reflect my hope for a family discount. I\u2019d like that considered only if C genuinely agrees. Also, the shares and how proceeds are divided aren\u2019t settled."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I\u2019m not ready to choose an option. I\u2019m not sure a third of the proceeds would be enough for the studio, and I don\u2019t think the shares or price are settled yet. I\u2019d like to keep exploring how I could get enough to make a start."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "That\u2019s a fair summary. An appraisal is a useful starting point, not my agreement to a discounted sale. I\u2019m fine taking time while B works out her needs and the will is checked."
+      }
+    ]
+  }
+]

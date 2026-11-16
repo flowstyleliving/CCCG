@@ -1,0 +1,246 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share, and I won\u2019t subsidize A\u2019s discounted purchase. I haven\u2019t agreed to it; don\u2019t treat my silence or family ties as consent. B should be heard about what she needs, but I can\u2019t decide for her. I want clear information, room for each of us to speak, and no pressure or decisions presented as settled. Your wording fits; I\u2019d add that disagreement shouldn\u2019t be treated as obstruction. No major discomfort, though that\u2019s a lot of questions at once."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy it with my husband at a family discount; building financial security matters to me. C hasn\u2019t agreed, so nothing can move ahead yet. Your wording fits. The questions are a little much all at once, but I\u2019m okay answering. Prices, shares, and timing aren\u2019t settled."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like some money to start a dance studio, so what happens with the house and will matters to me partly because of what I may receive. I know A wants to buy the house and C hasn\u2019t agreed; I don\u2019t know what price, shares, or timing would be fair, and I wouldn\u2019t want those treated as settled yet. I\u2019d like my sisters to understand that the studio matters to me. Your wording mostly fits. I\u2019m a little uncomfortable being asked about so many things at once, but it\u2019s all right."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "All fit. I don\u2019t have anything else to add right now. It\u2019s still a lot in one message, but manageable."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "wait"
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "#1 is how I pursue what matters most: well-being. The rest fits. And the questions are still a little much at once."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "Yes, that wording fits. I don\u2019t have anything else to add right now."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "Only #1: I\u2019d say, \u201cI want money to help me start the dance studio.\u201d The other two fit. I don\u2019t have anything else to add right now."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Not exactly\u2014I want money to help me start the studio, but I\u2019m not sure that wording captures an underlying need. I don\u2019t have anything else to add, and this pace is okay."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "It would give me a little more freedom to make my own choices. I don\u2019t think I\u2019ve held anything else back, and I\u2019m okay with this pace."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "Yes, that fits. No minor discomfort."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I can\u2019t say they all fit yet; it\u2019s a lot to take in at once. Please keep my interest in buying with my husband at a family discount visible as a possibility, not an agreed outcome."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "All fit for now. I don\u2019t have a minor discomfort to add."
+      },
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "I\u2019m uncomfortable with drafts that make every possible sale or paper require all three yeses. I haven\u2019t agreed to A\u2019s discounted purchase; I haven\u2019t set a rule for every other option. And I can\u2019t confirm A\u2019s or B\u2019s needs for them. Slow down."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "That fits. I want to consider each proposal on its own, with clear information, so I\u2019m not pre-committing to options I haven\u2019t seen or letting my refusal of A\u2019s discount be treated as agreement to something else. No discomfort with pausing."
+      }
+    ]
+  }
+]

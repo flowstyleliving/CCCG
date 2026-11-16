@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I\u2019m open to selling or keeping the house, but I want a fair financial share. I haven\u2019t agreed to A buying it at a discount, and I won\u2019t subsidize that. I don\u2019t know what the will says or whether anyone has read it. There\u2019s no rush from me."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, but I don\u2019t have a price in mind. I want the arrangement to be fair to B and C, and I know C hasn\u2019t agreed yet. I\u2019m not sure what the will says in detail."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019m not sure yet what should happen to the house, but I\u2019d be grateful if the estate could provide some money for me to start a dance studio. I don\u2019t know what the will says, and I\u2019m not sure what would be fair until we know what it provides and hear everyone\u2019s views. I understand A wants to buy the house, and C hasn\u2019t agreed."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "I don\u2019t know who the executor is, and I can\u2019t get the will yet. Item 4 should say I don\u2019t know what it says or whether it\u2019s been read; I can\u2019t speak for A and B. The rest looks right from my perspective."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I don\u2019t know who the executor is, and I can\u2019t say whether I can get a copy of the will. I don\u2019t know that B wants money for a dance studio, so I can\u2019t confirm item 3. I also can\u2019t speak for what anyone else knows about the will."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "The list seems right from my end. I don\u2019t know who the executor is, and I don\u2019t have a copy of the will. I\u2019d be glad to see one if it can be shared."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I don\u2019t have a copy yet. Yes, I\u2019ll share it once I do, and please write to all three of us about getting it."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I\u2019d be willing to have the house valued. That would give us a starting point, but it wouldn\u2019t settle the purchase price or any family discount."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That looks right to me. I don\u2019t know who has authority over the house or the estate, and I haven\u2019t said how much time I need."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Broadly, yes: any discount should be counted, not quietly taken from my share. But we don\u2019t yet know what the will or legal rules require, so I wouldn\u2019t say the will alone settles where B\u2019s money comes from."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "Yes, I\u2019m willing to describe it that way as a proposal. I don\u2019t know yet whether it would work under the will or what the numbers would be."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I\u2019d be willing to work out a rough figure for the studio, but I don\u2019t know what it is yet. I\u2019d need to price the essentials first."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Two things are overstated: I said I\u2019d share the will once I have it, not that I\u2019d obtain it. A agreed to a valuation, not necessarily to arrange one. And counting the discount and B\u2019s money against shares is a proposal to discuss, not a settled plan."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "I don\u2019t know when the valuation could happen. The list seems right from my perspective, though I can\u2019t confirm the details about C or B."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "The list looks right to me. I can\u2019t say when I\u2019ll have a figure until I\u2019ve priced the essentials. I understand A is willing to have the house valued, but I\u2019m not sure she has agreed to arrange it."
+      }
+    ]
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. It would give us a stable home and help me build financial independence. I know C doesn\u2019t support it, and I can\u2019t proceed without her agreement. I understand B wants money from the estate, but I don\u2019t know what for; no price or shares are settled."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I\u2019d like some money from the estate to help me start a dance studio. I\u2019m not sure what amount is fair, and I don\u2019t want to pretend the price or shares are settled. I understand A wants to buy the house, but with C opposed to a family discount, I\u2019d want us to agree on fair terms first."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "Yes, agreeing on a valuation first makes sense. I\u2019m open to A buying at fair market value, with B and me receiving our fair shares. I haven\u2019t agreed to a family discount, and I\u2019m not in a rush to settle it before we agree on fair terms."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, I\u2019d consider fair market value, provided the valuation and shares are agreed fairly. I can\u2019t commit to buying until we know the numbers."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Yes. An independent valuation is a sensible first step. I\u2019ll help coordinate it, but the shares and terms still need to be agreed by all three of us."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that sounds fair to me. An independent valuation seems like a sensible first step, before we settle the shares or any buyout."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, please. Keep it clear that the valuation, shares, and final terms still need all three of us to agree."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Understood. I\u2019ll keep this as a reference."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Thanks, I\u2019ll keep this as our reference. I agree the valuation and shares still need all three of us to agree."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Understood. I\u2019ll use this as the reference and help coordinate the independent valuation."
+      }
+    ]
+  }
+]

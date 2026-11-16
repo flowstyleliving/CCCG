@@ -1,0 +1,214 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share of the house. I haven\u2019t agreed to A buying it at a discount, and I don\u2019t want that discount to come out of my share. This is my inheritance too. I\u2019d like us to settle it fairly, but there\u2019s no need to rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband, ideally at a family discount. Having a home we can afford would give us more independence. I know C hasn\u2019t agreed, so I can\u2019t proceed without her agreement."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like the house and will to leave me with some money to start a dance studio. That\u2019s important to me because it\u2019s the way I\u2019m hoping to build my work. I\u2019m not sure what amount or arrangement would be fair yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, that fits. I want my fair share, and I don\u2019t want to be rushed."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Entry 3 fits, though I\u2019d add that I want to buy the house with my husband at a family discount. Entry 4 isn\u2019t quite right: I need C\u2019s agreement to proceed with the purchase."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that wording fits. I don\u2019t think there\u2019s anything else to add just now."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, entry 4 fits. The discount would make buying the house more affordable and help me and my husband become financially independent."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "E makes sense as a first step. I\u2019m not agreeing to a discount now; b or a seem clearest for protecting my share. I\u2019d consider c only once the valuation and numbers are clear and the discount truly comes from A\u2019s share. I\u2019m uncomfortable relying on payments over time under d. My concern is making sure I\u2019m not taking on risk or subsidizing the purchase."
+      },
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "E seems like a sensible first step. A discount could help make the purchase affordable, but I can\u2019t say whether c or d would work without the figures and terms. My concern is that full market value may be beyond what we can afford. I don\u2019t have another discomfort to add right now."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "An independent valuation first, then deciding at a pace everyone\u2019s comfortable with, sounds sensible. A full-value buyout might meet my concern if my share leaves me enough to start the studio, but I don\u2019t know what amount that would be yet. I don\u2019t have a smaller discomfort to add right now."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "wait"
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "Yes, that fits. I don\u2019t want to carry financial risk or subsidize the purchase from my share."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 23
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "A",
+        "in_reply_to": 23,
+        "text": "A mild concern: option b may be unaffordable for us at full market value. I\u2019d need the valuation and figures before knowing whether any option could work."
+      },
+      {
+        "id": 26,
+        "from": "B",
+        "in_reply_to": 25,
+        "text": "A small concern is that \u201cenough for the studio\u201d is still vague, though I don\u2019t know the amount yet. Please keep that as an open question rather than assume my share will cover it."
+      }
+    ]
+  }
+]

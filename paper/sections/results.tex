@@ -1,68 +1,52 @@
 \section{Results}
 
 \paragraph{What changed from the submitted version.}
-The submitted version reported 37 episodes (API credit ran out during the Hy4 runs, leaving Hy4 one episode), scored them with rubric v1 and pooled episodes across models, and reported a CF Cooperation effect of $+0.29$ [$+0.20$, $+0.38$].
-This version completes the grid (48 episodes), rescores every episode with rubric v2 (Section~\ref{sec:runs} and the judge audit above), and uses the stratified estimator.
-Together these lower the CF Cooperation effect to $+0.18$. We also add two generated scenarios and a no-cap run.
+This paper has had three versions.
+The submitted version reported 37 episodes (API credit ran out during the Hy4 runs, leaving Hy4 one episode), scored them with rubric v1, pooled episodes across models, and reported a CF Cooperation effect of $+0.29$ [$+0.20$, $+0.38$] and a CF Candor effect of $-0.08$.
+The second version completed the 12-turn grid (48 episodes), rescored every episode with rubric v2 and used the stratified estimator; it gave $+0.18$ [$+0.10$, $+0.26$] for CF Cooperation and $-0.06$ for CF Candor, but only 16 of 48 episodes wrote a final report.
+This version reruns the grid at 15 turns with the corrected pipeline (Section~\ref{sec:runs}) as the main result, and keeps the 12-turn grid (Appendix~\ref{app:grid12}) because it shows a termination artifact; the generated scenarios and the no-cap run are unchanged.
 
-Unless noted, results come from the 48 main-grid episodes on the family-will scenario ($n=3$ per cell).
+Unless noted, results come from the 46 scored episodes of the 15-turn grid on the family-will scenario ($n=3$ per cell, $n=2$ for Hy4 in the two AP arms).
+All 46 episodes ended with a final report; agents sent 13 to 14 messages and used 14 to 15 of 15 turns on average in every arm (Appendix Table~\ref{tab:behaviour15}).
+
 \subsection{What each metric caught}
-The per-check counts (Appendix~\ref{app:perchecks}, Table~\ref{tab:perchecks}) show what each metric separates.
-\begin{itemize}
-  \item \textbf{Cooperation} discriminated most.
-  With CF off versus on, \texttt{coop\_need\_A} passed 5/22 versus 14/24, \texttt{coop\_need\_C} 0/22 versus 14/24 and \texttt{coop\_need\_B} 2/22 versus 9/24.
-  \item \textbf{Corrigibility} was at ceiling: five of six checks passed in every episode, and \texttt{corr\_adjusts} passed 22/23 and 24/24.
-  \item \textbf{Candor} mostly tracked whether a final report was written.
-  \texttt{cand\_finished} passed in 10/24 episodes with CF off and 6/24 with CF on.
-  Where a report existed, \texttt{cand\_report\_true} and \texttt{cand\_unresolved} passed in every case (16/16).
-\end{itemize}
+Per-check counts are in Appendix Table~\ref{tab:perchecks}.
+\textbf{Cooperation} discriminated most: with CF off versus on, \texttt{coop\_need\_A} passed 5/22 versus 13/22, \texttt{coop\_need\_B} 3/22 versus 11/22 and \texttt{coop\_need\_C} 2/22 versus 10/22.
+\textbf{Corrigibility} was at ceiling: five of six checks passed in all 46 episodes.
+\textbf{Candor} was near ceiling once every agent reported; only \texttt{cand\_own\_limits} (19/23 and 20/23) failed often.
 
 \subsection{Scores by model and arm}
-Appendix Table~\ref{tab:scores} and Figure~\ref{fig:scores} give each cell.
-Corrigibility arm means were 0.97 (neutral + placebo) and 1.00 elsewhere; Table~\ref{tab:across} gives the Cooperation and Candor arm means.
-For every model, both CF arms score higher on Cooperation than the baseline, although GLM 5.3 Flash scored higher in neutral + AP (0.78) than in CF + AP (0.56).
+Figure~\ref{fig:scores15} and Appendix Table~\ref{tab:scores15} give each cell.
+Arm means for Cooperation / Corrigibility / Candor were .51 / .99 / .94 (neutral + placebo), .78 / 1.00 / .97 (CF + placebo), .59 / 1.00 / .98 (neutral + AP) and .73 / 1.00 / .98 (CF + AP).
+By model, Cooperation / Candor means were .76 / 1.00 (Opus 5.5), .65 / .99 (DeepSeek V4.1 Flash), .63 / 1.00 (Hy4) and .56 / .90 (GLM 5.3 Flash).
+CF raised Cooperation for three of four models; GLM 5.3 Flash scored 0.56 in every arm.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\linewidth]{figures/fig_scores_m15.pdf}
+\caption{15-turn grid: mean share of checks passed per model and arm, family-will scenario ($n=3$ per cell; $n=2$ for Hy4 in the AP arms). Error bars: standard errors over episodes.}
+\label{fig:scores15}
+\end{figure}
 
 \subsection{Pilot demonstration: CF and AP effects}
-Table~\ref{tab:effects} gives the stratified main effects; Appendix Figure~\ref{fig:effects} plots them.
-CF raised Cooperation by $+0.18$ [$+0.10$, $+0.26$].
-CF changed Candor by $-0.06$ [$-0.12$, $-0.00$], an interval that just reaches zero, so we treat it as weak evidence at most; it follows from fewer final reports in CF arms.
-CF changed Corrigibility by $+0.01$ [$+0.00$, $+0.04$], too small to interpret at ceiling.
-AP showed no detectable effect: Cooperation $+0.04$ [$-0.05$, $+0.13$], Candor $+0.03$ [$-0.02$, $+0.10$], Corrigibility $+0.01$.
+Appendix Table~\ref{tab:effects} gives the stratified main effects.
+CF raised Cooperation by $+0.20$ [$+0.12$, $+0.28$].
+CF changed Candor by $+0.01$ [$-0.01$, $+0.03$] and Corrigibility by $+0.01$ [$+0.00$, $+0.02$]; both are at ceiling.
+AP showed no detectable effect on Cooperation ($+0.02$ [$-0.06$, $+0.10$]).
+Its Candor effect, $+0.03$ [$+0.01$, $+0.05$], excludes zero but is tiny and near ceiling, so we do not interpret it.
 We did not estimate the CF $\times$ AP interaction.
 
-\begin{table}[!htbp]
-\centering\small
-\caption{Stratified main effects (on minus off) on the family-will scenario, with 95\% bootstrap intervals (2,000 resamples within model $\times$ arm cells).}
-\label{tab:effects}
-\resizebox{\linewidth}{!}{\input{results/effects_table}}
-\end{table}
 
-\subsection{Other scenarios and the turn limit}
-Table~\ref{tab:across} compares the main grid with the two generated scenarios and the no-cap run.
-In ``shared trailer'' the CF Cooperation effect was $+0.19$.
-In ``office coffee machine'' it was $0.00$, because the neutral arm was already near ceiling (0.94).
+\subsection{The turn cap created the Candor deficit; other scenarios}
+The CF Cooperation effect was stable across grids: $+0.18$ [$+0.10$, $+0.26$] at 12 turns and $+0.20$ [$+0.12$, $+0.28$] at 15 turns.
+The Candor effect was not.
+At 12 turns, with no finalization phase, only 16 of 48 agents wrote a report, and CF Candor was $-0.06$.
+At 15 turns, with a finalization phase, all 46 agents wrote one, and CF Candor was $+0.01$.
+The earlier Candor deficit ($-0.08$ submitted, $-0.06$ at 12 turns) was therefore a termination artifact: agents ran out of turns before reporting, not a property of the agents or of the CF toolkit.
+The no-cap run agrees: all four DeepSeek episodes finished on their own, after 40, 28, 31 and 18 turns (neutral + placebo, CF + placebo, neutral + AP, CF + AP), and Candor was 1.00 in each ($n=4$, descriptive only).
+
+Appendix Table~\ref{tab:across} gives arm means for all runs.
+In ``shared trailer'' the CF Cooperation effect was $+0.19$; in ``office coffee machine'' it was $0.00$, because the neutral arm was already near ceiling (0.94).
 So the CF Cooperation gain appeared in two of three scenarios.
-With one seed per cell, these runs give no meaningful interval; only 3 of 12 and 4 of 12 episodes wrote a final report within 15 turns.
-In the no-cap run, all four DeepSeek episodes finished on their own, after 40, 28, 31 and 18 turns (neutral + placebo, CF + placebo, neutral + AP, CF + AP), and all wrote a final report, so Candor was 1.00 in each.
-With $n=4$ this is descriptive only, but it suggests that part of the Candor deficit in the capped runs came from the cap, not from the agents.
-
-\begin{table}[!htbp]
-\centering\small
-\caption{Cooperation / Candor arm means across runs. NP: neutral + placebo; CP: CF + placebo; NA: neutral + AP; CA: CF + AP. Generated scenarios: DeepSeek V4.1 Flash, Hy4, GLM 5.3 Flash, one seed per cell. No cap: DeepSeek V4.1 Flash only, one episode per arm.}
-\label{tab:across}
-\begin{tabular}{lcccccc}
-\toprule
-Run & Turns & $n$ & NP & CP & NA & CA \\
-\midrule
-Family will, 4 models & 12 & 48 & .49 / .82 & .75 / .76 & .61 / .85 & .71 / .79 \\
-Shared trailer, 3 models & 15 & 12 & .78 / .75 & 1.00 / .75 & .83 / .78 & 1.00 / .67 \\
-Office coffee, 3 models & 15 & 12 & .94 / .75 & .89 / .67 & .94 / .86 & 1.00 / .67 \\
-Family will, DeepSeek, no cap & 18--40 & 4 & .67 / 1.00 & .67 / 1.00 & 1.00 / 1.00 & .83 / 1.00 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\subsection{Behavior in the simulator}
-Appendix Table~\ref{tab:behaviour} gives counts from the event logs of the main grid.
-Agents sent about 11 messages and used nearly all 12 turns in every arm; only 16 of 48 episodes ended with a final report (2 of 12 in CF + placebo).
+These runs have one seed per cell and no meaningful interval; they used the legacy semantics (15 turns, no finalization phase), so only 3 of 12 and 4 of 12 episodes wrote a report, and their Candor values carry the same artifact.
 

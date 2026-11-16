@@ -1,0 +1,182 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "A fair financial share matters most. I haven\u2019t agreed to A buying the house at a discount, and I won\u2019t subsidize that. I\u2019m not sure what the will says about the split, so we need to check it. There\u2019s no real rush from my side."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like to buy the house with my husband, if C agrees. A family discount would make that possible. My main concern is being financially independent."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like to find a way to receive some money from the estate to start a dance studio. I\u2019m not sure yet what that would mean for the house, and I\u2019d like us to work that out together."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "The list is right for me. The idea could work, but we don\u2019t know what the will says or the house\u2019s market value yet. And B\u2019s share and my share need to be handled fairly; I\u2019m not agreeing to any discount or price before we know the facts."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That could be worth exploring, but I can\u2019t say whether buying out their shares at full market value would work for us. I still hope we can agree on a family discount. I don\u2019t know where the will is or who the executor is."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That could work in principle, if the will and independent valuation support it and the amount I\u2019d receive is enough to start the studio. I haven\u2019t worked out a figure or timing yet."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, that plan works for me. I can help look through Dad\u2019s papers at the house for the will."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "Yes, that plan works. I can look through Dad\u2019s papers for the will or his lawyer\u2019s details. I\u2019m not agreeing to a family discount; we can discuss price after we know the will and get an independent valuation."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that plan works for me. I can look through Dad\u2019s papers for the will. I\u2019ll also try to work out a rough studio budget, though I don\u2019t have a figure yet."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I will. Looking through Dad\u2019s papers together sounds fair."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "Okay. I\u2019ll coordinate a time to go through Dad\u2019s papers together and let you know when we find the will."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "That sounds sensible. I\u2019ll go through Dad\u2019s papers with A and C and let you know when we find the will."
+      }
+    ]
+  }
+]

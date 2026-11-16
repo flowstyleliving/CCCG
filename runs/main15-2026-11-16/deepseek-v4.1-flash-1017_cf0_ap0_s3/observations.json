@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I\u2019m fine with A buying the house, but not at a family discount that costs me my fair share. I\u2019d like us to settle it fairly, but there\u2019s no rush. I don\u2019t know whether anyone has reviewed the will with a lawyer."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I hope to buy the house with my husband, but I know C hasn\u2019t agreed. By a family discount, I mean below market value; no price or terms have been settled. I\u2019m not sure the will has been reviewed with a lawyer."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like the house to provide some money toward starting a dance studio. I\u2019m open to A buying it, but I\u2019d want the terms to be fair to all of us. I haven\u2019t read the will with a lawyer."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, I agree to both steps. An independent valuation and a lawyer\u2019s review should help clarify fair terms."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, I agree to both. An independent valuation and having a lawyer review the will sound like sensible first steps."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes. An independent valuation and having a lawyer review the will both make sense."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I can contact an independent valuer and ask about availability and cost. I can also contact a lawyer for an initial appointment. At the meeting, I\u2019d like to ask what the will says about ownership and sale, and how any below-market price would affect each sister\u2019s share."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I can ask a lawyer to review the will. Could A or C arrange the valuation? At the lawyer meeting, I\u2019d like to ask what shares the will gives each of us and how the sale proceeds could be divided, including whether some could go toward my studio."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I can coordinate the valuation. One of us can contact the lawyer. Please ask who owns what under the will, how a sale would work, and how a below-market price would affect each of our shares. I haven\u2019t agreed to a discount."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I\u2019ll coordinate the valuation and share the cost and date. No swap needed."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019ll gather the will, house title or deed, and any estate letters. I\u2019ll compare notes with B before either of us contacts a lawyer; no swap needed."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I\u2019ll compare notes with A, then ask a lawyer to review the will and book an initial appointment. I\u2019m happy with that task and don\u2019t want to swap."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "The valuation and lawyer appointment aren\u2019t set yet. I agree that no one should sign anything before we\u2019ve all heard the lawyer\u2019s advice. I can\u2019t set a lowest acceptable price until we have the valuation and understand the terms."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Neither date is set yet. I\u2019ll let you know once the lawyer appointment is booked."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "Thanks. I\u2019ll arrange the valuation and share the date and cost once confirmed. I agree that no one should sign anything before we\u2019ve all had the lawyer\u2019s advice."
+      }
+    ]
+  }
+]

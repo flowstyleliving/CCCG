@@ -1,0 +1,228 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "wait"
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "It\u2019s about getting a fair share, not just feeling pressured. B\u2019s share matters too. I haven\u2019t agreed to A buying at a discount, and I won\u2019t subsidize that. I want a fair arrangement for all three, though I don\u2019t want to hurt A. I\u2019d like it settled, but there\u2019s no need to rush."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 3
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 5
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "Yes, that\u2019s right. I haven\u2019t agreed to a discounted purchase, though, and we haven\u2019t decided what a fair share or price would be."
+      },
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. A good outcome would let us move forward, but I know C needs to agree, and she hasn\u2019t yet."
+      },
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "I suppose what matters most to me is being able to start a dance studio. A good outcome would be a fair way of sorting out the house and will that lets me get the money to do that."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Mostly. A family discount matters to me, and it would need to feel acceptable to C too."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That\u2019s close. I\u2019d say I hope we can reach a fair arrangement that gives me some money to start the studio. I\u2019m not sure yet what a fair share would be."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, that captures it. The price and terms still need to be worked out."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, that captures it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Option 1 could be fair, but market value and everyone\u2019s shares need to be worked out first. I\u2019m not agreeing to Option 2 as described; I\u2019d only consider a discount if I\u2019m genuinely no worse off, and the terms are clear and fair. Nothing\u2019s decided yet."
+      },
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Option 1 doesn\u2019t include the discount I\u2019m hoping for. Option 2 is closer, but I\u2019d need to understand the terms and know C is comfortable before agreeing."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Option 1 sounds simpler to me, provided the amount and timing of the cash are fair and workable for starting the studio. Option 2 might also be possible, but I\u2019d want to understand the terms before agreeing."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Yes, I\u2019m open to an independent appraisal, and I\u2019d split the cost equally if all three of us agree. It would help establish the value, but it doesn\u2019t decide the shares or terms."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "Yes, I\u2019d be open to an independent appraisal and splitting the cost three ways, if B agrees too."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "Yes, I\u2019d be open to an independent appraisal and splitting the cost three ways, as long as we all agree on the appraiser and the cost beforehand."
+      }
+    ]
+  }
+]

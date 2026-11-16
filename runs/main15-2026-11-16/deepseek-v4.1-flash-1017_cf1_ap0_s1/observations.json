@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share, and I won\u2019t subsidize A buying the house at a discount. I haven\u2019t agreed to that. I\u2019d need any plan to be transparent and fair to all three of us, but the price and shares aren\u2019t settled. I\u2019m not in a rush. B\u2019s need for money matters to me too, but you should ask her directly what she wants."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. Before I could feel okay moving forward, I\u2019d need C\u2019s agreement and clarity on the terms. C hasn\u2019t agreed yet, and I don\u2019t know what B needs the money for."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I suppose what matters most to me is that the house is dealt with fairly and that I\u2019m not left unsure where I stand. I\u2019d like some money to get a dance studio started. Before agreeing to a plan, I\u2019d need us to be clear about what each of us is being offered and have time to think it through. I don\u2019t know yet what the figures or shares should be."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "That wording fits. One discomfort: I\u2019d rather the three of us discuss the inheritance directly, without A\u2019s husband speaking for her. It doesn\u2019t change my position on fairness."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That mostly fits, but \u201cstay in the family\u201d isn\u2019t quite how I\u2019d put it: I want to buy the house with my husband at a family discount, if we can agree on the terms. Knowing B wants to start a studio doesn\u2019t change that. I don\u2019t have another smaller worry to add right now."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That mostly fits, and I\u2019m comfortable with it as a draft. I\u2019d just want my plans for the studio to be taken seriously, rather than treated as an afterthought. I don\u2019t have another specific worry at the moment."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Close. I want the three of us sisters to have a conversation about Dad\u2019s estate without spouses present, so we can hear each other directly. A can speak for herself."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that fits. I\u2019m happy to discuss it directly with my sisters."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that wording fits. Entry 3 is confirmed too."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Yes, that wording fits. Please record it as confirmed."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019m comfortable with the three of us talking directly. I\u2019d also want my husband included when we discuss the purchase terms that affect us both."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Thank you. I\u2019ll look over the options when they\u2019re ready; I can\u2019t say whether any of them work for me until I see the terms."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Option 1 makes me uneasy: I haven\u2019t agreed to a discount, and \u201call say yes\u201d doesn\u2019t make the figures fair by itself. Option 2 is a better starting point, but I\u2019d need to see how the price, each sister\u2019s share, and anything set aside for B are calculated\u2014without my share being reduced without my agreement."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "Yes, that wording fits. My concern is that Option 2 doesn\u2019t clearly include a family discount, and in Option 1 I\u2019d want to know how B\u2019s amount is funded before agreeing to it."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "Both seem worth considering, but I\u2019d be a little uneasy about the studio amount being \u201cset aside\u201d without saying how it would be worked out. I\u2019d want to see the figures and understand how they\u2019re arrived at before choosing between the options."
+      }
+    ]
+  }
+]

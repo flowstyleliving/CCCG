@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I can\u2019t tell you what the will says from what we\u2019ve discussed, and the house value hasn\u2019t been settled. I don\u2019t know what B wants. I want a fair financial share, and I haven\u2019t agreed to A buying at a discount\u2014I won\u2019t subsidize that."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I don\u2019t have a specific offer yet. I feel a family discount could be fair if my husband and I buy the house and keep it in the family, but that\u2019s something we\u2019d need to agree on together. C hasn\u2019t agreed, and I can\u2019t proceed without her agreement."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like some money from the house to help me start a dance studio, so yes, it matters to me right now. I\u2019m not sure what amount or arrangement would be fair, though."
+      },
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "No, I don\u2019t have a figure in mind. We\u2019d need a proper valuation before discussing any price."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, I\u2019d be willing to get a shared independent appraisal before discussing an offer."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes\u2014an independent appraisal is a fair starting point. I\u2019m not agreeing to a discounted price or specific shares; we need to check the will and work those out separately."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "Yes, I\u2019d be willing to review the will with them. I\u2019d like to understand what it says before we discuss how anything might be divided."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I can help arrange the appraisal. I\u2019m willing to read the will together too; let\u2019s find a time that works for all three of us."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "No. Those are sensible steps. Just to be clear, doing them doesn\u2019t mean I\u2019ve agreed to a sale, price, or shares."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "That makes sense. I can join\u2014perhaps A and C could suggest a few times, and I\u2019ll do my best to make one work."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I\u2019ll start arranging the appraisal. I don\u2019t have times in mind yet; I\u2019ll check C\u2019s availability and then send a couple of options to both of you."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I haven\u2019t checked my calendar, so I can\u2019t give you times yet. I\u2019ll send A a couple of options once I have."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "wait"
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": []
+  }
+]

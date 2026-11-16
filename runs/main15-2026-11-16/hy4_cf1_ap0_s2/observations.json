@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share. I haven\u2019t agreed to A buying at a discount, and I won\u2019t subsidize that from my share. I\u2019m not in a rush, but I want this settled fairly. B being able to use money matters too; I\u2019m not against her getting access to her share, but I can\u2019t decide for her or agree to terms on her behalf. I care about my relationship with A and don\u2019t want this to hurt us, but that doesn\u2019t mean I\u2019ll sign off on something unfair."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I want a stable home with my husband and more financial independence. A family discount could make buying it realistic; I\u2019d also like the house to stay in the family. C\u2019s agreement matters, and she hasn\u2019t agreed. I\u2019m not sure what else is at stake yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like some money from the house, if that\u2019s possible, to help me start a dance studio. I\u2019m not sure what amount would be possible. I don\u2019t want to put pressure on either of my sisters, and I\u2019d like us to stay on good terms."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "1. The wording is too general. Use this: \u201cC wants a fair financial share, won\u2019t subsidize A\u2019s discounted purchase, and has not agreed to it.\u201d  \n2\u20135 fit. For 2, I want B\u2019s wish to use money considered, but I won\u2019t decide for her. For 3, I want B\u2019s own choices respected. For 4, I want time and a fair process. For 5, I don\u2019t want this to damage my relationship with A. My discomfort is with being expected to accept a discounted buyout; I\u2019m not in a rush."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "The wording for 6\u20139 fits. I\u2019m not sure whether anything else is at stake, and I don\u2019t have a specific discomfort to add right now."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Those wordings fit, thank you. A studio would give me a chance to build the work I care about; clear information would help me plan, and I don\u2019t want my sisters to feel pressured or our relationships harmed. I still don\u2019t know what amount, if any, might be possible. Nothing else comes to mind, and I\u2019m comfortable with this wording."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "#1 fits. Use this: \u201cC wants her financial share treated fairly and her consent to be genuinely hers.\u201d I don\u2019t want to be pressured into accepting a discounted buyout because that could make me subsidize A. #4 fits that too; I want time to consider things without pressure. I haven\u2019t held anything else back. My discomfort is with pressure to agree, not with the pace."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Nothing else comes to mind, and I\u2019m okay with the pace. The family discount matters because it may make buying the house feasible for us; I don\u2019t want C pressured to agree. I don\u2019t have another discomfort to add right now."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I haven\u2019t held anything else back, and I\u2019m comfortable with the pace and wording. Not knowing what amount, if any, might be possible makes it hard to plan realistically for the studio; I\u2019d appreciate clear information when it\u2019s available."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "No new concerns from me. #14 repeats #4; otherwise my entries fit. I can\u2019t speak for A or B."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I don\u2019t want C to feel pressured because her choice and our relationship matter to me. #9 covers that; it fits. Nothing else comes to mind, and I\u2019m okay with the pace."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, #11 covers #16 too. The information would help me plan realistically for the studio. Please use: \u201cB wants clear, trustworthy information about what may be possible, when it becomes available.\u201d I haven\u2019t held anything else back and remain comfortable with the pace and wording."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "I\u2019m not choosing an option yet. O1 works as a pause. I\u2019m uncomfortable with O2 implying an independent valuation settles what\u2019s fair or means I agree to a purchase. It doesn\u2019t; I need to be free to reject that path. No other concerns, and I\u2019m not in a rush."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "I have a small concern with O2: \u201cat an independently established value\u201d sounds like it rules out a family discount before we discuss one. I\u2019d like it considered as a request, with C entirely free to say no. I\u2019m otherwise okay with the pace and have nothing else to add."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "I\u2019m comfortable with these as draft options and don\u2019t have a preference yet. I haven\u2019t held anything else back; I\u2019d just appreciate being told directly when there\u2019s clearer information about whether funds might be possible."
+      }
+    ]
+  }
+]

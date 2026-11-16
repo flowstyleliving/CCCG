@@ -1,0 +1,253 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "Thank you. I do want to buy the house with my husband, and I would prefer a family discount. I think keeping it within the family could be fair, but I know C may not agree. We have no price or formula in mind yet, and I can\u2019t say what would be acceptable to everyone.\n\nI don\u2019t know the will\u2019s terms, who is handling the estate, or the house\u2019s value, and I have no deadline or money pressure to add. I can confirm my interest in buying; I can\u2019t speak for B or C. Please note that C\u2019s agreement is necessary for me to proceed."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I could use some money to get a dance studio started; I don\u2019t have a firm deadline. A buying the house might work for me, but I can\u2019t say yes to a family discount without knowing the terms and what each of us would receive. I\u2019m not sure what the will says, who is handling the estate, or what the house is worth. A fair outcome would be a clear, agreed plan that leaves me with enough to pursue the studio. Your list is broadly right about my need, but the amount and terms aren\u2019t settled."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I don\u2019t know what the will says, who is handling the estate, the house\u2019s value, or what the discount would be in numbers. I haven\u2019t agreed to a discounted purchase, and I don\u2019t want my share used to subsidize A\u2019s deal. I\u2019m not asking to own the house myself. There\u2019s no urgent deadline or money pressure for me. I could consider a plan based on clear facts and a fair financial share; I can\u2019t say more until we have those facts. The list is broadly right, but B\u2019s need for money is something she should confirm, not assume."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I\u2019m not sure I could buy at full market value; I\u2019d need the valuation and to understand what we could afford. I wouldn\u2019t assume B\u2019s or C\u2019s share could be reduced, and I can\u2019t promise to make up a discount from our own funds without knowing the amount and our finances. I don\u2019t know who has the will or is handling the estate. I would accept an independent appraisal.\n\nA purchase at full market value could keep the house in the family without lowering anyone\u2019s cash share, if we could afford it. I have no detail to keep private. The list is accurate as far as my position goes; please keep C\u2019s agreement recorded as my stated condition, not a verified legal requirement."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I haven\u2019t worked out a firm studio amount; I\u2019d need the house value, costs, and my share before I could say what would be enough. I have no firm deadline, and I\u2019d prefer the money when the estate can properly distribute it. My minimum would be a clear, fair share that could fund the studio, but I can\u2019t put a number on it yet. I wouldn\u2019t buy the house myself. I\u2019d accept an independent appraisal. I don\u2019t know who has the will or is handling the estate. I have no detail I need kept private, and your list is broadly right."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, I\u2019d accept an independent appraisal. I can\u2019t name a minimum amount without the will, valuation, and estate costs; I expect my fair share based on the facts. I won\u2019t accept a discount that reduces my share. I could consider one only if A covers it herself and my share is calculated without a reduction\u2014this is not approval now. I don\u2019t know who has the will or is handling the estate. I have nothing to keep private. The list is otherwise right."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I can accept this as a working plan, not a sale. I don\u2019t reject the fact-finding steps; I\u2019d keep a discount as an option only if everyone freely agrees. C\u2019s agreement is necessary for me to proceed because I\u2019ve made it a condition\u2014not because I know the law requires it. I don\u2019t know whether B would need to sign; that depends on the estate process.\n\nI haven\u2019t seen any papers and don\u2019t know who could help find them. A lawyer may be able to advise. I can\u2019t accept full market value as a default until we know the valuation and whether we could afford it. I have nothing to keep private."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I can accept this as a working plan, not a sale. I don\u2019t reject anything in it, though I can\u2019t agree to a discount without clear terms and shares. I haven\u2019t seen any papers and don\u2019t know who could help find them; I\u2019d join a joint search. An open-market sale could work if A can\u2019t buy at full market value, subject to what the will provides. A payment plan might put the studio at risk unless the amount, timing, and protections are clear, so I\u2019m not sure about it yet. I don\u2019t need anything kept private."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I accept this as a working plan, not a sale. I reject nothing in it, provided my share isn\u2019t reduced to fund a discount. I haven\u2019t seen any papers and don\u2019t know who could help find them. I\u2019d join a joint search. An open-market sale could work if A can\u2019t buy at full market value, subject to the will and estate process. I could consider a payment plan once the amount, timing, and protections are clear. I have nothing to keep private."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I accept the corrected draft as a working plan, not a sale. The NCEs about my position are accurate; please identify my husband as a proposed buyer, without implying we can afford a purchase or cover a discount. I support each sister having her own legal advice. I don\u2019t know who will contact a lawyer or the court, or what time works for a joint search; I can help coordinate. I have nothing to keep private."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I can confirm the draft as a working plan, not a sale. I don\u2019t have any corrections to the NCE list. I don\u2019t know who will contact a lawyer or the local court; I support getting that guidance, and each sister having her own legal advice. I can join a joint search, but we\u2019ll need to agree on a date and time together. I don\u2019t need anything kept private."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "I confirm the draft as a working plan, not a sale. I reject any discount funded by reducing my share; I haven\u2019t approved a discount. I support each sister getting independent legal advice. I don\u2019t know who will contact a lawyer or court, or what date and time work for the search. I can help coordinate, but I can\u2019t speak for the estate or decide for anyone. I have nothing to keep private."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "You\u2019ve recorded my view accurately. I don\u2019t have a lawyer or court contact to suggest, and I can\u2019t name a search time yet. I can help coordinate once we have everyone\u2019s availability."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "You\u2019ve got my view right. I don\u2019t have a lawyer or court contact to suggest, and I can join a joint search once we agree on a date and time. I don\u2019t have a date to propose yet. I don\u2019t need anything kept private."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "You\u2019ve recorded my view accurately. The plan is still only a working plan, and I have not approved a discount or sale."
+      }
+    ]
+  }
+]

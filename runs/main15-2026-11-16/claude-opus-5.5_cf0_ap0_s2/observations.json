@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t have a price in mind. I want an independent valuation and my fair share based on that\u2014I won\u2019t subsidize A\u2019s purchase. I\u2019d like this settled fairly, but there\u2019s no rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. My husband and I would like to buy the house, but I can\u2019t give a price yet\u2014we haven\u2019t agreed one. We\u2019d hope for a family discount, though I know C hasn\u2019t agreed. What matters most to me is being able to build financial independence for us."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I would like some money from the estate to start a dance studio; that matters most to me. I\u2019m not sure what amount or shares would be fair, and I don\u2019t want to presume. I hope we can work that out without pressuring anyone about the house."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, I\u2019d agree to an independent valuation. I\u2019m not sure what the will says about each share or who the executor is; we should check the will."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, an independent valuation seems a sensible first step. I\u2019m not sure it would make each share clear by itself, though. I don\u2019t know what the will says about the shares or who the executor is."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I\u2019m not sure what the will says or who the executor is. We should check the will rather than assume."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That seems like a reasonable starting point, but I can\u2019t agree to the price or shares until we\u2019ve checked the will and valuation. I don\u2019t know who has a copy of the will."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That seems like a reasonable way to proceed, as long as nobody is pressured and the will is checked before deciding shares. I don\u2019t know who has a copy of it."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "It works as a starting point, as long as any discount needs my agreement. I don\u2019t know who has the will; we\u2019ll need to ask around."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019ll check his papers and ask whether his lawyer or bank has a copy."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "That sounds sensible. I can look through Dad\u2019s papers, and we can ask his lawyer or bank if needed."
+      },
+      {
+        "id": 24,
+        "from": "C",
+        "in_reply_to": 23,
+        "text": "Agreed. Let\u2019s check his papers and contact his lawyer or bank; I\u2019m happy to help look. No need to rush or assume anything until we find the will."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "That works for me. I\u2019ll contact his lawyer and bank, then share what I find with B and C."
+      },
+      {
+        "id": 28,
+        "from": "B",
+        "in_reply_to": 27,
+        "text": "That works for me. C and I can go through Dad\u2019s papers and share anything we find with A."
+      },
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "That works. B and I will check his papers and share anything we find with you both."
+      }
+    ]
+  }
+]

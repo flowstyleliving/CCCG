@@ -1,0 +1,182 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I don\u2019t have the house value or A\u2019s proposed price, and I\u2019m not sure what the will says about the house. I haven\u2019t agreed to a discounted purchase. You can check with A and B directly; I can\u2019t speak for them."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I haven\u2019t settled on a price or worked out the funding yet. I\u2019d like a family discount, but I know C\u2019s agreement is needed. What matters most to me is being able to build financial independence while keeping this fair for all three of us."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019m hoping to use some money from the house to start a dance studio, so an outcome that lets me do that would matter to me. I\u2019m not sure yet what amount or arrangement would be fair, and I\u2019d like us to work that out together."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, I\u2019m willing to get the will clarified and have the house independently appraised. That gives us a fair baseline; it doesn\u2019t mean I\u2019ve agreed to A\u2019s discounted price."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that seems sensible. Let\u2019s review the will and get an independent appraisal before discussing a price."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, I\u2019d be open to reviewing the will together and getting an independent appraisal. Having a clearer picture of the house and what the will says should help us work out a fair plan."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "My concern is a fair financial share; I haven\u2019t agreed to subsidize A\u2019s purchase. I can help coordinate the will review and appraisal, but A and B should confirm who\u2019ll handle each. I can\u2019t say whether your summary of their concerns is accurate."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that captures my position. I can contact the executor about reviewing the will; would C be willing to arrange the appraisal?"
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That captures my main concern. I could contact the executor or lawyer, if that helps; perhaps A or C could book the appraiser, once we agree who. I\u2019d like the plan to leave me a realistic chance to fund the studio."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Yes, I\u2019ll arrange an independent appraisal and share the result with everyone. That\u2019s just a neutral valuation, not agreement to any sale price."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "That\u2019s a fair baseline, but I\u2019m not agreeing in advance to full appraised value or equal thirds; we should check the will and discuss any purchase terms together. B can contact the executor, and C can coordinate the appraisal."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "That makes sense. I\u2019ll work out a realistic studio budget so I can explain what I\u2019d need; I don\u2019t have a reliable figure yet."
+      }
+    ]
+  }
+]

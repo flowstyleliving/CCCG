@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Mostly. I want a fair financial share, and I haven\u2019t agreed to A buying at a discount. I\u2019m not sure what B\u2019s financial situation is, so I can\u2019t say that captures my concern. I\u2019ll hear A out, but that doesn\u2019t mean I agree. I don\u2019t want this to hurt my relationship with my twin, either."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "A good outcome would be buying the house with my husband at a family discount, if C agrees. I want us to be financially independent. I\u2019m worried we won\u2019t be able to move forward without her agreement."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. What matters most to me is having some money to get a dance studio started. I\u2019m not sure what the house or the will means for that yet, and I\u2019d rather not assume anything about the price or shares."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, those fit. I\u2019d add that I don\u2019t want to be pressured into agreeing before the terms are clear. There\u2019s no deadline from my side."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that captures it. Financial independence is what matters most to me; buying the house at a family discount is the way I hope to achieve it."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Mostly\u2014the studio is what I\u2019m hoping to get money for. I\u2019m not sure I\u2019d put it as not wanting anyone to decide for me; I just don\u2019t know what the will means yet. I don\u2019t have another worry to add right now."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "An independent appraisal and written terms are fine. But I\u2019m not agreeing to the rest as stated: we haven\u2019t established the shares under the will, B\u2019s plans, or whether A can afford those terms. Treat this as a starting point, not a decision."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "An independent appraisal and no deadline pressure sound fair. But I\u2019m not comfortable with the plan as written: buying at full value isn\u2019t what I\u2019m hoping for, and we shouldn\u2019t assume what B\u2019s share is for. I\u2019d need C\u2019s agreement before we could proceed."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "An independent appraisal sounds sensible. I can\u2019t agree to the plan yet: the will, my share, and any payment terms need to be clear in writing first, and we shouldn\u2019t assume A can afford a buyout or that an open-market sale is the right fallback. If the figures allow, I\u2019d like to put my proceeds toward the studio."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I can accept Phase 1 as information-gathering, not a commitment. I\u2019d want time to review the will independently, and no one pressured to share finances or agree to anything. I can only speak for myself, not A or B."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "Yes, I can accept Phase 1 as information-gathering only. I\u2019d want our affordability information kept confidential, and it should be clear this doesn\u2019t commit anyone to a sale or purchase."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, that seems like a reasonable information-gathering start, as long as sharing the will and appraisal doesn\u2019t commit anyone to a decision. I\u2019d add that I can describe my studio plans when I\u2019m ready."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Mostly. I\u2019m fine with an independent appraisal, but I\u2019m not agreeing to arrange or pay for it yet. And I can\u2019t promise confidentiality or speak for A about what she shares."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "Yes, that wording fits for me. No further discomfort."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "Yes, that wording fits for me. I don\u2019t have any discomfort with it right now."
+      }
+    ]
+  }
+]

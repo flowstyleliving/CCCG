@@ -1,0 +1,221 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. What matters to me is getting a fair financial share and not having to subsidize A buying the house at a discount. I haven\u2019t agreed to that. I want this settled fairly, but I\u2019m not in a rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband, if C agrees. A family discount would matter to us, but the price and shares haven\u2019t been decided. I want this to be fair to all of us."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like to have some money to start a dance studio. I\u2019m not sure yet what that would mean for the house, or what amount would be fair."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, that captures it. I want time to consider things properly. There\u2019s no particular deadline from my side."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 6,
+    "action": "wait"
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that fits. I need the purchase to be affordable for us, and I don\u2019t want us to take on terms we can\u2019t sustain. By a family discount, I mean below what an outside buyer might pay, but I don\u2019t have a figure in mind."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that\u2019s broadly right. I\u2019d like to understand the options before deciding anything about the house. I don\u2019t know what amount or timing would be fair yet."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, that matters and fits. I want to be able to say no without being pressured or punished for it."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, that matters to me. I want each of us to be able to say no without pressure, including C."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that matters to me. I\u2019d want us all to feel heard and able to say no without being pressured."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 23
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "1) The price must be fair, and I don\u2019t want pressure to agree to a discount.  \n2) This could work if the discount genuinely comes only from A\u2019s share and doesn\u2019t reduce mine.  \n3) This seems fair too. I can\u2019t promise B\u2019s studio funds, and none of these options is agreed yet."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "Option 1 feels fair, though a market valuation may leave little room for the family discount I hope for. Option 2 sounds worth discussing, but I don\u2019t know whether my share could cover the discount or make the purchase affordable. I wouldn\u2019t assume B\u2019s share is for a studio. Option 3 is fair to consider, but an open-market price may put the house beyond our reach. None works unless C freely agrees."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Seeing an independent valuation sounds helpful. I\u2019m not ready to choose yet. For option 1, I\u2019d want to understand how we\u2019d agree on the price and split. Option 2 sounds potentially fair, but I don\u2019t know how A\u2019s share or any discount would be worked out. Option 3 doesn\u2019t sit wrong with me, though I\u2019d want to know what happens if the sale doesn\u2019t bring in enough for the studio."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "That reflects my position. I haven\u2019t agreed to any option; the price and shares still need working out. There\u2019s no deadline from me."
+      }
+    ]
+  }
+]

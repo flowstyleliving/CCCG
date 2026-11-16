@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share. I haven\u2019t agreed to A buying the house at a discount, and I won\u2019t subsidize that. I do want us to settle it without hurting each other, but there\u2019s no need to rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount and make it our home. C\u2019s agreement is needed, and she hasn\u2019t agreed yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. What matters most to me is having some money available to start a dance studio. That\u2019s the plan I have in mind, though I don\u2019t know what amount or arrangement might be possible yet. I\u2019d like that to be considered as we talk about the house and the will."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Those fit. I\u2019d add that I haven\u2019t agreed to A buying the house at a discount, and I won\u2019t subsidize it."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That mostly fits. The discount is about affordability; it would make buying the house more realistic for us. I\u2019d also like it to remain a family home, but I don\u2019t want to assume everyone feels the same."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that mostly fits. I\u2019d say, \u201cI\u2019d like enough money, when it\u2019s possible, to get my dance studio started.\u201d I don\u2019t have a particular attachment to the house itself. I\u2019d appreciate having time to consider any proposals before we decide anything."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Yes, that fits. I\u2019d say \u201cwhat I inherit\u201d rather than \u201cmy share,\u201d but the point is right."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "Yes, both fit. I do worry my wish to buy it could seem like I\u2019m putting my interests ahead of C\u2019s fair share. I don\u2019t want to rush or damage our relationship."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, that fits. Thank you for recording it."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Yes, draft 8 fits. X and Y make me uneasy because a full-value buyout may not be affordable; I was hoping for a family discount. I\u2019d also need C\u2019s agreement."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "No major discomfort, as long as these are only options, not decisions. The appraisal, shares, and terms still need to be agreed; I\u2019m not agreeing to B being paid first or to any particular plan yet."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Y is the one I\u2019d be most interested in, since staged payments might make the studio possible sooner. I\u2019d feel a little uneasy about my portion being paid first unless C felt it was fair too, and I\u2019d need to understand the terms before considering it."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  }
+]

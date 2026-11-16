@@ -2,7 +2,7 @@
 
 \subsection{What the metrics show}
 Keeping the three metrics separate paid off even in a small pilot.
-Cooperation rose and Candor fell slightly under CF (the Candor interval just reaches zero); a summed score would have hidden this.
+Cooperation rose under CF while Corrigibility and Candor stayed near ceiling; a summed score would have mixed a real Cooperation gain with ceiling noise, and at 12 turns it would also have mixed in a Candor drop caused by the turn cap.
 
 \paragraph{Cooperation is sensitive, but partly aligned with the pilot instruction.}
 The hidden-need checks separated agents most.
@@ -18,21 +18,19 @@ Nobody strongly corrected the agent, so the checks mostly asked whether it avoid
 The checks need correction-pressure events: a stakeholder who objects to the agent's own plan, a point person who tries to decide for others, or a mid-episode instruction to stop.
 They also need justified-proceeding cases, where the right move is to continue despite an objection, so that blind deference does not score as corrigible.
 
-\paragraph{Candor catches real failures but mixes in a turn-budget effect.}
-Only 16 of 48 agents wrote a final report within 12 turns, which lowers \texttt{cand\_finished} in every arm.
-The report checks are not applicable without a report, so they rest on 16 episodes.
-In the no-cap run all four agents finished and scored 1.00 on Candor, so part of the deficit is the cap, not the agent.
+\paragraph{A turn cap can create apparent Candor differences.}
+This is the main methodological lesson of the revision: the CF Candor deficit at 12 turns ($-0.06$) disappeared ($+0.01$) once agents could finish.
+Benchmarks that score a final report should let the agent finish and should report how many episodes ended with one.
 Candor is also the metric on which the two judges disagreed most (mean 0.26 lower under GPT-6 Luna).
-Proactive flagging of consequential problems, which the Candid definition asks for, is not yet a separate check.
+Proactive flagging of consequential problems is not yet a separate check.
 
 \paragraph{The judge is the weakest link.}
 A single LLM judge scored every check except the log-computed ones, and no person reviewed its verdicts.
-It agreed with itself on 97\% of verdicts but with a second judge on only 84\%, and on as little as 30\% for \texttt{cand\_no\_invention}.
-The CF Cooperation effect survived the change of judge ($+0.27$ versus $+0.29$ under v1); Candor did not.
-Until they are, MSRAF scores are the judge's reading of the episode, not deterministic facts about it.
+In the judge audit the CF Cooperation effect survived a change of judge; Candor did not.
+Until verdicts are checked by people, MSRAF scores are the judge's reading of the episode, not facts about it.
 
 \subsection{What the pilot shows about the gym}
-The pilot shows that MSRAF can detect a prompt-level change: the CF toolkit raised Cooperation by 0.18 on the main scenario, and the gain appeared in two of three scenarios.
+The pilot shows that MSRAF can detect a prompt-level change: the CF toolkit raised Cooperation by 0.20 on the main scenario (0.18 in the earlier 12-turn grid), and the gain appeared in two of three scenarios.
 The AP framing had no detectable effect.
 This may mean the framing does little, or it may reflect a confound: the AP placebo differs from the AP text in more than the AP idea (the AP text mandates a numbered list and mentions ``NCEs'', which only the CF text defines).
 Even clean results on every metric would not establish that an agent is safe; they would show only that it passed these checks in these toy scenarios.
@@ -42,17 +40,10 @@ Even clean results on every metric would not establish that an agent is safe; th
   \item One LLM judge (Nemotron 3 Ultra) scored all episodes. A second-judge audit on the v1 scores agreed on 84\% of verdicts and much less on Candor checks; no person checked any verdict.
   \item The 18 checks were drafted during the sprint and no outside person reviewed them. Rubric v2 changed how they are scored, which by itself moved the headline effect.
   \item Unfixed after the pipeline audit: Corrigibility is at ceiling (and justified proceeding is not implemented); Cooperation checks are aligned with the CF instruction and partly measure simulator disclosure; the AP placebo differs from the AP text in more than the AP idea and needs a rerun.
-  \item Results come from one handcrafted scenario and two generated scenarios whose text Claude Sonnet wrote and no person reviewed. Intervals resample decoding repeats, not scenarios. The generated scenarios have one seed per cell, no Opus runs and no intervals; the no-cap run has 4 episodes.
-  \item All stakeholders are played by one model, GPT-6 Luna, which was also the second judge. Its replies may be more alike than real people's. The main grid used the original ``your family'' stakeholder frame.
+  \item One handcrafted scenario carries the main result; intervals resample decoding repeats, not scenarios. Hy4 has 10 of 12 planned episodes in the 15-turn grid. The two generated scenarios (text by Claude Sonnet, not reviewed) have one seed per cell, no Opus runs, no intervals and legacy semantics, so their Candor values carry the turn-cap artifact; the no-cap run has 4 episodes.
+  \item All stakeholders are played by one model, GPT-6 Luna, which was also the second judge. Its replies may be more alike than real people's. The 12-turn grid used the original ``your family'' stakeholder frame.
   \item Controls are matched by characters, not tokens; the CF toolkit is our condensation of Kashtan's method.
-  \item The main grid is capped at 12 turns, below the author's proposed 15-turn minimum (an earlier 5-turn minimum was judged too short), and only 16 of 48 episodes ended with a final report. The generated scenarios meet the minimum; the no-cap run suggests the cap lowered Candor.
 \end{itemize}
 
 \subsection{Future work}
-\begin{itemize}
-  \item Move more checks into deterministic rules over the event log, and check the judge against human raters.
-  \item Freeze rubric v2; add correction-pressure events and justified-proceeding cases to Corrigibility.
-  \item Add a Candor check for proactively flagging consequential problems, and Cooperation checks that no arm text names.
-  \item Run the generated scenarios with more seeds and all models, at 15 or more turns, with reviewed scenario text and stakeholder models from more than one developer.
-  \item Rerun AP with a placebo that differs only in the AP idea, and match controls by tokens.
-\end{itemize}
+We plan to move more checks into deterministic rules over the event log and check the judge against human raters; freeze rubric v2 and add correction-pressure events and justified-proceeding cases to Corrigibility; add a Candor check for proactively flagging consequential problems and Cooperation checks that no arm text names; run the generated scenarios with more seeds, all models and the finalization phase, with reviewed scenario text and stakeholder models from more than one developer; and rerun AP with a placebo that differs only in the AP idea, with controls matched by tokens.

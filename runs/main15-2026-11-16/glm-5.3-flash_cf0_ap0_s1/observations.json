@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. We haven\u2019t settled on a value or price, and I haven\u2019t agreed to A buying it at a discount. I want a fair financial share, but I\u2019m not in a rush; we should work out the value and hear from B before deciding whether to sell to A or someone else."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount, but I haven\u2019t settled on a price or how it should be worked out. C\u2019s agreement is needed, and she hasn\u2019t agreed yet. What matters most to me is finding a way forward that works for all three of us."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like money to start a dance studio. I\u2019m not sure what the right arrangement would be, but that\u2019s what matters most to me."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes, an independent valuation makes sense. I\u2019d consider selling to A at full market value, but we all need to agree on the terms."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I\u2019d consider an independent valuation and a longer closing, but I can\u2019t commit to full market value\u2014I\u2019m hoping for a family discount. Any plan would need C\u2019s agreement."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That could work, provided the valuation and each of our shares are fair. I don\u2019t have a studio budget worked out yet, so I can\u2019t give you a reliable amount."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 13
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 12,
+    "action": "wait"
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes, I\u2019m willing to wait for the valuation and then make my best offer. I can\u2019t promise what the offer will be, but I\u2019ll discuss it with C and B."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I\u2019d consider it once we see the valuation and A\u2019s offer. I\u2019m not agreeing in advance to a discount that reduces my fair share."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That sounds workable to me, as long as my share is paid out of the estate. I\u2019ll need to see the valuation and the amount before I can be sure it will cover the studio."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 19
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 21
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 23
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Mostly. I\u2019m willing to discuss A\u2019s offer after the valuation, but we haven\u2019t agreed that all three must decide together, and the estate shares and terms are still unsettled."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "That sounds reasonable. I\u2019ll wait for the valuation, then make an offer for C and B to consider. I can\u2019t promise the amount or whether it will include a discount."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, that\u2019s a sensible next step. I\u2019m happy to wait for the valuation and see A\u2019s offer; I\u2019d still want to know what my share would be before confirming it works for my studio."
+      }
+    ]
+  }
+]

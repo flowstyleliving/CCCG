@@ -1,0 +1,218 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I\u2019d be comfortable with a plan that gives each of us a fair financial share. If A buys the house, I won\u2019t subsidize a family discount. My main worry is being pressured to give up my share\u2014and damaging things with my twin over it."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "My husband and I hope to buy the house at a family discount. I\u2019d like us to find a way forward that C can agree to, without pressuring anyone."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d like to receive some money from the house to help me start a dance studio. A fair arrangement for all three of us matters, and I hope nobody feels pressured to give up their share."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I don\u2019t know what the will says, and we haven\u2019t settled on a price or how to calculate a discount."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "I don\u2019t have a copy, and I\u2019m not sure who does. I don\u2019t know what the will says about the house or our shares."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "I don\u2019t have a copy of the will, and I\u2019m not sure who has it. I don\u2019t have a specific amount or deadline for the studio money in mind yet."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Yes. I agree we should find the will and get an independent valuation, and make sure all three of us see the same information."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I\u2019d consider a sale at an independent valuation, once we know what the will says and what each of our shares is. I won\u2019t agree to a discount that reduces my share, and I want the terms shared with all three of us before anything is decided."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I\u2019d be open to that, once we know what the will says, everyone\u2019s shares, the independent valuation, and the proposed terms. I don\u2019t know yet whether my payout would cover the studio, but I\u2019m willing to help look for the will."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "wait"
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019m willing to consider buying at the independent valuation, and to discuss a discount only from my own share once we know the will and shares. I\u2019ll coordinate with B to help find the will."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 21
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "I\u2019ll wait until we\u2019ve found and read the will together. Then we can get the valuation and review A\u2019s written terms before anyone decides."
+      }
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Not quite: I want a fair financial share, and I haven\u2019t agreed to a discounted sale. B\u2019s needs should be heard, but I don\u2019t know that she needs money. A fair price matters; there\u2019s no real rush. I\u2019m not sure what the will says about the split."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. We haven\u2019t settled on a price or terms, and C\u2019s agreement is needed; she hasn\u2019t agreed yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. Yes, money is a concern\u2014I\u2019d like to use my share to start a dance studio. I don\u2019t know what the house is worth or what the will means for each of us, so I\u2019m not sure what amount might be possible. I\u2019d like that included in the list."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "I support finding out what the will says and agreeing on an independent appraiser. I can\u2019t confirm A knows my agreement is needed. Please note that I won\u2019t subsidize a discounted purchase; I want a fair financial share. No rush from me."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, I\u2019d support clarifying the will and choosing an independent appraiser together. By a family discount, I mean a price below the appraised value; we haven\u2019t decided how much below. It matters because buying the house would help me build financial independence with my husband."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, that seems sensible. I don\u2019t have a set timeline for the studio, but I\u2019d like to move forward when we know what funds may be available."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I could consider options one or two, depending on the figures and terms. I\u2019m open to option three only if it\u2019s legally workable and the numbers are clear. I\u2019d prefer to buy the house, so option four would be a fallback, not my choice. I can\u2019t yet say which option works best for everyone."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "Option one could work, once we know the will\u2019s split and the appraisal. I\u2019m not agreeing to staged payments without clear terms that protect my share. Option three is acceptable if A can\u2019t buy at a fair price. There\u2019s no need to rush."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I could live with option one if my share is paid out clearly; option four could also work. Under option two, getting my share in parts would make planning for the studio harder, so I\u2019d need clear timing. Option three might be workable if any discount doesn\u2019t reduce my share, but that needs to be confirmed."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Yes, that plan works for me, subject to confirming the will, appraisal, and whether I can finance the purchase at that value. Any discount from my share can stay open pending legal advice."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "It works, provided any discount comes solely from A\u2019s share and doesn\u2019t reduce mine or B\u2019s. We should confirm the will and appraisal first. Any staged payments need clear terms protecting both our shares."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, that plan works for me, as long as my share and any payment timing are clearly confirmed."
+      }
+    ]
+  }
+]

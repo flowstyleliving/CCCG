@@ -1,0 +1,224 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want the will followed and my financial share treated fairly. If A wants to buy the house, I won\u2019t subsidize a discounted price; we need to agree on a fair valuation and terms first. And yes\u2014no one should be pressured to sign."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband, ideally at a family discount. I want a clear plan, but I know C hasn\u2019t agreed, so we can\u2019t proceed without her. I\u2019m not sure what price or shares would be fair yet, and I\u2019m concerned that leaving things unresolved could strain us further."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. What matters most to me is having some money to start a dance studio. I\u2019m not sure the house has to be sold if there\u2019s another fair way for me to receive that money, but the amount and arrangements would need to be discussed."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "An independent appraisal is fine, provided we agree on the appraiser and method first. I can\u2019t state the will\u2019s terms without seeing them; let\u2019s share the actual document. I\u2019m not in a hurry, so we can set a check-in date, but not a deadline that pressures anyone to decide."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I\u2019m willing to use an independent appraisal as a reference, but I\u2019m not agreeing in advance to pay the full appraised value; I\u2019m hoping for a family discount. I can\u2019t give a reliable budget or closing date yet. I don\u2019t have the will\u2019s terms in front of me, so I can\u2019t confirm the shares or conditions."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "I don\u2019t have a reliable studio budget or start date yet, so I can\u2019t give you a useful number; I\u2019ll need to work that out. I\u2019d be open to an independent appraisal as a way to establish value, though it wouldn\u2019t settle the other terms. I don\u2019t know the will\u2019s exact wording, so I can\u2019t confirm its shares or conditions."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Item 11 is fair in principle, but don\u2019t assume how the discount would affect each share until we\u2019ve seen the will and agreed the terms. I don\u2019t know who has the will."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I don\u2019t know who has the will. I can ask around, but I can\u2019t share its terms yet. I don\u2019t have a reliable price range until I\u2019ve reviewed the will and talked it through with my husband."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I\u2019m afraid I don\u2019t know who has the will. Perhaps the executor or your father\u2019s lawyer can tell us and arrange a copy for all three of us."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "I\u2019ll check Dad\u2019s papers at home. A two-week check-in is fine if it\u2019s just to report back, not pressure anyone to decide."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "I can ask around the family about who may have the will. A check-in in about two weeks sounds fine; we\u2019ll need to agree on a time together. I\u2019d rather choose an appraiser after we have the will."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "I can try contacting any solicitor or bank connected with Dad, though I\u2019m not sure who they were. A check-in in about two weeks is fine; please suggest a day and time."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "Yes, add it: if the searches turn up nothing, we can ask a solicitor to help find the will. We can agree on any costs before committing."
+      },
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "Yes, add item 12. If the searches turn up nothing, we should discuss asking a solicitor to search; the cost and who would cover it still need to be agreed."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "Yes, that seems sensible\u2014if these searches turn up nothing, we should ask a solicitor to help trace the will."
+      }
+    ]
+  }
+]

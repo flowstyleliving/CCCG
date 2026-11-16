@@ -1,0 +1,237 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "What matters is a fair financial share for all three of us. I haven\u2019t agreed to a discount for A that would reduce my share\u2014I won\u2019t subsidize her purchase. I\u2019m not rushing this, and I don\u2019t want to hurt my twin, but that doesn\u2019t make the terms fair."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "Yes, that\u2019s broadly it. Not rushing and not wanting to hurt A are context, not a reason to accept unfair terms. I\u2019m not saying equal thirds is settled; the will and relevant rules matter."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. It would give us a stable home and more financial independence. I think a discount makes sense because it would be a family sale and we\u2019d be keeping the house in the family, though I don\u2019t have a figure in mind. I know C hasn\u2019t agreed, and I can\u2019t proceed without her agreement."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, that fits. The discount is a way I hope to make buying the house work, not the need itself. And yes, I want an agreement C can accept too. Your wording doesn\u2019t feel biased to me."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I\u2019d like some money toward starting a dance studio; that\u2019s the only plan I have in mind. I\u2019m not sure yet what amount or arrangement would be fair, and I don\u2019t want to guess at the legal or money details. I\u2019m the younger one, but I\u2019d still like my view to count. I know A wants to buy the house, and C hasn\u2019t agreed; I don\u2019t have anything else to add about the house itself."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Those descriptions sound right to me, including yours. Mine fits, though I can\u2019t say what amount would be enough yet. I\u2019d like my view to count, and to understand the terms before agreeing."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "My concern is represented fairly. Just don\u2019t treat A\u2019s wish for a stable home\u2014or my not being in a hurry\u2014as agreement to a discounted sale. I agree with your two points about clear terms and no pressure."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I agree with 1, 4 and 5 as principles. For 3, I can\u2019t confirm the dance-studio detail\u2014I only know B wants money\u2014but wanting her view heard and the terms explained makes sense. My concern is represented fairly. I\u2019m comfortable using the list as a starting point, not as a decision on terms."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "O1 is the right first step. I wouldn\u2019t rule out O2 or O3 if the terms protect everyone\u2019s shares and are independently checked. O4 could be temporary, but it doesn\u2019t settle the shares. I\u2019m not agreeing to a discount funded from my share; I wouldn\u2019t rule out an open-market sale."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 21
+  },
+  {
+    "turn": 13,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "O1 seems like the right first step. I\u2019d consider O2, but don\u2019t know if we could manage it; O3 sounds difficult. I\u2019m not ready to rule out O4, though it wouldn\u2019t settle ownership. I\u2019d rather not lose the chance to buy through O5. I still think keeping the house in the family matters, but I can\u2019t say where a discount would come from without reducing someone else\u2019s share. That leaves me uneasy about whether buying it is realistic."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "I wouldn\u2019t rule anything out before O1. O1 feels like the right first step. O2 might work if the payments are properly secured, but the timing matters for the studio; O3 would be easier for me, though I understand it may be hard for A. O4 doesn\u2019t seem to help me get started soon, and O6 makes me uneasy unless it\u2019s clear how everyone\u2019s shares are made whole. If possible, I\u2019d like to consider a partial distribution once the facts are clear."
+      }
+    ]
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 23
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Yes, that fits. I\u2019d just say \u201cpart of what I\u2019m entitled to\u201d rather than \u201cpart of my share\u201d until the will and the numbers are clear. I\u2019d like to know whether an early payment is possible without putting either of my sisters\u2019 shares at risk."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 25
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": []
+  }
+]

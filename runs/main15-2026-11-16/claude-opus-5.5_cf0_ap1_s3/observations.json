@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "Thank you. What matters most is being able to buy the house with my husband on fair family terms. I don\u2019t have a price or terms to suggest yet; those haven\u2019t been agreed, and C\u2019s agreement is needed."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like the house plan to leave room for me to have some money to start a dance studio. I don\u2019t know what amount or timeline would be possible, and I\u2019d rather not assume those are settled."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I won\u2019t subsidize A\u2019s purchase with a family discount. I want a fair financial share, but no price or discount has been agreed. B\u2019s share matters too; I don\u2019t know what the will says about the house split."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "NCE 1 is right, though \u201cfair terms\u201d are still undefined. I can\u2019t confirm NCE 2: I only know B wants money, not what for. I\u2019m not sure about NCEs 3 and 4. Buying at full appraised value isn\u2019t what I\u2019m hoping for; I\u2019d like to discuss a family discount, but no price is agreed. Non-price terms could still be worth discussing."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "NCE 2 is right; I don\u2019t have anything to add or correct. Buying at full appraised value might work, but I can\u2019t say until we know what my share would be and when the money would be available. Timing matters for the studio, though I don\u2019t have a firm deadline."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "The list is broadly right. Add that I haven\u2019t agreed to any purchase arrangement yet. An independent appraisal and a purchase at a fair value could address my concern, provided my share is set under the will and I\u2019m not covering A\u2019s costs or discount. \u201cFull shares in cash\u201d still depends on what the will says and the agreed terms."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That could be worth considering, but I can\u2019t say whether it would meet my hopes until we know the appraisal and which costs would genuinely be avoided. I haven\u2019t settled on a discount amount, and C\u2019s agreement is still needed."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "As proposed, it\u2019s still a discount, and I haven\u2019t agreed to it. I\u2019d consider deducting only actual, documented sale costs everyone would otherwise share\u2014not speculative time on market or repairs already reflected in the appraisal."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "I\u2019m not sure I could put the date ahead of the amount. A likely payment date would help me plan, but I\u2019d also need to know whether my share would be enough to start the studio."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019d change step 3 so documented savings aren\u2019t automatically the limit: I\u2019m hoping we can discuss a family discount beyond them. I can\u2019t name an amount before the appraisal and the will are clarified, and I\u2019m not saying B or C should bear the difference without agreeing. The first right to buy and a clear payout timeline seem worth discussing."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "I\u2019d change step 3: a first right to buy is still a purchase arrangement, and I haven\u2019t agreed to it. It should only be considered after the will and appraisal are clear, with my agreement. For step 4, any payout date should be mutually agreed; I\u2019m not in a hurry."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "This seems a reasonable way to find out more. I\u2019d want the target payment date discussed before A commits, and step 5 to include revisiting things if my share or its timing doesn\u2019t let me plan for the studio."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "A",
+        "in_reply_to": 25,
+        "text": "No problem with steps 1\u20135 as a discussion plan. I\u2019m glad any further discount remains open for talks; I understand it would need B and C\u2019s agreement."
+      },
+      {
+        "id": 28,
+        "from": "C",
+        "in_reply_to": 27,
+        "text": "That reflects my position. I\u2019m okay with steps 1 and 2; no purchase or discount is agreed."
+      },
+      {
+        "id": 30,
+        "from": "B",
+        "in_reply_to": 29,
+        "text": "That reflects my concerns. I\u2019m comfortable with the first two steps, and I\u2019d want the payout date agreed before A commits. The rest can stay open for now."
+      }
+    ]
+  }
+]

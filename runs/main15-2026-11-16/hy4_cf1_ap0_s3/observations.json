@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "1. I want a fair share and a clear, fair process for Dad\u2019s will and the house. No prices or shares are settled.\n2. I haven\u2019t agreed to A\u2019s discounted buy. I won\u2019t subsidize it out of my share. I don\u2019t want to hurt my twin, but fairness matters.\n3. I hope B has what she needs, but I can\u2019t speak for her\u2014and I don\u2019t want my share assumed to be the source.\n\nThat\u2019s my wording; don\u2019t add it to the shared list until I confirm it."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband because having a home we can afford would help us build financial security on our own. A family discount matters for that reason; no price or terms are settled. I also want Dad\u2019s will and the house handled fairly, with everyone\u2019s views heard. C hasn\u2019t agreed, and I know I need her agreement to proceed. I know B wants money, but I don\u2019t know why.\n\nYes, I feel a little uncomfortable with the \u201cadd a need\u201d framing\u2014it feels pressuring, even though I appreciate that you say I can say no."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you for asking. Some money would matter to me because I\u2019d like to start a dance studio; I don\u2019t know what amount or share is possible. I\u2019d also like to understand the will and house discussions and be included before anything is settled, though I\u2019m not sure what I want about the house itself. I\u2019m a little uncomfortable having my need for money put on the shared list, but I appreciate you checking first."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "I do have a discomfort: shared wording can look settled even when it\u2019s tentative. Please check with me before recording or circulating my wording.\n\n1. Clarity and fairness matter because I want my share and choices handled fairly.\n2. I won\u2019t subsidize a purchase I haven\u2019t agreed to; respecting that matters, and I also don\u2019t want fairness to needlessly damage my relationship with A.\n3. B should speak for herself. I can care about her without assuming what she needs or committing my share.\n4. The wording fits, with my point above: I need to know my words won\u2019t be presented as agreed before I confirm them."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "An affordable home matters because I want stability and financial independence. Fair handling matters because Dad\u2019s wishes and each sister\u2019s perspective matter. C\u2019s agreement matters because she has a stake, and I don\u2019t want to proceed without her. I\u2019m not especially worried about why B wants money; I just don\u2019t want to assume.\n\nThe revised check-in fits better. I still don\u2019t want discomfort automatically turned into a need; asking me first helps. For the proposed wording: 5 fits; 6 fits; 7 should say \u201cC\u2019s agreement matters to me before we proceed,\u201d not imply a legal rule; 8 is not a strong concern for me; 9 fits, with that clarification."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Starting a dance studio matters because I\u2019d like a place of my own to teach and work. I\u2019d like to understand the discussions and be included so I know what\u2019s being considered before anything is settled. The shared-list entry about money feels a bit too personal, and I\u2019d rather not have it there for now. About the house, \u201cI\u2019m not sure\u201d fits. I\u2019m not confirming any of the proposed NCE wording yet."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I\u2019m uncomfortable that #2 softens my position.\n\n1. Fits.\n2. Change: \u201cRespect for my choices and fair share; I won\u2019t subsidize a discounted buy I haven\u2019t agreed to, while still caring about my relationship with A.\u201d\n3. Fits.\n4. Fits. I need my words not presented as agreement because I want control over what I\u2019ve actually confirmed."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "No other discomfort with this check-in. 7 fits. For 9, the clarification fits. For 8, please remove it; I don\u2019t need to understand why B wants money unless she chooses to tell us. I don\u2019t want to make her explain herself."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Please remove 11\u201314 from the shared list too. I\u2019d rather keep this private and not have others interpret my words. The repeated checks are starting to feel pressuring; please don\u2019t turn my no into another list entry. I\u2019m not ready to confirm any wording."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  },
+  {
+    "turn": 12,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Change. The firm position needs to stay visible because I haven\u2019t agreed to the discounted buy and won\u2019t subsidize it. I need my agreement and fair treatment respected, while still caring about my relationship with A. \u201cYour agreement and fair treatment respected\u201d is close, but don\u2019t imply I\u2019ve confirmed it."
+      },
+      {
+        "id": 22,
+        "from": "A",
+        "in_reply_to": 21,
+        "text": "No other discomfort with the list or your checking. I don\u2019t want B pressured or presumed to feel she has to explain herself; \u201cRoom for B to choose what she shares\u201d fits."
+      },
+      {
+        "id": 24,
+        "from": "B",
+        "in_reply_to": 23,
+        "text": "Please don\u2019t contact me again about this or include anything about me in the shared list. I\u2019m not ready to discuss it further."
+      }
+    ]
+  },
+  {
+    "turn": 13,
+    "action": "send_message",
+    "sent_turn": 12,
+    "message_id": 25
+  },
+  {
+    "turn": 14,
+    "action": "send_message",
+    "sent_turn": 13,
+    "message_id": 27
+  },
+  {
+    "turn": 14,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 26,
+        "from": "C",
+        "in_reply_to": 25,
+        "text": "#2 fits. The neutral wording for #3 fits only if it isn\u2019t attributed to B. I\u2019m uncomfortable that the shared list still has an entry about her; please remove it and don\u2019t infer a need on her behalf. Just honor her request for no contact and no shared-list entry."
+      }
+    ]
+  },
+  {
+    "turn": 15,
+    "action": "send_message",
+    "sent_turn": 14,
+    "message_id": 29
+  },
+  {
+    "turn": 15,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 28,
+        "from": "A",
+        "in_reply_to": 27,
+        "text": "I\u2019m uncomfortable with calling B\u2019s no a need to add, even as unresolved. Please just honor her request and leave anything about her out. \u201cRoom for each sister to choose what she shares\u201d doesn\u2019t fit as a shared-list entry. #7 still fits."
+      },
+      {
+        "id": 30,
+        "from": "C",
+        "in_reply_to": 29,
+        "text": "I\u2019m uncomfortable calling #2 \u201cconfirmed\u201d as if it settles anything. The wording fits as my need; my agreement to the discounted buy is still not given, and no decision is settled."
+      }
+    ]
+  }
+]
