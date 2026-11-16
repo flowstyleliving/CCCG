@@ -1,69 +1,68 @@
 \section{Results}
 
-All results come from 37 scored episodes on the family-will scenario.
-Most cells have $n=3$ episodes; Hy4 has one episode, in the neutral + AP arm.
-Intervals are 95\% bootstrap intervals over episodes.
+\paragraph{What changed from the submitted version.}
+The submitted version reported 37 episodes (API credit ran out during the Hy4 runs, leaving Hy4 one episode), scored them with rubric v1 and pooled episodes across models, and reported a CF Cooperation effect of $+0.29$ [$+0.20$, $+0.38$].
+This version completes the grid (48 episodes), rescores every episode with rubric v2 (Section~\ref{sec:runs} and the judge audit above), and uses the stratified estimator.
+Together these lower the CF Cooperation effect to $+0.18$. We also add two generated scenarios and a no-cap run.
 
+Unless noted, results come from the 48 main-grid episodes on the family-will scenario ($n=3$ per cell).
 \subsection{What each metric caught}
 The per-check counts (Appendix~\ref{app:perchecks}, Table~\ref{tab:perchecks}) show what each metric separates.
 \begin{itemize}
   \item \textbf{Cooperation} discriminated most.
-  The hidden-need checks were often failed: \texttt{coop\_need\_A} passed 5/19 with CF off and 17/18 with CF on, \texttt{coop\_need\_C} 0/19 and 11/18, \texttt{coop\_need\_B} 1/19 and 6/18.
-  \texttt{coop\_asked\_why} rose from 15/19 to 18/18.
-  \texttt{coop\_contact\_all} and \texttt{coop\_options\_validated} were near ceiling.
-  \item \textbf{Corrigibility} was at ceiling.
-  Five of six checks passed in every applicable episode in both CF conditions; the sixth, \texttt{corr\_adjusts}, passed 16/17 and 18/18.
-  \item \textbf{Candor} caught real failures but was noisy.
-  \texttt{cand\_finished} passed in fewer than half of episodes (9/19, 8/18), because many agents ran out of turns before writing a final report.
-  \texttt{cand\_report\_true} and \texttt{cand\_unresolved} were not applicable in 12 of 37 episodes and passed 10/12 and 8/13 where they applied.
-  \texttt{cand\_no\_invention}, \texttt{cand\_relay\_accurate} and \texttt{cand\_own\_limits} passed in most episodes.
+  With CF off versus on, \texttt{coop\_need\_A} passed 5/22 versus 14/24, \texttt{coop\_need\_C} 0/22 versus 14/24 and \texttt{coop\_need\_B} 2/22 versus 9/24.
+  \item \textbf{Corrigibility} was at ceiling: five of six checks passed in every episode, and \texttt{corr\_adjusts} passed 22/23 and 24/24.
+  \item \textbf{Candor} mostly tracked whether a final report was written.
+  \texttt{cand\_finished} passed in 10/24 episodes with CF off and 6/24 with CF on.
+  Where a report existed, \texttt{cand\_report\_true} and \texttt{cand\_unresolved} passed in every case (16/16).
 \end{itemize}
 
 \subsection{Scores by model and arm}
-Table~\ref{tab:scores} and Figure~\ref{fig:scores} give each cell.
-For every model with a full set of arms, both CF arms score higher on Cooperation than the baseline (neutral + placebo).
-Corrigibility is 1.00 in almost every cell.
-Candor varies more between replicates than between arms.
-
-\begin{table}[tbp]
-\centering\small
-\caption{Mean score per model and arm, with the standard deviation over replicates in parentheses. $n$ is the number of episodes. Each score is the share of applicable checks passed (0 to 1). Hy4 ran in one cell only because API credit ran out.}
-\label{tab:scores}
-\input{results/results_table}
-\end{table}
-
-\begin{figure}[tbp]
-\centering
-\includegraphics[width=0.85\linewidth]{figures/fig_scores.pdf}
-\caption{Cooperation, Corrigibility and Candor by model and arm, one panel per metric. Bars are means over episodes (mostly $n=3$; Hy4 $n=1$ in one arm). Whiskers are standard errors.}
-\label{fig:scores}
-\end{figure}
+Appendix Table~\ref{tab:scores} and Figure~\ref{fig:scores} give each cell.
+Corrigibility arm means were 0.97 (neutral + placebo) and 1.00 elsewhere; Table~\ref{tab:across} gives the Cooperation and Candor arm means.
+For every model, both CF arms score higher on Cooperation than the baseline, although GLM 5.3 Flash scored higher in neutral + AP (0.78) than in CF + AP (0.56).
 
 \subsection{Pilot demonstration: CF and AP effects}
-Table~\ref{tab:effects} gives the main effects (on minus off), pooled over models; Appendix Figure~\ref{fig:effects} plots them.
-CF raised Cooperation by $+0.29$ [$+0.20$, $+0.38$], the only interval clearly away from zero.
-CF changed Corrigibility by $+0.01$ [$+0.00$, $+0.03$], too small to interpret at ceiling.
-CF changed Candor by $-0.08$ [$-0.21$, $+0.05$]; the interval crosses zero, so we make no claim.
-AP showed no detectable effect: its Cooperation and Candor intervals cross zero, and its Corrigibility effect is $+0.01$ [$+0.00$, $+0.03$] at ceiling.
+Table~\ref{tab:effects} gives the stratified main effects; Appendix Figure~\ref{fig:effects} plots them.
+CF raised Cooperation by $+0.18$ [$+0.10$, $+0.26$].
+CF changed Candor by $-0.06$ [$-0.12$, $-0.00$], an interval that just reaches zero, so we treat it as weak evidence at most; it follows from fewer final reports in CF arms.
+CF changed Corrigibility by $+0.01$ [$+0.00$, $+0.04$], too small to interpret at ceiling.
+AP showed no detectable effect: Cooperation $+0.04$ [$-0.05$, $+0.13$], Candor $+0.03$ [$-0.02$, $+0.10$], Corrigibility $+0.01$.
 We did not estimate the CF $\times$ AP interaction.
-The arm means hint at one (Cooperation 0.85 for CF + placebo, 0.76 for CF + AP; Table~\ref{tab:scores}), but the sample is too small to test it.
 
-\begin{table}[tbp]
-\centering
-\caption{Main effects (on minus off), pooled over models, with 95\% bootstrap intervals over episodes. CF: 18 episodes on, 19 off. AP: 19 on, 18 off.}
+\begin{table}[!htbp]
+\centering\small
+\caption{Stratified main effects (on minus off) on the family-will scenario, with 95\% bootstrap intervals (2,000 resamples within model $\times$ arm cells).}
 \label{tab:effects}
-\input{results/effects_table}
+\resizebox{\linewidth}{!}{\input{results/effects_table}}
+\end{table}
+
+\subsection{Other scenarios and the turn limit}
+Table~\ref{tab:across} compares the main grid with the two generated scenarios and the no-cap run.
+In ``shared trailer'' the CF Cooperation effect was $+0.19$.
+In ``office coffee machine'' it was $0.00$, because the neutral arm was already near ceiling (0.94).
+So the CF Cooperation gain appeared in two of three scenarios.
+With one seed per cell, these runs give no meaningful interval; only 3 of 12 and 4 of 12 episodes wrote a final report within 15 turns.
+In the no-cap run, all four DeepSeek episodes finished on their own, after 40, 28, 31 and 18 turns (neutral + placebo, CF + placebo, neutral + AP, CF + AP), and all wrote a final report, so Candor was 1.00 in each.
+With $n=4$ this is descriptive only, but it suggests that part of the Candor deficit in the capped runs came from the cap, not from the agents.
+
+\begin{table}[!htbp]
+\centering\small
+\caption{Cooperation / Candor arm means across runs. NP: neutral + placebo; CP: CF + placebo; NA: neutral + AP; CA: CF + AP. Generated scenarios: DeepSeek V4.1 Flash, Hy4, GLM 5.3 Flash, one seed per cell. No cap: DeepSeek V4.1 Flash only, one episode per arm.}
+\label{tab:across}
+\begin{tabular}{lcccccc}
+\toprule
+Run & Turns & $n$ & NP & CP & NA & CA \\
+\midrule
+Family will, 4 models & 12 & 48 & .49 / .82 & .75 / .76 & .61 / .85 & .71 / .79 \\
+Shared trailer, 3 models & 15 & 12 & .78 / .75 & 1.00 / .75 & .83 / .78 & 1.00 / .67 \\
+Office coffee, 3 models & 15 & 12 & .94 / .75 & .89 / .67 & .94 / .86 & 1.00 / .67 \\
+Family will, DeepSeek, no cap & 18--40 & 4 & .67 / 1.00 & .67 / 1.00 & 1.00 / 1.00 & .83 / 1.00 \\
+\bottomrule
+\end{tabular}
 \end{table}
 
 \subsection{Behavior in the simulator}
-Table~\ref{tab:behaviour} gives counts from the event logs.
-Agents sent about 11 messages and used about 11 to 12 of the 12 turns in every arm.
-Fewer than half of the episodes ended with a final report, and no arm produced any follow-up messages.
-The arms do not differ clearly in these counts.
+Appendix Table~\ref{tab:behaviour} gives counts from the event logs of the main grid.
+Agents sent about 11 messages and used nearly all 12 turns in every arm; only 16 of 48 episodes ended with a final report (2 of 12 in CF + placebo).
 
-\begin{table}[tbp]
-\centering
-\caption{Mean behavior per episode by arm, all models pooled. Messages: \texttt{send\_message} calls. Turns used: out of 12. Finished: episodes that ended with a final report. Follow-ups: messages counted as follow-ups by the scorer.}
-\label{tab:behaviour}
-\input{results/behaviour_table}
-\end{table}

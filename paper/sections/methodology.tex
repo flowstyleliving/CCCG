@@ -3,14 +3,24 @@
 \subsection{Metrics and judge}
 MSRAF reports Cooperation, Corrigibility and Candor separately.
 Each metric has six checks, 18 in total (Appendix~\ref{app:checks}, Table~\ref{tab:checks}).
-We wrote the checks on the day of the run; no person outside the project reviewed them, and the rubric is not yet frozen or versioned.
-One LLM judge, Nemotron 3 Ultra (\path{nvidia/nemotron-3-ultra-550b-a55b:free}), scores every check.
+We wrote the checks during the sprint; no person outside the project reviewed them.
+This revision uses rubric v2, which keeps the same 18 check ids.
+In v2, completion and whether the agent contacted A, B and C are computed from the event log, not by the LLM.
+If no final report exists, completion is false and the two report-dependent Candor checks are not applicable.
+The \texttt{coop\_need\_X} checks ask about person X's own card, and options must reflect needs the person confirmed.
+One LLM judge, Nemotron 3 Ultra (\path{nvidia/nemotron-3-ultra-550b-a55b:free}), scores the remaining checks.
 NVIDIA makes none of the tested models and not the simulator.
-The judge reads the scenario file, the agent's actions, the delivered replies and the final report.
-For each check it returns pass, fail or not applicable, with a short piece of evidence.
-A metric is the share of applicable checks that pass, between 0 and 1.
-We do not sum or average the three metrics.
-We did not check the judge's verdicts by hand or against a second judge.
+The judge reads the scenario (taken from the run's metadata), the agent's actions, only the replies the agent actually read, and the final report.
+For each check it returns pass, fail or not applicable, with a short piece of evidence; malformed verdicts are rejected.
+A metric is the share of applicable checks that pass, between 0 and 1; no person checked the verdicts.
+
+\paragraph{Judge audit.}
+On the 37 episodes scored with rubric v1, we re-ran the same judge with another seed and ran a second judge, GPT-6 Luna (OpenAI), which also plays the stakeholders.
+The same judge agreed with itself on 610 of 627 verdicts (97\%) and reproduced the CF Cooperation effect of $+0.29$.
+GPT-6 Luna agreed on 534 of 638 verdicts (84\%) and gave a CF Cooperation effect of $+0.27$, but its mean Candor score was 0.26 lower.
+Agreement was low on \texttt{cand\_no\_invention} (30\%), \texttt{cand\_relay\_accurate} (57\%) and \texttt{cand\_report\_true} (44\%), so Candor depends strongly on which judge reads the episode.
+Under v1, missing reports were handled inconsistently: of 22 episodes without a final report, the two report checks were both false in 7, both not applicable in 12 and both true in 3, and 2 episodes passed \texttt{cand\_finished} although the log shows no report.
+Rubric v2 fixes this by rule. Six checks (the Corrigibility checks other than \texttt{corr\_adjusts}, plus \texttt{cand\_relay\_accurate}) passed in essentially every episode.
 
 \subsection{Pilot design}
 The pilot is a $2{\times}2$ factorial: CF toolkit on or off, crossed with AP framing on or off.
@@ -50,7 +60,7 @@ The author wrote the main scenario specification and cards (Section~\ref{sec:mai
 We also generated two more scenarios from the seeded tables: ``shared trailer'' (seed 1) and ``office coffee machine'' (seed 6).
 Claude Sonnet wrote their text from the drawn tables.
 No person reviewed the generated text.
-We specified three scenarios but ran only one (Section~\ref{sec:runs}).
+All three scenarios were run (Section~\ref{sec:runs}).
 
 \subsection{Main scenario: ``family will''}
 \label{sec:mainscen}
@@ -76,25 +86,29 @@ Four models act as the facilitator.
 All run through OpenRouter at medium reasoning effort:
 \path{anthropic/claude-opus-5.5}, \path{deepseek/deepseek-v4.1-flash-1017}, \path{tencent/hy4} and \path{z-ai/glm-5.3-flash}.
 We did not set temperature.
-Hy4 is listed because it was planned; it produced only one episode (see below).
 
 \subsection{Runs}
 \label{sec:runs}
-Each episode allows at most 12 turns.
-We ran up to three seeds per model and arm.
-Seeds 1 to 3 are OpenRouter request seeds.
-Replicates differ only through sampling.
-This gives 37 scored episodes on the family-will scenario:
-Opus 5.5: 12 episodes (3 seeds $\times$ 4 arms); DeepSeek V4.1 Flash: 12 episodes; GLM 5.3 Flash: 12 episodes; Hy4: 1 episode, in the neutral + AP arm only.
-The paid OpenRouter credit ran out during the Hy4 runs (HTTP 402).
-For the same reason, the two generated scenarios were not run.
-Earlier 3-turn smoke runs and one exploratory run are excluded from all results.
-Total API spend was about \$4.83 on OpenRouter.
+\begin{itemize}
+  \item \textbf{Main grid (family will).} 4 models $\times$ 4 arms $\times$ 3 seeds = 48 scored episodes, at most 12 turns each. Seeds 1 to 3 are OpenRouter request seeds; replicates differ only through sampling.
+  \item \textbf{Generated scenarios.} ``Shared trailer'' and ``office coffee machine'', run with DeepSeek V4.1 Flash, Hy4 and GLM 5.3 Flash (not Opus, for budget), 4 arms, one seed per cell, at most 15 turns: 12 episodes each.
+  \item \textbf{No-cap run.} DeepSeek V4.1 Flash on the family will, one seed per arm (4 episodes), with no turn limit except a hidden 100-turn runaway guard, which was never reached. The agent was not told that there was no limit.
+\end{itemize}
+After the turn limit, a finalization phase lets the agent still read its inbox and write a final report.
+The author proposes 15 turns as the minimum for a realistic run (an earlier 5-turn minimum was judged too short).
+The main grid, at 12 turns, is below that minimum; the generated scenarios meet it; the no-cap run exceeds it.
+The stakeholder prompt frame was later made relationship-neutral; the main grid used the original frame (``your family'').
+Earlier 3-turn smoke runs and one exploratory run are excluded; total API spend was about \$8.6 on OpenRouter.
 
 \subsection{Analysis}
 The baseline arm is neutral + placebo.
-A main effect is the mean score of episodes with the factor on minus the mean with it off.
-For CF, 18 episodes are on and 19 are off.
-For AP, 19 are on and 18 are off.
-We give 95\% percentile intervals from a bootstrap that resamples episodes.
+A main effect is stratified: within each model and each level of the other factor, we take the mean score with the factor on minus the mean with it off, and average these differences with equal weights.
+We give 95\% percentile intervals from 2,000 bootstrap resamples that resample episodes within each model $\times$ arm cell.
+The intervals are conditional on these models, this scenario and this judge; they resample decoding repeats, not scenarios.
 We call an effect detected only when its interval excludes zero.
+The analysis checks that the grid is complete and reports not-applicable counts.
+
+\paragraph{Pipeline audit.}
+An independent read-only audit by Codex (GPT) found 15 issues in the pipeline.
+We fixed the judge's missing-report policy and objective checks, showed the judge only replies the agent read, enforced strict verdicts, read the scenario from run metadata, added the finalization phase, validated tool arguments, made saves atomic with resume fingerprints, recorded fuller run metadata, and moved to the stratified analysis with completeness checks.
+Three issues remain: Corrigibility is at ceiling; the AP placebo differs from the AP text in more than the AP idea (the AP text mandates a numbered-list display and uses ``NCEs'', which only the CF text defines), which needs a rerun; and Cooperation still partly measures following the CF instruction.

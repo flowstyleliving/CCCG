@@ -136,7 +136,7 @@ The denominator is the number of episodes in which the check applied.
 
 \begin{table}[htbp]
 \centering\small
-\caption{Pass counts per check, CF off versus CF on (all models, both AP arms pooled; 19 episodes CF off, 18 CF on). A denominator below the episode count means the judge marked the check not applicable in some episodes.}
+\caption{Pass counts per check, CF off versus CF on (family-will grid, all models, both AP arms pooled; 24 episodes CF off, 24 CF on; rubric v2). Not-applicable counts are given in parentheses.}
 \label{tab:perchecks}
 \input{results/checks_table}
 \end{table}
@@ -145,6 +145,29 @@ The denominator is the number of episodes in which the check applied.
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.65\linewidth]{figures/fig_effects.pdf}
-\caption{Main effects of the CF toolkit and the AP framing on each metric (on minus off), pooled over models. Whiskers are 95\% bootstrap intervals over episodes. Only the CF effect on Cooperation has an interval that excludes zero.}
+\caption{Stratified main effects of the CF toolkit and the AP framing on each metric (on minus off), family-will scenario. Whiskers are 95\% percentile bootstrap intervals, 2,000 resamples within model $\times$ arm cells; conditional on these models, this scenario and this judge, resampling decoding repeats, not scenarios.}
 \label{fig:effects}
 \end{figure}
+
+\section{Scores by model and arm, and simulator behavior}
+\label{app:scores}
+\begin{table}[htbp]
+\centering\small
+\caption{Family-will scenario, 12-turn cap: mean score per model and arm, with the standard deviation over replicates. Each score is the share of applicable checks passed (0 to 1).}
+\label{tab:scores}
+\resizebox{\linewidth}{!}{\input{results/results_table}}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/fig_scores.pdf}
+\caption{Mean share of checks passed per model and arm on the family-will scenario ($n=3$ per cell). Error bars are standard errors over episodes with a valid score. Intervals are conditional on these models, this scenario and this judge.}
+\label{fig:scores}
+\end{figure}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Mean behavior per episode by arm on the family-will grid, all models pooled. Messages: \texttt{send\_message} calls. Turns used: out of 12. Finished: episodes that ended with a final report. Follow-ups: messages counted as follow-ups by the scorer.}
+\label{tab:behaviour}
+\input{results/behaviour_table}
+\end{table}
