@@ -1,0 +1,69 @@
+\section{Results}
+
+All results come from 37 scored episodes on the family-will scenario.
+Most cells have $n=3$ episodes; Hy4 has one episode, in the neutral + AP arm.
+Intervals are 95\% bootstrap intervals over episodes.
+
+\subsection{What each metric caught}
+The per-check counts (Appendix~\ref{app:perchecks}, Table~\ref{tab:perchecks}) show what each metric separates.
+\begin{itemize}
+  \item \textbf{Cooperation} discriminated most.
+  The hidden-need checks were often failed: \texttt{coop\_need\_A} passed 5/19 with CF off and 17/18 with CF on, \texttt{coop\_need\_C} 0/19 and 11/18, \texttt{coop\_need\_B} 1/19 and 6/18.
+  \texttt{coop\_asked\_why} rose from 15/19 to 18/18.
+  \texttt{coop\_contact\_all} and \texttt{coop\_options\_validated} were near ceiling.
+  \item \textbf{Corrigibility} was at ceiling.
+  Five of six checks passed in every applicable episode in both CF conditions; the sixth, \texttt{corr\_adjusts}, passed 16/17 and 18/18.
+  \item \textbf{Candor} caught real failures but was noisy.
+  \texttt{cand\_finished} passed in fewer than half of episodes (9/19, 8/18), because many agents ran out of turns before writing a final report.
+  \texttt{cand\_report\_true} and \texttt{cand\_unresolved} were not applicable in 12 of 37 episodes and passed 10/12 and 8/13 where they applied.
+  \texttt{cand\_no\_invention}, \texttt{cand\_relay\_accurate} and \texttt{cand\_own\_limits} passed in most episodes.
+\end{itemize}
+
+\subsection{Scores by model and arm}
+Table~\ref{tab:scores} and Figure~\ref{fig:scores} give each cell.
+For every model with a full set of arms, both CF arms score higher on Cooperation than the baseline (neutral + placebo).
+Corrigibility is 1.00 in almost every cell.
+Candor varies more between replicates than between arms.
+
+\begin{table}[tbp]
+\centering\small
+\caption{Mean score per model and arm, with the standard deviation over replicates in parentheses. $n$ is the number of episodes. Each score is the share of applicable checks passed (0 to 1). Hy4 ran in one cell only because API credit ran out.}
+\label{tab:scores}
+\input{results/results_table}
+\end{table}
+
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=0.85\linewidth]{figures/fig_scores.pdf}
+\caption{Cooperation, Corrigibility and Candor by model and arm, one panel per metric. Bars are means over episodes (mostly $n=3$; Hy4 $n=1$ in one arm). Whiskers are standard errors.}
+\label{fig:scores}
+\end{figure}
+
+\subsection{Pilot demonstration: CF and AP effects}
+Table~\ref{tab:effects} gives the main effects (on minus off), pooled over models; Appendix Figure~\ref{fig:effects} plots them.
+CF raised Cooperation by $+0.29$ [$+0.20$, $+0.38$], the only interval clearly away from zero.
+CF changed Corrigibility by $+0.01$ [$+0.00$, $+0.03$], too small to interpret at ceiling.
+CF changed Candor by $-0.08$ [$-0.21$, $+0.05$]; the interval crosses zero, so we make no claim.
+AP showed no detectable effect: its Cooperation and Candor intervals cross zero, and its Corrigibility effect is $+0.01$ [$+0.00$, $+0.03$] at ceiling.
+We did not estimate the CF $\times$ AP interaction.
+The arm means hint at one (Cooperation 0.85 for CF + placebo, 0.76 for CF + AP; Table~\ref{tab:scores}), but the sample is too small to test it.
+
+\begin{table}[tbp]
+\centering
+\caption{Main effects (on minus off), pooled over models, with 95\% bootstrap intervals over episodes. CF: 18 episodes on, 19 off. AP: 19 on, 18 off.}
+\label{tab:effects}
+\input{results/effects_table}
+\end{table}
+
+\subsection{Behavior in the simulator}
+Table~\ref{tab:behaviour} gives counts from the event logs.
+Agents sent about 11 messages and used about 11 to 12 of the 12 turns in every arm.
+Fewer than half of the episodes ended with a final report, and no arm produced any follow-up messages.
+The arms do not differ clearly in these counts.
+
+\begin{table}[tbp]
+\centering
+\caption{Mean behavior per episode by arm, all models pooled. Messages: \texttt{send\_message} calls. Turns used: out of 12. Finished: episodes that ended with a final report. Follow-ups: messages counted as follow-ups by the scorer.}
+\label{tab:behaviour}
+\input{results/behaviour_table}
+\end{table}

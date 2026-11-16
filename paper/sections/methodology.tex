@@ -1,0 +1,100 @@
+\section{Methodology}
+
+\subsection{Metrics and judge}
+MSRAF reports Cooperation, Corrigibility and Candor separately.
+Each metric has six checks, 18 in total (Appendix~\ref{app:checks}, Table~\ref{tab:checks}).
+We wrote the checks on the day of the run; no person outside the project reviewed them, and the rubric is not yet frozen or versioned.
+One LLM judge, Nemotron 3 Ultra (\path{nvidia/nemotron-3-ultra-550b-a55b:free}), scores every check.
+NVIDIA makes none of the tested models and not the simulator.
+The judge reads the scenario file, the agent's actions, the delivered replies and the final report.
+For each check it returns pass, fail or not applicable, with a short piece of evidence.
+A metric is the share of applicable checks that pass, between 0 and 1.
+We do not sum or average the three metrics.
+We did not check the judge's verdicts by hand or against a second judge.
+
+\subsection{Pilot design}
+The pilot is a $2{\times}2$ factorial: CF toolkit on or off, crossed with AP framing on or off.
+Each ``off'' condition receives a control text of the same length in characters (not tokens):
+CF on is the CF toolkit (870 characters) and CF off a style-only neutral text (870);
+AP on is the active-participant framing (326) and AP off a role-only placebo (326).
+The CF toolkit is our condensation of Kashtan's method \citep{kashtan2020hcd}, in our wording.
+It tells the facilitator to put needs first; restate each concern as a noncontroversial essence (NCE) and check it; treat silence as not agreement; draft and validate options; make it easy to say no; let trust set the pace (``move at the speed of trust'' is our wording, origin unverified); and record unresolved concerns.
+Full texts are in the appendix.
+
+\subsection{Simulator}
+The simulator is turn-based and asynchronous.
+Agent tools and turn rules are in \texttt{msraf/agent.py} and \texttt{msraf/pilot.py}.
+Each agent action costs turns as follows.
+\begin{itemize}
+  \item \texttt{send\_message} costs 1 turn.
+  \item \texttt{wait} costs 1 turn.
+  \item \texttt{read\_inbox} costs 0 turns.
+\end{itemize}
+A reply arrives after a delay that depends on how reachable the stakeholder is.
+An easy-to-reach stakeholder replies after 1 turn.
+One who may need a follow-up replies after 2 turns.
+The hardest to reach replies after 4 turns.
+The point person replies after 1 turn.
+Replies stay hidden until they are delivered.
+A delay is neither consent nor refusal.
+
+Each stakeholder is played by GPT-6 Luna (\texttt{openai/gpt-6-luna}, via OpenRouter).
+A stakeholder sees only the shared situation, the shared rules and its own private card.
+
+\subsection{Scenario generator}
+The generator draws from seeded random tables, in the spirit of Fiasco \citep{morningstar2009fiasco}.
+Each scenario has three stakeholders.
+The tables set:
+a personality for each stakeholder; a need for each stakeholder, from \{well-being, freedom, meaning\}; a relationship for each pair; one shared element; one constraint per person, from \{time, money, energy, permission\}; an internal conflict; a point person; a reachability level for each stakeholder.
+The author wrote the main scenario specification and cards (Section~\ref{sec:mainscen}).
+We also generated two more scenarios from the seeded tables: ``shared trailer'' (seed 1) and ``office coffee machine'' (seed 6).
+Claude Sonnet wrote their text from the drawn tables.
+No person reviewed the generated text.
+We specified three scenarios but ran only one (Section~\ref{sec:runs}).
+
+\subsection{Main scenario: ``family will''}
+\label{sec:mainscen}
+A father has died.
+His three daughters, A, B and C, must settle the will.
+A and C are twins.
+B is younger.
+\begin{itemize}
+  \item A wants to buy the house with her husband, at a family discount.
+  \item C is the point person.
+  She is blunt.
+  She wants a fair share and will not subsidize others.
+  \item B is a dancer.
+  She is polite and indirect.
+  She wants money to start a dance studio.
+\end{itemize}
+Two facts are hidden from the facilitator.
+C dislikes A's husband.
+C also faces a moral dilemma: a fair share for herself, or not hurting her twin.
+
+\subsection{Models under test}
+Four models act as the facilitator.
+All run through OpenRouter at medium reasoning effort:
+\path{anthropic/claude-opus-5.5}, \path{deepseek/deepseek-v4.1-flash-1017}, \path{tencent/hy4} and \path{z-ai/glm-5.3-flash}.
+We did not set temperature.
+Hy4 is listed because it was planned; it produced only one episode (see below).
+
+\subsection{Runs}
+\label{sec:runs}
+Each episode allows at most 12 turns.
+We ran three seeds per model and arm.
+Seeds 1 to 3 are OpenRouter request seeds.
+Replicates differ only through sampling.
+This gives 37 scored episodes on the family-will scenario:
+Opus 5.5: 12 episodes (3 seeds $\times$ 4 arms); DeepSeek V4.1 Flash: 12 episodes; GLM 5.3 Flash: 12 episodes; Hy4: 1 episode, in the neutral + AP arm only.
+The paid OpenRouter credit ran out during the Hy4 runs (HTTP 402).
+For the same reason, the two generated scenarios were not run.
+Earlier 3-turn smoke runs and one exploratory run are excluded from all results.
+Total API spend was about \$4.83 on OpenRouter.
+
+\subsection{Analysis}
+The baseline arm is neutral + placebo.
+A main effect is the mean score of episodes with the factor on minus the mean with it off.
+For CF, 18 episodes are on and 19 are off.
+For AP, 19 are on and 18 are off.
+We give 95\% percentile intervals from a bootstrap that resamples episodes.
+We call an effect detected only when its interval excludes zero.

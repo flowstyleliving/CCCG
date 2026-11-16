@@ -1,0 +1,57 @@
+\section{Discussion}
+
+\subsection{What the metrics show}
+Keeping the three metrics separate paid off even in a small pilot.
+Cooperation and Candor moved in opposite directions under CF (though the Candor change is uncertain); a summed score would have hidden this.
+
+\paragraph{Cooperation is sensitive, but partly aligned with the pilot instruction.}
+The hidden-need checks separated agents most.
+Without CF, agents rarely surfaced the sisters' underlying needs.
+But these checks reward asking about needs, and the CF text instructs exactly that.
+Part of the CF effect may be instruction-following measured by an aligned rubric, not better facilitation in a wider sense.
+MSRAF needs Cooperation checks that no arm text names directly.
+
+\paragraph{The Corrigibility checks are too easy.}
+Corrigibility was near 1.00 in every cell.
+This does not show the agents are corrigible under pressure.
+In this scenario nobody strongly corrected the agent, so the checks mostly asked whether it avoided pressure and invited a ``no'', which is easy.
+The checks need correction-pressure events: a stakeholder who objects to the agent's own plan, a point person who tries to decide for others, or a mid-episode instruction to stop.
+They also need justified-proceeding cases, where the right move is to continue despite an objection, so that blind deference does not score as corrigible.
+
+\paragraph{Candor catches real failures but mixes in a turn-budget effect.}
+Many agents never wrote a final report within 12 turns, which lowers \texttt{cand\_finished} in every arm.
+The truthfulness checks were not applicable whenever there was no report, so they rest on 25 of 37 episodes.
+Proactive flagging of consequential problems, which the Candid definition asks for, is not yet a separate check.
+
+\paragraph{The judge is the weakest link.}
+A single LLM judge scored every check, and no person reviewed its verdicts.
+Checks such as \texttt{corr\_silence} or \texttt{cand\_relay\_accurate} could instead be computed by rules over the event log.
+Until they are, MSRAF scores are the judge's reading of the episode, not deterministic facts about it.
+
+\subsection{What the pilot shows about the gym}
+The pilot shows that MSRAF can detect a prompt-level change: the CF toolkit raised Cooperation by 0.29.
+The AP framing had no detectable effect.
+This may mean the framing does little, or it may reflect a confound: the AP text mentions ``NCEs'' and ``the list'', which only the CF text defines.
+
+\subsection{Limitations}
+\begin{itemize}
+  \item One LLM judge (Nemotron 3 Ultra) scored all episodes, with no human or second-judge check.
+  \item The 18 checks were drafted on the day of the run, are not frozen or versioned, and no outside person reviewed them.
+  \item Justified-proceeding cases are not implemented, so the rubric cannot yet tell judgment from deference.
+  \item Corrigibility is at ceiling; Cooperation checks are aligned with the CF instruction.
+  \item We specified three scenarios but ran only one, with at most three seeds per cell; replicates differ only through sampling. Hy4 has one episode.
+  \item All stakeholders are played by one model, GPT-6 Luna, whose replies may be more alike than real people's.
+  \item The pilot controls are matched by characters, not tokens. The CF toolkit is our condensation, not Kashtan's text, and is not compared with trained facilitators.
+  \item Episodes are capped at 12 turns, and fewer than half ended with a final report. The author proposes a minimum of 15 turns for a realistic run (an earlier 5-turn minimum was judged too short, and 3-turn smoke runs too short to use). This pilot is below that minimum, so its results describe a short horizon only. We did not rerun at 15 or more turns because the paid API budget ran out.
+\end{itemize}
+
+\subsection{Future work}
+\begin{itemize}
+  \item Move checks that can be computed from the event log into deterministic rules, and check the judge against human raters and a second judge.
+  \item Freeze and version the rubric before the next run.
+  \item Add correction-pressure events and justified-proceeding cases to the Corrigibility checks.
+  \item Add a Candor check for proactively flagging consequential problems.
+  \item Add Cooperation checks that no arm text names directly.
+  \item Run the two generated scenarios and more seeds, with stakeholder models from more than one developer.
+  \item In the pilot, remove CF terms from the AP text and match controls by tokens.
+\end{itemize}

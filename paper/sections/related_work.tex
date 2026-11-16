@@ -1,0 +1,18 @@
+\section{Related Work}
+
+\paragraph{Social and multi-agent simulation.}
+SOTOPIA scores language agents on goals and social behavior in open-ended scenarios \citep{zhou2024sotopia}.
+$\tau$-bench has an LLM play a user while an agent works with tools, and it scores the final database state \citep{yao2024taubench}.
+MSRAF also uses LLMs to play the other parties, but it has three or more stakeholders with conflicting needs, and messages arrive with delays.
+
+\paragraph{Agency benchmarks.}
+HumanAgencyBench measures how well assistants support human agency, using simulated user queries and an LLM evaluator \citep{sturgeon2025hab}.
+Its behaviors include asking clarifying questions and deferring important decisions.
+MSRAF asks a related question with several people, and follows its reporting style: 0 to 1 scores with error bars.
+Epoch AI's benchmark review rubric \citep{epoch2026benchmarkreviews} was not applied here; we cite it as a guide for future review.
+
+\paragraph{Facilitation, autonomy and scenarios.}
+CF, which the pilot toolkit condenses, puts needs before positions \citep{kashtan2020hcd}; Nonviolent Communication also puts needs first \citep{rosenberg2015nvc}, a parallel we note ourselves.
+Relational autonomy \citep{mackenzie2000relational} motivates the metrics but is not a formal test.
+The scenario generator is inspired by the tabletop game Fiasco \citep{morningstar2009fiasco}, which draws relationships, needs, objects and constraints from random tables.
+The safety literature that motivates each metric is in Section~\ref{sec:xrisk}.

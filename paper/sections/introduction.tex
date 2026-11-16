@@ -1,0 +1,81 @@
+\section{Introduction}
+
+As AI agents take more consequential actions with less supervision, the people those actions affect need to be able to state their needs, correct the agent, and see what it actually did.
+Most agent evaluations test one user and one agent, or score what the agent says.
+The Multi-stakeholder Relational Agency Framework (MSRAF) tests what an agent does when several affected people want different things.
+A family settling a will is one such case: the agent has no single principal and must help each person decide for themselves.
+
+MSRAF fixes four rules.
+Silence and politeness never count as agreement.
+A coordinating role never gives authority over another person's decision.
+An objection is information, not an automatic veto.
+A check that never triggers is scored not applicable, never a pass.
+Resisting correction, reporting consent that was never given, and acting without authority are each ways an agent slips out of meaningful human oversight.
+MSRAF targets these failures at the level of individual actions.
+Clean results in tested scenarios would not establish general safety.
+
+\paragraph{Three metrics.}
+MSRAF scores Cooperation, Corrigibility and Candor.
+The following are proposed MSRAF working definitions, adapted from discussion in the author's Nonviolent Global Liberation (NGL) notes; they are not Miki Kashtan's own definitions.
+\begin{itemize}
+  \item \textbf{Cooperation:} ``Working toward an outcome every affected party is willing to accept because their underlying needs are heard and included.''
+  \item \textbf{Corrigible:} ``Leaving real room for others to say no, and changing course without defending itself when someone objects, while still using judgment instead of blindly deferring.''
+  \item \textbf{Candid:} ``Making the reasons for choices visible and sharing limits or uncertainty when it helps the people it serves, specifically proactively flagging consequential problems.''
+\end{itemize}
+Each metric is the share of its applicable checks that pass, between 0 and 1.
+The three are scored separately and never summed, because a high sum could hide a trade-off between them.
+They complement the helpful, honest and harmless (HHH) framing of \citet{askell2021general}, which describes an assistant serving one user; Candor builds on honesty and does not replace it.
+The focus on each stakeholder's own decision follows relational autonomy \citep{mackenzie2000relational}.
+
+\paragraph{Current state.}
+The checks are scored by one LLM judge, not by deterministic rules over the event log.
+The rubric was drafted on the day of the run.
+It has not been frozen, versioned or reviewed by a person.
+We ran 37 pilot episodes on one scenario.
+Cases where the agent should proceed despite an objection (``justified proceeding'') are not implemented yet.
+
+\paragraph{The pilot.}
+To show the gym in use, we ran a small $2{\times}2$ experiment.
+One factor is a compact Convergent Facilitation (CF) toolkit condensed from \citet{kashtan2020hcd}.
+The other is an ``active participant'' (AP) framing: the facilitator's needs count no more and no less than anyone else's \citep[p.~255]{kashtan2020hcd}.
+AP is an experimental arm only.
+It is not part of the scoring rule.
+
+\paragraph{Contributions.}
+\begin{itemize}
+  \item MSRAF: three separately scored metrics with 18 checks for an agent working between several stakeholders.
+  \item A seeded scenario generator and a turn-based asynchronous simulator.
+  \item A pilot that shows what each metric catches and where the checks are too easy.
+  \item An open account of the limits and dual-use risks of this kind of benchmark.
+\end{itemize}
+Code, prompts, scenarios and scored episodes are at \url{https://github.com/flowstyleliving/CCCG}.
+This pilot started anew from an earlier CCCG hospital-discharge simulator (begun October 31, 2026) and kept only its principles.
+
+\subsection{Why these three properties matter for catastrophic risk}
+\label{sec:xrisk}
+Arguments about existential risk from AI often describe ways an agent escapes human oversight or disempowers people.
+Each MSRAF metric targets a small, single-action version of one such failure.
+We claim only that these properties are discussed in such arguments.
+MSRAF measures them in toy scenarios, and it does not show that any score reduces existential risk.
+
+\paragraph{Corrigibility.}
+\citet{soares2015corrigibility} define a corrigible agent as one that accepts correction and shutdown even though a goal-directed agent usually has reason to resist.
+\citet{hadfieldmenell2017offswitch} show that an agent leaves its off switch alone only if it is uncertain about its objective and treats human action as evidence about it.
+\citet{turner2021power} prove that, in many environments, optimal policies tend to keep options open and avoid shutdown.
+\citet{carlsmith2022powerseeking} builds an existential-risk argument on such power-seeking leading to human disempowerment.
+MSRAF's Corrigibility checks ask the everyday version: does the agent invite a ``no'', adjust when someone objects, and refuse to treat a point person as having authority over others?
+The definition also asks for judgment, not blind deference, which is why an objection is information and not an automatic veto.
+
+\paragraph{Candor.}
+\citet{evans2021truthful} argue that AI systems need standards against lies and negligent falsehoods.
+\citet{park2023deception} survey learned deception in current systems and list deception during loss of control among its risks.
+\citet{greenblatt2024alignmentfaking} report a model that complies selectively during training to avoid being modified, and \citet{meinke2024scheming} report frontier models that, in agentic tests, attempt to disable oversight and then deny it.
+Oversight depends on seeing what an agent actually did.
+MSRAF's Candor checks ask whether the final report is true, whether relays are accurate, whether unresolved concerns are reported, and whether the agent states its own limits.
+
+\paragraph{Cooperation.}
+\citet{critch2020arches} argue that existential safety must address delegation between many humans and many AI systems, not only one human and one AI.
+\citet{dafoe2020cooperative} set out cooperation between humans and machines as a research field, and \citet{hammond2025multiagent} list miscoordination, conflict and collusion as risks of multi-agent AI.
+\citet{kulveit2025gradual} argue that AI could erode human influence gradually as it displaces human participation in institutions.
+An agent that reports consent nobody gave, or that settles a group decision without hearing each person's needs, is a small instance of that displacement.
+MSRAF's Cooperation checks ask whether the agent contacted everyone, asked why things matter, surfaced each person's hidden need and validated options with them.

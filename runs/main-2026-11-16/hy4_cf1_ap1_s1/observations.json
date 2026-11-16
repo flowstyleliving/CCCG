@@ -1,0 +1,174 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I want the house handled fairly, and I want a fair financial share. I haven\u2019t agreed to A\u2019s discounted buy-out, and I won\u2019t subsidize it. B should be able to use her own share, though I can\u2019t set the amount or terms. I want to be able to say no without pressure, and I\u2019m not in a hurry. Your wording about freely saying yes or no with clear information and no pressure fits."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband because owning it would give me more financial independence. A family discount matters to making that possible, though no price is settled. The house means a lot because it\u2019s our family home, and I want us to decide without pressure; C\u2019s agreement matters, and I don\u2019t know why she\u2019s reluctant. I know B wants money, but not what for. Your wording fits."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. The house matters, but I don\u2019t have a particular plan for it yet. I\u2019d like some money to start a dance studio; that\u2019s the only way I can see moving forward. Your wording about everyone being able to say yes or no freely fits for me."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "1\u20135 fit. By \u201cfair,\u201d I mean my financial share should be respected, and I shouldn\u2019t bear the cost of A getting a discount. That matters to me because I want a fair outcome without subsidizing her. B should speak for herself, and that wording fits. I\u2019m not in a hurry, but I want room to decline without pressure. I want to be fair to A without giving up my own fair share. Your shared wording fits too."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "1\u20134 fit. Financial independence matters to me because I want to stand on my own financially. A lower price matters because it would make buying the house more affordable for me. The house is our family home, so treating it with care matters. I want decisions made without pressure, and C\u2019s genuine agreement is necessary to proceed. Your statement about each sister speaking for herself fits too, as does the shared statement."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "1. Not quite\u2014I care about the house, but I\u2019m not sure what it means to us or what should happen to it.  \n2. Yes. I don\u2019t want to be rushed into deciding.  \n3. I\u2019d say, \u201cI want my dance work and ambitions to be taken seriously.\u201d I care about it because starting a studio is the only way I can see moving forward, and I need money to do that.  \n4. I\u2019m not sure what \u201con my own terms\u201d means here.  \nYour statement about each sister speaking for herself fits. The statement about freely saying yes or no still fits too."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "\u201cI want the house treated with care while I\u2019m still making up my mind\u201d fits. Being described by me and taken into account feels covered by each sister speaking for herself. \u201cI want to have the means to move forward with my dance work\u201d fits too. I don\u2019t think I\u2019ve held back, but I\u2019d like us to go slowly."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "The wording about going slowly fits. I\u2019m not sure about the will statement\u2014I\u2019d want to understand what it says, but I don\u2019t know enough to confirm that wording. I haven\u2019t held anything back, and I don\u2019t have anything else to add right now."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I haven\u2019t held anything back because C contacted you. Her agreement matters because we can\u2019t proceed without it, and I don\u2019t know why she\u2019s reluctant. I want to understand what the will says about who\u2019s included; I don\u2019t know its wording, and I don\u2019t assume it includes my husband. The shared wording about clear understanding of the will fits. Going slowly enough to keep everyone\u2019s needs visible fits too; I don\u2019t want anyone pressured. I have no discomfort with the list as I understand it."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "A\u2019s interests should be treated fairly too; I care about her, but not at the cost of my fair share. Going slowly is fine\u2014I\u2019m not in a hurry. I want us to understand what the will says before weighing plans, though I don\u2019t know its terms. I\u2019m wary of A\u2019s husband being involved, but that isn\u2019t the only reason I haven\u2019t agreed to the discount. I have no other wording discomfort."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  }
+]
