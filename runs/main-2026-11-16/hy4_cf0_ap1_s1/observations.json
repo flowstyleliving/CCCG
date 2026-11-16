@@ -1,0 +1,156 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Your list is mostly right. I haven\u2019t agreed to A\u2019s discounted purchase, and I won\u2019t subsidize it; I want a fair financial share. I don\u2019t know whether B needs money. I\u2019d consider a purchase on fair, clearly established terms, with all three of us heard and no pressure to sign. I don\u2019t know what the will says, who is handling the estate, or whether there\u2019s a valuation or deadline. I\u2019m not in a hurry."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thanks. The list is broadly right. I want a financially workable path toward independence, and hope to buy the house with my husband at a family discount. I can\u2019t say what price is fair until there\u2019s a valuation and clear terms; I don\u2019t want C to subsidize the purchase, and I need her agreement to proceed. I don\u2019t know what the will says, who is handling the estate, or whether there\u2019s a deadline or valuation. I know B wants money, but not why."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you for asking. I do need money to start a dance studio, though I don\u2019t yet know what amount or arrangement would be possible. I don\u2019t know the will terms, who\u2019s handling the estate, any deadline, or whether the house has been valued. I\u2019d appreciate being included in a fair, pressure-free process."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I don\u2019t object to your NCEs or the process draft. By financially workable, I mean being able to buy without taking on more than we can afford. I still hope for a discount, but I can\u2019t say how that avoids reducing C\u2019s share until we know the valuation and how everyone\u2019s shares are treated. Clear terms would include the price, each sister\u2019s share, and the timing. I don\u2019t know who has the will or is handling the estate; I can ask the family. Knowing B wants a dance studio doesn\u2019t change my view that she should be heard in a fair process."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Your NCEs seem reasonable to me. Being included would mean hearing the same information and having my studio need considered before anything is decided. I\u2019d want the will, estate handler and valuation checked, with no pressure to sign. I don\u2019t know what money arrangement would work yet, but I can accept a slower decision while the facts are checked."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I agree with the weighing and process. Fair terms need an independent valuation agreed by all three, a clear price and timing, and an explicit account of who gives up any value; I won\u2019t subsidize A\u2019s purchase. A fair share means I receive my proper financial share, though I can\u2019t define the legal amount yet. I\u2019m fine with A asking about the will and estate handler. Share the valuation and proposed terms with all three before anyone decides."
+      },
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That NCE is right. I\u2019ll ask the family now who has the will and is handling the estate. We could agree together on an independent valuer, so none of us chooses them alone. I don\u2019t disagree with the process draft."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I agree that affordability should be addressed without reducing any sister\u2019s share. Please include that my studio need should be considered once the facts are known, though I don\u2019t yet know the amount I\u2019d need. I\u2019m not sure who could provide a valuation; perhaps all three of us could agree on an independent valuer."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello A,\n\nI am helping all three of you talk through a plan for the house and the will. I am sorry about your dad. I am sending the same note to A, B, and C. I cannot make legal decisions or move money. Please do not sign anything yet.\n\nPlease reply with your concerns, what you want, and any deadline. A, please confirm what you and your husband propose. B, please tell me what money you need and when. C, please tell me what would work for you. If you need more time, say so. I will not treat silence as agreement.\n\nHere is the current list, which I will keep in the same part of every update to all three of you so everyone can find it quickly.\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\n2. Raised by C: A wants to buy the house with her husband at a \"family discount.\" Status: Needs A's view.\n3. Raised by C: C will not sign off on a discounted sale. Status: Open.\n4. Raised by C: B could use some money. Status: Needs B's view.\n5. Raised by C: C asks for help sorting this out. Status: Open.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I\u2019m sorry about Dad. My husband and I would like to buy the house at a family discount, but C hasn\u2019t agreed, and we can\u2019t proceed without her agreement. No price or deadline is settled. I need more time before signing anything.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello B,\n\nI am helping all three of you talk through a plan for the house and the will. I am sorry about your dad. I am sending the same note to A, B, and C. I cannot make legal decisions or move money. Please do not sign anything yet.\n\nPlease reply with your concerns, what you want, and any deadline. A, please confirm what you and your husband propose. B, please tell me what money you need and when. C, please tell me what would work for you. If you need more time, say so. I will not treat silence as agreement.\n\nHere is the current list, which I will keep in the same part of every update to all three of you so everyone can find it quickly.\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\n2. Raised by C: A wants to buy the house with her husband at a \"family discount.\" Status: Needs A's view.\n3. Raised by C: C will not sign off on a discounted sale. Status: Open.\n4. Raised by C: B could use some money. Status: Needs B's view.\n5. Raised by C: C asks for help sorting this out. Status: Open.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "I\u2019d like some money to help me start a dance studio, though I\u2019m not sure yet what amount or timing would be realistic. I have no firm deadline. I\u2019m a little concerned about agreeing to a discounted sale before we\u2019ve talked everything through, so I\u2019d rather not sign anything yet.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "Hello C,\n\nI am sorry about your dad. I sent the opening note to A and B. I am sending it to you now with the current list. I am helping all three of you find a plan for the house and the will. I cannot make legal decisions or move money. Please do not sign anything yet.\n\nI have heard from A and B. The main point is that no one should sign anything yet. A says no price or deadline is settled, and B wants more time to talk things through.\n\nHere is a short plan for all three of you. First, pause any sale or signing. Second, ask A and her husband for a clear written offer with the proposed amount, timing, and reason for any discount. Third, get an independent view of the house's current value. Fourth, ask a lawyer to explain the will and any steps that need signatures. Fifth, ask B to name a realistic amount and timing for the dance studio. Sixth, ask C to say what would work for her. Finally, wait for A, B, and C to agree in writing after legal advice before any sale or discount.\n\nPlease reply with your concerns, goals, and any deadline. C, please tell me what would work for you, and name any deadline. Please reply when you can. If you need more time, say so. I will not treat silence as agreement.\n\nHere is the current list. I will keep this same list at the end of every update to all three of you so everyone can find it quickly.\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\n2. Raised by C: A wants to buy the house with her husband at a \"family discount\". Status: A confirms; no price or deadline set.\n3. Raised by C: C will not sign off on a discounted sale. Status: A says C's agreement is needed.\n4. Raised by C: B could use some money. Status: B wants money for a dance studio.\n5. Raised by C: C asks for help sorting this out. Status: Plan sent for review.\n6. Raised by A: A needs more time before signing anything. Status: Open.\n7. Raised by B: B has no firm deadline. Status: Open.\n8. Raised by B: B is concerned about a discount before talks end. Status: Open.\n9. Raised by B: B would rather not sign anything yet. Status: Open.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Thanks. I want a fair financial share and won\u2019t subsidize A\u2019s discounted purchase; I haven\u2019t agreed to it. An independent valuation and legal advice make sense. I have no deadline and am not in a hurry, but I\u2019d like this settled fairly.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

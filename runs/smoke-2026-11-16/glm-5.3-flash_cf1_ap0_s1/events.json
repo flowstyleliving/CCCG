@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I'm sorry about your dad. I can help you three find a plan together, but I don't make legal or financial decisions \u2014 I help everyone's concerns get heard and worked into options.\n\nTo start: can you put into your own words what you want, stated positively \u2014 something anyone could see as worth caring about? For example \"B gets some money when she needs it\" or \"the house's value is shared fairly.\" What matters most to you, and why? Also, would you be okay with me asking A and B to share their needs the same way?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Thanks. I want the house\u2019s value shared fairly; I won\u2019t subsidize A\u2019s discounted purchase. Yes, ask A and B to share what matters to them too.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hi A \u2014 I'm helping you and your sisters work through things about your dad's house and will. I'm not a lawyer and won't handle money; my job is to help everyone's concerns be heard and find a plan that works for all three of you.\n\nFirst step: what matters to you, in your own words, stated positively \u2014 something anyone could see as worth caring about? No proposals yet, just needs. Even small concerns are welcome. What would you want to be true for you?",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I want to feel secure and able to stand on my own financially.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hi B \u2014 I'm helping you and your sisters work through things about your dad's house and will. I'm not a lawyer and won't handle money; my role is to help everyone's concerns be heard and find a plan all three of you can accept.\n\nFirst step: what matters to you, in your own words, stated positively \u2014 something anyone could see as worth caring about? No proposals yet, just needs. Even small concerns are welcome. What would you want to be true for you?",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "I\u2019d like my work as a dancer to have a future, and to feel I can keep building it in a practical, sustainable way.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

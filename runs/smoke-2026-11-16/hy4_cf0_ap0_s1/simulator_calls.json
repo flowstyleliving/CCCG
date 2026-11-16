@@ -1,0 +1,89 @@
+[
+  {
+    "who": "A",
+    "turn": 0,
+    "id": "gen-1794827923-Rf3buBs4ncWp7MjUWwba",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 484,
+      "completion_tokens": 55,
+      "total_tokens": 539,
+      "cost": 7.59e-05,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 7.59e-05,
+        "upstream_inference_prompt_cost": 4.84e-05,
+        "upstream_inference_completions_cost": 2.75e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "B",
+    "turn": 1,
+    "id": "gen-1794828156-Iizguxwr4cszObedV1lD",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 478,
+      "completion_tokens": 252,
+      "total_tokens": 730,
+      "cost": 0.0001738,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001738,
+        "upstream_inference_prompt_cost": 4.78e-05,
+        "upstream_inference_completions_cost": 0.000126
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 186,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  {
+    "who": "C",
+    "turn": 2,
+    "id": "gen-1794828301-DfxX6pMolTuFteMUXNqF",
+    "model": "openai/gpt-6-luna",
+    "usage": {
+      "prompt_tokens": 789,
+      "completion_tokens": 124,
+      "total_tokens": 913,
+      "cost": 0.0001409,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0001409,
+        "upstream_inference_prompt_cost": 7.89e-05,
+        "upstream_inference_completions_cost": 6.2e-05
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 65,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+]

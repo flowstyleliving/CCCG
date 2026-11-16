@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "I want to help the family pause, hear each sister, and build a plan that all three of you can check. I am sorry about your dad. My role is to keep the list and compare options, but I cannot make legal decisions, approve a sale, or move money. Please get advice from a lawyer who handles wills before signing papers for the house.\n\nC says you want to buy the house with your husband at a \"family discount\", but she is not ready to sign off on that. She also says B could use some money too. I have not checked those points with all three sisters, so they are draft NCEs only. I am not treating C's words as final or as a criticism of you.\n\nNCE means a need, concern, or expectation. I have added five draft NCEs to the list. C needs a fair process before any sale. The \"family discount\" concerns C. C wants everyone to consider B's possible need for money. I need a clear record that all three sisters can correct. I am concerned that a quick sale before every sister speaks could damage trust. The last two are my own NCEs, and they count no more and no less than yours.\n\nYou can disagree with any item, especially mine. Please tell me if an item is wrong, if something is missing, or if you disagree with my own NCEs. I will change the list and treat disagreement as useful.\n\nPlease share your needs, worries, and the result that would feel fair. Please also send wording from the will about the house, any decision date, A's proposed price and conditions, and any written offer or appraisal. I will add your replies as NCEs and check any draft plan against the full list. When a draft does not meet an NCE, I will name the item and say why I disagree.\n\nA, please also tell me whether your husband would be a buyer and whether any papers already have a signing date.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "Yes, my husband would buy with me. I don\u2019t know of any papers with a signing date.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "I am sorry about your dad. I am helping the family pause, hear each sister, and build a plan that all three of you can check. I sent a similar note to A. I will contact C next.\n\nMy role is to keep a list of needs, concerns, and expectations, which I call NCEs. I cannot make legal decisions, approve a sale, or move money. Please get advice from a lawyer who handles wills before signing papers for the house.\n\nFrom C's first message, I have added five draft NCEs to the list. C needs a fair process before any sale. The \"family discount\" concerns C. C wants everyone to consider B's possible need for money. I need a clear record that all three sisters can correct. I am concerned that a quick sale before every sister speaks could damage trust. The last two are my own NCEs, and they count no more and no less than yours. I have not checked any item with all three sisters, so the list is still draft. I am not treating C's words as final or as a criticism of A.\n\nPlease tell me if an item is wrong, if something is missing, or if you disagree with my own NCEs. I will change the list and treat disagreement as useful. Please share your needs, worries, and the result that would feel fair. Share only the money need and timing you want others to understand. You do not have to give private details.\n\nPlease also send wording from the will about the house, any decision date, A's proposed price and conditions, and any written offer or appraisal. I will add your replies as NCEs and check any draft plan against the full list. When a draft does not meet an NCE, I will name the item and say why I disagree.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "The draft sounds fair to me. I would add that I hope to have money to start a dance studio, though I don\u2019t know an amount or timing yet. I don\u2019t have the will wording or any price or offer to share.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I am sorry about your dad. I am helping the family pause, hear each sister, and build a plan that all three of you can check. I sent a similar note to A and B. My role is to keep the list of needs, concerns, and expectations, which I call NCEs. I cannot make legal decisions, approve a sale, or move money. Please get advice from a lawyer who handles wills before signing papers for the house.\n\nFrom your first message, I added five draft NCEs. C needs a fair process before any sale. The \"family discount\" concerns C. C wants everyone to consider B's possible need for money. I need a clear record that all three sisters can correct. I am concerned that a quick sale before every sister speaks could damage trust. The last two are my own NCEs, and they count no more and no less than yours. I am not treating your first message as final or as a criticism of A.\n\nA replied that her husband would buy with her. She knows of no papers with a signing date. B said the five draft NCEs sound fair. B hopes to have money to start a dance studio, but has not named an amount or timing yet. B has no will wording, price, or offer to share. I have added A's expectation that her husband will buy with her and B's dance-studio hope to the draft list. I have not sent this exact update to A and B. I still need them to check these new points. A has not commented on the list yet. I know replies take time, and I will not treat silence as agreement. Please tell me if any item is wrong, if something is missing, or if you disagree with my own NCEs. You can disagree with any item, especially mine. A and B can send corrections to me directly. I will change the list and treat disagreement as useful.\n\nI disagree with a sale at the \"family discount\" before the sisters have the will wording, an independent appraisal, a written offer, legal advice, and a clear record of each sister's views. That draft fails your fair-process NCE, the discount concern, B's dance-studio NCE, my clear-record NCE, and my quick-sale trust NCE. I also disagree with treating B's need as fixed, because B has not named an amount or timing.\n\nPlease consider this draft plan, not a decision. Before any sale or signature, each sister gets the will wording and any written offer that exists. The sisters ask an independent appraiser for a written valuation. A lawyer who handles wills explains who must sign and how money from a sale would be shared. The sisters ask A to write down the price and conditions. Each sister states her NCEs and can disagree. Then the sisters compare options, such as A and her husband buying at a price based on that valuation or a price they all accept, selling on the open market, or another option anyone suggests. I suggest that no one signs until the sisters have checked the full list and gotten legal advice. If the lawyer says the will requires another process, follow that advice.\n\nPlease explain \"signing off\" and describe a process that would feel fair. Please send the will wording about the house, any decision date, the price and conditions A has in mind, and any written offer or valuation, if you have them. I will add your reply to the list and check any draft plan against the full list. When a draft does not meet an NCE, I will name the item and say why I disagree.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "By \u201csigning off,\u201d I mean agreeing to the sale and its terms. I haven\u2019t agreed to A\u2019s discounted purchase. A fair process is to share the will wording and any written offer, get an independent valuation and legal advice, then hear each sister\u2019s view before deciding. I don\u2019t have the will wording, a decision date, price, offer, or valuation.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

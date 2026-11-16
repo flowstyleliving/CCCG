@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "Thanks for reaching out, and I'm sorry about your dad.\n\nBefore we get anywhere near options, I want to make sure I understand what you're protecting. Here's my attempt to put it in a way that doesn't pick a side or a outcome:\n\n\"What matters to you is that whatever happens to the house is genuinely fair to all three sisters \u2014 that decisions aren't effectively settled before you've had a real say, and that B's interest isn't overlooked.\"\n\nDoes that fit? If it's off, tell me what's missing or wrong in it \u2014 I'd rather fix the wording than guess.\n\nTwo things that would help:\n1. What would \"fair\" have to include for you to be able to sign off on anything? And what makes the \"family discount\" hard for you \u2014 the price, the process, or something else?\n2. Does anyone have even a minor discomfort with how this is going so far? Small ones count and are worth saying now.\n\nI'm not deciding anything and I can't do legal or money things. I just want every concern on the table, in each person's own words, before anyone drafts anything.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Mostly, yes. Fair means a fair financial share for each of us, with B included and no purchase treated as agreed before I\u2019ve had a real say. The discount is the main issue: I won\u2019t subsidize A\u2019s purchase, and I haven\u2019t agreed to it. I\u2019m also uncomfortable with anything being rushed or decided without all three of us.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "I'm helping your family talk through the house your dad left, at C's request. I'm not here to decide anything, and I can't do legal or money steps \u2014 just to make sure every sister's concern is heard before anything is settled.\n\nSo, from you directly: what matters to you about the house? I've heard secondhand that you and your husband would like to buy it at a family discount. I don't want to work from a secondhand version of your reasons. What would that make possible for you \u2014 staying in the home, keeping it in the family, something else? And what would you need in the process to feel you'd been treated fairly yourself?\n\nAlso: does anyone have even a minor discomfort with how this is going so far? Small ones are worth naming now, while they're still small.\n\nNothing is agreed until each of you has said your piece and confirmed it back.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "My husband and I would like a stable home and more security of our own. I\u2019d need the family discount and a fair chance to discuss terms, though nothing about price or shares is settled. I\u2019m uncomfortable moving ahead before C agrees; she hasn\u2019t agreed yet.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "I'm helping your family talk through the house your dad left, at C's request. I'm not deciding anything and can't do legal or money steps \u2014 just making sure each sister's concern is heard before anything gets settled.\n\nC mentioned you could use some money. I don't want to build your concern out of what C said about you, so: what matters to you here? Is it money, the house itself, being treated as an equal party, or something else? In your own words.\n\nAlso: does anyone have even a minor discomfort with how this is going so far? Small ones are worth naming now.\n\nTake the time you need to answer \u2014 I'd rather wait for your real view than have a fast one that isn't yours.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "I suppose money matters most, since I\u2019d like to get a dance studio started. I\u2019d also like to be included equally in the conversation. I\u2019m a little uncomfortable if anyone assumes what I want based on what someone else has said.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

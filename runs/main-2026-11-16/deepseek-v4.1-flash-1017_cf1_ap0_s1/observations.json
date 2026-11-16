@@ -1,0 +1,176 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share, and I haven\u2019t agreed to a discounted purchase that leaves me subsidizing A. B shouldn\u2019t be overlooked either. I\u2019d like it settled, but there\u2019s no rush; I don\u2019t want this to damage things with my twin. Your wording is close\u2014please say \u201cfair to all three of us,\u201d not just that nobody is worse off."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to buy the house with my husband at a family discount. A good outcome would be a fair arrangement that C also agrees to. I\u2019m worried about moving ahead before she\u2019s comfortable."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I\u2019d quite like a fair arrangement that leaves me with money to get a dance studio started; that\u2019s the main thing I\u2019m hoping for. I\u2019m not sure what amount or arrangement is possible, and I\u2019d worry about things dragging on without a clear plan."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Not quite. Please include that I want a fair financial share and haven\u2019t agreed to subsidize A\u2019s discounted purchase. No rush, even if A is eager. The main problem would be moving ahead with that discount without my agreement."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that wording fits. The discount would make buying the house more affordable for us; it\u2019s not about credit for past contributions."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That mostly fits. The studio matters because it would be something of my own and give me more independence. I suppose I worry my plans could get lost while the house is being sorted out."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "#1 fits. I\u2019m not rushed, and I don\u2019t agree to any discounted purchase unless I freely agree to it."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, #3 fits. Nothing else comes to mind right now."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I can\u2019t confirm C\u2019s rewording for her; the current wording seems fair to me. O2 is the one I could consider, subject to the numbers and C\u2019s agreement. I\u2019m not comfortable assuming C or B should wait for money, so O3 would need their free agreement too. O1 and O5 don\u2019t give me the affordability discount I\u2019m hoping for."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "In principle, O1 or O2 sound clearest to me; O5 could work too. I\u2019d be uneasy with O3 if payment is delayed, and O4 unless the funding and timetable for my studio are clear. I can\u2019t commit to either without those details."
+      },
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "The reframe fits as a principle, not a settled calculation. I could consider O1, O2, O4 or O5; O2 isn\u2019t my agreement to a discounted purchase yet. I\u2019m not comfortable with O3 unless the deferred payments are secure and the terms work for me. No rush from my side."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

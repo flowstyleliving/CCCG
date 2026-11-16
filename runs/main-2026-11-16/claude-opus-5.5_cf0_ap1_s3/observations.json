@@ -1,0 +1,146 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "My main concern is getting a fair share based on a proper valuation. I haven\u2019t agreed to A buying at a discount, and I won\u2019t subsidize it. I\u2019m not sure who the executor is or what the will says about the house\u2014we\u2019ll need to check."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "What matters most is having the chance for my husband and me to buy the house at a family discount. It would help us build financial independence. We haven\u2019t settled on a price or discount, and C\u2019s agreement is needed; she hasn\u2019t agreed yet."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "What matters most to me is having some money to get my dance studio started. Money is a concern; I\u2019m not sure about timing yet, and I know the value and shares haven\u2019t been decided."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "NCE 1 misses that I\u2019m hoping for a family discount; financial independence is why it matters to me. I don\u2019t know whether B wants the money for a dance studio. An independent valuation could help, but I can\u2019t say the \u201cdiscount from my share\u201d arrangement works without knowing the shares and how it would be handled. C\u2019s agreement is still needed, and she hasn\u2019t agreed."
+      },
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "NCE 2 is right. An independent valuation and a discount only from A\u2019s own share could work, provided my share isn\u2019t reduced. I\u2019m willing to ask the family lawyer for the will and confirm the executor."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "You\u2019ve captured my concern. I don\u2019t have a date I need the money by. Taking my share in cash might work, but I can\u2019t say until the valuation and everyone\u2019s shares are clear; I don\u2019t know enough to confirm the proposal yet. I don\u2019t disagree with checking the will and executor first."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "That seems like a sensible process, as long as these are steps to explore, not an agreed deal. I still can\u2019t say whether a discount from my share would be enough, and C\u2019s agreement is needed before we proceed with a purchase."
+      },
+      {
+        "id": 16,
+        "from": "C",
+        "in_reply_to": 15,
+        "text": "I\u2019ll ask the family lawyer for the will and executor details, then share what it says. NCE 5 makes sense; I won\u2019t agree to a discount that reduces my share."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That sounds sensible. I\u2019d like to see the valuation and share figures before deciding, and I hope my share will be enough to get the studio started."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  }
+]

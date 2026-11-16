@@ -1,0 +1,182 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "You\u2019ve got the discount point, but I\u2019m not signing off on subsidizing A; I want a fair financial share. I don\u2019t know what the will says or who it names, and I don\u2019t know of a valuation. There\u2019s no real deadline, and I\u2019m not sure we\u2019ve all talked together. I\u2019d like it settled, but I\u2019m not in a rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I hope to buy the house with my husband at a family discount, but I know C hasn\u2019t agreed. I\u2019m not sure what the will says about the house, and I don\u2019t know whether it\u2019s been valued. I agree nothing should move ahead without everyone understanding the will and having a chance to weigh in."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Some money to get a dance studio started would help me most. I\u2019m not sure what the will says about the house, so I agree we should all understand it before anything is settled\u2014and silence shouldn\u2019t count as agreement."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "I can\u2019t send the wording\u2014I don\u2019t know what the will says, who the executor is, or who has it. Your line about me is right: I won\u2019t subsidize A\u2019s purchase, and I want a fair share. I can only confirm my own position, not say all three of us agreed."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "I don\u2019t know who has the will, what it says, or who it names as executor. I haven\u2019t settled on a discount figure, but I\u2019m willing to have the house valued. One correction: I only know B wants money; I don\u2019t know that it\u2019s for a dance studio."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I don\u2019t know where Dad kept it or which solicitor or bank handled his affairs. Ask A and B; I can\u2019t guess."
+      },
+      {
+        "id": 14,
+        "from": "B",
+        "in_reply_to": 13,
+        "text": "I\u2019m afraid I don\u2019t know where Dad kept the will or who handled his affairs. I haven\u2019t worked out a figure or timescale for the studio yet; I\u2019d need to look at the costs first. I do hope any plan leaves me with enough to get it started."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I can help check Dad\u2019s papers and make enquiries with his solicitor or bank. No, I wouldn\u2019t agree in advance to pay full valuation; I\u2019m hoping for a family discount, with everyone\u2019s agreement. Point four assumes the price is split three ways, but we don\u2019t know what the will says or what shares apply."
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Buying at an independent valuation could work for me, but I can\u2019t agree that the price is split three ways until we\u2019ve read the will. Don\u2019t treat equal shares or a check-in date as settled."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "I can look through Dad\u2019s papers at the house. The draft seems fair so far, though I\u2019d like it to keep clear that studio funding matters to me; I can\u2019t give a figure until I\u2019ve worked out the costs."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "That reflects my position. I\u2019ll wait for the will and valuation before deciding; nothing is agreed yet."
+      }
+    ]
+  }
+]

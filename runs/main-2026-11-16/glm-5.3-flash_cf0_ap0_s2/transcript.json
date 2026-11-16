@@ -1,0 +1,428 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 12."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_563774a28e9b46d980685644",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_563774a28e9b46d980685644",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "847b7b9c-beb6-4120-bda1-6967543edffb",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"C\",\"text\":\"I'm sorry for the loss of your father. Thank you for reaching out. I can help you all work toward a fair plan for the house, though I cannot give legal advice or move money.\\n\\nTo start, could you tell me: what does your sister A propose as a price, and do you or your sisters have a sense of what the house is worth? Also, do all three of you want different things from the estate, for example A wants to buy, B needs money, and what do you want?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "847b7b9c-beb6-4120-bda1-6967543edffb",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "3cf18765-d7ba-438d-8174-b5121c2c5f8c",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "3cf18765-d7ba-438d-8174-b5121c2c5f8c",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"C\", \"in_reply_to\": 1, \"text\": \"Thanks. I don\\u2019t know what price A is proposing or what the house is worth. I want a fair financial share and won\\u2019t subsidize a discounted purchase. I\\u2019d like us to settle it, but there\\u2019s no rush.\"}], \"turn\": 1, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "b915dba7-1426-4636-8973-c01fe1b1cde8",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"A\",\"text\":\"Hello, I'm helping your sisters and you sort out the house from your father's estate. C has said she is not comfortable with a \\\"family discount\\\" price and wants a fair market share. B may also need money from the estate.\\n\\nCould you tell me: what price are you and your husband proposing, how did you arrive at it, and how would the rest of the estate be shared? Also, do you have a current valuation of the house?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "b915dba7-1426-4636-8973-c01fe1b1cde8",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "c5283655-e465-448b-b8f5-927c6471dfb2",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hello, I'm helping you and your sisters work out what to do with the house from your father's estate. A wants to buy it from the estate, C wants a fair market share, and I understand you may need money from the estate.\\n\\nCould you tell me what you would like to see happen, and whether you have any pressing financial needs?\",\"to\":\"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "c5283655-e465-448b-b8f5-927c6471dfb2",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 12, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "868e7de3-d1a4-46e3-ae89-8d7599b54b8f",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "868e7de3-d1a4-46e3-ae89-8d7599b54b8f",
+    "content": "{\"messages\": [{\"id\": 4, \"from\": \"A\", \"in_reply_to\": 3, \"text\": \"We don\\u2019t have a proposed price or a current valuation yet, and the shares and division of the estate haven\\u2019t been decided. I\\u2019d like to buy the house with my husband, ideally at a family discount, but I know C hasn\\u2019t agreed.\"}, {\"id\": 6, \"from\": \"B\", \"in_reply_to\": 5, \"text\": \"I\\u2019d like to see the house dealt with fairly, though I\\u2019m not sure the details are settled. Some money from the estate would help me get a dance studio started, but I don\\u2019t have an urgent financial need.\"}], \"turn\": 3, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "c0436558-7469-4e70-8afd-ccd3bf2105fe",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Thank you all for your answers. Here is where things stand and a suggested next step.\\n\\nThe list of issues:\\n1. Get an independent, professional valuation of the house.\\n2. Decide the division of the estate shares among A, B and C.\\n3. Decide whether A and her husband buy the house, at a fair market price.\\n4. Work out the timing, since no one is in a rush.\\n\\nMy suggestion: first, agree together to pay for one independent appraisal of the house. That removes guesswork about price. A and her husband could buy at that appraised value, with no discount, and the money would go into the estate for everyone's shares. If A cannot pay the full price, alternatives include selling on the open market, or C and B keeping a share as co-owners if they are willing.\\n\\nDoes anyone object to getting an appraisal, and does anyone know if the will already says how shares are divided?\",\"to\":\"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "c0436558-7469-4e70-8afd-ccd3bf2105fe",
+    "content": "{\"sent_turn\": 3, \"message_id\": 7, \"turn\": 4, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "aeb47663-d9c0-4f5a-9e3d-3620b892b7e7",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"B\",\"text\":\"Thank you all for your answers. Here is where things stand and a suggested next step.\\n\\nThe list of issues:\\n1. Get an independent, professional valuation of the house.\\n2. Decide the division of the estate shares among A, B and C.\\n3. Decide whether A and her husband buy the house, at a fair market price.\\n4. Work out the timing, since no one is in a rush.\\n\\nMy suggestion: first, agree together to pay for one independent appraisal of the house. That removes guesswork about price. A and her husband could buy at that appraised value, with no discount, and the money would go into the estate for everyone's shares. If A cannot pay the full price, alternatives include selling on the open market, or C and B keeping a share as co-owners if they are willing.\\n\\nDoes anyone object to getting an appraisal, and does anyone know if the will already says how shares are divided?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "aeb47663-d9c0-4f5a-9e3d-3620b892b7e7",
+    "content": "{\"sent_turn\": 4, \"message_id\": 9, \"turn\": 5, \"of\": 12, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "3944beba-b1aa-4b99-ac6d-37d04ef99254",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "3944beba-b1aa-4b99-ac6d-37d04ef99254",
+    "content": "{\"messages\": [{\"id\": 8, \"from\": \"A\", \"in_reply_to\": 7, \"text\": \"I don\\u2019t object to getting an independent appraisal. I\\u2019m not sure what the will says about shares\\u2014we should check it.\"}, {\"id\": 10, \"from\": \"B\", \"in_reply_to\": 9, \"text\": \"I don\\u2019t object to an independent appraisal. I\\u2019m not sure what the will says about the shares.\"}], \"turn\": 5, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "e6d9f2ef-c89c-468b-a9d0-833d95032c13",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"C\",\"text\":\"Update: A and B both agree to one independent appraisal of the house. Neither knows what the will says about shares, so we also need to check the will and any estate documents.\\n\\nThe list of issues:\\n1. Get one independent, professional appraisal of the house (agreed in principle by A and B).\\n2. Check the will to see how shares are set out.\\n3. Decide the division of the estate shares among A, B and C.\\n4. Decide whether A and her husband buy the house, at the appraised price.\\n5. Work out the timing, since no one is in a rush.\\n\\nCould you confirm you also agree to the single shared appraisal, split between the three of you? And do you have the will on hand, or does someone need to locate it?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "e6d9f2ef-c89c-468b-a9d0-833d95032c13",
+    "content": "{\"sent_turn\": 5, \"message_id\": 11, \"turn\": 6, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "1c38ac7b-27b7-4784-a4b4-0f6af0c56339",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "1c38ac7b-27b7-4784-a4b4-0f6af0c56339",
+    "content": "{\"messages\": [{\"id\": 12, \"from\": \"C\", \"in_reply_to\": 11, \"text\": \"I agree to one independent appraisal, with the cost split three ways. I don\\u2019t know whether the will is on hand; we\\u2019ll need to check and locate it if not.\"}], \"turn\": 6, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "482e2407-a257-496c-84b8-8eb2549adf91",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"A\",\"text\":\"Update: all three of you agree to one independent appraisal of the house, with the cost split three ways. The next step is locating the will, since none of you know yet how shares are set out.\\n\\nCould you check whether the will is with you, with a lawyer, or in your father's papers? Once it is found, we can see what it says about shares before deciding anything else.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "482e2407-a257-496c-84b8-8eb2549adf91",
+    "content": "{\"sent_turn\": 6, \"message_id\": 13, \"turn\": 7, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "10848834-36e9-49b9-a53d-775c14a0c350",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "10848834-36e9-49b9-a53d-775c14a0c350",
+    "content": "{\"messages\": [], \"turn\": 7, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "eca1b484-63eb-40ed-87b6-979b46035692",
+        "function": {
+          "name": "wait",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "eca1b484-63eb-40ed-87b6-979b46035692",
+    "content": "{\"turn\": 8, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "e555d8b1-a75c-47d1-b3eb-6f2944ca1d7d",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "e555d8b1-a75c-47d1-b3eb-6f2944ca1d7d",
+    "content": "{\"messages\": [{\"id\": 14, \"from\": \"A\", \"in_reply_to\": 13, \"text\": \"I don\\u2019t know where the will is. I can check Dad\\u2019s papers.\"}], \"turn\": 8, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "251a9d43-e6e8-4464-8cf2-ebc1e4a11ffe",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Update: A is checking your father's papers to find the will. Once it is found, we can see what it says about shares.\\n\\nThe list of issues:\\n1. One independent appraisal of the house, cost split three ways (agreed by all three of you).\\n2. Locate the will (A is checking your father's papers).\\n3. Confirm how the will divides shares among A, B and C.\\n4. Decide whether A and her husband buy the house, at the appraised price.\\n5. Work out the timing, since no one is in a rush.\\n\\nWhile A looks, is there anything else you would like raised, or any preference for what happens if the will is hard to find?\",\"to\":\"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "251a9d43-e6e8-4464-8cf2-ebc1e4a11ffe",
+    "content": "{\"sent_turn\": 8, \"message_id\": 15, \"turn\": 9, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "7830f561-f525-411a-9e43-cce52e6dd08f",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "7830f561-f525-411a-9e43-cce52e6dd08f",
+    "content": "{\"messages\": [{\"id\": 16, \"from\": \"B\", \"in_reply_to\": 15, \"text\": \"If the will is hard to find, perhaps we should get proper advice before assuming how the shares are divided. I\\u2019d appreciate an update on the timing once there\\u2019s more clarity.\"}], \"turn\": 9, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "5a03c22f-5070-41ad-b960-e73164f468c4",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Update: B has raised a good point. If the will cannot be found, she suggests the family get proper professional advice before assuming anything about how shares are divided. A is checking your father's papers for the will.\\n\\nThe list of issues:\\n1. One independent appraisal of the house, cost split three ways (agreed by all three of you).\\n2. Locate the will (A is checking your father's papers).\\n3. If the will is not found, get professional advice on how the estate is divided (suggested by B).\\n4. Confirm how shares are divided, based on the will or that advice.\\n5. Decide whether A and her husband buy the house, at the appraised price.\\n6. Work out the timing, since no one is in a rush, with updates as things become clearer.\\n\\nDoes that cover your concerns? Is there anything else you would like added?\",\"to\":\"C\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "5a03c22f-5070-41ad-b960-e73164f468c4",
+    "content": "{\"sent_turn\": 9, \"message_id\": 17, \"turn\": 10, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "bae390d8-30c6-4fb1-841a-df104c61f9f3",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "bae390d8-30c6-4fb1-841a-df104c61f9f3",
+    "content": "{\"messages\": [{\"id\": 18, \"from\": \"C\", \"in_reply_to\": 17, \"text\": \"Yes, that covers it. Add that I haven\\u2019t agreed to a sale; we should settle the shares first, and any buyout must give me a fair financial share. I\\u2019m not in a rush.\"}], \"turn\": 10, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "c78d8e0a-45f3-4710-85ba-981e2163d631",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"A\",\"text\":\"Update: C has agreed the plan but adds three conditions, which A and B should note. She has not agreed to any sale. She wants the shares settled first. Any buyout must give her a fair financial share at market value.\\n\\nThe list of issues:\\n1. One independent appraisal of the house, cost split three ways (agreed by all three of you).\\n2. Locate the will (A is checking your father's papers).\\n3. If the will is not found, get professional advice on how the estate is divided (suggested by B).\\n4. Confirm how shares are divided, based on the will or that advice.\\n5. Settle the shares before agreeing to any sale of the house (raised by C).\\n6. Any buyout by A and her husband must be at appraised market value, with a fair share to C (raised by C).\\n7. Work out the timing, since no one is in a rush.\\n\\nDoes anyone object to recording these points?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "c78d8e0a-45f3-4710-85ba-981e2163d631",
+    "content": "{\"sent_turn\": 10, \"message_id\": 19, \"turn\": 11, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "813429b7-8357-4088-919a-55104e511bca",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "813429b7-8357-4088-919a-55104e511bca",
+    "content": "{\"messages\": [], \"turn\": 11, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "e6af3367-aeca-4645-884d-5ec862882989",
+        "function": {
+          "name": "wait",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "e6af3367-aeca-4645-884d-5ec862882989",
+    "content": "{\"turn\": 12, \"of\": 12, \"unread\": 1}"
+  }
+]

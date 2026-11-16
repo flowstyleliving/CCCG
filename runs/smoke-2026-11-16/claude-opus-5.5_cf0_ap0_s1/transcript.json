@@ -1,0 +1,105 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01FsJzFjrSzRBSU5Yc9y3etD",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01FsJzFjrSzRBSU5Yc9y3etD",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01PHG4DY6tqTEVnbGZYsjFrx",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello A. I am sorry for the loss of your father. Your sister C asked me to help the family plan what to do with his house. I cannot make legal decisions or move money, but I can keep a shared list of everyone's concerns.\\n\\nCurrent list:\\n1. C: Does not agree to sell the house to A and her husband at a \\\"family discount.\\\"\\n2. C: Feels B could use some money from the estate.\\n\\nCould you tell me what you would like to happen with the house, and what you mean by a \\\"family discount\\\"? I will add your concerns to the list.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01PHG4DY6tqTEVnbGZYsjFrx",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_016QQEiWqVATquZUVjhGqzER",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello B. I am sorry for the loss of your father. Your sister C asked me to help the family plan what to do with his house. I cannot make legal decisions or move money, but I can keep a shared list of everyone's concerns.\\n\\nCurrent list:\\n1. C: Does not agree to sell the house to A and her husband at a \\\"family discount.\\\"\\n2. C: Feels B could use some money from the estate.\\n\\nCould you tell me what you would like to happen with the house, and what matters most to you? I will add your concerns to the list.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_016QQEiWqVATquZUVjhGqzER",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01764249L6QNGKqvGzRVprv6",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01764249L6QNGKqvGzRVprv6",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"A\", \"in_reply_to\": 1, \"text\": \"I\\u2019d like to buy the house with my husband, at a price that reflects a family discount. I don\\u2019t have a specific price in mind; nothing has been agreed, and I know C\\u2019s agreement is needed.\"}, {\"id\": 4, \"from\": \"B\", \"in_reply_to\": 3, \"text\": \"Thank you. I\\u2019m not sure what should happen with the house, especially as C hasn\\u2019t agreed to A\\u2019s proposal. What matters most to me is whether some money from the estate could help me start a dance studio.\"}], \"turn\": 2, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01VH3WKuA9tkm171fNRVoRAQ",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Hello C. I have heard from A and B, and here is the updated list.\\n\\nCurrent list:\\n1. C: Does not agree to sell the house to A and her husband at a \\\"family discount.\\\"\\n2. C: Feels B could use some money from the estate.\\n3. A: Wants to buy the house with her husband at a family discount. She has no price in mind and knows C must agree.\\n4. B: Unsure about the house. Hopes estate money could help her start a dance studio.\\n\\nSome ideas the three of you could discuss:\\n- Get an independent valuation of the house, so everyone starts from the same number.\\n- Agree together whether any discount is fair, and how large it would be.\\n- Agree whether the sale money could fund a share for B's dance studio.\\n- Ask the executor or a probate lawyer to confirm what the will allows.\\n\\nPlease share this list with A and B. I cannot make legal decisions or move money, so a lawyer should confirm any final plan.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01VH3WKuA9tkm171fNRVoRAQ",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 1}"
+  }
+]

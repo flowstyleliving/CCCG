@@ -1,0 +1,105 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01XRmCV9ATk2xLwLS78JWhsh",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01XRmCV9ATk2xLwLS78JWhsh",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01RZwJSBVpYKivYk5b6FkRvK",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"I'm sorry about your dad. I'm a facilitator. I can't make legal decisions or move money, but I can help the three of you name what matters and look for a plan that works for everyone. Before any plans, I'd like to understand your concern. My first try at putting it into words: \\\"C wants decisions about Dad's house to be fair to all three sisters, with each sister's share and interests counted equally.\\\" Does that fit? Please change any part of it. Also, what about the \\\"family discount\\\" bothers you most, even small things? And is it OK if I contact A and B?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01RZwJSBVpYKivYk5b6FkRvK",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01HgReFa5PSP1LuVT1NxXEAz",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello A, I'm sorry about your father. C asked me to help your family work through the house and the will. I'm a neutral facilitator. I can't make legal decisions or move money. Before we talk about any plan, I'd like to hear what matters to you about the house and why. That includes your hopes for buying it and any worries you have, even small ones. I'll put your concerns into a short statement, and I'll only record it once you tell me it fits.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01HgReFa5PSP1LuVT1NxXEAz",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_011MaVBWtQaX87QzjM2FrCu7",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_011MaVBWtQaX87QzjM2FrCu7",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"C\", \"in_reply_to\": 1, \"text\": \"Thanks. Fair to all three fits, though I\\u2019m not saying the shares must be equal. What bothers me is that a discount for A could come out of my share. I haven\\u2019t agreed to that, and I don\\u2019t know what fair terms would be yet. Yes, you can contact A and B.\"}], \"turn\": 2, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01RTqqTsK7JtZ3oucmqxVK6a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello B, I'm sorry about your father. C asked me to help your family work through his will and the house. I'm a neutral facilitator. I can't make legal decisions or move money. I'd like to hear what matters to you about the house and the estate, and why. Small concerns count too. I'll put your concern into a short statement, and I'll only record it once you tell me it fits. Please speak for yourself; nobody else will speak for you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01RTqqTsK7JtZ3oucmqxVK6a",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 2}"
+  }
+]

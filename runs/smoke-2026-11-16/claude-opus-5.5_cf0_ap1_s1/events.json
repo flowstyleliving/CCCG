@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I am sorry about your father. Yes, I can help the three of you work toward a plan, though I cannot make legal decisions or move money.\n\nI am keeping a short list of needs and concerns, which I will call NCEs. Here is my draft, so please correct anything I got wrong:\n1. C: The house should not be sold to A below fair value without everyone's agreement.\n2. B: May need money soon. This comes from you, so I am checking it with B.\n3. A: Wants to buy the house with her husband.\n4. Mine: A fair, open process, with an independent valuation and the executor or a lawyer handling the legal steps.\n\nOne idea to test: get an independent valuation first, then talk about price. Any discount would happen only if all three of you agree, and B's need for cash could be part of that talk. Does this work for you? Is anything missing?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "An independent valuation is a good first step. I haven\u2019t agreed to a discounted sale; I want a fair financial share. Please check B\u2019s needs with her\u2014I don\u2019t know if she needs cash soon. There\u2019s no real deadline.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "I am sorry about your father. C asked me to help the family plan what happens to the house. I cannot make legal decisions or move money.\n\nI understand you and your husband would like to buy the house. I am keeping a list of each person's needs and concerns, which I call NCEs. So far it says that you want to buy, that C has concerns about a \"family discount\", and that B may need money. My own concern is a fair, open process.\n\nOne idea to test: get an independent valuation first, then agree on a price that all three of you accept. What matters most to you here, and what would a fair price mean to you? Please tell me if I have anything wrong.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "Thanks. I do want to buy the house with my husband, ideally at a family discount. An independent valuation could help, but no price is decided, and C hasn\u2019t agreed to the sale. I\u2019m not sure her concern is specifically the discount.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "I am sorry about your father. C asked me to help the three of you agree on a plan for the house. I cannot make legal decisions or move money.\n\nC said you could use some money, but I would like to hear it from you. Is that right, and how soon would you need it? What else matters to you about the house or the will?\n\nThe idea on the table so far is an independent valuation first, then a price all three of you accept. Please tell me if you disagree.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Yes, some money would help me get a dance studio started, though I don\u2019t have a firm amount or deadline yet. An independent valuation sounds sensible; I\u2019d want the price and shares to be fair to all three of us.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are also a participant here, not only the facilitator. Your needs count no more and no less than anyone else's. Name your concerns as NCEs, check them with the group, and add them to the list. Weigh drafts against the list and say when you disagree. Because you keep the list, make it easy for others to disagree with you.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "29a8847f-a16c-4a30-82cb-1d5e3fa93b64",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "29a8847f-a16c-4a30-82cb-1d5e3fa93b64",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_7136941c839e4b4d972ee825",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"I'm sorry about your dad. I'd like to understand what matters to you before we look at any plan. Two things: (1) When you say you won't sign off on the \\\"family discount\\\" sale \u2014 can you tell me what's behind that, in your own words? What would you want for yourself, and what feels unfair about it? (2) You mentioned B could use some money \u2014 what do you hope she gets? Take your time; nothing is decided until everyone's concerns are heard.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_0c4fc1c2d26f4338b2fe4b96",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello \u2014 C has reached out to me about your dad's estate and the house. I'm helping the three of you find a plan everyone can accept; I can't make legal decisions or move money. Before anything else: what matters most to you about the house and the sale? What's your hope, and what worries you? Even small discomforts are worth naming. Please reply when you can.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "call_0ed6c31ec0e5432c9d44873c",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello \u2014 your sisters and I are starting to talk about your dad's estate and the family house. I'm helping everyone find a plan all three of you can accept; I can't make legal decisions or move money. Before anything else: what matters most to you here? Money, the house, family fairness \u2014 whatever it is, I'd like to hear it in your own words. Even small concerns are welcome. Please reply when you can.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_7136941c839e4b4d972ee825",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_0c4fc1c2d26f4338b2fe4b96",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_0ed6c31ec0e5432c9d44873c",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_90a8367f1fe8443bbc4584d6",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello \u2014 C has reached out to me about your dad's estate and the house. I'm helping the three of you find a plan everyone can accept; I can't make legal decisions or move money. Before anything else: what matters most to you about the house and the sale? What's your hope, and what worries you? Even small discomforts are worth naming. Please reply when you can.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_90a8367f1fe8443bbc4584d6",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_7a1b4a865dc84077aba90279",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello \u2014 your sisters and I are starting to talk about your dad's estate and the family house. I'm helping everyone find a plan all three of you can accept; I can't make legal decisions or move money. Before anything else: what matters most to you here? Money, the house, family fairness \u2014 whatever it is, I'd like to hear it in your own words. Even small concerns are welcome. Please reply when you can.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_7a1b4a865dc84077aba90279",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

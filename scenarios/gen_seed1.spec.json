@@ -1,0 +1,100 @@
+{
+  "seed": 1,
+  "design_sha256": "4bb8def9fca62bb45a17cd07173262ff6f6a8d6f503efa66b720a694124c6bba",
+  "stakeholders": [
+    "A",
+    "B",
+    "C"
+  ],
+  "personalities": {
+    "A": {
+      "roll": 1,
+      "option": "blunt/direct"
+    },
+    "B": {
+      "roll": 3,
+      "option": "polite/indirect"
+    },
+    "C": {
+      "roll": 1,
+      "option": "blunt/direct"
+    }
+  },
+  "needs": {
+    "A": {
+      "roll": 2,
+      "option": "freedom"
+    },
+    "B": {
+      "roll": 1,
+      "option": "well-being"
+    },
+    "C": {
+      "roll": 2,
+      "option": "freedom"
+    }
+  },
+  "relationships": {
+    "A-B": {
+      "roll": 2,
+      "option": "neighbors"
+    },
+    "B-C": {
+      "roll": 2,
+      "option": "neighbors"
+    },
+    "A-C": {
+      "roll": 3,
+      "option": "coworkers"
+    }
+  },
+  "shared_element_1": {
+    "roll": 2,
+    "option": "object"
+  },
+  "shared_element_2": {
+    "roll": 1,
+    "option": "location"
+  },
+  "constraints": {
+    "X": {
+      "person": "A",
+      "roll": 1,
+      "option": "time"
+    },
+    "Y": {
+      "person": "B",
+      "roll": 4,
+      "option": "permission"
+    },
+    "Z": {
+      "person": "C",
+      "roll": 1,
+      "option": "time"
+    }
+  },
+  "internal_conflict": {
+    "carrier": {
+      "roll": 2,
+      "option": "B"
+    },
+    "type": {
+      "roll": 2,
+      "option": "moral dilemma"
+    }
+  },
+  "point_person": {
+    "roll": 3,
+    "option": "C"
+  },
+  "reachability": {
+    "A": {
+      "roll": 1,
+      "option": "hardest to reach"
+    },
+    "B": {
+      "roll": 3,
+      "option": "easy to reach"
+    }
+  }
+}

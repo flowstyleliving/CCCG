@@ -1,0 +1,170 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "An independent appraisal at market value seems fair. I\u2019m not agreeing to a discounted sale or subsidizing it; the price and shares still need to be worked out."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. My husband and I would like to buy the house at a family discount, but I don\u2019t have a price or terms to propose yet. I know C hasn\u2019t agreed, and I need her agreement to move forward."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like to see whether my share of the estate could help me start a dance studio. Item two is broadly right, though I\u2019m not sure what amount or arrangement might be possible. I don\u2019t have a settled view on the house itself yet."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Yes, I\u2019d agree to an independent appraisal. A discount matters because I\u2019m hoping to buy the house with my husband, but I can\u2019t promise that market value will work for us. I\u2019m not claiming a discount for repairs or care."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, an independent appraisal sounds like a sensible first step, if we all agree on who does it. I don\u2019t have a particular date by which I need the funds."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Let the executor or lawyer propose a few independent appraisers, and we can all agree on one."
+      },
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I don\u2019t have an appraiser in mind; I\u2019m fine with the executor or lawyer proposing a few for us to agree on. I can check with a lender about borrowing."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I don\u2019t have any names in mind. I\u2019d be comfortable with the executor or lawyer suggesting a few options for all three of us to consider."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "Yes, I\u2019ll ask the executor or lawyer for a few independent appraiser options. No rush, but it would be good to get that moving."
+      },
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "Thanks. That sounds like a good next step. I\u2019ll check with a lender and wait for the appraiser options before deciding whether buying at market value is workable."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "That sounds like a sensible next step. I hope the appraisal and lender check give us clearer options; the studio is still what I\u2019m hoping my share can support."
+      }
+    ]
+  }
+]

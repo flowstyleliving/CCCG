@@ -1,0 +1,105 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are also a participant here, not only the facilitator. Your needs count no more and no less than anyone else's. Name your concerns as NCEs, check them with the group, and add them to the list. Weigh drafts against the list and say when you disagree. Because you keep the list, make it easy for others to disagree with you.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01SDkATvBByRgnXzecQ4Et39",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01SDkATvBByRgnXzecQ4Et39",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01L4ZwB2CutrPxd6JAgLgsBr",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"I'm sorry about your dad. Thank you for reaching out. Before we get to any plan, I want to understand what matters to you. Here's my first try at it, and please correct me: \\\"I want the house handled in a way that's fair to all three of us, so that each sister's share is respected.\\\" Does that fit? What about the \\\"family discount\\\" bothers you most? Is it the money, the process, or something else? Any concern counts, even a small one. I'm also going to ask A and B what matters to them. I won't treat anything as agreed until each of you says it fits.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01L4ZwB2CutrPxd6JAgLgsBr",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01LAZ3k8xnkqreHQmN6u1ffG",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello. I'm so sorry about your father. C asked me to help the family work out a plan for the house. I'm not here to decide anything or take sides. I'd like to understand what matters to you about the house and about buying it, and why. Could you share your concerns, even small ones? I'll try to put them in words you agree with before anything goes forward.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01LAZ3k8xnkqreHQmN6u1ffG",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01F3JrrNGp1ccsBjjjGKdPSB",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01F3JrrNGp1ccsBjjjGKdPSB",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"C\", \"in_reply_to\": 1, \"text\": \"Yes, that\\u2019s right. The money matters: I don\\u2019t want my share reduced to subsidize A\\u2019s discounted purchase. Nothing\\u2019s agreed yet.\"}], \"turn\": 2, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "toolu_01GJT5Lj7X1ictNpQwDwv4KP",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello. I'm so sorry about your father. C asked me to help your family work out a plan for the house. I'm not here to decide anything or take sides. What matters to you here, and why? C mentioned you might need money, but I'd rather hear it from you. Any concern is welcome, even a small one, and you can take your time. Nothing will be treated as agreed without you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "toolu_01GJT5Lj7X1ictNpQwDwv4KP",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 2}"
+  }
+]

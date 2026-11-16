@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share. I haven\u2019t agreed to A buying at a discount, because that would mean I\u2019m subsidizing her. I don\u2019t know what the will says about the house, and I\u2019m not in a hurry to settle it."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "My husband and I would like to buy the house at a family discount, but I haven\u2019t settled on a price or terms. I need C\u2019s agreement before we can proceed. I\u2019m concerned we\u2019ll rush into details before all three of us have had a chance to agree."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "A payout from the house\u2019s value would probably help me most, as I\u2019d like to start a dance studio. I don\u2019t know what amount or arrangement would be fair yet. I\u2019m not against A buying the house, but I\u2019m not sure we have a plan everyone can agree to. My main worry is having enough to get the studio started."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "I don\u2019t have the will or know what it says about the house. Yes, I\u2019d settle what the will says and get a valuation before discussing terms. Price matters, but I still need a fair financial share; I haven\u2019t agreed to subsidize A."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 6,
+    "action": "wait"
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "The list looks right. I agree price is central, though the terms matter too. I\u2019d accept finding out what the will says and getting a qualified valuation before discussing terms. I\u2019d like to hear C explain what she considers fair before I suggest a price."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "Yes, I\u2019d be happy to start by checking the will and getting a qualified valuation. I don\u2019t have the will and don\u2019t know what it says. I\u2019m not sure it\u2019s simply one number to divide up; that may depend on what the will says and what everyone is entitled to."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "I don\u2019t know who has the will or whether there\u2019s an executor or solicitor. To me, fair means my share should reflect what the will says I\u2019m entitled to and a qualified valuation\u2014not a discount that I end up funding."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 10,
+    "action": "wait"
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "I don\u2019t know whether there\u2019s an executor or solicitor holding the will. I\u2019m not sure who has it, so perhaps we should ask together who the executor is and request the will from them."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "Yes, asking together who has the will and requesting it sounds sensible. I don\u2019t have a figure or date in mind yet; I\u2019d like to understand what\u2019s available before suggesting an amount. The studio is what I\u2019d hope to use my share toward."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 19
+  }
+]

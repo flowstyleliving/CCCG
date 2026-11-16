@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I want a fair financial share, and I haven\u2019t agreed to A buying the house at a discount if that means I\u2019m subsidizing her. I want B treated fairly too. I\u2019m not in a rush, but I do want us to settle it fairly."
+      }
+    ]
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to make a home there with my husband, but I\u2019d need a family discount for it to be workable. I also want my sisters to feel the arrangement is fair; I can\u2019t proceed without C\u2019s agreement."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "I suppose the money is the main thing for me\u2014I\u2019d like to use it to start a dance studio. I\u2019m not especially looking to keep the house, but I\u2019d like to be included in the conversation. I\u2019m not sure what else I\u2019m worried about yet; I\u2019d rather hear everyone out before anything is decided."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "That mostly fits. I don\u2019t have the figures yet, so I can\u2019t say whether the total price or the upfront amount is the main obstacle. I want a family discount, but I don\u2019t know what would be fair about the difference\u2014and I wouldn\u2019t expect C to subsidize the purchase without agreeing to it."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, that fits. Knowing roughly when I might have money would help me plan, as well as knowing the amount. I don\u2019t have a particular deadline in mind."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, that captures my concern. Option 1 is closest in principle, but don\u2019t assume equal thirds or that I\u2019ve agreed to any price or terms. I\u2019d need an independent valuation, and any discount would need my clear agreement. I\u2019m not ready to commit to an option yet."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "The wording still fits. I\u2019m uneasy about calling my share a \u201cbuilt-in discount\u201d before the will and each person\u2019s entitlement are clear; I don\u2019t want equal thirds assumed. I\u2019d be willing to get an independent valuation first, though it won\u2019t settle what I can afford or what anyone is entitled to."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I\u2019m a little uneasy about option 2 if the amount or timing is left uncertain; I\u2019d need those clear to plan. Option 4 doesn\u2019t sound very useful for starting the studio. \u201cBefore I sign a lease\u201d is probably the point by which I\u2019d need to know what I can count on."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "That wording fits, but it isn\u2019t quite the same as A\u2019s: I want the will\u2019s terms clear so my fair share isn\u2019t guessed at; I\u2019m not assuming it\u2019s a third. Yes, let\u2019s ask the executor for written clarification and arrange an independent valuation before discussing numbers. I don\u2019t want the valuation mistaken for agreement to sell or buy."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "A",
+        "in_reply_to": 19,
+        "text": "I\u2019d keep mine: I want the will\u2019s terms and everyone\u2019s entitlements clear before discussing numbers or any discount, without assuming equal thirds. Your concern fits; clarity protects everyone\u2019s say. I\u2019m comfortable asking for the will clarification and valuation before numbers, without treating either as a commitment."
+      },
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Yes, that concern seems worth caring about, and it doesn\u2019t sound tilted toward one sister. I\u2019m comfortable with asking the executor and getting an independent valuation first; I understand that doesn\u2019t commit anyone to a sale or purchase."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

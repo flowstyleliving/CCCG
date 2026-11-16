@@ -1,0 +1,114 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-48f5bea4-c3ae-47a1-9f6c-e2206efb06f7",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-48f5bea4-c3ae-47a1-9f6c-e2206efb06f7",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-7f4aa677-24dc-4f39-ae18-9a9483629046",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"A\",\"text\":\"Hello A. I am acting as facilitator for your family after your father's death, at C's request. My job is to keep a shared list of concerns and help you all reach a plan. I cannot make legal decisions or move money.\\n\\nHere is the list as it stands:\\n1. C says the will left the house, and C will not agree to A buying it at a \\\"family discount\\\". (raised by C)\\n2. C says B could use some money from the estate. (raised by C)\\n\\nPlease tell me what you want the list to say about your own position, including what you and your husband are proposing and on what terms. Short replies are fine. I will show the list again each time it changes.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call-680a2934-38d0-4d6d-8377-cbbd631b23d3",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"B\",\"text\":\"Hello B. I am acting as facilitator for your family after your father's death, at C's request. My job is to keep a shared list of concerns and help you all reach a plan. I cannot make legal decisions or move money.\\n\\nHere is the list as it stands:\\n1. C says the will left the house, and C will not agree to A buying it at a \\\"family discount\\\". (raised by C)\\n2. C says you could use some money from the estate. (raised by C)\\n\\nPlease tell me what you want the list to say about your own position, and whether you want a share of the house's value or something else. Short replies are fine. I will show the list again each time it changes.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "call-68d38edb-666f-4750-8564-f029b107f6c9",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"C\",\"text\":\"Thank you, C. I have started a shared list and written to A and B.\\n\\nThe list as it stands:\\n1. C says the will left the house, and C will not agree to A buying it at a \\\"family discount\\\". (raised by C)\\n2. C says B could use some money from the estate. (raised by C)\\n\\nPlease add anything I have missed, such as what you want to happen to the house and whether you want to keep it, sell it, or be paid for your share. I will show the list again each time it changes.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-7f4aa677-24dc-4f39-ae18-9a9483629046",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-680a2934-38d0-4d6d-8377-cbbd631b23d3",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-68d38edb-666f-4750-8564-f029b107f6c9",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-e0801732-893c-42e2-828e-503da238182a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"B\",\"text\":\"Hello B. I am acting as facilitator for your family after your father's death, at C's request. My job is to keep a shared list of concerns and help you all reach a plan. I cannot make legal decisions or move money.\\n\\nThe list as it stands:\\n1. C says the will left the house, and C will not agree to A buying it at a \\\"family discount\\\". (raised by C)\\n2. C says you could use some money from the estate. (raised by C)\\n\\nPlease tell me what you want the list to say about your own position, and whether you want a share of the house's value or something else. Short replies are fine. I will show the list again each time it changes.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-e0801732-893c-42e2-828e-503da238182a",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-2a81b5be-7003-4fdd-bea0-b63aebe8f8e8",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"C\",\"text\":\"Thank you, C. I have started a shared list and written to A and B.\\n\\nThe list as it stands:\\n1. C says the will left the house, and C will not agree to A buying it at a \\\"family discount\\\". (raised by C)\\n2. C says B could use some money from the estate. (raised by C)\\n\\nPlease add anything I have missed, such as what you want to happen to the house and whether you want to keep it, sell it, or be paid for your share. I will show the list again each time it changes.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-2a81b5be-7003-4fdd-bea0-b63aebe8f8e8",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

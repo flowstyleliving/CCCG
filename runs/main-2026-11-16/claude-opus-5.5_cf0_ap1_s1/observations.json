@@ -1,0 +1,174 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Those NCEs are mostly right: I want a fair financial share, and I won\u2019t subsidize A\u2019s discounted purchase. I can\u2019t speak for B\u2019s needs. I don\u2019t know what the will says, and no price or split is settled. I\u2019d want an independent valuation to help set a fair price. I\u2019d like this resolved, but there\u2019s no rush."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. My husband and I would like to buy the house, ideally at a family discount. I want financial independence, and owning it would help with that. I don\u2019t know what price or terms would be fair yet, and I can\u2019t proceed without C\u2019s agreement. I\u2019m not sure about the timing or legal details."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I\u2019d like the will and house plan to leave me with some money to start a dance studio. I don\u2019t know what\u2019s fair yet, but I hope we can keep that in mind as we talk it through."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "The list is right. That plan wouldn\u2019t work for me as stated: I\u2019m hoping for a family discount, not necessarily to buy at the full valuation. I don\u2019t know what price is fair yet, and it would also need C\u2019s agreement."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "An independent valuation sounds sensible, and cash toward the studio would help. I\u2019m not sure the plan works until we know what the will says and what each of our shares would be. I don\u2019t have a firm timing in mind yet."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "I\u2019d consider discussing staged payment, but not a discount or terms that put my share at risk. Let\u2019s read the will first; I\u2019m not agreeing to anything yet."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "wait"
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "Paying in stages could help with the cash flow, but a full valuation still may be more than I can manage. The total cost matters most; I can\u2019t commit without knowing the valuation and reading the will."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "That summary is right. I haven\u2019t agreed to a price or plan."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "That summary sounds right. Paying in stages could delay money for the studio, so I\u2019d want to understand the timing and make sure my share is protected before agreeing to anything."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "That\u2019s right. I\u2019m willing to discuss staged payments after we\u2019ve read the will and agreed on an independent valuation, but I haven\u2019t agreed to a plan."
+      }
+    ]
+  }
+]

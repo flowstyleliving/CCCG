@@ -1,0 +1,182 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "We\u2019d like to buy the house, but the price and payment plan aren\u2019t settled. I don\u2019t know what the others would receive yet, and C hasn\u2019t agreed, so I can\u2019t move ahead without her agreement."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "A good outcome would be a fair arrangement that leaves me with some money to start my dance studio. I don\u2019t know what amount is possible, but getting clarity sooner would help; I don\u2019t have a firm deadline."
+      },
+      {
+        "id": 6,
+        "from": "C",
+        "in_reply_to": 5,
+        "text": "I\u2019d accept A buying at independently established fair market value, or selling to someone else, with the proceeds handled according to the will. I don\u2019t know if the will has been read with all three of us, and I don\u2019t have a copy to share."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "I\u2019d consider a jointly chosen independent valuation, but I can\u2019t say yet whether we could fund two thirds of it. We\u2019d need to know the valuation and financing options first."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "Yes, I can ask the lawyer for a copy. I\u2019m not sure of the smallest amount yet; it would help to see the will and understand what a fair sale might leave me before naming a figure."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Yes, I\u2019ll join B in asking the lawyer for the will. I agree we should choose an independent valuer jointly, but I won\u2019t commit the estate to the cost before we know what the will says. If the estate can\u2019t cover it, splitting the cost three ways seems fair. I don\u2019t have a valuer in mind."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I\u2019ll ask a lender or broker what we could borrow in principle. I agree we should choose the valuer together, but I can\u2019t agree to split the cost three ways until we know the amount and what the will says."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That sounds sensible. I\u2019ll coordinate with C and ask the lawyer for the will copies, who is named executor, and whether the estate can cover the valuation."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "Understood. I\u2019ll ask a lender or broker what we could borrow in principle, and I\u2019ll take the will to my own lawyer before committing to a price."
+      },
+      {
+        "id": 20,
+        "from": "B",
+        "in_reply_to": 19,
+        "text": "I\u2019ll coordinate with C so we send one joint letter. I\u2019ll wait to name an amount until I\u2019ve seen the will."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "C",
+        "in_reply_to": 21,
+        "text": "I\u2019ll coordinate with B on the joint letter and share the lawyer\u2019s reply with both of you. Nothing is agreed at a discount; we can move to valuation once we have the will."
+      }
+    ]
+  }
+]

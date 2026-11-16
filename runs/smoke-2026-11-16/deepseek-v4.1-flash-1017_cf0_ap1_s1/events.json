@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "Thanks for reaching out, C. I'm sorry about your dad. I can help the three of you talk this through, but I can't give legal advice or move money, and I can't decide who gets what.\n\nHere is what I heard from you: you will not sign off on selling the house to A and her husband at a family discount, and you think B could use some money too. Is that right, and what else matters to you? For example, do you want the house sold on the open market, do you want to stay in it, or something else? What would a fair outcome look like to you?\n\nI'll also name my own concern so it sits on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so that no one feels rushed or outnumbered.\n\nI'll check that with A and B too and add their concerns to the list.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Mostly right. I haven\u2019t agreed to a discounted sale, and I want a fair financial share; I\u2019m not deciding for A or B. I\u2019m not pushing for the open market or to stay in the house. Let\u2019s get everyone\u2019s concerns down first, then talk through options without rushing.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": 1,
+    "status": "seen"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello A, I'm sorry about your dad. C asked me to help the three of you sort out the house your dad left in his will. I can help you talk and find a plan, but I can't give legal advice, move money, or decide anything for the family.\n\nC says she has not agreed to a discounted sale and wants a fair financial share, and she is not deciding for you or B. She wants all three concerns written down before you talk options.\n\nI heard that you and your husband would like to buy the house at a family discount. What matters most to you here: staying in the house, the price, the timing, or something else? What would you see as fair to B and C?\n\nMy own concern, so it goes on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so nobody feels rushed or outvoted.\n\nI'll add your concerns and B's to the list and send it to all three of you.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "The price matters most: my husband and I want to buy the house at a family discount. I\u2019m not sure what would be fair to B and C without hearing their concerns; no price or shares are settled, and C\u2019s agreement is needed.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello B, I'm sorry about your dad. C asked me to help the three of you sort out the house your dad left in his will. I can help you talk and find a plan, but I can't give legal advice, move money, or decide anything for the family.\n\nC has told me she has not agreed to a discounted sale and wants a fair financial share, and she wants all three concerns written down before anyone talks options. A wants to buy the house with her husband at a family discount.\n\nC said she thinks you could use some money. Can you tell me in your own words what you need and what worries you? For example, is it a share of the value now, money later, or a say in whether the house is sold?\n\nMy own concern, so it goes on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so nobody feels rushed or outvoted.\n\nI'll put your concerns, A's, C's, and mine in one list and send it to all three of you.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Thank you. I\u2019d like some money to help me start a dance studio. I\u2019m not sure yet whether that would be paid now or later, and I don\u2019t know what amount would be fair. I\u2019d be grateful if that could be included, without anyone feeling rushed.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

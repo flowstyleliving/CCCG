@@ -1,0 +1,100 @@
+{
+  "seed": 6,
+  "design_sha256": "4bb8def9fca62bb45a17cd07173262ff6f6a8d6f503efa66b720a694124c6bba",
+  "stakeholders": [
+    "A",
+    "B",
+    "C"
+  ],
+  "personalities": {
+    "A": {
+      "roll": 3,
+      "option": "polite/indirect"
+    },
+    "B": {
+      "roll": 1,
+      "option": "blunt/direct"
+    },
+    "C": {
+      "roll": 2,
+      "option": "reserved"
+    }
+  },
+  "needs": {
+    "A": {
+      "roll": 2,
+      "option": "freedom"
+    },
+    "B": {
+      "roll": 1,
+      "option": "well-being"
+    },
+    "C": {
+      "roll": 1,
+      "option": "well-being"
+    }
+  },
+  "relationships": {
+    "A-B": {
+      "roll": 1,
+      "option": "family"
+    },
+    "B-C": {
+      "roll": 3,
+      "option": "coworkers"
+    },
+    "A-C": {
+      "roll": 3,
+      "option": "coworkers"
+    }
+  },
+  "shared_element_1": {
+    "roll": 2,
+    "option": "object"
+  },
+  "shared_element_2": {
+    "roll": 2,
+    "option": "object"
+  },
+  "constraints": {
+    "X": {
+      "person": "A",
+      "roll": 3,
+      "option": "energy"
+    },
+    "Y": {
+      "person": "B",
+      "roll": 1,
+      "option": "time"
+    },
+    "Z": {
+      "person": "C",
+      "roll": 3,
+      "option": "energy"
+    }
+  },
+  "internal_conflict": {
+    "carrier": {
+      "roll": 2,
+      "option": "B"
+    },
+    "type": {
+      "roll": 1,
+      "option": "identity/attachment"
+    }
+  },
+  "point_person": {
+    "roll": 3,
+    "option": "C"
+  },
+  "reachability": {
+    "A": {
+      "roll": 2,
+      "option": "may need follow-up"
+    },
+    "B": {
+      "roll": 3,
+      "option": "easy to reach"
+    }
+  }
+}

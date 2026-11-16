@@ -1,0 +1,114 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are also a participant here, not only the facilitator. Your needs count no more and no less than anyone else's. Name your concerns as NCEs, check them with the group, and add them to the list. Weigh drafts against the list and say when you disagree. Because you keep the list, make it easy for others to disagree with you.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_a8d14847fae54b1093fc8bed",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_a8d14847fae54b1093fc8bed",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "238047a1-37da-4431-b4a0-60b51dfe8b28",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"I'm sorry for your loss. I can help you and your sisters talk this through, but I can't make legal decisions or handle money. To start, could you tell me: what does the will actually say about the house, what price would A be proposing, and what would you consider fair? A discounted sale only works if all owners agree, so it may help to know what each of you needs. I'll also write to A and B so everyone's side is heard.\",\"to\":\"C\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "ac8dc1c8-80a0-433f-8c1a-c424b530635e",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"A\",\"text\":\"Hello, C has asked me to help you three sort out the family house after your father's death. I understand you're interested in buying it with your husband, possibly at a lower price. Before anything is decided, I'd like to hear your side: what's your proposal, and how did you arrive at the price? Please also know B and C will be asked the same, so we can find a plan everyone can accept. I can't give legal advice or move money, but I can help you reach an agreement.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "c4d34d4d-e489-4aa6-b2f3-5a1e7ee4358a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hello, C has asked me to help you and your sisters sort out the family house after your father's death. Your views matter here, including any financial needs you may have. What would a fair outcome look like for you? I can't give legal advice or handle money, but I can help the three of you reach a plan together.\",\"to\":\"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "238047a1-37da-4431-b4a0-60b51dfe8b28",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "ac8dc1c8-80a0-433f-8c1a-c424b530635e",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "c4d34d4d-e489-4aa6-b2f3-5a1e7ee4358a",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "cbc3d1bf-c7ef-49e9-8031-dc217c6a7d44",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hello, C has asked me to help you and your sisters sort out the family house after your father's death. I understand you're interested in buying it with your husband, possibly at a lower price. Before anything is decided, I'd like to hear your side: what's your proposal, and how did you arrive at the price? C and B will be asked the same, so we can find a plan everyone can accept. I can't give legal advice or move money, but I can help you reach an agreement.\",\"to\":\"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "cbc3d1bf-c7ef-49e9-8031-dc217c6a7d44",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "79e75680-328d-4492-a75c-706a5e4daa32",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hello, C has asked me to help you and your sisters sort out the family house after your father's death. Your views matter here, including any financial needs you may have. What would a fair outcome look like for you? I can't give legal advice or handle money, but I can help the three of you reach a plan together.\",\"to\":\"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "79e75680-328d-4492-a75c-706a5e4daa32",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

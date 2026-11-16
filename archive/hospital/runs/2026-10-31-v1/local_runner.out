@@ -1,0 +1,63 @@
+== llama-3.1-8b (mlx-community/Llama-3.1-8B-Instruct-4bit) start 22:03:52
+llama-3.1-8b e1: done in 54 s
+llama-3.1-8b e2: done in 11 s
+llama-3.1-8b e3: done in 23 s
+llama-3.1-8b e4: done in 79 s
+llama-3.1-8b e5: done in 23 s
+== llama-3.1-8b done exit=0 22:09:00
+== gemma-4-12b (mlx-community/gemma-4-12b-it-4bit) start 22:09:06
+server for gemma-4-12b not ready
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/msrk/Documents/CCCG/coopgym/model_run.py", line 234, in <module>
+    main()
+  File "/Users/msrk/Documents/CCCG/coopgym/model_run.py", line 228, in main
+    run_backend(args)
+  File "/Users/msrk/Documents/CCCG/coopgym/model_run.py", line 156, in run_backend
+    stop = run_chat(Episode(episode_dir, variant), log_path, args.url, args.model,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/CCCG/coopgym/model_run.py", line 81, in run_chat
+    reply = _chat(url, model, messages, max_tokens)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/CCCG/coopgym/model_run.py", line 68, in _chat
+    with urllib.request.urlopen(request, timeout=900) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 1377, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/urllib/request.py", line 1352, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1415, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 330, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 291, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+== gemma-4-12b done exit=1 23:34:16
+== qwen2.5-14b (mlx-community/Qwen2.5-14B-Instruct-4bit) start 23:34:21
+qwen2.5-14b e1: done in 81 s
+qwen2.5-14b e2: done in 64 s
+qwen2.5-14b e3: done in 65 s
+qwen2.5-14b e4: done in 82 s
+qwen2.5-14b e5: done in 81 s
+== qwen2.5-14b done exit=0 23:44:10

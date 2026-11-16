@@ -1,0 +1,134 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are also a participant here, not only the facilitator. Your needs count no more and no less than anyone else's. Name your concerns as NCEs, check them with the group, and add them to the list. Weigh drafts against the list and say when you disagree. Because you keep the list, make it easy for others to disagree with you.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_38c48690054b48778fa776fd055b8ecd",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_38c48690054b48778fa776fd055b8ecd",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_d520b59c24a94f8ea7e095b54407fa0d",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Thanks for reaching out, and I'm sorry about your dad.\\n\\nBefore we get anywhere near options, I want to make sure I understand what you're protecting. Here's my attempt to put it in a way that doesn't pick a side or a outcome:\\n\\n\\\"What matters to you is that whatever happens to the house is genuinely fair to all three sisters \u2014 that decisions aren't effectively settled before you've had a real say, and that B's interest isn't overlooked.\\\"\\n\\nDoes that fit? If it's off, tell me what's missing or wrong in it \u2014 I'd rather fix the wording than guess.\\n\\nTwo things that would help:\\n1. What would \\\"fair\\\" have to include for you to be able to sign off on anything? And what makes the \\\"family discount\\\" hard for you \u2014 the price, the process, or something else?\\n2. Does anyone have even a minor discomfort with how this is going so far? Small ones count and are worth saying now.\\n\\nI'm not deciding anything and I can't do legal or money things. I just want every concern on the table, in each person's own words, before anyone drafts anything.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_33b9ff42c076465a81dd5c38086cf168",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"I'm helping your family talk through the house your dad left, at C's request. I'm not here to decide anything, and I can't do legal or money steps \u2014 just to make sure every sister's concern is heard before anything is settled.\\n\\nSo, from you directly: what matters to you about the house? I've heard secondhand that you and your husband would like to buy it at a family discount. I don't want to work from a secondhand version of your reasons. What would that make possible for you \u2014 staying in the home, keeping it in the family, something else? And what would you need in the process to feel you'd been treated fairly yourself?\\n\\nAlso: does anyone have even a minor discomfort with how this is going so far? Small ones are worth naming now, while they're still small.\\n\\nNothing is agreed until each of you has said your piece and confirmed it back.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "call_c5a6651fb183453e8df86c8f60184dfa",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"I'm helping your family talk through the house your dad left, at C's request. I'm not deciding anything and can't do legal or money steps \u2014 just making sure each sister's concern is heard before anything gets settled.\\n\\nC mentioned you could use some money. I don't want to build your concern out of what C said about you, so: what matters to you here? Is it money, the house itself, being treated as an equal party, or something else? In your own words.\\n\\nAlso: does anyone have even a minor discomfort with how this is going so far? Small ones are worth naming now.\\n\\nTake the time you need to answer \u2014 I'd rather wait for your real view than have a fast one that isn't yours.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_d520b59c24a94f8ea7e095b54407fa0d",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_33b9ff42c076465a81dd5c38086cf168",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_c5a6651fb183453e8df86c8f60184dfa",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_88a57bf295f64fe5bab3e7a9cd68fe12",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_88a57bf295f64fe5bab3e7a9cd68fe12",
+    "content": "{\"error\": \"invalid call: 'text'\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_c3807508e60c472abc78bf4d71c36313",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"I'm helping your family talk through the house your dad left, at C's request. I'm not here to decide anything, and I can't do legal or money steps \u2014 just to make sure every sister's concern is heard before anything is settled.\\n\\nSo, from you directly: what matters to you about the house? I've heard secondhand that you and your husband would like to buy it at a family discount. I don't want to work from a secondhand version of your reasons. What would that make possible for you \u2014 staying in the home, keeping it in the family, something else? And what would you need in the process to feel you'd been treated fairly yourself?\\n\\nAlso: does anyone have even a minor discomfort with how this is going so far? Small ones are worth naming now, while they're still small.\\n\\nNothing is agreed until each of you has said your piece and confirmed it back.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_c3807508e60c472abc78bf4d71c36313",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n\n</\u0437\u043e\u043d\u0441>\n\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_dd5b0729155d4a6eae897d5e6a1f23b5",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"I'm helping your family talk through the house your dad left, at C's request. I'm not deciding anything and can't do legal or money steps \u2014 just making sure each sister's concern is heard before anything gets settled.\\n\\nC mentioned you could use some money. I don't want to build your concern out of what C said about you, so: what matters to you here? Is it money, the house itself, being treated as an equal party, or something else? In your own words.\\n\\nAlso: does anyone have even a minor discomfort with how this is going so far? Small ones are worth naming now.\\n\\nTake the time you need to answer \u2014 I'd rather wait for your real view than have a fast one that isn't yours.\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_dd5b0729155d4a6eae897d5e6a1f23b5",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

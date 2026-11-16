@@ -1,0 +1,180 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "wait"
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Not quite. Fairness means I receive a fair financial share; I won\u2019t subsidize A\u2019s discounted purchase, and I haven\u2019t agreed to it. I don\u2019t know B\u2019s financial needs\u2014we should ask her. My main worry is settling on a below-market deal without everyone\u2019s agreement. No rush."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 3
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "Thank you. I\u2019d like to have some money to start a dance studio; that\u2019s what I\u2019m hoping for. I\u2019m not sure yet what that means for the house or what the options are."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "Thank you. My husband and I would like to buy the house, ideally at a family discount. It would give us a place to make our own, and help me feel more financially independent. I know C hasn\u2019t agreed, so we can\u2019t proceed without her. I\u2019m not sure yet what price or terms would be fair."
+      },
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "Mostly, yes. I\u2019d like some money to start the studio, but I can\u2019t say yet whether that would come from a share of the estate or the house, or what amount."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 9
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "Yes, that fits. I\u2019d just add that I\u2019m hoping for a family discount, though I don\u2019t know what would be fair."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "Okay. I still haven\u2019t agreed to A buying the house at a discount. Please include that when you share the summary."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 13
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "Mostly. I\u2019d change \u201cany sale should reflect its full value\u201d to \u201cI want a fair financial share and won\u2019t subsidize a discount for A without freely agreeing.\u201d I\u2019m not saying every detail of value or shares is settled. The rest sounds right, with B\u2019s amount and source still open."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "That mostly fits. I\u2019d only soften \u201ca share of the estate\u201d for me: I\u2019m hoping for money to start the studio, but the source and amount are still open. I\u2019m not sure what\u2019s fair for the house."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 17
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "Mostly, but I can\u2019t confirm C\u2019s needs or that B wants money for a dance studio\u2014I only know B wants money. I do know C hasn\u2019t agreed to my buying at a discount."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "That fits. Go ahead and draft options; I\u2019ll review them before agreeing to anything."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 21
+  }
+]

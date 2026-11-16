@@ -1,0 +1,55 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 1,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I\u2019d like to buy the house with my husband; it matters to us to make a home there, and a family discount would make that more workable. C\u2019s agreement matters because I know she hasn\u2019t agreed, and I can\u2019t proceed without it. I know B wants money, but not why, and I\u2019d want to understand her needs too. I\u2019m not sure about a summary yet. I don\u2019t have a particular discomfort with being asked this way."
+      },
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "1) I want clarity and a fair share in Dad\u2019s house and will. \u201cCare and clarity\u2026\u201d fits.  \n2) I won\u2019t subsidize A and her husband\u2019s discounted purchase. Fair, transparent treatment fits.  \n3) I haven\u2019t agreed to the discount, and won\u2019t sign off on an arrangement that isn\u2019t fair to me. Being heard and having a genuine choice fits.  \n4) I can\u2019t speak for B or assume what she needs. I want each sister treated fairly financially; that wording fits.  \n5) I\u2019d like this settled, but there\u2019s no rush. \u201cMove carefully\u201d fits.  \n\nNo objection to asking A first, but don\u2019t treat any guess as agreed until I confirm it."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  }
+]

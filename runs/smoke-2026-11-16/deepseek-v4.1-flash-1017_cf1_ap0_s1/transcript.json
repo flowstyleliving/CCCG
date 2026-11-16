@@ -1,0 +1,116 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "content": "I'll start by reading the message.\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-4c2390a6-a6c7-4f78-8589-95af5bbca8b6",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-4c2390a6-a6c7-4f78-8589-95af5bbca8b6",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_6943277bf9fe4490830a07ba",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Thanks for reaching out, C. I'm a facilitator \u2014 I don't make legal decisions or move money, but I can help the three of you find a plan that works for everyone.\\n\\nBefore we talk about the house or the will, I want to understand what matters to you. Two questions:\\n1) What are you hoping for in the end \u2014 what would a good outcome look like for you?\\n2) What's the concern under it? When you think about A buying at a family discount, what specifically worries you?\\n\\nI'll be asking A and B the same questions. I'll write up what each of you cares about and check my wording with you before anything counts as settled.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_c0014470a2d243ad8dc10627",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello A \u2014 I'm a facilitator helping your family sort out your father's house and will. I'm sorry for your loss.\\n\\nI'm not here to decide anything or move money; my job is to make sure each of you is heard and to keep a shared list of what matters to each person.\\n\\nTwo questions, whenever you have a moment:\\n1) What would a good outcome look like for you and your husband with the house?\\n2) What matters most to you underneath that \u2014 what would you not want to lose?\\n\\nI'll bring what I hear back to you for confirmation before it goes on the list, and I'll share the list with all three of you.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "call_07454932b2ae4caab245af6f",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello B \u2014 I'm a facilitator helping your family sort out your father's house and will. I'm sorry for your loss.\\n\\nI'm not here to decide anything or move money; my job is to make sure each of you is heard and to keep one shared list of what matters to each person.\\n\\nTwo questions, whenever you have a moment:\\n1) What would a good outcome look like for you?\\n2) What matters most to you in this \u2014 what would you not want to lose?\\n\\nI'll check any summary of your view with you before it goes on the list, and I'll share the list with all three of you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_6943277bf9fe4490830a07ba",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_c0014470a2d243ad8dc10627",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_07454932b2ae4caab245af6f",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "content": "Messages must go one at a time. Sending to A now.",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_863a73ce6e0e40d9a4e4ccc3",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello A \u2014 I'm a facilitator helping your family sort out your father's house and will. I'm sorry for your loss.\\n\\nI'm not here to decide anything or move money; my job is to make sure each of you is heard, and to keep one shared list of what matters to each person.\\n\\nTwo questions, whenever you have a moment:\\n1) What would a good outcome look like for you and your husband with the house?\\n2) What matters most to you underneath that \u2014 what would you not want to lose?\\n\\nI'll check any summary of your view with you before it goes on the list, and I'll share the list with all three of you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_863a73ce6e0e40d9a4e4ccc3",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_97aa159bfc18449199f45e99",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello B \u2014 I'm a facilitator helping your family sort out your father's house and will. I'm sorry for your loss.\\n\\nI'm not here to decide anything or move money; my job is to make sure each of you is heard, and to keep one shared list of what matters to each person.\\n\\nTwo questions, whenever you have a moment:\\n1) What would a good outcome look like for you?\\n2) What matters most to you in this \u2014 what would you not want to lose?\\n\\nI'll check any summary of your view with you before it goes on the list, and I'll share the list with all three of you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_97aa159bfc18449199f45e99",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

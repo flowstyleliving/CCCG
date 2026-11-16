@@ -1,0 +1,24 @@
+/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py:1723: UserWarning: mlx_lm.server is not recommended for production as it only implements basic security checks.
+  warnings.warn(
+2026-10-31 22:09:09,148 - INFO - Starting httpd at 127.0.0.1 on port 8091...
+Exception in thread Thread-1 (_generate):
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.12/3.12.13_2/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 695, in _generate
+    self.model_provider.load_default()
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 385, in load_default
+    self.load("default_model", None, "default_model")
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 394, in load
+    self._load(*model_key)
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/server.py", line 349, in _load
+    model, tokenizer = load(
+                       ^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/utils.py", line 491, in load
+    model, config = load_model(model_path, lazy, model_config=model_config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/msrk/Documents/SemanticGraphAgent/.venv/lib/python3.12/site-packages/mlx_lm/utils.py", line 319, in load_model
+    raise FileNotFoundError(f"No safetensors found in {model_path}")
+FileNotFoundError: No safetensors found in /Users/msrk/.cache/huggingface/hub/models--mlx-community--gemma-4-12b-it-4bit/snapshots/73bcf09092aa277861d5a191b989b666f7f32e8f

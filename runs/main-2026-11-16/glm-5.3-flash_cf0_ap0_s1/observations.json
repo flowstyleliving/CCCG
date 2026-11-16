@@ -1,0 +1,132 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "wait"
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I\u2019m not sure of the exact wording of the will, and we haven\u2019t had an independent valuation. I don\u2019t know whether B wants to sell or what price A is proposing. I haven\u2019t agreed to a discounted purchase; I want a fair share."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 4,
+        "from": "C",
+        "in_reply_to": 3,
+        "text": "I\u2019ll reach out to them both. Let\u2019s get the will and an independent valuation before discussing a price; there\u2019s no rush."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "wait"
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 6,
+    "action": "wait"
+  },
+  {
+    "turn": 7,
+    "action": "wait"
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": []
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 5
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 7
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "I\u2019m not sure what the will says about the house, and I don\u2019t have a price in mind yet. I\u2019d like to buy it with my husband at a family discount, but I know C hasn\u2019t agreed. An independent valuation sounds fair. B wants money, but I don\u2019t know what for."
+      },
+      {
+        "id": 8,
+        "from": "B",
+        "in_reply_to": 7,
+        "text": "I\u2019d probably prefer to sell my share, if we can agree on a fair value. I\u2019m hoping to put the money toward a small dance studio."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 9
+  },
+  {
+    "turn": 11,
+    "action": "wait"
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "C",
+        "in_reply_to": 9,
+        "text": "Agreed. Let\u2019s confirm the will and get the valuation. I haven\u2019t agreed to a discount; any offer needs to be fair to both B and me."
+      }
+    ]
+  }
+]

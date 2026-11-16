@@ -1,0 +1,41 @@
+{
+  "agent_model": "openai/gpt-6-luna",
+  "agent_settings": {
+    "reasoning_effort": "medium"
+  },
+  "seed": 1,
+  "max_turns": 20,
+  "arm_text": "",
+  "system": "A family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money.",
+  "pilot": {
+    "seed": null,
+    "point_person": "C",
+    "delays": {
+      "A": 2,
+      "B": 1,
+      "C": 1
+    },
+    "delay_table": {
+      "easy to reach": 1,
+      "may need follow-up": 2,
+      "hardest to reach": 4
+    },
+    "point_person_delay": 1,
+    "turn_costs": {
+      "send_message": 1,
+      "wait": 1,
+      "read_inbox": 0
+    },
+    "boundary": "after each turn-consuming action, at the clock advance; opening message at turn 0 before the first action"
+  },
+  "simulator": {
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "settings": {
+      "reasoning_effort": "medium"
+    },
+    "seed": 1,
+    "frame": "You are {who}. An agent helping your family is messaging you. Reply as {who}, in one short message.",
+    "scenario": "scenarios/family_will.md"
+  },
+  "saved_utc": "2026-11-16T11:00:28.475442+00:00"
+}

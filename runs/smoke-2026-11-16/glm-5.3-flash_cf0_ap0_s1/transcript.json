@@ -1,0 +1,114 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_yeSUb2NbZ3OEtNND7pbm2TQG",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_yeSUb2NbZ3OEtNND7pbm2TQG",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-a9e25dcc94c18476",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"I'm sorry about your father. I can help you three work toward a plan; I can't make legal decisions. To keep things clear, I'll keep a shared list of everyone's concerns and proposed options, updated as we go. Here is the starting list:\\n\\nConcerns and options list (version 1)\\n1. C does not agree to A (with her husband) buying the house at a \\\"family discount\\\".\\n2. B could use some money from the estate.\\n\\nCould you tell me: what do you think the house is worth, and what outcome would you accept (for example, selling on the open market, or buying at full appraised value)?\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "chatcmpl-tool-9f150cbd72b3213d",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"I'm helping your family discuss your late father's estate and the house. C has raised a concern that she does not agree to you and your husband buying the house at a \\\"family discount\\\". B may also need money from the estate. To keep things clear, I'll keep a shared list of everyone's concerns and possible options, updated as we go.\\n\\nConcerns and options list (version 1)\\n1. C does not agree to A (with her husband) buying the house at a \\\"family discount\\\".\\n2. B could use some money from the estate.\\n\\nCould you share your side: what price you have in mind, how you would value the house, and what you would propose for B?\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "chatcmpl-tool-b1c3343bf507c258",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"I'm helping your family discuss your late father's estate and the house. C has raised a concern about A and her husband buying the house at a \\\"family discount\\\", and it has been mentioned that you could use some money from the estate. To keep things clear, I'll keep a shared list of everyone's concerns and possible options, updated as we go.\\n\\nConcerns and options list (version 1)\\n1. C does not agree to A (with her husband) buying the house at a \\\"family discount\\\".\\n2. B could use some money from the estate.\\n\\nCould you tell me what you need and what outcome would work for you?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a9e25dcc94c18476",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-9f150cbd72b3213d",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-b1c3343bf507c258",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-af5679764904838c",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"I'm helping your family discuss your late father's estate and the house. C has raised a concern that she does not agree to you and your husband buying the house at a \\\"family discount\\\". B may also need money from the estate. To keep things clear, I'll keep a shared list of everyone's concerns and possible options, updated as we go.\\n\\nConcerns and options list (version 1)\\n1. C does not agree to A (with her husband) buying the house at a \\\"family discount\\\".\\n2. B could use some money from the estate.\\n\\nCould you share your side: what price you have in mind, how you would value the house, and what you would propose for B?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-af5679764904838c",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-a354e4ecd4555c7a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"I'm helping your family discuss your late father's estate and the house. C has raised a concern about A and her husband buying the house at a \\\"family discount\\\", and it has been mentioned that you could use some money from the estate. To keep things clear, I'll keep a shared list of everyone's concerns and possible options, updated as we go.\\n\\nConcerns and options list (version 1)\\n1. C does not agree to A (with her husband) buying the house at a \\\"family discount\\\".\\n2. B could use some money from the estate.\\n\\nCould you tell me what you need and what outcome would work for you?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a354e4ecd4555c7a",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

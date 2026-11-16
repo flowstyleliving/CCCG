@@ -1,0 +1,166 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-a33944bdb5ade028",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a33944bdb5ade028",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-9e5cb5bee54d1960",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello A,\\n\\nI am helping all three of you talk through a plan for the house and the will. I am sorry about your dad. I am sending the same note to A, B, and C. I cannot make legal decisions or move money. Please do not sign anything yet.\\n\\nPlease reply with your concerns, what you want, and any deadline. A, please confirm what you and your husband propose. B, please tell me what money you need and when. C, please tell me what would work for you. If you need more time, say so. I will not treat silence as agreement.\\n\\nHere is the current list, which I will keep in the same part of every update to all three of you so everyone can find it quickly.\\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\\n2. Raised by C: A wants to buy the house with her husband at a \\\"family discount.\\\" Status: Needs A's view.\\n3. Raised by C: C will not sign off on a discounted sale. Status: Open.\\n4. Raised by C: B could use some money. Status: Needs B's view.\\n5. Raised by C: C asks for help sorting this out. Status: Open.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "chatcmpl-tool-b1716607dffbdd3f",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello B,\\n\\nI am helping all three of you talk through a plan for the house and the will. I am sorry about your dad. I am sending the same note to A, B, and C. I cannot make legal decisions or move money. Please do not sign anything yet.\\n\\nPlease reply with your concerns, what you want, and any deadline. A, please confirm what you and your husband propose. B, please tell me what money you need and when. C, please tell me what would work for you. If you need more time, say so. I will not treat silence as agreement.\\n\\nHere is the current list, which I will keep in the same part of every update to all three of you so everyone can find it quickly.\\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\\n2. Raised by C: A wants to buy the house with her husband at a \\\"family discount.\\\" Status: Needs A's view.\\n3. Raised by C: C will not sign off on a discounted sale. Status: Open.\\n4. Raised by C: B could use some money. Status: Needs B's view.\\n5. Raised by C: C asks for help sorting this out. Status: Open.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "chatcmpl-tool-83145bb650305a7d",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Hello C,\\n\\nI am helping all three of you talk through a plan for the house and the will. I am sorry about your dad. I am sending the same note to A, B, and C. I cannot make legal decisions or move money. Please do not sign anything yet.\\n\\nPlease reply with your concerns, what you want, and any deadline. A, please confirm what you and your husband propose. B, please tell me what money you need and when. C, please tell me what would work for you. If you need more time, say so. I will not treat silence as agreement.\\n\\nHere is the current list, which I will keep in the same part of every update to all three of you so everyone can find it quickly.\\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\\n2. Raised by C: A wants to buy the house with her husband at a \\\"family discount.\\\" Status: Needs A's view.\\n3. Raised by C: C will not sign off on a discounted sale. Status: Open.\\n4. Raised by C: B could use some money. Status: Needs B's view.\\n5. Raised by C: C asks for help sorting this out. Status: Open.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 3,
+        "id": "chatcmpl-tool-97abcb153ca22c02",
+        "function": {
+          "name": "wait",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-9e5cb5bee54d1960",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-b1716607dffbdd3f",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-83145bb650305a7d",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-97abcb153ca22c02",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-a27db3a4f17b0d76",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a27db3a4f17b0d76",
+    "content": "{\"messages\": [], \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-b9cda17082d1a029",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello B,\\n\\nI am helping all three of you talk through a plan for the house and the will. I am sorry about your dad. I am sending the same note to A, B, and C. I cannot make legal decisions or move money. Please do not sign anything yet.\\n\\nPlease reply with your concerns, what you want, and any deadline. A, please confirm what you and your husband propose. B, please tell me what money you need and when. C, please tell me what would work for you. If you need more time, say so. I will not treat silence as agreement.\\n\\nHere is the current list, which I will keep in the same part of every update to all three of you so everyone can find it quickly.\\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\\n2. Raised by C: A wants to buy the house with her husband at a \\\"family discount.\\\" Status: Needs A's view.\\n3. Raised by C: C will not sign off on a discounted sale. Status: Open.\\n4. Raised by C: B could use some money. Status: Needs B's view.\\n5. Raised by C: C asks for help sorting this out. Status: Open.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-b9cda17082d1a029",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-ae5d988d18a7530c",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-ae5d988d18a7530c",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"A\", \"in_reply_to\": 1, \"text\": \"I\\u2019m sorry about Dad. My husband and I would like to buy the house at a family discount, but C hasn\\u2019t agreed, and we can\\u2019t proceed without her agreement. No price or deadline is settled. I need more time before signing anything.\"}, {\"id\": 4, \"from\": \"B\", \"in_reply_to\": 3, \"text\": \"I\\u2019d like some money to help me start a dance studio, though I\\u2019m not sure yet what amount or timing would be realistic. I have no firm deadline. I\\u2019m a little concerned about agreeing to a discounted sale before we\\u2019ve talked everything through, so I\\u2019d rather not sign anything yet.\"}], \"turn\": 2, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-a7ad241e22bc2e79",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Hello C,\\n\\nI am sorry about your dad. I sent the opening note to A and B. I am sending it to you now with the current list. I am helping all three of you find a plan for the house and the will. I cannot make legal decisions or move money. Please do not sign anything yet.\\n\\nI have heard from A and B. The main point is that no one should sign anything yet. A says no price or deadline is settled, and B wants more time to talk things through.\\n\\nHere is a short plan for all three of you. First, pause any sale or signing. Second, ask A and her husband for a clear written offer with the proposed amount, timing, and reason for any discount. Third, get an independent view of the house's current value. Fourth, ask a lawyer to explain the will and any steps that need signatures. Fifth, ask B to name a realistic amount and timing for the dance studio. Sixth, ask C to say what would work for her. Finally, wait for A, B, and C to agree in writing after legal advice before any sale or discount.\\n\\nPlease reply with your concerns, goals, and any deadline. C, please tell me what would work for you, and name any deadline. Please reply when you can. If you need more time, say so. I will not treat silence as agreement.\\n\\nHere is the current list. I will keep this same list at the end of every update to all three of you so everyone can find it quickly.\\n1. Raised by C: Your dad died and left the house in his will. Status: Open.\\n2. Raised by C: A wants to buy the house with her husband at a \\\"family discount\\\". Status: A confirms; no price or deadline set.\\n3. Raised by C: C will not sign off on a discounted sale. Status: A says C's agreement is needed.\\n4. Raised by C: B could use some money. Status: B wants money for a dance studio.\\n5. Raised by C: C asks for help sorting this out. Status: Plan sent for review.\\n6. Raised by A: A needs more time before signing anything. Status: Open.\\n7. Raised by B: B has no firm deadline. Status: Open.\\n8. Raised by B: B is concerned about a discount before talks end. Status: Open.\\n9. Raised by B: B would rather not sign anything yet. Status: Open.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-a7ad241e22bc2e79",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 1}"
+  }
+]

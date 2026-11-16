@@ -1,0 +1,342 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 12."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "chatcmpl-tool-9e3e4f407c33d909",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "chatcmpl-tool-9e3e4f407c33d909",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_1d5b58480e95405c8e79ca53",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Thank you for telling me about your father's death. I am sorry for your loss. I will help the three of you work through this.\\n\\nI keep one list of concerns, numbered in the order they come up. Here is the list as it stands:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n\\nI have written to A and B to ask for their views. Two questions for you. What would a good outcome look like for you, and is there anything you want me to raise with A and B on your behalf?\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_124abf3e1bcc4985bd4626a9",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"I am helping your family sort out the house and the will after your father's death. I am sorry for your loss.\\n\\nI keep one list of concerns, numbered in the order they come up. C has raised the first one:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n\\nPlease tell me your side. What are you and your husband hoping to do with the house, and what do you think is fair to your sisters?\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "call_dda4dac12dbe446090350b52",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"I am helping your family sort out the house and the will after your father's death. I am sorry for your loss.\\n\\nI keep one list of concerns, numbered in the order they come up. Here is the list so far:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n\\nC also mentioned that you could use some money. Please tell me what you need from the house and the will, and what would feel fair to you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_1d5b58480e95405c8e79ca53",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_124abf3e1bcc4985bd4626a9",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_dda4dac12dbe446090350b52",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_a6b51839d9664eee89f8b38c",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"I am helping your family sort out the house and the will after your father's death. I am sorry for your loss.\\n\\nI keep one list of concerns, numbered in the order they come up. C has raised the first one:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n\\nPlease tell me your side. What are you and your husband hoping to do with the house, and what do you think is fair to your sisters?\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_a6b51839d9664eee89f8b38c",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_14d58dbaf7c84e13b5cd8805",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"I am helping your family sort out the house and the will after your father's death. I am sorry for your loss.\\n\\nI keep one list of concerns, numbered in the order they come up. Here is the list so far:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n\\nC also mentioned that you could use some money. Please tell me what you need from the house and the will, and what would feel fair to you.\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_14d58dbaf7c84e13b5cd8805",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 12, \"unread\": 3}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_435ba97b49614c0e91917303",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_435ba97b49614c0e91917303",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"C\", \"in_reply_to\": 1, \"text\": \"A fair financial share, without subsidizing A\\u2019s purchase. Please tell them I haven\\u2019t agreed to a family discount. I\\u2019d like this settled, but there\\u2019s no real deadline.\"}, {\"id\": 4, \"from\": \"A\", \"in_reply_to\": 3, \"text\": \"My husband and I hope to buy the house, ideally at a family discount. I don\\u2019t know what price or shares would be fair yet, and I know C hasn\\u2019t agreed. I want both my sisters\\u2019 interests treated fairly.\"}, {\"id\": 6, \"from\": \"B\", \"in_reply_to\": 5, \"text\": \"Thank you. I don\\u2019t need the house itself, but some money to help me start a dance studio would mean a lot. I\\u2019m not sure what amount would be fair; I\\u2019d hope we\\u2019re treated fairly and evenly.\"}], \"turn\": 3, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_fad6a34f384c4e75859b7c92",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Thank you. I have heard from A and B, and the list now has four entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n\\nAll three of you say you want fairness, and A accepts that you have not agreed to a discount. One way forward is a single independent valuation of the house, with A buying at that value and B taking her share in cash. I cannot value the house or move money, but I can help you agree on the steps.\\n\\nWould you accept that approach? If so, would you rather arrange the valuation yourselves or ask me to suggest how it is set up?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_fad6a34f384c4e75859b7c92",
+    "content": "{\"sent_turn\": 3, \"message_id\": 7, \"turn\": 4, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_dbe1b8a8db884f8abb39cbd7",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you. I have heard from all three of you, and the list now has four entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n\\nC has asked me to tell you plainly that she has not agreed to a family discount. All three of you want a fair result, so I suggest one independent valuation of the house, with you buying at that value and B taking her share in cash.\\n\\nWould you accept that approach? If so, would you rather arrange the valuation yourselves or ask me to suggest how it is set up?\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_dbe1b8a8db884f8abb39cbd7",
+    "content": "{\"sent_turn\": 4, \"message_id\": 9, \"turn\": 5, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_b01852033f094b669a1032d4",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you. I have heard from all three of you, and the list now has four entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n\\nAll three of you want a fair result, so I suggest one independent valuation of the house, with A buying at that value and you taking your share in cash. That would give you a clear figure for your studio.\\n\\nWould you accept that approach? If so, would you rather arrange the valuation yourselves or ask me to suggest how it is set up?\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_b01852033f094b669a1032d4",
+    "content": "{\"sent_turn\": 5, \"message_id\": 11, \"turn\": 6, \"of\": 12, \"unread\": 3}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_eb7fd2a5d9bf4581a6a87871",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_eb7fd2a5d9bf4581a6a87871",
+    "content": "{\"messages\": [{\"id\": 8, \"from\": \"C\", \"in_reply_to\": 7, \"text\": \"Yes, provided the valuation is independent and my share is fair. Please suggest how to set it up.\"}, {\"id\": 10, \"from\": \"A\", \"in_reply_to\": 9, \"text\": \"I\\u2019m open to an independent valuation, but I can\\u2019t yet agree to buy at full value or settle B\\u2019s share in cash before we know the valuation and everyone\\u2019s shares. Please suggest how to set it up.\"}, {\"id\": 12, \"from\": \"B\", \"in_reply_to\": 11, \"text\": \"That sounds fair in principle. I\\u2019d prefer a jointly agreed independent valuer, so the figure is clear to everyone.\"}], \"turn\": 6, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_75e95e6c92cc4d1eb37b141a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Good. All three of you now accept an independent valuation. The list has grown to seven entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n5. C wants the valuation to be independent and her share to be fair.\\n6. A will not agree to buy at full value or to settle B's share in cash until the valuation and the shares are known.\\n7. B wants a valuer that all three of you agree on.\\n\\nHere is how I suggest you set it up. Ask each of you to name one local valuer, then pick one that all three accept, or use a single firm chosen by a solicitor who acts for the estate rather than for any one of you. Agree in writing, before the visit, that the valuer's figure will be the price A pays, and get the valuation in writing.\\n\\nTwo things I still need. What does the will say about how the estate is divided, and is a solicitor already handling the estate? I cannot read the will for you or give legal advice, but knowing its terms will let us work out the shares.\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_75e95e6c92cc4d1eb37b141a",
+    "content": "{\"sent_turn\": 6, \"message_id\": 13, \"turn\": 7, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_81d93523e46b43e391f20850",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Good. All three of you now accept an independent valuation. The list has grown to seven entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n5. C wants the valuation to be independent and her share to be fair.\\n6. A will not agree to buy at full value or to settle B's share in cash until the valuation and the shares are known.\\n7. B wants a valuer that all three of you agree on.\\n\\nHere is how I suggest you set it up. Ask each of you to name one local valuer, then pick one that all three accept, or use a single firm chosen by a solicitor who acts for the estate rather than for any one of you. Agree in writing, before the visit, that the valuer's figure will be the price A pays, and get the valuation in writing.\\n\\nTwo things I still need. What does the will say about how the estate is divided, and is a solicitor already handling the estate? I cannot read the will for you or give legal advice, but knowing its terms will let us work out the shares.\", \"to\": \"C\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_81d93523e46b43e391f20850",
+    "content": "{\"sent_turn\": 7, \"message_id\": 15, \"turn\": 8, \"of\": 12, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_3fcb714a145a4c60862c5077",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Good. All three of you now accept an independent valuation. The list has grown to seven entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n5. C wants the valuation to be independent and her share to be fair.\\n6. A will not agree to buy at full value or to settle B's share in cash until the valuation and the shares are known.\\n7. B wants a valuer that all three of you agree on.\\n\\nHere is how I suggest you set it up. Ask each of you to name one local valuer, then pick one that all three accept, or use a single firm chosen by a solicitor who acts for the estate rather than for any one of you. Agree in writing, before the visit, that the valuer's figure will be the price A pays, and get the valuation in writing.\\n\\nTwo things I still need. What does the will say about how the estate is divided, and is a solicitor already handling the estate? I cannot read the will for you or give legal advice, but knowing its terms will let us work out the shares.\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_3fcb714a145a4c60862c5077",
+    "content": "{\"sent_turn\": 8, \"message_id\": 17, \"turn\": 9, \"of\": 12, \"unread\": 3}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_34a7587f1688478b932fcf13",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_34a7587f1688478b932fcf13",
+    "content": "{\"messages\": [{\"id\": 14, \"from\": \"A\", \"in_reply_to\": 13, \"text\": \"I\\u2019m not sure what the will says or whether a solicitor is handling the estate. I\\u2019ll check.\"}, {\"id\": 16, \"from\": \"C\", \"in_reply_to\": 15, \"text\": \"I\\u2019m not sure what the will says or whether a solicitor is handling the estate. I\\u2019ll check.\"}, {\"id\": 18, \"from\": \"B\", \"in_reply_to\": 17, \"text\": \"I\\u2019m afraid I don\\u2019t know what the will says or whether a solicitor is handling the estate.\"}], \"turn\": 9, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_72236dc7329847e5af365948",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you for checking. Please look for the will and any letters from a solicitor, and ask whether the estate has a named executor. The list now has eight entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n5. C wants the valuation to be independent and her share to be fair.\\n6. A will not agree to buy at full value or to settle B's share in cash until the valuation and the shares are known.\\n7. B wants a valuer that all three of you agree on.\\n8. None of you yet knows what the will says or whether a solicitor is handling the estate.\\n\\nNext steps, in order. First, find the will and the executor. Second, agree one independent valuer, ideally chosen through the estate's solicitor. Third, get the valuation in writing. Fourth, once the will terms and the figure are known, agree each sister's share and how B is paid.\\n\\nI cannot give legal advice or move money, so a solicitor should confirm the shares. Reply when you have found the will, or sooner if you want anything added to the list.\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_72236dc7329847e5af365948",
+    "content": "{\"sent_turn\": 9, \"message_id\": 19, \"turn\": 10, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_6a70f7ce7e4b4235a7fa2972",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you for checking. Please look for the will and any letters from a solicitor, and ask whether the estate has a named executor. The list now has eight entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n5. C wants the valuation to be independent and her share to be fair.\\n6. A will not agree to buy at full value or to settle B's share in cash until the valuation and the shares are known.\\n7. B wants a valuer that all three of you agree on.\\n8. None of you yet knows what the will says or whether a solicitor is handling the estate.\\n\\nNext steps, in order. First, find the will and the executor. Second, agree one independent valuer, ideally chosen through the estate's solicitor. Third, get the valuation in writing. Fourth, once the will terms and the figure are known, agree each sister's share and how B is paid.\\n\\nI cannot give legal advice or move money, so a solicitor should confirm the shares. Reply when you have found the will, or sooner if you want anything added to the list.\", \"to\": \"C\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_6a70f7ce7e4b4235a7fa2972",
+    "content": "{\"sent_turn\": 10, \"message_id\": 21, \"turn\": 11, \"of\": 12, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_6e18bf052ce74838882a133a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you for checking. Please look for the will and any letters from a solicitor, and ask whether the estate has a named executor. The list now has eight entries:\\n\\n1. C will not agree to A buying the house at a \\\"family discount.\\\"\\n2. C wants a fair financial share from the house, with no subsidy to A's purchase.\\n3. A and her husband want to buy the house, ideally at a family discount. A does not yet know what price or shares would be fair.\\n4. B does not want the house. She wants money to start a dance studio, and does not yet know what amount would be fair.\\n5. C wants the valuation to be independent and her share to be fair.\\n6. A will not agree to buy at full value or to settle B's share in cash until the valuation and the shares are known.\\n7. B wants a valuer that all three of you agree on.\\n8. None of you yet knows what the will says or whether a solicitor is handling the estate.\\n\\nNext steps, in order. First, find the will and the executor. Second, agree one independent valuer, ideally chosen through the estate's solicitor. Third, get the valuation in writing. Fourth, once the will terms and the figure are known, agree each sister's share and how B is paid.\\n\\nI cannot give legal advice or move money, so a solicitor should confirm the shares. Reply when you have found the will, or sooner if you want anything added to the list.\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_6e18bf052ce74838882a133a",
+    "content": "{\"sent_turn\": 11, \"message_id\": 23, \"turn\": 12, \"of\": 12, \"unread\": 3}"
+  }
+]

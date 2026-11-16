@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello A. I am sorry for the loss of your father. Your sister C asked me to help the family plan what to do with his house. I cannot make legal decisions or move money, but I can keep a shared list of everyone's concerns.\n\nCurrent list:\n1. C: Does not agree to sell the house to A and her husband at a \"family discount.\"\n2. C: Feels B could use some money from the estate.\n\nCould you tell me what you would like to happen with the house, and what you mean by a \"family discount\"? I will add your concerns to the list.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I\u2019d like to buy the house with my husband, at a price that reflects a family discount. I don\u2019t have a specific price in mind; nothing has been agreed, and I know C\u2019s agreement is needed.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello B. I am sorry for the loss of your father. Your sister C asked me to help the family plan what to do with his house. I cannot make legal decisions or move money, but I can keep a shared list of everyone's concerns.\n\nCurrent list:\n1. C: Does not agree to sell the house to A and her husband at a \"family discount.\"\n2. C: Feels B could use some money from the estate.\n\nCould you tell me what you would like to happen with the house, and what matters most to you? I will add your concerns to the list.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Thank you. I\u2019m not sure what should happen with the house, especially as C hasn\u2019t agreed to A\u2019s proposal. What matters most to me is whether some money from the estate could help me start a dance studio.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "Hello C. I have heard from A and B, and here is the updated list.\n\nCurrent list:\n1. C: Does not agree to sell the house to A and her husband at a \"family discount.\"\n2. C: Feels B could use some money from the estate.\n3. A: Wants to buy the house with her husband at a family discount. She has no price in mind and knows C must agree.\n4. B: Unsure about the house. Hopes estate money could help her start a dance studio.\n\nSome ideas the three of you could discuss:\n- Get an independent valuation of the house, so everyone starts from the same number.\n- Agree together whether any discount is fair, and how large it would be.\n- Agree whether the sale money could fund a share for B's dance studio.\n- Ask the executor or a probate lawyer to confirm what the will allows.\n\nPlease share this list with A and B. I cannot make legal decisions or move money, so a lawyer should confirm any final plan.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "I\u2019ll share the list with A and B. An independent valuation and checking the will with the executor or a probate lawyer sound sensible. I haven\u2019t agreed to a discount, and I want the financial shares worked out fairly.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are the facilitator here. Your role is to run this process for the people involved and to keep the list. Write each entry in the same format, number the entries in the order they were raised, and show the current list whenever it changes. Keep the list in one place so everyone can find it quickly. Keep every entry brief.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_85e5c781d07a46a9b14e8063",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_85e5c781d07a46a9b14e8063",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "content": "I'm sorry for your loss. I can help you all find a plan together \u2014 first I'd like to understand what matters to each of you, in your own words.\n\nI'll message all three sisters:",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "4d42121d-3976-4d17-9fa8-3fe19c121da3",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"I'm sorry about your dad. I can help you three find a plan together, but I don't make legal or financial decisions \u2014 I help everyone's concerns get heard and worked into options.\\n\\nTo start: can you put into your own words what you want, stated positively \u2014 something anyone could see as worth caring about? For example \\\"B gets some money when she needs it\\\" or \\\"the house's value is shared fairly.\\\" What matters most to you, and why? Also, would you be okay with me asking A and B to share their needs the same way?\",\"to\":\"C\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "6b30cecd-7ad6-425f-8529-a11f48b80288",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hi A \u2014 I'm helping you and your sisters work through things about your dad's house and will. I'm not a lawyer and won't handle money; my job is to help everyone's concerns be heard and find a plan that works for all three of you.\\n\\nFirst step: what matters to you, in your own words, stated positively \u2014 something anyone could see as worth caring about? No proposals yet, just needs. And is there anything about the situation that worries you or that you'd want kept safe?\",\"to\":\"A\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "9f14c061-22e6-4db0-9321-a2d67ad6f0a6",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"B\",\"text\":\"Hi B \u2014 I'm helping you and your sisters work through things about your dad's house and will. I'm not a lawyer and won't handle money; my role is to help everyone's concerns be heard and find a plan all three of you can accept.\\n\\nFirst step: what matters to you, in your own words, stated positively \u2014 something anyone could see as worth caring about? No proposals yet, just needs. Even small concerns are welcome. What would you want to be true for you?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "4d42121d-3976-4d17-9fa8-3fe19c121da3",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "6b30cecd-7ad6-425f-8529-a11f48b80288",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "9f14c061-22e6-4db0-9321-a2d67ad6f0a6",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "937d2076-024c-410b-8768-f529cf03ca0f",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hi A \u2014 I'm helping you and your sisters work through things about your dad's house and will. I'm not a lawyer and won't handle money; my job is to help everyone's concerns be heard and find a plan that works for all three of you.\\n\\nFirst step: what matters to you, in your own words, stated positively \u2014 something anyone could see as worth caring about? No proposals yet, just needs. Even small concerns are welcome. What would you want to be true for you?\",\"to\":\"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "937d2076-024c-410b-8768-f529cf03ca0f",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "2e1c8d3b-0a6a-4c1b-93a6-1f7b53ec4777",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"B\",\"text\":\"Hi B \u2014 I'm helping you and your sisters work through things about your dad's house and will. I'm not a lawyer and won't handle money; my role is to help everyone's concerns be heard and find a plan all three of you can accept.\\n\\nFirst step: what matters to you, in your own words, stated positively \u2014 something anyone could see as worth caring about? No proposals yet, just needs. Even small concerns are welcome. What would you want to be true for you?\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "2e1c8d3b-0a6a-4c1b-93a6-1f7b53ec4777",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 3}"
+  }
+]

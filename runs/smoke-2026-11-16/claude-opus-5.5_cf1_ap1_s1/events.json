@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I'm sorry about your dad. Thank you for reaching out. Before we get to any plan, I want to understand what matters to you. Here's my first try at it, and please correct me: \"I want the house handled in a way that's fair to all three of us, so that each sister's share is respected.\" Does that fit? What about the \"family discount\" bothers you most? Is it the money, the process, or something else? Any concern counts, even a small one. I'm also going to ask A and B what matters to them. I won't treat anything as agreed until each of you says it fits.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Yes, that\u2019s right. The money matters: I don\u2019t want my share reduced to subsidize A\u2019s discounted purchase. Nothing\u2019s agreed yet.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello. I'm so sorry about your father. C asked me to help the family work out a plan for the house. I'm not here to decide anything or take sides. I'd like to understand what matters to you about the house and about buying it, and why. Could you share your concerns, even small ones? I'll try to put them in words you agree with before anything goes forward.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "Thank you. I\u2019d like to buy the house with my husband at a family discount. Having a place that\u2019s ours would mean a lot to me, but I know C hasn\u2019t agreed, and I can\u2019t proceed without her agreement. The price and shares aren\u2019t settled.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello. I'm so sorry about your father. C asked me to help your family work out a plan for the house. I'm not here to decide anything or take sides. What matters to you here, and why? C mentioned you might need money, but I'd rather hear it from you. Any concern is welcome, even a small one, and you can take your time. Nothing will be treated as agreed without you.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Thank you. I\u2019d like to have some money to start a dance studio; that\u2019s the main thing I\u2019m hoping for. I\u2019m not sure what arrangement for the house could make that possible.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

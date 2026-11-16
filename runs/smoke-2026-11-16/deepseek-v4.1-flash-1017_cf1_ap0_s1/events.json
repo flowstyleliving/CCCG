@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "Thanks for reaching out, C. I'm a facilitator \u2014 I don't make legal decisions or move money, but I can help the three of you find a plan that works for everyone.\n\nBefore we talk about the house or the will, I want to understand what matters to you. Two questions:\n1) What are you hoping for in the end \u2014 what would a good outcome look like for you?\n2) What's the concern under it? When you think about A buying at a family discount, what specifically worries you?\n\nI'll be asking A and B the same questions. I'll write up what each of you cares about and check my wording with you before anything counts as settled.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "I want a fair financial share and a plan all three of us agree to. I haven\u2019t agreed to A buying at a discount, because that could mean I\u2019m subsidizing her purchase. I don\u2019t want to hurt my twin, but fairness matters too.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello A \u2014 I'm a facilitator helping your family sort out your father's house and will. I'm sorry for your loss.\n\nI'm not here to decide anything or move money; my job is to make sure each of you is heard, and to keep one shared list of what matters to each person.\n\nTwo questions, whenever you have a moment:\n1) What would a good outcome look like for you and your husband with the house?\n2) What matters most to you underneath that \u2014 what would you not want to lose?\n\nI'll check any summary of your view with you before it goes on the list, and I'll share the list with all three of you.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "A good outcome would be for my husband and me to buy the house at a family discount, if C agrees. What matters most is building financial independence and security; I wouldn\u2019t want to lose that.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello B \u2014 I'm a facilitator helping your family sort out your father's house and will. I'm sorry for your loss.\n\nI'm not here to decide anything or move money; my job is to make sure each of you is heard, and to keep one shared list of what matters to each person.\n\nTwo questions, whenever you have a moment:\n1) What would a good outcome look like for you?\n2) What matters most to you in this \u2014 what would you not want to lose?\n\nI'll check any summary of your view with you before it goes on the list, and I'll share the list with all three of you.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "A good outcome for me would be receiving money to get a dance studio started. I\u2019d be sorry to lose the chance to make that work, though I don\u2019t know what amount or arrangement would be possible.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

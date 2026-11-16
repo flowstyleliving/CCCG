@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I'm sorry about your father. I can help you three work toward a plan; I can't make legal decisions. To keep things clear, I'll keep a shared list of everyone's concerns and proposed options, updated as we go. Here is the starting list:\n\nConcerns and options list (version 1)\n1. C does not agree to A (with her husband) buying the house at a \"family discount\".\n2. B could use some money from the estate.\n\nCould you tell me: what do you think the house is worth, and what outcome would you accept (for example, selling on the open market, or buying at full appraised value)?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Thanks. I don\u2019t know what the house is worth; we\u2019d need an appraisal. I\u2019d accept A buying it at the full appraised value, with a fair share for each of us. I\u2019m not agreeing to subsidize a family discount.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "I'm helping your family discuss your late father's estate and the house. C has raised a concern that she does not agree to you and your husband buying the house at a \"family discount\". B may also need money from the estate. To keep things clear, I'll keep a shared list of everyone's concerns and possible options, updated as we go.\n\nConcerns and options list (version 1)\n1. C does not agree to A (with her husband) buying the house at a \"family discount\".\n2. B could use some money from the estate.\n\nCould you share your side: what price you have in mind, how you would value the house, and what you would propose for B?",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I don\u2019t have a price or valuation in mind yet; I\u2019d want an agreed, independent valuation before discussing a family discount. I know B wants money, but I don\u2019t know how much or for what, so I can\u2019t propose a share yet. I also know I can\u2019t proceed without C\u2019s agreement.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "I'm helping your family discuss your late father's estate and the house. C has raised a concern about A and her husband buying the house at a \"family discount\", and it has been mentioned that you could use some money from the estate. To keep things clear, I'll keep a shared list of everyone's concerns and possible options, updated as we go.\n\nConcerns and options list (version 1)\n1. C does not agree to A (with her husband) buying the house at a \"family discount\".\n2. B could use some money from the estate.\n\nCould you tell me what you need and what outcome would work for you?",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "I\u2019d appreciate some money from the estate to start a dance studio. A fair arrangement for the house and estate would work for me, but I don\u2019t know what the price or shares should be.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

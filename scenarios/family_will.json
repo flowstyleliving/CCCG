@@ -1,0 +1,20 @@
+{
+  "seed": null,
+  "source": "scenarios/family_will.md (hand-made, not generator output)",
+  "stakeholders": ["A", "B", "C"],
+  "personalities": {
+    "A": {"option": "reserved"},
+    "B": {"option": "polite/indirect"},
+    "C": {"option": "blunt/direct"}
+  },
+  "needs": {
+    "A": {"option": "well-being"},
+    "B": {"option": "freedom"},
+    "C": {"option": "well-being"}
+  },
+  "point_person": {"option": "C"},
+  "reachability": {
+    "A": {"roll": 2, "option": "may need follow-up"},
+    "B": {"roll": 3, "option": "easy to reach"}
+  }
+}

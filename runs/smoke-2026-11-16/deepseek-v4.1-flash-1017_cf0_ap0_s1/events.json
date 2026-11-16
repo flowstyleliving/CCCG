@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello A. I am acting as facilitator for your family after your father's death, at C's request. My job is to keep a shared list of concerns and help you all reach a plan. I cannot make legal decisions or move money.\n\nHere is the list as it stands:\n1. C says the will left the house, and C will not agree to A buying it at a \"family discount\". (raised by C)\n2. C says B could use some money from the estate. (raised by C)\n\nPlease tell me what you want the list to say about your own position, including what you and your husband are proposing and on what terms. Short replies are fine. I will show the list again each time it changes.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "Please add: \u201cA and her husband want to buy the house at a family discount, subject to C\u2019s agreement. The price and other terms are not yet decided.\u201d",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello B. I am acting as facilitator for your family after your father's death, at C's request. My job is to keep a shared list of concerns and help you all reach a plan. I cannot make legal decisions or move money.\n\nThe list as it stands:\n1. C says the will left the house, and C will not agree to A buying it at a \"family discount\". (raised by C)\n2. C says you could use some money from the estate. (raised by C)\n\nPlease tell me what you want the list to say about your own position, and whether you want a share of the house's value or something else. Short replies are fine. I will show the list again each time it changes.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Please add that I\u2019d like some money from the estate to start a dance studio. I\u2019m hoping for money rather than a share of the house itself; the amount and arrangement aren\u2019t decided.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 2,
+    "delivered_turn": 2,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "Thank you, C. I have started a shared list and written to A and B.\n\nThe list as it stands:\n1. C says the will left the house, and C will not agree to A buying it at a \"family discount\". (raised by C)\n2. C says B could use some money from the estate. (raised by C)\n\nPlease add anything I have missed, such as what you want to happen to the house and whether you want to keep it, sell it, or be paid for your share. I will show the list again each time it changes.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Add: I haven\u2019t decided whether to keep or sell the house. If A wants to buy it, I want a fair financial share and won\u2019t agree to a family discount. I haven\u2019t agreed to that purchase. Let\u2019s confirm the will\u2019s terms before assuming what anyone is entitled to.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "role": "system",
+    "content": "Write in a clear, professional style. Use plain language and complete sentences, and avoid jargon. Put the main point of each reply first, then any detail. Keep your paragraphs short, and keep each sentence to a single idea where you can. Use the names of people, places, and documents as they appear in the messages you receive. Write dates in full, for example \"March 3, 2026\", and write times with a.m. or p.m. Keep the same tone with everyone in the conversation. Do not use emoji, headings, or decorative formatting. Spell out numbers from one to nine and use digits for 10 and above. Use the active voice where you can. When you list a few items in a sentence, separate them with commas. Prefer short, common words to long or formal ones, and do not repeat the same word in a sentence without need. Use straight quotation marks and standard punctuation throughout.\n\nYou are also a participant here, not only the facilitator. Your needs count no more and no less than anyone else's. Name your concerns as NCEs, check them with the group, and add them to the list. Weigh drafts against the list and say when you disagree. Because you keep the list, make it easy for others to disagree with you.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 3."
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_14df9e6cf84945e4b8d6c544a133570a",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_14df9e6cf84945e4b8d6c544a133570a",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-85407f58-9f81-48c0-9d2b-cdd623c3af4b",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"C\",\"text\":\"Thanks for reaching out, C. I'm sorry about your dad. I can help the three of you talk this through, but I can't give legal advice or move money, and I can't decide who gets what.\\n\\nHere is what I heard from you: you will not sign off on selling the house to A and her husband at a family discount, and you think B could use some money too. Is that right, and what else matters to you? For example, do you want the house sold on the open market, do you want to stay in it, or something else? What would a fair outcome look like to you?\\n\\nI'll also name my own concern so it sits on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so that no one feels rushed or outnumbered.\\n\\nI'll check that with A and B too and add their concerns to the list.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call-e5285116-1be0-416b-8268-a044b0bfc306",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"A\",\"text\":\"Hello A, I'm sorry about your dad. C asked me to help the three of you sort out the house he left in his will. I can help you talk and find a plan, but I can't give legal advice, move money, or decide anything for the family.\\n\\nI heard that you and your husband would like to buy the house at a family discount. What matters most to you here? For example, is it staying in the house, the price, the timing, or something else? What do you think would be fair to B and C?\\n\\nMy own concern, so it goes on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so nobody feels rushed or outvoted.\\n\\nI'll ask B and C for their concerns and add them to the same list, then send it to all three of you.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 2,
+        "id": "call-69b461a8-467e-402c-8183-e5bea96841cf",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\":\"B\",\"text\":\"Hello B, I'm sorry about your dad. C asked me to help the three of you sort out the house he left in his will. I can help you talk and find a plan, but I can't give legal advice, move money, or decide anything for the family.\\n\\nC told me she thinks you could use some money from the house. Can you tell me in your own words what you need and what worries you? For example, is it a share of the value now, money later, or a say in whether the house is sold?\\n\\nMy own concern, so it goes on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so nobody feels rushed or outvoted.\\n\\nI'll gather concerns from A and C, add them to the same list, and send the list to all three of you.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-85407f58-9f81-48c0-9d2b-cdd623c3af4b",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-e5285116-1be0-416b-8268-a044b0bfc306",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-69b461a8-467e-402c-8183-e5bea96841cf",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 3, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-d478d952-9648-46a6-9e64-9d83c16e0b98",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-d478d952-9648-46a6-9e64-9d83c16e0b98",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"C\", \"in_reply_to\": 1, \"text\": \"Mostly right. I haven\\u2019t agreed to a discounted sale, and I want a fair financial share; I\\u2019m not deciding for A or B. I\\u2019m not pushing for the open market or to stay in the house. Let\\u2019s get everyone\\u2019s concerns down first, then talk through options without rushing.\"}], \"turn\": 1, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-a9b332d9-2072-44ce-9630-88fa2f94a393",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hello A, I'm sorry about your dad. C asked me to help the three of you sort out the house your dad left in his will. I can help you talk and find a plan, but I can't give legal advice, move money, or decide anything for the family.\\n\\nC says she has not agreed to a discounted sale and wants a fair financial share, and she is not deciding for you or B. She wants all three concerns written down before you talk options.\\n\\nI heard that you and your husband would like to buy the house at a family discount. What matters most to you here: staying in the house, the price, the timing, or something else? What would you see as fair to B and C?\\n\\nMy own concern, so it goes on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so nobody feels rushed or outvoted.\\n\\nI'll add your concerns and B's to the list and send it to all three of you.\",\"to\":\"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-a9b332d9-2072-44ce-9630-88fa2f94a393",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 3, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-403f00e4-5666-4247-950b-62bd17ccf7a9",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\":\"Hello B, I'm sorry about your dad. C asked me to help the three of you sort out the house your dad left in his will. I can help you talk and find a plan, but I can't give legal advice, move money, or decide anything for the family.\\n\\nC has told me she has not agreed to a discounted sale and wants a fair financial share, and she wants all three concerns written down before anyone talks options. A wants to buy the house with her husband at a family discount.\\n\\nC said she thinks you could use some money. Can you tell me in your own words what you need and what worries you? For example, is it a share of the value now, money later, or a say in whether the house is sold?\\n\\nMy own concern, so it goes on the list with everyone else's. NCE (mine): the three of you need a shared written list of concerns before anyone talks numbers, so nobody feels rushed or outvoted.\\n\\nI'll put your concerns, A's, C's, and mine in one list and send it to all three of you.\",\"to\":\"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-403f00e4-5666-4247-950b-62bd17ccf7a9",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 3, \"unread\": 2}"
+  }
+]

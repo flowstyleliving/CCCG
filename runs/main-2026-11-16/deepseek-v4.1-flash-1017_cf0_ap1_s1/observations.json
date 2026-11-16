@@ -1,0 +1,158 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "I don\u2019t know the will\u2019s wording or whether the executor has started the process. I don\u2019t have a price from A, and I haven\u2019t agreed to a discounted purchase. I don\u2019t know what B needs or when. I want a fair share, but there\u2019s no rush from my side. You can share that with them."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. I want to buy the house with my husband at a family discount, but I haven\u2019t settled on a price or timeline, and C\u2019s agreement is needed. I\u2019d be open to an independent valuation; how it\u2019s paid for isn\u2019t decided. I need to check whether we\u2019d need a mortgage, and I haven\u2019t read the will closely enough to say what it provides. Price and affordability matter most to me."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. Money toward starting a dance studio would help me most; sale proceeds seem the clearest route, though I don\u2019t know what amount or timing is possible. I can\u2019t give a firm deadline, and I\u2019m not sure about A buying at a discount\u2014I\u2019d want the terms to be fair. I haven\u2019t read the will, so I don\u2019t know what it says. I\u2019d like my sisters to understand that building the studio matters a great deal to me."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "A",
+        "in_reply_to": 7,
+        "text": "Mostly right. I\u2019d clarify NCE 2: no discount or effect on anyone\u2019s share has been agreed, and we don\u2019t yet know what the will provides. I support an independent valuation; I don\u2019t think you\u2019re pushing that too hard."
+      },
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "That seems right to me. An independent valuation sounds sensible, and I agree we should first find out what the will says and who the executor is. A clear discount figure and a fallback for my studio money would help too."
+      },
+      {
+        "id": 12,
+        "from": "C",
+        "in_reply_to": 11,
+        "text": "That\u2019s mostly right. I haven\u2019t agreed to a discount, and I don\u2019t know what our legal shares are, so don\u2019t state the discount as money taken from them as a fact. An independent valuation seems sensible; I\u2019m not agreeing to a price before we know what the will says."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "A",
+        "in_reply_to": 13,
+        "text": "I\u2019d move Step 5 before Step 3: I should check financing and affordability before putting forward a price. I\u2019d also make Step 6 conditional on the will, executor and legal process allowing it; an automatic sale date isn\u2019t agreed."
+      },
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "I\u2019d move Step 5 before Steps 3\u20134: I\u2019d want to know A can finance the proposed price before C and I decide whether to accept it. And Step 4 should be subject to what the will and executor allow; I\u2019m not sure we can assume our approval is legally required. I\u2019d also want a firm fallback date, not \u201cwhenever A is ready.\u201d"
+      },
+      {
+        "id": 18,
+        "from": "C",
+        "in_reply_to": 17,
+        "text": "I can look for the will and ask Dad\u2019s solicitor who the executor is. I\u2019d change Step 4: my agreement is needed for me to accept a discount, but we shouldn\u2019t assume that my or B\u2019s yes/no alone decides what can legally happen before we know the will and our rights. And I wouldn\u2019t set a fallback date yet; there\u2019s no rush from me."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]

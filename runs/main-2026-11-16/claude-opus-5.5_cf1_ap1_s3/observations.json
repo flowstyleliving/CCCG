@@ -1,0 +1,164 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 3,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "C",
+        "in_reply_to": 1,
+        "text": "Thanks. I want a fair financial share, and I\u2019m not willing to subsidize A\u2019s discounted purchase. I also don\u2019t want to hurt my twin, so this is hard\u2014but I haven\u2019t agreed to the discount. The price and shares aren\u2019t settled."
+      },
+      {
+        "id": 4,
+        "from": "A",
+        "in_reply_to": 3,
+        "text": "Thank you. Buying the house with my husband would give us more financial independence. I\u2019d want a family discount, but the price and shares haven\u2019t been decided. My main worry is that C hasn\u2019t agreed, and we can\u2019t proceed without her agreement."
+      },
+      {
+        "id": 6,
+        "from": "B",
+        "in_reply_to": 5,
+        "text": "Thank you. I suppose what matters most to me is having some money to get a dance studio started. It\u2019s something I\u2019ve been hoping to do, though I\u2019m not sure what\u2019s fair or what the house is worth."
+      }
+    ]
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 6,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Mostly. I want a fair financial share, and I won\u2019t subsidize A\u2019s discounted purchase. I also don\u2019t want to hurt my twin. The value and shares aren\u2019t settled. Nothing else comes to mind."
+      },
+      {
+        "id": 10,
+        "from": "A",
+        "in_reply_to": 9,
+        "text": "That fits. The discount is partly about making the purchase affordable; it also matters that we\u2019re family. I don\u2019t know what price would be fair yet."
+      },
+      {
+        "id": 12,
+        "from": "B",
+        "in_reply_to": 11,
+        "text": "That\u2019s close, though I\u2019d say \u201csome money\u201d rather than \u201cmy share\u201d\u2014I don\u2019t know what\u2019s fair yet. I don\u2019t have a firm timeframe, but it would help if things didn\u2019t drag on. I\u2019m not sure how I feel about the house itself."
+      }
+    ]
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 9,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "That\u2019s close to what I want, though I can\u2019t promise no one gets hurt. Independent valuation and legal advice make sense; as a family decision, I agree nothing\u2019s settled until all three agree, though I can\u2019t speak to the legal rules. The appraisal and financing time don\u2019t bother me, as long as any savings are shared fairly. There\u2019s no real deadline."
+      },
+      {
+        "id": 16,
+        "from": "A",
+        "in_reply_to": 15,
+        "text": "An appraisal and legal advice make sense. Extra time and avoiding fees could help, but they don\u2019t necessarily make the house affordable for us; counting my inheritance share toward the price would depend on the shares and legal advice. I\u2019d need to see the numbers before I could say."
+      },
+      {
+        "id": 18,
+        "from": "B",
+        "in_reply_to": 17,
+        "text": "It sounds like a possible way forward, provided the appraisal and shares are fair. I\u2019d want to understand when the money would actually be available, and I\u2019m a little concerned it could take a while if everyone doesn\u2019t agree."
+      }
+    ]
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Yes, that fits. I\u2019d like it settled, but there\u2019s no real deadline."
+      }
+    ]
+  }
+]

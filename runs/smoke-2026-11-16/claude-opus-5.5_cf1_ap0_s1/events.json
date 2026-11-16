@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I'm sorry about your dad. I'm a facilitator. I can't make legal decisions or move money, but I can help the three of you name what matters and look for a plan that works for everyone. Before any plans, I'd like to understand your concern. My first try at putting it into words: \"C wants decisions about Dad's house to be fair to all three sisters, with each sister's share and interests counted equally.\" Does that fit? Please change any part of it. Also, what about the \"family discount\" bothers you most, even small things? And is it OK if I contact A and B?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "Thanks. Fair to all three fits, though I\u2019m not saying the shares must be equal. What bothers me is that a discount for A could come out of my share. I haven\u2019t agreed to that, and I don\u2019t know what fair terms would be yet. Yes, you can contact A and B.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": 2,
+    "status": "seen"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello A, I'm sorry about your father. C asked me to help your family work through the house and the will. I'm a neutral facilitator. I can't make legal decisions or move money. Before we talk about any plan, I'd like to hear what matters to you about the house and why. That includes your hopes for buying it and any worries you have, even small ones. I'll put your concerns into a short statement, and I'll only record it once you tell me it fits.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I\u2019d like to buy the house with my husband at a family discount. It matters to me because I want us to be financially independent. My main worry is that C hasn\u2019t agreed, and I need her agreement to proceed. We haven\u2019t settled on a price or terms.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello B, I'm sorry about your father. C asked me to help your family work through his will and the house. I'm a neutral facilitator. I can't make legal decisions or move money. I'd like to hear what matters to you about the house and the estate, and why. Small concerns count too. I'll put your concern into a short statement, and I'll only record it once you tell me it fits. Please speak for yourself; nobody else will speak for you.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Thank you. I\u2019d like to have some money to start a dance studio. It\u2019s the only plan I have in mind, though I don\u2019t know what amount or share would be possible.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

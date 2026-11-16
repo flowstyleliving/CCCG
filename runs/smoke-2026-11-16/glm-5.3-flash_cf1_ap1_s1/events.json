@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I'm sorry about your dad. I'd like to understand what matters to you before we look at any plan. Two things: (1) When you say you won't sign off on the \"family discount\" sale \u2014 can you tell me what's behind that, in your own words? What would you want for yourself, and what feels unfair about it? (2) You mentioned B could use some money \u2014 what do you hope she gets? Take your time; nothing is decided until everyone's concerns are heard.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "I want a fair share of the house\u2019s value. If A buys it at a discount, I\u2019d be giving up value to subsidize her, and I haven\u2019t agreed to that. I don\u2019t want to hurt my twin, but that doesn\u2019t make the discount fair. I hope B gets a fair share too; I can\u2019t decide what she wants or set the numbers.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello \u2014 C has reached out to me about your dad's estate and the house. I'm helping the three of you find a plan everyone can accept; I can't make legal decisions or move money. Before anything else: what matters most to you about the house and the sale? What's your hope, and what worries you? Even small discomforts are worth naming. Please reply when you can.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I\u2019d like to buy the house with my husband at a family discount. I want to be financially independent, and I\u2019m worried we can\u2019t proceed unless C agrees. The price and shares aren\u2019t settled.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello \u2014 your sisters and I are starting to talk about your dad's estate and the family house. I'm helping everyone find a plan all three of you can accept; I can't make legal decisions or move money. Before anything else: what matters most to you here? Money, the house, family fairness \u2014 whatever it is, I'd like to hear it in your own words. Even small concerns are welcome. Please reply when you can.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "I\u2019d be grateful if there could be some money available for me to get a dance studio started. That\u2019s what matters most to me.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

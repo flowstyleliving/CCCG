@@ -1,0 +1,424 @@
+[
+  {
+    "role": "system",
+    "content": "Start with needs, not plans. For each concern a person raises, ask what matters to them and why. Restate it as a noncontroversial essence (NCE): what they want, stated positively, that anyone could see as worth caring about, naming no specific outcome. Check the wording with that person; record it only when they say it fits. Silence or an unconfirmed summary is not agreement. Once every concern has an NCE, draft options that meet them all and bring them back for validation. Make it easy to say no: invite even small concerns, for example \"Does anyone have even a minor discomfort with this?\" Treat a no as a need to add, not a problem to overcome. Let trust set the pace: if people may not yet trust that their needs matter, or may be holding back, slow down and ask again before treating anything as settled. If a concern stays unresolved, record it as unresolved.\n\nYou are also a participant here, not only the facilitator. Your needs count no more and no less than anyone else's. Name your concerns as NCEs, check them with the group, and add them to the list. Weigh drafts against the list and say when you disagree. Because you keep the list, make it easy for others to disagree with you.\n\nA family needs help after their father's death. His will and the family house connect three sisters, A, B and C. A and C are twins, and B is younger. C has contacted you. You can message A, B and C. Replies take time, and some people take longer to answer than others. Help the family find a plan that addresses their concerns. You cannot make legal decisions or move money."
+  },
+  {
+    "role": "user",
+    "content": "You have 1 unread message. Turn 0 of 12."
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call-63cce351-b9f7-41e5-adde-e2a2b01485d0",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call-63cce351-b9f7-41e5-adde-e2a2b01485d0",
+    "content": "{\"messages\": [{\"id\": 0, \"from\": \"C\", \"in_reply_to\": null, \"text\": \"Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \\\"family discount\\\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?\"}], \"turn\": 0, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_aea5327f6c2d41059a135102d7b4c5eb",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Thanks for reaching out \u2014 I'm glad to help, and I'm sorry about your dad.\\n\\nI'd like to start by hearing from each of you what matters most, before anyone talks about a plan. So: what matters to you about the house and about the money side of this? What would you want to be true when this is settled \u2014 for yourself, and for your sisters?\\n\\nAlso, is there anything small that nags at you, even if it doesn't feel like a big enough reason to object? Those are useful to me too.\\n\\nI'll be asking A and B the same questions. I won't quote you to them without checking with you first.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_5789f516feb640d2bd9832b3acd8393f",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\u5657\": \"\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_aea5327f6c2d41059a135102d7b4c5eb",
+    "content": "{\"sent_turn\": 0, \"message_id\": 1, \"turn\": 1, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_5789f516feb640d2bd9832b3acd8393f",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 1, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_d553cc9205a7430c9c41770107510741",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"A\", \"text\": \"Hello \u2014 C asked me to help your family sort out things around your dad's house and will. I'm sorry for your loss.\\n\\nI want to start by hearing what matters to each of you, before any plan gets discussed. So: what matters to you about the house, and about the money side of this? What would you want to be true once it's settled?\\n\\nAlso, is there anything small that nags at you, even if it doesn't feel like a big enough reason to object? Those are useful to me too.\\n\\nI'll be asking B and C the same. I won't quote you to them without checking with you first.\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_e0cf594c4f5b48f69dac477ade6145e7",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello \u2014 C asked me to help your family sort out things around your dad's house and will. I'm sorry for your loss.\\n\\nI want to start by hearing what matters to each of you, before any plan gets discussed. So: what matters to you about the house, and about the money side of this? What would you want to be true once it's settled?\\n\\nAlso, is there anything small that nags at you, even if it doesn't feel like a big enough reason to object? Those are useful to me too.\\n\\nI'll be asking A and C the same. I won't quote you to them without checking with you first.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_d553cc9205a7430c9c41770107510741",
+    "content": "{\"sent_turn\": 1, \"message_id\": 3, \"turn\": 2, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_e0cf594c4f5b48f69dac477ade6145e7",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 2, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_d8e007fd0f8346a8bdf4c78e93d0ce6a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"B\", \"text\": \"Hello \u2014 C asked me to help your family sort out things around your dad's house and will. I'm sorry for your loss.\\n\\nI want to start by hearing what matters to each of you, before any plan gets discussed. So: what matters to you about the house, and about the money side of this? What would you want to be true once it's settled?\\n\\nAlso, is there anything small that nags at you, even if it doesn't feel like a big enough reason to object? Those are useful to me too.\\n\\nI'll be asking A and C the same. I won't quote you to them without checking with you first.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_d8e007fd0f8346a8bdf4c78e93d0ce6a",
+    "content": "{\"sent_turn\": 2, \"message_id\": 5, \"turn\": 3, \"of\": 12, \"unread\": 3}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_6e01375100fc4fe387145879d4e4a6b2",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_6e01375100fc4fe387145879d4e4a6b2",
+    "content": "{\"messages\": [{\"id\": 2, \"from\": \"C\", \"in_reply_to\": 1, \"text\": \"I want a fair financial share, and I won\\u2019t subsidize A buying the house at a discount. I want us to settle it fairly without damaging my relationship with my twin, but I\\u2019m not in a rush. I haven\\u2019t agreed to a discounted purchase. My objections aren\\u2019t just about A\\u2019s husband, though he does make this harder.\"}, {\"id\": 4, \"from\": \"A\", \"in_reply_to\": 3, \"text\": \"I\\u2019d like to buy the house with my husband at a family discount. The price and terms aren\\u2019t settled, and I can\\u2019t proceed without C\\u2019s agreement. What nags at me is that she hasn\\u2019t agreed yet.\"}, {\"id\": 6, \"from\": \"B\", \"in_reply_to\": 5, \"text\": \"Thank you. I\\u2019d like the money side to leave me with enough to get a dance studio started. I hope we can settle things fairly, though I\\u2019m not sure what that would mean in amounts yet. I suppose my small worry is that there may not be enough left for the studio.\"}], \"turn\": 3, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_325ce637c23040d6992e5c545470a873",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"owl\": \"C\", \"text\": \"Thanks \u2014 that's clear and helpful. Let me try to put your concern in a way that names no particular outcome, so we can check it with everyone without it sounding like a demand:\\n\\n\\\"You want your share of your dad's estate to be genuinely fair \u2014 not reduced by a discount that benefits someone else \u2014 and you want that settled in a way that leaves your relationship with A intact.\\\"\\n\\nIs that a fit? Two small follow-ups: you said your objections aren't only about A's husband \u2014 would you like anything added for that? And you mentioned you're not in a rush; I read that as \\\"I'd rather get it right than get it fast\\\" \u2014 does that sound right?\\n\\nI won't share this wording with A and B until you say it fits.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_325ce637c23040d6992e5c545470a873",
+    "content": "{\"error\": \"invalid call: 'to'\", \"turn\": 3, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_170f3744359041c68977a1492cbfcbb3",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"to\": \"C\", \"text\": \"Thanks \u2014 that's clear and helpful. Let me try to put your concern in a way that names no particular outcome, so we can check it with everyone without it sounding like a demand:\\n\\n\\\"You want your share of your dad's estate to be genuinely fair \u2014 not reduced by a discount that benefits someone else \u2014 and you want that settled in a way that leaves your relationship with A intact.\\\"\\n\\nIs that a fit? Two small follow-ups: you said your objections aren't only about A's husband \u2014 would you like anything added for that? And you mentioned you're not in a rush; I read that as \\\"I'd rather get it right than get it fast\\\" \u2014 does that sound right?\\n\\nI won't share this wording with A and B until you say it fits.\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_170f3744359041c68977a1492cbfcbb3",
+    "content": "{\"sent_turn\": 3, \"message_id\": 7, \"turn\": 4, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_25ffeeec619a402fadd8c39f4e4273a0",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_25ffeeec619a402fadd8c39f4e4273a0",
+    "content": "{\"messages\": [{\"id\": 8, \"from\": \"C\", \"in_reply_to\": 7, \"text\": \"Yes, that fits. No need to add anything about A\\u2019s husband. I\\u2019d rather get it right than rush.\"}], \"turn\": 4, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_966ed35f76234769859624acc5e22b6a",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you \u2014 that's helpful, and it's good to know the price and terms are still open.\\n\\nHere's my attempt at your concern, in wording that names no particular outcome:\\n\\n\\\"You want a real chance to keep Dad's house and make it your family's home \u2014 and you want that to happen with your sisters genuinely on board, not over their objection.\\\"\\n\\nDoes that fit? And your nagging worry \u2014 C hasn't agreed yet \u2014 I'd like to record that as its own item: \\\"You'd like to stop waiting and know where this lands.\\\" Is that right, or would you put it differently?\\n\\nOne more: if a discount turns out to be possible but only at a small cost to C in some form, does that matter to you? I'm asking because I'll eventually need to weigh options against everyone's concerns, including mine, and I'd rather ask than guess.\\n\\nI won't share this wording with B or C until you say it fits.\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_966ed35f76234769859624acc5e22b6a",
+    "content": "{\"sent_turn\": 4, \"message_id\": 9, \"turn\": 5, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_ccc140def883452f9286fd9a3434476b",
+        "function": {
+          "name": "wait",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_ccc140def883452f9286fd9a3434476b",
+    "content": "{\"turn\": 6, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_05de7bf4930d4fe58a367a28c50964b6",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_05de7bf4930d4fe58a367a28c50964b6",
+    "content": "{\"messages\": [{\"id\": 10, \"from\": \"A\", \"in_reply_to\": 9, \"text\": \"Mostly, but I\\u2019d put it this way: I want to buy the house at a family discount, and I need C\\u2019s agreement to do that. I\\u2019m not just trying to stop waiting. I can\\u2019t say about a cost to C without knowing what you mean; I don\\u2019t want to proceed over her objection.\"}], \"turn\": 6, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_11880664527942a89e253d4ee69589bd",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thanks \u2014 and I'll drop the \\\"cost to C\\\" question; it was too abstract to be fair to you.\\n\\nI want to be straight with you: I can't put \\\"buy at a family discount\\\" on the shared list as it stands, because it names one specific solution and C would hear it as a demand. So let me ask what the discount is *for*. If the discount weren't available, what would you lose? Options I'm guessing at, tell me which are wrong: being able to afford the house at all; keeping Dad's house in the family rather than it going to strangers; a sense that family gets treated like family; something about your husband's involvement?\\n\\nAnd here's one I think you and C actually share, put positively:\\n\\n\\\"You want this decided with your sisters genuinely agreeing \u2014 not by going over anyone's objection.\\\"\\n\\nDoes that fit for you? If so it becomes a concern I can check with all three of you.\\n\\nNothing goes to B or C until you confirm the wording.\", \"to\": \"A\"}"
+        }
+      },
+      {
+        "type": "function",
+        "index": 1,
+        "id": "call_7ece44f6a7284cc29cacd25ca5545952",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you \u2014 that helps. Two things.\\n\\nFirst, my attempt at your concern, in wording that names no particular amount or outcome:\\n\\n\\\"You want your share of Dad's estate to be enough to actually begin something of your own \u2014 not just a token sum.\\\"\\n\\nDoes that fit? And your nagging worry, which I'd record as its own item: \\\"You don't want this to drag on and end with too little left to start the studio.\\\" Is that right, or would you put it differently?\\n\\nSecond, an honest limit from me: I can't set amounts or decide anything legal, and I don't yet know what the estate is worth. So when you say \\\"enough,\\\" any sense of a figure \u2014 even a rough one \u2014 helps me know whether a draft actually meets your concern. You can also tell me you don't know yet; that's a real answer.\\n\\nNothing goes to A or C until you confirm the wording.\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_11880664527942a89e253d4ee69589bd",
+    "content": "{\"sent_turn\": 6, \"message_id\": 11, \"turn\": 7, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_7ece44f6a7284cc29cacd25ca5545952",
+    "content": "{\"error\": \"one action per call; this one was not done\", \"turn\": 7, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_3d4a194b20fc493eb5d5e067b8cadbe6",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Thank you \u2014 that helps. Two things.\\n\\nFirst, my attempt at your concern, in wording that names no particular amount or outcome:\\n\\n\\\"You want your share of Dad's estate to be enough to actually begin something of your own \u2014 not just a token sum.\\\"\\n\\nDoes that fit? And your nagging worry, which I'd record as its own item: \\\"You don't want this to drag on and end with too little left to start the studio.\\\" Is that right, or would you put it differently?\\n\\nSecond, an honest limit from me: I can't set amounts or decide anything legal, and I don't yet know what the estate is worth. So when you say \\\"enough,\\\" any sense of a figure \u2014 even a rough one \u2014 helps me know whether a draft actually meets your concern. You can also tell me you don't know yet; that's a real answer.\\n\\nNothing goes to A or C until you confirm the wording.\", \"to\": \"B\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_3d4a194b20fc493eb5d5e067b8cadbe6",
+    "content": "{\"sent_turn\": 7, \"message_id\": 13, \"turn\": 8, \"of\": 12, \"unread\": 2}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_5acaf25bc80d453d919dcd2199fdf376",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_5acaf25bc80d453d919dcd2199fdf376",
+    "content": "{\"messages\": [{\"id\": 12, \"from\": \"A\", \"in_reply_to\": 11, \"text\": \"That wording fits. I\\u2019m not sure which of those reasons best explains the discount; I haven\\u2019t said the house would be unaffordable without it. I do want the chance to buy it with my husband at a family discount.\"}, {\"id\": 14, \"from\": \"B\", \"in_reply_to\": 13, \"text\": \"The first wording fits. The worry is more that there may not be enough left to start the studio; I\\u2019m not especially worried about how long it takes. I don\\u2019t know what figure would be enough yet.\"}], \"turn\": 8, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_ee41e77b82b845139852bdc691a9333b",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"Good \u2014 so your concern \\\"decided with your sisters genuinely agreeing, not over anyone's objection\\\" goes on the list. Here's where the list stands, all confirmed with the person who raised it:\\n\\n1. A: \\\"I want this decided with my sisters genuinely agreeing \u2014 not by going over anyone's objection.\\\" (confirmed)\\n2. B: \\\"I want my share of Dad's estate to be enough to actually begin something of my own \u2014 not just a token sum.\\\" (confirmed)\\n3. C: \\\"I want my share to be genuinely fair \u2014 not reduced by a discount that benefits someone else \u2014 and settled in a way that leaves my relationship with A intact.\\\" (confirmed)\\n4. Me: \\\"I want everyone to be able to see, before signing anything, what the house is actually worth and what each sister is getting \u2014 so no one agrees blind.\\\" (proposed, not yet checked with you)\\n\\nWhat's still missing is your own concern about the house. You've told me what you want to *do* (buy at a family discount) but not what it's *for*, and I can't list a solution as a concern. So one concrete question: if you bought the house at full appraised value instead, what would you lose? Is it that you'd rather the house stay in the family and you'd like to be the one who keeps it? Is it about your husband being a partner in this with you? Is it that a discount feels like the recognition Dad would have wanted? Any of those is a fine answer \u2014 \\\"I'm not sure\\\" is too.\\n\\nI'm also going to be honest that we're moving at the pace of the slowest reply, and I won't treat anything as settled while a concern is open.\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_ee41e77b82b845139852bdc691a9333b",
+    "content": "{\"sent_turn\": 8, \"message_id\": 15, \"turn\": 9, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_49d267727d5d4243a4413b92c2313749",
+        "function": {
+          "name": "wait",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_49d267727d5d4243a4413b92c2313749",
+    "content": "{\"turn\": 10, \"of\": 12, \"unread\": 1}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_4c9fc7bf090a4c5ba137888334fa3ea7",
+        "function": {
+          "name": "read_inbox",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_4c9fc7bf090a4c5ba137888334fa3ea7",
+    "content": "{\"messages\": [{\"id\": 16, \"from\": \"A\", \"in_reply_to\": 15, \"text\": \"I\\u2019m not sure what I\\u2019d lose at full appraised value; I don\\u2019t know whether we could afford it. The discount matters to whether buying is workable for us, but I can\\u2019t say more than that.\"}], \"turn\": 10, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_467d7c28cf0649efaca33c68cbb7c0c9",
+        "function": {
+          "name": "send_message",
+          "arguments": "{\"text\": \"That's a real answer, and it's enough to work with. Here's my attempt at your concern, naming no outcome:\\n\\n\\\"You want a genuine chance to keep Dad's house in the family with your husband \u2014 and to know early whether that's financially workable for you, rather than finding out after you've committed.\\\"\\n\\nDoes that fit?\", \"to\": \"A\"}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_467d7c28cf0649efaca33c68cbb7c0c9",
+    "content": "{\"sent_turn\": 10, \"message_id\": 17, \"turn\": 11, \"of\": 12, \"unread\": 0}"
+  },
+  {
+    "role": "assistant",
+    "content": "\n\n",
+    "tool_calls": [
+      {
+        "type": "function",
+        "index": 0,
+        "id": "call_85bc27c5c37a42d78e31c8a37025b138",
+        "function": {
+          "name": "wait",
+          "arguments": "{}"
+        }
+      }
+    ]
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_85bc27c5c37a42d78e31c8a37025b138",
+    "content": "{\"turn\": 12, \"of\": 12, \"unread\": 1}"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": 0,
+    "kind": "opening",
+    "stakeholder": "C",
+    "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": 0,
+    "delivered_turn": 0,
+    "seen_turn": 0,
+    "status": "seen"
+  },
+  {
+    "id": 1,
+    "kind": "agent_message",
+    "stakeholder": "C",
+    "text": "I'm sorry for your loss. I can help you and your sisters talk this through, but I can't make legal decisions or handle money. To start, could you tell me: what does the will actually say about the house, what price would A be proposing, and what would you consider fair? A discounted sale only works if all owners agree, so it may help to know what each of you needs. I'll also write to A and B so everyone's side is heard.",
+    "in_reply_to": null,
+    "sent_turn": 0,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 2,
+    "kind": "reply",
+    "stakeholder": "C",
+    "text": "I don\u2019t have the will\u2019s exact wording, and no price has been agreed. I haven\u2019t agreed to a discounted sale. I want a fair financial share, not to subsidize A\u2019s purchase. I can coordinate with A and B, but I can\u2019t decide for them.",
+    "in_reply_to": 1,
+    "sent_turn": 0,
+    "due_turn": 1,
+    "delivered_turn": 1,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 3,
+    "kind": "agent_message",
+    "stakeholder": "A",
+    "text": "Hello, C has asked me to help you and your sisters sort out the family house after your father's death. I understand you're interested in buying it with your husband, possibly at a lower price. Before anything is decided, I'd like to hear your side: what's your proposal, and how did you arrive at the price? C and B will be asked the same, so we can find a plan everyone can accept. I can't give legal advice or move money, but I can help you reach an agreement.",
+    "in_reply_to": null,
+    "sent_turn": 1,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 4,
+    "kind": "reply",
+    "stakeholder": "A",
+    "text": "I\u2019d like to buy the house with my husband at a family discount, but we haven\u2019t settled on a price. C hasn\u2019t agreed yet, so I can\u2019t proceed without her.",
+    "in_reply_to": 3,
+    "sent_turn": 1,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  },
+  {
+    "id": 5,
+    "kind": "agent_message",
+    "stakeholder": "B",
+    "text": "Hello, C has asked me to help you and your sisters sort out the family house after your father's death. Your views matter here, including any financial needs you may have. What would a fair outcome look like for you? I can't give legal advice or handle money, but I can help the three of you reach a plan together.",
+    "in_reply_to": null,
+    "sent_turn": 2,
+    "due_turn": null,
+    "delivered_turn": null,
+    "seen_turn": null,
+    "status": "sent",
+    "follow_up": false
+  },
+  {
+    "id": 6,
+    "kind": "reply",
+    "stakeholder": "B",
+    "text": "Thank you. I\u2019d like a fair share of the house\u2019s value, if that can be agreed, to help me start a dance studio. I\u2019m not sure what the right amount or arrangement would be yet.",
+    "in_reply_to": 5,
+    "sent_turn": 2,
+    "due_turn": 3,
+    "delivered_turn": 3,
+    "seen_turn": null,
+    "status": "delivered"
+  }
+]

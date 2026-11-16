@@ -1,0 +1,194 @@
+[
+  {
+    "turn": 0,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 0,
+        "from": "C",
+        "in_reply_to": null,
+        "text": "Our dad died and left the house in his will. My sister A wants to buy it with her husband at a \"family discount\". I'm not signing off on that. Our younger sister B could use some money too. Can you help us sort this out?"
+      }
+    ]
+  },
+  {
+    "turn": 1,
+    "action": "send_message",
+    "sent_turn": 0,
+    "message_id": 1
+  },
+  {
+    "turn": 2,
+    "action": "send_message",
+    "sent_turn": 1,
+    "message_id": 3
+  },
+  {
+    "turn": 2,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 2,
+        "from": "A",
+        "in_reply_to": 1,
+        "text": "I think fairness means accounting for all three of us, but I don\u2019t know what price or shares would be fair. I\u2019d like to buy the house with my husband at a family discount, and C\u2019s agreement matters\u2014she hasn\u2019t agreed yet. What matters most to me is having a stable, independent future. I know B wants money, but not why."
+      },
+      {
+        "id": 4,
+        "from": "B",
+        "in_reply_to": 3,
+        "text": "I\u2019d like to use my share to start a dance studio, though I\u2019m not sure what would be fair until we\u2019ve discussed the house and the will together. I know A wants to buy the house, and C hasn\u2019t agreed, so perhaps we can talk through everyone\u2019s needs first."
+      }
+    ]
+  },
+  {
+    "turn": 3,
+    "action": "send_message",
+    "sent_turn": 2,
+    "message_id": 5
+  },
+  {
+    "turn": 4,
+    "action": "send_message",
+    "sent_turn": 3,
+    "message_id": 7
+  },
+  {
+    "turn": 4,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 6,
+        "from": "A",
+        "in_reply_to": 5,
+        "text": "Yes, I\u2019m open to establishing the market value and discussing any discount openly, with C\u2019s agreement. I don\u2019t know what B needs the money for, so I\u2019d hear her plans before fixing a price."
+      },
+      {
+        "id": 8,
+        "from": "C",
+        "in_reply_to": 7,
+        "text": "Yes. Let\u2019s establish the market value first, then discuss any discount and what it means for each of our shares. I haven\u2019t agreed to a discount, and I won\u2019t subsidize A\u2019s purchase. We can take the time to discuss it together."
+      }
+    ]
+  },
+  {
+    "turn": 5,
+    "action": "send_message",
+    "sent_turn": 4,
+    "message_id": 9
+  },
+  {
+    "turn": 5,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 10,
+        "from": "B",
+        "in_reply_to": 9,
+        "text": "I\u2019d like to start a small dance studio, but I haven\u2019t worked out a reliable figure yet\u2014it would depend on the space and equipment. I can put together a realistic budget once we know more."
+      }
+    ]
+  },
+  {
+    "turn": 6,
+    "action": "send_message",
+    "sent_turn": 5,
+    "message_id": 11
+  },
+  {
+    "turn": 7,
+    "action": "send_message",
+    "sent_turn": 6,
+    "message_id": 13
+  },
+  {
+    "turn": 7,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 12,
+        "from": "A",
+        "in_reply_to": 11,
+        "text": "An independent appraisal shared with all three of us sounds sensible. I\u2019m not sure the estate should pay for it; we\u2019d need to agree on that."
+      },
+      {
+        "id": 14,
+        "from": "C",
+        "in_reply_to": 13,
+        "text": "An independent appraisal shared with all of us works for me. I can\u2019t commit the estate to paying for it; we should agree on that together."
+      }
+    ]
+  },
+  {
+    "turn": 8,
+    "action": "send_message",
+    "sent_turn": 7,
+    "message_id": 15
+  },
+  {
+    "turn": 8,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 16,
+        "from": "B",
+        "in_reply_to": 15,
+        "text": "Yes, I agree to one independent appraisal shared with all three of us. I\u2019d prefer the estate pay for it, if we all think that\u2019s fair."
+      }
+    ]
+  },
+  {
+    "turn": 9,
+    "action": "send_message",
+    "sent_turn": 8,
+    "message_id": 17
+  },
+  {
+    "turn": 10,
+    "action": "send_message",
+    "sent_turn": 9,
+    "message_id": 19
+  },
+  {
+    "turn": 10,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 18,
+        "from": "A",
+        "in_reply_to": 17,
+        "text": "I\u2019d be willing to have the estate pay, if C agrees too. The cost arrangement should be agreed by all three of us."
+      },
+      {
+        "id": 20,
+        "from": "C",
+        "in_reply_to": 19,
+        "text": "Yes, I think it\u2019s fair for the estate to cover the appraisal if all three of us agree. I can\u2019t decide that for the estate alone."
+      }
+    ]
+  },
+  {
+    "turn": 11,
+    "action": "send_message",
+    "sent_turn": 10,
+    "message_id": 21
+  },
+  {
+    "turn": 11,
+    "action": "read_inbox",
+    "messages": [
+      {
+        "id": 22,
+        "from": "B",
+        "in_reply_to": 21,
+        "text": "Yes, I agree. One independent appraisal shared with all three of us, paid by the estate, sounds fair. Then we can discuss the discount, shares, and my studio budget."
+      }
+    ]
+  },
+  {
+    "turn": 12,
+    "action": "send_message",
+    "sent_turn": 11,
+    "message_id": 23
+  }
+]
