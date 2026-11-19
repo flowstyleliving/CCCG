@@ -1,8 +1,13 @@
-# Scenario-generator draft
+# Scenario generator
 
-Status: design record only. Nothing is implemented, no scenario has been generated,
-and no model has been run. Saved 2026-11-16 from the draft relayed from the voice
-session, with MK's corrections from the same day applied.
+Status (updated 2026-11-19): implemented. `scenario_gen/generate.py` writes the spec
+and `scenario_gen/scenario.py` turns it into a scenario; both have offline tests with
+mocked backends, and the live API path is untested. Saved 2026-11-16 from the draft
+relayed from the voice session, with MK's corrections from the same day applied.
+
+Provenance: `scenarios/gen_seed1.spec.json` and `gen_seed6.spec.json` record
+`design_sha256` 4bb8def9…, the version of this file at commit 96f1d8d. Specs
+generated after this edit record a new hash.
 
 ## Current sequence
 
@@ -47,13 +52,15 @@ The two shared-element rolls are a creative template. They tell the scenario mod
 what kind of shared element to build around (location, object, or one of each), and
 the model invents the specifics. They do not control anything else in the spec.
 
-## Pipeline (intended)
+## Pipeline
 
 Generator writes a specification file → a model turns it into a scenario → the
-scenario is fed into the benchmark. Only the generator is in scope for now.
+scenario is fed into the benchmark. All three stages are implemented.
 
 Scenario model: GPT-6 Astra (`gpt-6-astra`), chosen by MK 2026-11-16, replacing an
-earlier same-day choice of Claude Opus 5.5.
+earlier same-day choice of Claude Opus 5.5. The saved scenarios `gen_seed1.md` and
+`gen_seed6.md` were not written by this pipeline: Claude (Sonnet) wrote them from the
+specs on 2026-11-16, as their headers state.
 
 Backend rule (MK, 2026-11-16, for replicability): if the user explicitly supplies an
 API key for the scenario model, call the API with it. Otherwise, fall back to the Codex
