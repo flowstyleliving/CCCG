@@ -2,3 +2,11 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
+.serena/
+# LaTeX build output; paper/tmp holds symlinks into the local Tectonic cache
+paper/tmp/
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.bbl
+paper/*.out
