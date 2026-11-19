@@ -1,5 +1,10 @@
 # Brief for Codex: finish and compile the paper
 
+Status (2026-11-19): historical. This brief produced the first draft from the unsuffixed
+12-turn results. The current main result is the 15-turn grid (`results/*_m15*`,
+`figures/*_m15.pdf`); the unsuffixed files are now the earlier grid in the appendix.
+Do not follow step 2 as written.
+
 Work only inside this `paper/` folder. Do not run models, git, or network calls.
 
 1. Read `main.tex`, every file in `sections/`, `results/*.tex`, `results/summary.json`,
