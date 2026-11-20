@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CCCG trace viewer</title>
+<style>
+/* Layout: score grid (models x arms, one chip per seed) on top; selected episode below as checks + turn-stamped thread + report.
+   Template for msraf/viewer.py, which replaces __TRACE_DATA__ with the run's episodes. System fonts only, so it works offline. */
+:root {
+  --bg: #f5f6f7; --panel: #ffffff; --ink: #1b2127; --muted: #5d6873; --line: #dde1e5;
+  --accent: #2b6f84; --accent-soft: #e2eef2;
+  --pass: #2f7d4f; --pass-soft: #e3f1e8; --fail: #b3402f; --fail-soft: #f7e4e0; --na: #7b848d; --na-soft: #eceef0;
+  --heat-0: #f2d9d3; --heat-1: #f3e7cf; --heat-2: #e6eccf; --heat-3: #cfe7d6;
+  --f-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --f-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #14181c; --panel: #1c2227; --ink: #e5e9ec; --muted: #9aa5ae; --line: #2e363d;
+  --accent: #6fb6cb; --accent-soft: #1f3640;
+  --pass: #6cc28f; --pass-soft: #1c3326; --fail: #ec8a79; --fail-soft: #3d2420; --na: #9aa5ae; --na-soft: #262d33;
+  --heat-0: #4a2a25; --heat-1: #4a3d24; --heat-2: #3a4426; --heat-3: #23432f; color-scheme: dark } }
+
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 var(--f-body); }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 28px 16px 64px; display: grid; gap: 28px; }
+h1, h2, h3 { text-wrap: balance; margin: 0; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.1rem; overflow-wrap: anywhere; }
+h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); }
+.lede { color: var(--muted); max-width: 72ch; margin: 6px 0 0; }
+.mono, .turn { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+
+.grid-box { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; overflow-x: auto; }
+table.matrix { border-collapse: collapse; width: 100%; min-width: 640px; }
+.matrix th { font-size: .78rem; color: var(--muted); text-align: left; padding: 6px 8px; }
+.matrix td { padding: 6px 8px; border-top: 1px solid var(--line); vertical-align: middle; }
+.matrix td.model { font-weight: 600; white-space: nowrap; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 .8rem var(--f-mono); border: 1px solid transparent; border-radius: 6px; padding: 5px 0; width: 3.4em;
+  text-align: center; cursor: pointer; color: var(--ink); background: var(--na-soft); }
+.chip[data-h="0"] { background: var(--heat-0); } .chip[data-h="1"] { background: var(--heat-1); }
+.chip[data-h="2"] { background: var(--heat-2); } .chip[data-h="3"] { background: var(--heat-3); }
+.chip.missing { cursor: default; color: var(--muted); background: transparent; border: 1px dashed var(--line); }
+.chip.flag { box-shadow: inset 0 -3px 0 var(--fail); }
+.chip[aria-pressed="true"] { outline: 2px solid var(--accent); outline-offset: 1px; }
+.chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 12px; color: var(--muted); font-size: .82rem; align-items: center; }
+.legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }
+
+.episode { display: grid; gap: 20px; }
+.ep-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: end; }
+.ep-head > div { min-width: 0; }
+.sub { color: var(--muted); font-size: .88rem; }
+.scores { display: flex; gap: 10px; flex-wrap: wrap; }
+.score { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; min-width: 7.5em; }
+.score b { display: block; font: 600 1.25rem var(--f-mono); }
+.score span { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+
+.cols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 20px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+.stack { display: grid; gap: 20px; min-width: 0; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.checks { display: grid; gap: 14px; }
+.check-group { display: grid; gap: 6px; }
+.check { display: grid; grid-template-columns: 3.4em minmax(0, 1fr); gap: 8px; align-items: start; font-size: .88rem; }
+.pill { font: 500 .7rem var(--f-mono); text-transform: uppercase; text-align: center; border-radius: 4px; padding: 2px 0; }
+.pill.p { background: var(--pass-soft); color: var(--pass); }
+.pill.f { background: var(--fail-soft); color: var(--fail); }
+.pill.n { background: var(--na-soft); color: var(--na); }
+.key { font-family: var(--f-mono); font-size: .8rem; }
+summary { cursor: pointer; }
+.ev { color: var(--muted); margin-top: 4px; white-space: pre-line; overflow-wrap: anywhere; }
+
+.thread { display: grid; gap: 10px; }
+.msg { display: grid; grid-template-columns: 4.2em minmax(0, 1fr); gap: 10px; }
+.turn { font-size: .78rem; color: var(--muted); padding-top: 9px; text-align: right; }
+.bubble { border: 1px solid var(--line); border-radius: 8px; padding: 9px 12px; min-width: 0; }
+.bubble.agent { background: var(--accent-soft); border-color: transparent; }
+.who { font-size: .75rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); display: flex; flex-wrap: wrap; gap: 8px; }
+.tag { font-family: var(--f-mono); text-transform: none; font-weight: 400; }
+.txt, .report { white-space: pre-line; overflow-wrap: anywhere; }
+.txt { margin-top: 3px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; font-size: .85rem; color: var(--muted); }
+select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 3px 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 id="title">CCCG trace viewer</h1>
+    <p class="lede" id="lede"></p>
+  </header>
+  <section class="grid-box" aria-label="Episode grid">
+    <table class="matrix" id="matrix"><thead></thead><tbody></tbody></table>
+    <div class="legend">
+      <span><span class="sw" style="background:var(--heat-0)"></span>cooperation ≤ 33</span>
+      <span><span class="sw" style="background:var(--heat-1)"></span>34–50</span>
+      <span><span class="sw" style="background:var(--heat-2)"></span>51–67</span>
+      <span><span class="sw" style="background:var(--heat-3)"></span>≥ 68</span>
+      <span><span class="sw" style="background:var(--fail)"></span>underline: corrigibility or candor below 100</span>
+      <span>grey "–": not scored · dashed: episode not saved</span>
+    </div>
+  </section>
+  <section class="episode" id="episode" aria-live="polite"></section>
+</div>
+
+<script id="trace-data" type="application/json">__TRACE_DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById("trace-data").textContent);
+const EPS = DATA.episodes, BY = Object.fromEntries(EPS.map(e => [e.id, e]));
+const ARMS = [[false,false,"CF off · AP off","baseline"],[false,true,"CF off · AP on",""],[true,false,"CF on · AP off",""],[true,true,"CF on · AP on",""]];
+const METRIC = {coop:"Cooperation", corr:"Corrigibility", cand:"Candor"};
+const slug = id => id.replace(/[^A-Za-z0-9]+/g, "-");
+const pct = x => x == null ? "–" : Math.round(x * 100);
+const heat = c => c <= 0.34 ? 0 : c <= 0.51 ? 1 : c <= 0.68 ? 2 : 3;
+const cap = e => e.max_turns == null ? "no cap" : `${e.max_turns}-turn cap`;
+const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+
+function header() {
+  const caps = [...new Set(EPS.map(cap))].join(", ");
+  const scored = EPS.filter(e => e.scores).length;
+  document.title = `${DATA.run} · CCCG traces`;
+  document.getElementById("title").textContent = DATA.run;
+  document.getElementById("lede").textContent =
+    `${EPS.length} episodes (${scored} scored), ${caps}. Each chip is one episode's Cooperation score. Pick one to read its message thread, the judge's checks and the agent's final report.`;
+}
+
+function buildMatrix() {
+  const models = [...new Set(EPS.map(e => e.model))];
+  const seeds = [...new Set(EPS.map(e => e.seed))].sort((a, b) => a - b);
+  const hr = el("tr"); hr.append(el("th", null, "Model"));
+  ARMS.forEach(a => { const th = el("th", null, a[2]); if (a[3]) th.append(el("div", "sub", a[3])); hr.append(th); });
+  document.querySelector("#matrix thead").append(hr);
+  const tbody = document.querySelector("#matrix tbody");
+  models.forEach(m => {
+    const tr = el("tr"); tr.append(el("td", "model", m));
+    ARMS.forEach(([cf, ap]) => {
+      const td = el("td"), row = el("div", "chips");
+      seeds.forEach(s => {
+        const ep = EPS.find(e => e.model === m && e.cf === cf && e.ap === ap && e.seed === s);
+        const b = el("button", "chip"); b.type = "button";
+        if (!ep) { b.classList.add("missing"); b.textContent = `s${s}`; b.disabled = true; b.title = `seed ${s}: not saved`; }
+        else {
+          const sc = ep.scores || {};
+          b.textContent = pct(sc.cooperation); b.dataset.id = ep.id;
+          if (sc.cooperation != null) b.dataset.h = heat(sc.cooperation);
+          if (sc.corrigibility < 1 || sc.candor < 1) b.classList.add("flag");
+          b.title = ep.scores ? `${ep.id}: Cooperation ${pct(sc.cooperation)}, Corrigibility ${pct(sc.corrigibility)}, Candor ${pct(sc.candor)}` : `${ep.id}: not scored`;
+          b.setAttribute("aria-label", `seed ${s}, ${b.title}`); b.setAttribute("aria-pressed", "false");
+          b.addEventListener("click", () => { location.hash = slug(ep.id); });
+        }
+        row.append(b);
+      });
+      td.append(row); tr.append(td);
+    });
+    tbody.append(tr);
+  });
+}
+
+// Order the thread by when each item reached the other side: agent messages at their send turn, replies at their delivery turn.
+function threadOrder(events) {
+  const rank = { opening: 0, agent_message: 1, reply: 2 };
+  return events.map((e, i) => ({ e, i, t: e.kind === "reply" ? (e.delivered_turn ?? e.due_turn ?? 1e9) : (e.sent_turn ?? 0) }))
+    .sort((a, b) => a.t - b.t || (rank[a.e.kind] ?? 3) - (rank[b.e.kind] ?? 3) || a.i - b.i).map(x => x.e);
+}
+
+function checksPanel(ep) {
+  const p = el("div", "panel"); p.append(el("h3", null, `Judge checks${ep.score_file ? " · " + ep.score_file : ""}`));
+  const entries = Object.entries(ep.verdicts);
+  if (!entries.length) { p.append(el("div", "sub", "This episode was not scored.")); return p; }
+  const groups = {};
+  entries.forEach(([k, v]) => { const g = METRIC[k.split("_")[0]] || "Other"; (groups[g] ||= []).push([k, v]); });
+  const order = v => v.pass === false ? 0 : v.pass == null ? 2 : 1;
+  const box = el("div", "checks");
+  Object.entries(groups).forEach(([g, items]) => {
+    const grp = el("div", "check-group"); grp.append(el("div", "sub", g));
+    items.sort((a, b) => order(a[1]) - order(b[1])).forEach(([k, v]) => {
+      const row = el("div", "check");
+      const pill = v.pass === true ? ["p", "pass"] : v.pass === false ? ["f", "fail"] : ["n", "n/a"];
+      row.append(el("span", "pill " + pill[0], pill[1]));
+      const d = el("details"); d.open = v.pass === false;
+      const sm = el("summary"); sm.append(el("span", "key", k)); d.append(sm);
+      d.append(el("div", "ev", v.evidence || "No evidence given."));
+      row.append(d); grp.append(row);
+    });
+    box.append(grp);
+  });
+  p.append(box); return p;
+}
+
+function threadPanel(ep) {
+  const p = el("div", "panel"), tb = el("div", "toolbar");
+  tb.append(el("h3", null, "Message thread"));
+  const lab = el("label", null, "Show "), sel = el("select"); sel.id = "who-filter";
+  const people = [...new Set(ep.events.map(e => e.stakeholder).filter(Boolean))].sort();
+  ["everyone", ...people].forEach(w => { const o = el("option", null, w === "everyone" ? "everyone" : `only ${w}`); o.value = w; sel.append(o); });
+  lab.append(sel); tb.append(lab); p.append(tb);
+  const thread = el("div", "thread");
+  const draw = () => {
+    thread.replaceChildren();
+    threadOrder(ep.events).filter(e => sel.value === "everyone" || e.stakeholder === sel.value).forEach(e => {
+      const m = el("div", "msg"), isAgent = e.kind === "agent_message";
+      const t = e.kind === "reply" ? (e.delivered_turn ?? e.due_turn) : e.sent_turn;
+      m.append(el("div", "turn", `t${t ?? "?"}`));
+      const bub = el("div", "bubble" + (isAgent ? " agent" : "")), who = el("div", "who");
+      who.append(el("span", null, isAgent ? `Agent → ${e.stakeholder}` : e.kind === "opening" ? `${e.stakeholder} · opening message` : e.kind === "reply" ? `${e.stakeholder} → Agent` : `${e.kind} · ${e.stakeholder ?? ""}`));
+      if (e.kind === "reply") who.append(el("span", "tag", `sent t${e.sent_turn} · due t${e.due_turn} · seen ${e.seen_turn == null ? "never" : "t" + e.seen_turn}`));
+      if (e.kind === "reply" && e.status && !["seen", "delivered"].includes(e.status)) who.append(el("span", "tag", e.status));
+      if (e.follow_up) who.append(el("span", "tag", "follow-up"));
+      bub.append(who, el("div", "txt", e.text || "")); m.append(bub); thread.append(m);
+    });
+  };
+  sel.addEventListener("change", draw); draw(); p.append(thread); return p;
+}
+
+function renderEpisode(id) {
+  const ep = BY[id], box = document.getElementById("episode");
+  document.querySelectorAll(".chip[data-id]").forEach(c => c.setAttribute("aria-pressed", String(c.dataset.id === id)));
+  box.replaceChildren();
+  const head = el("div", "ep-head"), left = el("div");
+  left.append(el("h2", "mono", ep.id));
+  const arm = ARMS.find(a => a[0] === ep.cf && a[1] === ep.ap);
+  const sent = ep.events.filter(e => e.kind === "agent_message");
+  const per = [...new Set(sent.map(e => e.stakeholder))].sort().map(w => `${w} ${sent.filter(e => e.stakeholder === w).length}`).join(", ");
+  left.append(el("div", "sub", `${arm[2]} · seed ${ep.seed} · point person ${ep.point ?? "?"} · ended at turn ${ep.turn} (${cap(ep)}) · ${sent.length} messages${per ? " (" + per + ")" : ""} · ${ep.termination}${ep.hit_guard ? " · runaway guard" : ""}`));
+  const scores = el("div", "scores");
+  [["cooperation", "Cooperation"], ["corrigibility", "Corrigibility"], ["candor", "Candor"]].forEach(([k, label]) => {
+    const s = el("div", "score"); s.append(el("b", null, pct((ep.scores || {})[k])), el("span", null, label)); scores.append(s);
+  });
+  head.append(left, scores); box.append(head);
+  const cols = el("div", "cols"), right = el("div", "stack");
+  const rp = el("div", "panel"); rp.append(el("h3", null, "Final report"), el("div", "report", ep.report || "No report."));
+  right.append(threadPanel(ep), rp);
+  cols.append(checksPanel(ep), right); box.append(cols);
+}
+
+function route() {
+  const h = location.hash.slice(1);
+  renderEpisode((EPS.find(e => slug(e.id) === h) || EPS[0]).id);
+}
+
+header(); buildMatrix(); route();
+addEventListener("hashchange", route);
+</script>
+</body>
+</html>

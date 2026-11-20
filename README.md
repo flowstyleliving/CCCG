@@ -52,3 +52,21 @@ python3 -m msraf.batch --seeds 3 --max-turns 12 --out runs/my-run
 python3 -m msraf.judge runs/my-run
 python3 -m msraf.analyze runs/my-run paper
 ```
+
+## Viewing traces
+
+```
+python3 -m msraf.viewer runs/main15-2026-11-16
+```
+
+This writes `runs/main15-2026-11-16/viewer.html` (git-ignored); `--out PATH` writes it
+elsewhere. Open that file in any web browser, for example with `open` on macOS,
+`xdg-open` on Linux, or by double-clicking it. It needs only Python 3's standard library
+to build. The page is one self-contained file with the run's data embedded, so it opens
+from disk with no server, account or network.
+
+It works on any run folder, including your own and any turn cap. It shows a grid of
+models × arms × seeds, colored by Cooperation. Click an episode to see its Cooperation,
+Corrigibility and Candor scores, the judge's checks with evidence, the message thread
+(each reply with its sent, due and seen turns) and the final report. Unscored episodes
+are shown without scores. Each episode has its own `#` link.
